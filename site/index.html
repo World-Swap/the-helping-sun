@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>The Helping Sun</title>
+<meta name="description" content="Peer support for people carrying hard things — mental health, physical health, money. Santa Cruz, California. You don't have to ask well. You just have to ask.">
+<meta property="og:title" content="The Helping Sun">
+<meta property="og:description" content="You don't have to ask well. You just have to ask.">
+<meta property="og:image" content="https://thehelpingsun.com/img/sunrise-lighthouse-1400.jpg">
+<meta property="og:url" content="https://thehelpingsun.com">
+<meta name="theme-color" content="#141A26">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a horizon down the page — night bands where the hard things are named,
+   daylight bands where the help is offered. Ian's own sunrises carry the color. */
+:root{
+  --bg:#F1F4F8; --surface:#FFFFFF; --surface-2:#E7EDF4;
+  --fg:#141A26; --muted:#55627A; --line:#D5DEE9;
+  --deep:#141A26; --deep-fg:#E9EEF5; --deep-muted:#9CAABE; --deep-line:#2B3548;
+  --sun:#F5C774; --sun-deep:#8A5712; --ember:#C4553F; --plum:#56334B;
+  --wash:#FBEFD9; --wash-fg:#4A3410; --wash-line:#EBD8AF;
+  --ff-display:"Newsreader",Georgia,"Times New Roman",serif;
+  --ff-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --ff-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --gut:max(20px, env(safe-area-inset-left, 0px));
+  --gutr:max(20px, env(safe-area-inset-right, 0px));
+  --maxw:1120px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0D131D; --surface:#151D2A; --surface-2:#1B2533;
+  --fg:#E9EEF5; --muted:#95A4B8; --line:#263244;
+  --deep:#070B12; --deep-fg:#E9EEF5; --deep-muted:#95A4B8; --deep-line:#1E2838;
+  --sun:#F5C774; --sun-deep:#F5C774; --ember:#EE8672;
+  --wash:#231B0E; --wash-fg:#F3DAA6; --wash-line:#3C2F15;
+  color-scheme: dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0D131D; --surface:#151D2A; --surface-2:#1B2533;
+  --fg:#E9EEF5; --muted:#95A4B8; --line:#263244;
+  --deep:#070B12; --deep-fg:#E9EEF5; --deep-muted:#95A4B8; --deep-line:#1E2838;
+  --sun:#F5C774; --sun-deep:#F5C774; --ember:#EE8672;
+  --wash:#231B0E; --wash-fg:#F3DAA6; --wash-line:#3C2F15;
+  color-scheme: dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--ff-body);
+  font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+[hidden]{display:none!important}
+a{color:var(--sun-deep)}
+h1,h2,h3{font-family:var(--ff-display);font-weight:500;text-wrap:balance;margin:0;letter-spacing:-0.01em}
+p{margin:0}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important}}
+
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-left:var(--gut);padding-right:var(--gutr)}
+.band{padding-block:clamp(56px,8vw,104px)}
+.band--deep{background:var(--deep);color:var(--deep-fg)}
+.band--deep h2,.band--deep h3{color:var(--deep-fg)}
+.band--wash{background:var(--wash);color:var(--wash-fg)}
+.eyebrow{font-family:var(--ff-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--sun-deep);margin:0 0 14px}
+.band--deep .eyebrow{color:var(--sun)}
+.lede{font-size:clamp(18px,2.2vw,21px);color:var(--muted);max-width:62ch}
+.band--deep .lede{color:var(--deep-muted)}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:12px;top:12px;z-index:99;background:var(--sun);color:#141A26;padding:10px 16px;border-radius:6px}
+
+/* ---- crisis strip ---- */
+.crisis{background:var(--deep);color:var(--deep-fg);border-bottom:1px solid var(--deep-line);
+  font-size:14.5px;line-height:1.5}
+.crisis .wrap{padding-block:11px;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline}
+.crisis b{color:var(--sun);font-weight:600}
+.crisis .note{color:var(--deep-muted);font-size:13px}
+
+/* ---- header ---- */
+.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;
+  background:color-mix(in srgb, var(--deep) 86%, transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--deep-line);color:var(--deep-fg)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);
+  z-index:30;background:var(--deep)}
+.site-head .wrap{display:flex;align-items:center;gap:16px;padding-block:13px}
+.brand{display:flex;align-items:center;gap:11px;font-family:var(--ff-display);font-size:19px;
+  color:var(--deep-fg);text-decoration:none;font-weight:500;letter-spacing:-.01em;white-space:nowrap}
+.brand .mark{width:26px;height:26px;flex:none}
+.nav{margin-left:auto;display:flex;gap:22px;align-items:center}
+.nav a{color:var(--deep-muted);text-decoration:none;font-size:15px}
+.nav a:hover{color:var(--sun)}
+@media (max-width:760px){ .nav{display:none} }
+.btn{display:inline-block;background:var(--sun);color:#20160A;text-decoration:none;
+  font-weight:600;font-size:15px;padding:11px 20px;border-radius:999px;border:0;cursor:pointer;
+  font-family:var(--ff-body);transition:transform .15s ease, box-shadow .15s ease}
+.btn:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(245,199,116,.3)}
+.btn--ghost{background:transparent;color:var(--deep-fg);border:1px solid var(--deep-line)}
+.btn--ghost:hover{border-color:var(--sun);color:var(--sun);box-shadow:none}
+.btn--wide{width:100%;text-align:center;padding:14px 20px;font-size:16px}
+
+/* ---- hero ---- */
+.hero{position:relative;background:var(--deep);color:#FFF;isolation:isolate}
+.hero picture,.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg, rgba(10,14,22,.82) 0%, rgba(10,14,22,.46) 38%, rgba(10,14,22,.72) 100%)}
+.hero .wrap{padding-block:clamp(72px,13vw,150px)}
+.hero h1{font-size:clamp(38px,7.2vw,76px);line-height:1.02;color:#FFF;max-width:14ch;
+  text-shadow:0 2px 28px rgba(6,10,16,.5)}
+.hero h1 em{font-style:italic;color:var(--sun)}
+.hero .sub{margin-top:22px;font-size:clamp(17px,2.3vw,21px);color:#E6EBF2;max-width:44ch;
+  text-shadow:0 1px 14px rgba(6,10,16,.6)}
+.hero .cta{margin-top:34px;display:flex;gap:13px;flex-wrap:wrap}
+.hero .credit{margin-top:46px;font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.07em;
+  color:rgba(255,255,255,.62);text-transform:uppercase}
+
+/* ---- generic grid ---- */
+.grid{display:grid;gap:clamp(18px,2.4vw,26px);margin-top:40px}
+.g3{grid-template-columns:repeat(auto-fit,minmax(265px,1fr))}
+.g2{grid-template-columns:repeat(2,1fr)}
+@media (max-width:720px){ .g2{grid-template-columns:1fr} }
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:26px 24px 28px;min-width:0}
+.band--deep .card{background:#111826;border-color:var(--deep-line)}
+.card h3{font-size:22px;margin-bottom:6px}
+.card .kicker{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ember);margin-bottom:12px}
+.band--deep .card .kicker{color:var(--sun)}
+.card p{color:var(--muted);font-size:15.5px}
+.band--deep .card p{color:var(--deep-muted)}
+.steps{list-style:none;padding:0;margin:16px 0 0;display:flex;flex-direction:column;gap:11px}
+.steps li{font-size:15px;line-height:1.55;padding-left:22px;position:relative;color:var(--fg)}
+.band--deep .steps li{color:var(--deep-fg)}
+.steps li::before{content:"";position:absolute;left:0;top:.56em;width:9px;height:9px;border-radius:50%;
+  background:var(--sun);box-shadow:0 0 0 3px color-mix(in srgb,var(--sun) 24%,transparent)}
+.steps b{font-weight:600}
+.steps .say{font-family:var(--ff-mono);font-size:13.5px;background:var(--surface-2);
+  padding:2px 6px;border-radius:4px;display:inline-block;color:var(--fg)}
+.band--deep .steps .say{background:#1B2432;color:var(--deep-fg)}
+
+/* ---- story ---- */
+.story{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(28px,5vw,64px);align-items:start}
+@media (max-width:860px){ .story{grid-template-columns:1fr} }
+.story p{font-family:var(--ff-display);font-size:clamp(19px,2.3vw,23px);line-height:1.56;margin-bottom:20px}
+.story p:first-of-type::first-letter{float:left;font-size:4.1em;line-height:.82;padding:4px 10px 0 0;
+  color:var(--sun-deep);font-weight:600}
+.story .sig{font-family:var(--ff-mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);margin-top:8px}
+.figure{border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--surface-2)}
+.figure img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.figure figcaption{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.06em;color:var(--muted);
+  padding:11px 14px;text-transform:uppercase}
+
+/* ---- full-bleed photo break ---- */
+.break{position:relative;height:clamp(220px,34vw,380px);overflow:hidden;background:var(--deep)}
+.break img{width:100%;height:100%;object-fit:cover}
+.break .quote{position:absolute;inset:0;display:flex;align-items:center;
+  background:linear-gradient(90deg, rgba(10,14,22,.86) 0%, rgba(10,14,22,.52) 55%, rgba(10,14,22,.3) 100%)}
+.break .quote div{max-width:var(--maxw);margin-inline:auto;width:100%;
+  padding-left:var(--gut);padding-right:var(--gutr)}
+.break blockquote{margin:0;font-family:var(--ff-display);font-style:italic;color:#FFF;
+  font-size:clamp(21px,3.4vw,34px);line-height:1.3;max-width:19ch;text-shadow:0 2px 20px rgba(6,10,16,.55)}
+
+/* ---- sunrise log ---- */
+.log{margin-top:36px;overflow-x:auto;padding-bottom:14px;-webkit-overflow-scrolling:touch}
+.log ul{display:flex;gap:16px;list-style:none;margin:0;padding:0}
+.log li{flex:0 0 clamp(230px,30vw,300px)}
+.log img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:11px;background:var(--surface-2)}
+.log .when{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.06em;color:var(--muted);
+  margin-top:9px;text-transform:uppercase}
+.band--deep .log .when{color:var(--deep-muted)}
+.log .cap{font-size:14px;color:var(--muted);margin-top:3px;line-height:1.45}
+.band--deep .log .cap{color:var(--deep-muted)}
+
+/* ---- offers ---- */
+.offer{display:flex;gap:18px;align-items:flex-start;background:var(--surface);
+  border:1px solid var(--line);border-radius:14px;padding:24px;min-width:0}
+.offer .n{font-family:var(--ff-mono);font-size:12px;color:var(--sun-deep);flex:none;padding-top:4px;
+  letter-spacing:.08em}
+.offer h3{font-size:20px;margin-bottom:5px}
+.offer p{color:var(--muted);font-size:15.5px}
+.offer .tag{display:inline-block;font-family:var(--ff-mono);font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-top:11px;
+  background:var(--wash);color:var(--wash-fg);border:1px solid var(--wash-line)}
+.offer .tag--soon{background:transparent;color:var(--muted);border-color:var(--line)}
+
+/* ---- form ---- */
+.form-wrap{background:var(--surface);border:1px solid var(--line);border-radius:16px;
+  padding:clamp(24px,3.4vw,38px);margin-top:36px}
+.field{display:flex;flex-direction:column;gap:7px;margin-bottom:20px;min-width:0}
+.field label{font-size:14.5px;font-weight:600}
+.field .hint{font-size:13.5px;color:var(--muted);font-weight:400}
+input[type=text],input[type=email],select,textarea{font:inherit;font-size:16px;color:var(--fg);
+  background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:12px 13px;width:100%;
+  font-family:var(--ff-body)}
+textarea{min-height:128px;resize:vertical;line-height:1.55}
+.radios{display:flex;gap:10px;flex-wrap:wrap}
+.radios label{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;
+  padding:9px 16px;font-size:14.5px;font-weight:400;cursor:pointer;background:var(--bg)}
+.radios input{accent-color:var(--sun-deep);margin:0}
+.radios label:has(input:checked){border-color:var(--sun-deep);background:var(--wash);color:var(--wash-fg)}
+.form-note{font-size:13.5px;color:var(--muted);margin-top:14px;line-height:1.55}
+.sent{background:var(--wash);border:1px solid var(--wash-line);color:var(--wash-fg);
+  border-radius:12px;padding:22px 24px;margin-top:20px}
+.sent h3{font-size:20px;margin-bottom:8px;color:var(--wash-fg)}
+.mailrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:14px}
+.mail{font-family:var(--ff-mono);font-size:15px;user-select:all;background:var(--surface);
+  border:1px solid var(--line);border-radius:8px;padding:9px 13px;color:var(--fg)}
+.copy{font-family:var(--ff-body);font-size:14px;font-weight:600;background:transparent;cursor:pointer;
+  border:1px solid var(--line);border-radius:8px;padding:9px 15px;color:var(--fg)}
+.copy:hover{border-color:var(--sun-deep);color:var(--sun-deep)}
+
+/* ---- is / isn't ---- */
+.isnt{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,3vw,28px);margin-top:36px}
+@media (max-width:720px){ .isnt{grid-template-columns:1fr} }
+.isnt ul{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+.isnt li{font-size:15.5px;padding-left:26px;position:relative;line-height:1.55}
+.isnt h3{font-size:19px}
+.yes li::before{content:"";position:absolute;left:2px;top:.46em;width:12px;height:7px;
+  border-left:2.5px solid var(--sun);border-bottom:2.5px solid var(--sun);transform:rotate(-45deg)}
+.no li::before{content:"";position:absolute;left:2px;top:.66em;width:12px;height:2.5px;
+  background:var(--ember);border-radius:2px}
+
+/* ---- footer ---- */
+.foot{background:var(--deep);color:var(--deep-muted);padding-block:54px 40px;font-size:14.5px}
+.foot a{color:var(--deep-fg);text-decoration:none}
+.foot a:hover{color:var(--sun)}
+.foot-top{display:flex;flex-wrap:wrap;gap:34px;justify-content:space-between}
+.foot h4{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--sun);margin:0 0 13px;font-weight:500}
+.foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.foot .fine{border-top:1px solid var(--deep-line);margin-top:38px;padding-top:22px;font-size:13px;
+  line-height:1.6;display:flex;flex-wrap:wrap;gap:12px 26px;justify-content:space-between}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="crisis">
+  <div class="wrap">
+    <span><b>In crisis right now?</b> Call or text <b>988</b> (Suicide &amp; Crisis Lifeline) · Text <b>HOME</b> to <b>741741</b> · Call <b>911</b> if someone is in immediate danger.</span>
+    <span class="note">The Helping Sun is not an emergency service.</span>
+  </div>
+</div>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="22" r="8.5" fill="#F5C774"/>
+        <path d="M20 4.5v5M31.5 10.5l-3.4 3.4M36 22h-5M4 22h5M8.5 10.5l3.4 3.4" stroke="#F5C774" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+        <path d="M3 32h34" stroke="#F5C774" stroke-width="2.4" stroke-linecap="round" opacity=".5"/>
+      </svg>
+      The Helping Sun
+    </a>
+    <nav class="nav">
+      <a href="#story">Who I am</a>
+      <a href="#areas">What's hard</a>
+      <a href="#help">How this works</a>
+      <a href="#log">Sunrise log</a>
+    </nav>
+    <a class="btn" href="#ask">Reach out</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <picture>
+    <source media="(max-width:700px)" srcset="img/sunrise-lighthouse-800.jpg">
+    <source media="(max-width:1400px)" srcset="img/sunrise-lighthouse-1400.jpg">
+    <img src="img/sunrise-lighthouse-2400.jpg" alt="Sunrise over Monterey Bay with Walton Lighthouse silhouetted on the jetty" fetchpriority="high" width="4000" height="2252">
+  </picture>
+  <div class="wrap">
+    <h1>You don't have to ask <em>well</em>.</h1>
+    <p class="sub">You just have to ask. Support for people carrying hard things — your head, your body, your money — from someone who has carried all three.</p>
+    <div class="cta">
+      <a class="btn" href="#ask">Ask for help</a>
+      <a class="btn btn--ghost" href="#ask">Ask for someone else</a>
+    </div>
+    <p class="credit">Santa Cruz, California · 6:43 am, November 4</p>
+  </div>
+</section>
+
+<main id="main">
+
+<section class="band" id="story">
+  <div class="wrap">
+    <div class="story">
+      <div>
+        <p class="eyebrow">Who's behind this</p>
+        <p>I'm Ian Sun. I've spent most of my life on the other side of this page — depressed, isolated, broke, and too embarrassed to say any of it out loud. I got through it without anyone reaching back. I don't recommend that route.</p>
+        <p>The Helping Sun exists because I kept waiting for someone to notice, and nobody did. Not because people are cruel — because I got very good at looking fine. If that's you, I already know what you're doing, and you don't have to explain it to me.</p>
+        <p>I'm not a therapist. I'm the person who answers. I'll sit with you while you open the mail you've been avoiding, or make the call you can't make, or just say the true thing out loud for the first time.</p>
+        <p class="sig">— Ian Sun, founder</p>
+      </div>
+      <figure class="figure">
+        <img src="img/ferris-wheel-800.jpg" alt="The Boardwalk ferris wheel in silhouette against a peach-colored dusk" loading="lazy" width="800" height="450">
+        <figcaption>Santa Cruz Beach Boardwalk · May 29, 8:34 pm</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<div class="break">
+  <img src="img/crimson-rivermouth-1600.jpg" alt="Crimson clouds over the Boardwalk mirrored in the San Lorenzo rivermouth" loading="lazy" width="1600" height="901">
+  <div class="quote"><div><blockquote>Nobody should have to be articulate to get help.</blockquote></div></div>
+</div>
+
+<section class="band band--deep" id="areas">
+  <div class="wrap">
+    <p class="eyebrow">What we talk about</p>
+    <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:18ch">The three things people are most ashamed to bring up.</h2>
+    <p class="lede" style="margin-top:16px">None of these are character flaws. All of them are easier with a second person in the room. Here's where I'd start — real first steps, not affirmations.</p>
+
+    <div class="grid g3">
+      <article class="card">
+        <p class="kicker">Mental health</p>
+        <h3>The 3 a.m. ones</h3>
+        <p>Depression, anxiety, the isolation that builds its own walls, the thoughts you haven't said to anyone.</p>
+        <ul class="steps">
+          <li>Get <b>10–20 minutes of outdoor light before noon.</b> It is not a cure. It measurably helps, and it's free.</li>
+          <li>Tell <b>one person one true sentence.</b> Not the whole thing. One sentence.</li>
+          <li>Ask a doctor for a <b>PHQ-9</b>. It's nine questions, takes two minutes, and gives you language.</li>
+          <li>With insurance, the phrase is <span class="say">I need a behavioral health referral.</span></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <p class="kicker">Physical health</p>
+        <h3>The body keeps the receipts</h3>
+        <p>The appointment you've rescheduled twice. The pain you've decided to live with. The sleep that stopped working.</p>
+        <ul class="steps">
+          <li><b>One fixed wake-up time, seven days.</b> Sleep repair starts at the morning end, not the night end.</li>
+          <li>A <b>ten-minute walk</b>, not a gym membership you'll quit in March.</li>
+          <li>No insurance? Community health centers charge on a sliding scale — <b>findahealthcenter.hrsa.gov</b>.</li>
+          <li>Booking it is the hard part. Try <span class="say">I've been putting this off and I need help getting started.</span></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <p class="kicker">Financial health</p>
+        <h3>The unopened mail pile</h3>
+        <p>Debt, overdrafts, the envelopes you stopped opening. Money shame is the quietest and the heaviest of the three.</p>
+        <ul class="steps">
+          <li><b>Open all of it in one sitting</b>, with someone on the phone. The pile is almost always smaller than the dread.</li>
+          <li>The word that unlocks things is <b>hardship</b>. Nearly every lender has a program and won't mention it first.</li>
+          <li>Call <b>211</b> for rent, utilities, and food assistance in your county. Free, 24/7.</li>
+          <li>Free credit counseling exists through <b>NFCC-accredited nonprofits</b>. Never pay a "debt settlement" company up front.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="help">
+  <div class="wrap">
+    <p class="eyebrow">How this actually works</p>
+    <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:20ch">Four ways in. All of them start with you saying one thing.</h2>
+
+    <div class="grid g2">
+      <article class="offer">
+        <span class="n">01</span>
+        <div>
+          <h3>First Light</h3>
+          <p>A free 30-minute call. No agenda, no form to fill out first, no need to have it organized in your head. You can cry, ramble, or sit quietly. I've done all three.</p>
+          <span class="tag">Free · Always will be</span>
+        </div>
+      </article>
+
+      <article class="offer">
+        <span class="n">02</span>
+        <div>
+          <h3>The Warm Line</h3>
+          <p>Text check-ins on a schedule you set. Daily, weekly, or only-when-it's-bad. A real person who already knows your situation, so you never start from zero.</p>
+          <span class="tag">Free</span>
+        </div>
+      </article>
+
+      <article class="offer">
+        <span class="n">03</span>
+        <div>
+          <h3>Sunrise Circle</h3>
+          <p>A small group — same six people, same hour, every week. Not a lecture series. The point is that you're expected, and someone notices when you're not there.</p>
+          <span class="tag tag--soon">Opening early 2027</span>
+        </div>
+      </article>
+
+      <article class="offer">
+        <span class="n">04</span>
+        <div>
+          <h3>A Helping Hand</h3>
+          <p>Practical, unglamorous help: a ride to an appointment, a form filled out together, a phone call you can't face making. Limited by what one person can actually do.</p>
+          <span class="tag tag--soon">Santa Cruz County first</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="break">
+  <img src="img/fire-morning-1600.jpg" alt="A morning sky burning pink and orange above the park" loading="lazy" width="1600" height="901">
+  <div class="quote"><div><blockquote>The sun comes up whether you asked it to or not.</blockquote></div></div>
+</div>
+
+<section class="band band--deep" id="log">
+  <div class="wrap">
+    <p class="eyebrow">The sunrise log</p>
+    <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:22ch">Every one of these is a morning I got out of bed.</h2>
+    <p class="lede" style="margin-top:16px">I started photographing sunrises on the mornings that were hardest to start. The photo isn't the point — the proof is. On a bad day, the whole job is getting outside once and pressing a button. These are all mine, all Santa Cruz.</p>
+    <div class="log">
+      <ul>
+        <li>
+          <img src="img/sunrise-lighthouse-800.jpg" alt="Sunrise over Monterey Bay with Walton Lighthouse on the jetty" loading="lazy" width="800" height="450">
+          <p class="when">Nov 4, 2026 · 6:43 am</p>
+          <p class="cap">Walton Lighthouse. Third morning in a row — that part mattered more than the photo.</p>
+        </li>
+        <li>
+          <img src="img/fire-morning-800.jpg" alt="A morning sky burning pink and orange above the park" loading="lazy" width="800" height="450">
+          <p class="when">Oct 21, 2026 · 7:15 am</p>
+          <p class="cap">Ten minutes from my door. I almost didn't go.</p>
+        </li>
+        <li>
+          <img src="img/sun-into-lagoon-800.jpg" alt="The sun going down into the lagoon at the rivermouth" loading="lazy" width="800" height="450">
+          <p class="when">Jul 22, 2026 · 8:01 pm</p>
+          <p class="cap">The rivermouth. Some days the sunset is the one you make it to.</p>
+        </li>
+        <li>
+          <img src="img/golden-coaster-800.jpg" alt="The sun dropping behind the Giant Dipper roller coaster" loading="lazy" width="800" height="450">
+          <p class="when">May 24, 2026 · 7:53 pm</p>
+          <p class="cap">Behind the Giant Dipper. You can hear it from the beach.</p>
+        </li>
+        <li>
+          <img src="img/lavender-dusk-800.jpg" alt="Lavender dusk over the reeds at the rivermouth" loading="lazy" width="800" height="450">
+          <p class="when">Jun 28, 2026 · 8:36 pm</p>
+          <p class="cap">Not every sky is dramatic. This one was just quiet, which also counts.</p>
+        </li>
+        <li>
+          <img src="img/night-lights-800.jpg" alt="Boardwalk lights on the water after dark" loading="lazy" width="800" height="450">
+          <p class="when">Sep 26, 2026 · 7:31 pm</p>
+          <p class="cap">After the light went. Still worth standing there.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="ask">
+  <div class="wrap" style="max-width:780px">
+    <p class="eyebrow">Reach out</p>
+    <h2 style="font-size:clamp(28px,4.4vw,42px)">Tell me as little as you want.</h2>
+    <p class="lede" style="margin-top:14px">Three words is enough. "Things are bad" is enough. You don't owe me an explanation, a diagnosis, or a tidy story. I answer every one of these myself.</p>
+
+    <div class="form-wrap">
+      <form id="ask-form" novalidate>
+        <div class="field">
+          <label id="who-label">Who is this for?</label>
+          <div class="radios" role="radiogroup" aria-labelledby="who-label">
+            <label><input type="radio" name="who" value="me" id="who-me" checked> It's for me</label>
+            <label><input type="radio" name="who" value="someone" id="who-someone"> It's for someone I care about</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="name">What should I call you? <span class="hint">A first name or a nickname is fine.</span></label>
+          <input type="text" id="name" name="name" autocomplete="given-name">
+        </div>
+
+        <div class="field">
+          <label for="email">Where can I reach you?</label>
+          <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com">
+        </div>
+
+        <div class="field">
+          <label for="topic">What's weighing on you? <span class="hint">Pick whatever is closest. You can change your mind.</span></label>
+          <select id="topic" name="topic">
+            <option value="unsure">I'm not sure yet</option>
+            <option value="mental">My head — depression, anxiety, isolation</option>
+            <option value="physical">My body — health I've been avoiding</option>
+            <option value="money">Money — debt, bills, the mail pile</option>
+            <option value="several">More than one of these</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="note">Anything you want to say <span class="hint">Optional. Genuinely.</span></label>
+          <textarea id="note" name="note" placeholder="Three words is enough."></textarea>
+        </div>
+
+        <button class="btn btn--wide" type="submit">Send it</button>
+        <p class="form-note">This goes to Ian, and only to Ian. I usually reply within a day. If you're in danger right now, please use 988 or 911 instead — I'm one person and I'm not always at my phone.</p>
+      </form>
+
+      <div class="sent" id="sent" hidden>
+        <h3>That took something. Thank you.</h3>
+        <p>I'll come back to you within a day. If it's urgent before then, email me directly:</p>
+        <div class="mailrow">
+          <span class="mail" id="mail">hello@thehelpingsun.com</span>
+          <button class="copy" type="button" id="copy">Copy address</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--wash">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--wash-fg)">Being straight with you</p>
+    <h2 style="font-size:clamp(26px,3.8vw,36px);color:var(--wash-fg)">What this is, and what it isn't.</h2>
+    <div class="isnt">
+      <div>
+        <h3 style="color:var(--wash-fg)">What it is</h3>
+        <ul class="yes">
+          <li>Peer support from someone who has been through it</li>
+          <li>Company while you do the hard administrative parts</li>
+          <li>Help finding real professionals, and sitting with you while you call them</li>
+          <li>Someone who follows up when you go quiet</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="color:var(--wash-fg)">What it isn't</h3>
+        <ul class="no">
+          <li>Therapy, counseling, or any kind of clinical treatment</li>
+          <li>Medical advice or a substitute for seeing a doctor</li>
+          <li>Financial, legal, or debt-settlement advice</li>
+          <li>A crisis line or emergency service — that's 988 and 911</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:26px;max-width:60ch;font-size:16px">If what you need is a therapist, I will help you find one and stay on the line while you book the appointment. Getting you to the right person is a win, not a handoff.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div style="max-width:30ch">
+        <h4>The Helping Sun</h4>
+        <p style="margin-bottom:12px">Peer support for people carrying hard things. Santa Cruz, California.</p>
+        <p><a href="#ask">Reach out</a></p>
+      </div>
+      <div>
+        <h4>If you need help now</h4>
+        <ul>
+          <li><b style="color:var(--sun)">988</b> — Suicide &amp; Crisis Lifeline (call or text)</li>
+          <li><b style="color:var(--sun)">741741</b> — Crisis Text Line (text HOME)</li>
+          <li><b style="color:var(--sun)">211</b> — Housing, food, utilities, local help</li>
+          <li><b style="color:var(--sun)">911</b> — Immediate danger</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li>Instagram — @thehelpingsun</li>
+          <li>YouTube — @thehelpingsun</li>
+          <li>Golden Hour — the weekly letter</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fine">
+      <span>© 2026 The Helping Sun. All photographs by Ian Sun, Santa Cruz County.</span>
+      <span>Not a medical, clinical, or emergency service.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var form = document.getElementById('ask-form');
+  var sent = document.getElementById('sent');
+  if (form) {
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      // To receive these for real, point ENDPOINT at a form service (Formspree,
+      // Netlify Forms, Basin) and POST before showing the confirmation.
+      // See README.md -> "Wiring up the form".
+      form.hidden = true;
+      sent.hidden = false;
+      sent.setAttribute('tabindex','-1');
+      sent.focus();
+    });
+  }
+  var copy = document.getElementById('copy');
+  if (copy) {
+    copy.addEventListener('click', function(){
+      var addr = document.getElementById('mail').textContent.trim();
+      var done = function(){ copy.textContent = 'Copied'; setTimeout(function(){ copy.textContent='Copy address'; }, 2000); };
+      try {
+        navigator.clipboard.writeText(addr).then(done, select);
+      } catch (err) { select(); }
+      function select(){
+        var r = document.createRange();
+        r.selectNodeContents(document.getElementById('mail'));
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        copy.textContent = 'Press ⌘/Ctrl+C';
+        setTimeout(function(){ copy.textContent='Copy address'; }, 2600);
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Full-resolution originals live in Google Drive (LandscapePhotos).
+# Only the web-optimised derivatives in site/img/ are tracked.
+photos/original/
+.DS_Store
+node_modules/
