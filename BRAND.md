@@ -139,3 +139,18 @@ reads as sun-over-horizon. That is intended. Don't add detail to "fix" it.
 | Favicon, app icon | `logo-mark.svg` |
 | Site header | the inline line mark in `index.html` |
 | Print, stamps, the card, merch | `logo-mark-mono.svg` |
+
+## Handles
+
+| Platform | Handle | Link |
+| --- | --- | --- |
+| Instagram | `@the_helping_sun` | instagram.com/the_helping_sun |
+| Facebook | `thehelpingsun` | facebook.com/thehelpingsun |
+| Web | — | thehelpingsun.com |
+
+The underscores in the Instagram handle don't match the Facebook one, which is
+normal and not worth fixing. Always write the brand name in full as **The
+Helping Sun** in prose; use the handle only where a platform requires it.
+
+Claim `the_helping_sun` on TikTok, YouTube and Threads even if you never post
+there. It costs nothing and stops someone else holding the name.

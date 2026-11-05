@@ -22,7 +22,7 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 Search the repo for each:
 
 - `hello@thehelpingsun.com` — set up the real mailbox, or change the address
-- `@thehelpingsun` — claim the handles, or remove the footer links
+- Social handles are live: Instagram `@the_helping_sun`, Facebook `thehelpingsun`
 - The county crisis line in `SAFETY-AND-LEGAL.md` §4 — currently blank
 - `Opening early 2027` / `Santa Cruz County first` — adjust the Circle and
   Helping Hand timing to what's true
