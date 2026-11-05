@@ -138,10 +138,135 @@ It helps.
 
 ---
 
+# Batch two
+
+## 06 · `06-the-unopened-mail.mp4` — 13s
+*Pale dusk over the Boardwalk.* The Hard Stuff.
+
+**Caption**
+```
+There were four unopened envelopes on my counter for eleven weeks.
+
+I knew one was from the DMV. I knew the pile was getting worse every day I
+didn't touch it. I knew opening them would take about twenty minutes.
+
+I still couldn't do it.
+
+This is the part people don't understand about depression. It isn't that you
+don't know what to do. You know exactly what to do. You can see it. You just
+cannot make your hand reach out.
+
+What finally worked wasn't discipline. It was having someone on the phone
+while I opened them. Not helping. Just there. Three of the four were nothing.
+
+If you have a pile: you're not lazy and you're not stupid. You need a second
+person in the room. That's the whole trick.
+
+I'll be that person if you don't have one. Link in bio.
+```
+
+## 07 · `07-the-ghosted-friend.mp4` — 14s
+*The tetrapods at dusk.* A script people can use in sixty seconds.
+
+**Caption**
+```
+What to say to someone you disappeared on.
+
+Send exactly this:
+"Hey. I disappeared and it wasn't about you. I've been going through it. I'd
+like to come back around if that's okay."
+
+What not to do: don't apologise five times, don't explain the whole six
+months, and don't wait until you have a good enough excuse. You will never
+have one. That's the trap.
+
+The thing you're scared of: you think they're angry. Usually they're relieved.
+Occasionally they're hurt, which is fair, and survivable.
+
+The story you're telling yourself about how angry they are is being written by
+the illness, not by them.
+
+Send it today. Don't draft it for a week.
+```
+
+## 08 · `08-call-211.mp4` — 12s
+*Mackerel sky at dawn.* The most practically useful 12 seconds on the account.
+
+**Caption**
+```
+One of the most useful numbers in the country, and most people have never
+heard of it.
+
+Dial 211.
+
+Free, 24/7, every county. A real person who knows what help exists where you
+live: rent assistance, utility bills, food, transport to appointments,
+childcare.
+
+Not a charity you have to prove yourself to. An operator with a directory.
+
+I didn't know it existed during the years I most needed it. Nobody tells you.
+So I'm telling you.
+
+211. Save it in your phone right now, before you need it — because the day you
+need it is the day you can't look anything up.
+```
+
+## 09 · `09-sunday-night.mp4` — 13s
+*The ember band over the Boardwalk.* Post this on a Sunday, late afternoon.
+
+**Caption**
+```
+Sunday, around 7pm, the light goes and something in my chest changes.
+
+It's not about Monday. I've had it on Sundays when I had nowhere to be on
+Monday. It's the specific quality of a week ending when the week contained
+nothing you can point to.
+
+I don't have a fix for this one. I have two things.
+
+It's extremely common and nobody talks about it, so you've been doing it alone
+for no reason.
+
+And it passes by about 9pm. Every time. Knowing it's a tide and not a
+permanent new fact about your life is what makes it survivable.
+
+If it's Sunday evening and you're reading this: it's 7. It passes at 9. You
+can wait that out.
+```
+
+## 10 · `10-looking-fine.mp4` — 14s
+*The Boardwalk lit up against the dark.* The companion piece to the launch reel.
+
+**Caption**
+```
+I want to talk about how good some of us are at looking fine.
+
+I held jobs. I showed up. I made jokes. I asked people how their weekend was
+and I meant it. And at the same time I was somewhere I couldn't describe to
+anyone.
+
+Here's the part that took me years to understand: nobody was ignoring me. They
+genuinely could not tell. I had made sure of that. I'd spent a decade getting
+good at it.
+
+So if you're waiting for someone to notice — I need to tell you kindly that
+they might not. Not because they don't love you. Because you're good at this.
+
+Which means the first move is yours. That's unfair. It's also true.
+
+If making that move to someone who knows you is too much, make it to a
+stranger instead. Sometimes a stranger is easier. That's allowed.
+
+988 if today is bad.
+```
+
+---
+
 ## Posting notes
 
-**Order.** 01 first. Then 02, then 03. Hold 04 until you've posted at least
-three times — it's the heaviest and it lands better on an account that already
+**Order.** 01 first. Then 02, 06, 03, 10, 08, 07, 09. Hold 04 until you've
+posted at least three times — it's the heaviest and it lands better on an account that already
 has a voice. 05 whenever you want a quiet day.
 
 **Cover frame.** Instagram lets you choose the cover from any frame. Pick one
