@@ -97,3 +97,22 @@ Everything is named from the same world — light, time of day, coastline.
 A simple sun with rays over a horizon line (inline SVG in `site/index.html`).
 Works at 16px. Don't commission anything more elaborate — the photographs are
 the identity; the mark is just a bookmark.
+
+## Marks
+
+Two marks, one system. Both live in `brand/`.
+
+**The roundel** (`mark-photo-ring-512.png`) — a circular crop of the Nov 4
+sunrise over Walton Lighthouse, taken from `20261104_064349.jpg`. The sun sits
+at 40% height and the horizon at 62%, so the gold band survives all the way
+down to 32px. Use it as the profile picture on every platform. It is the most
+personal mark available, because it isn't a drawing of a sunrise — it is the
+actual morning.
+
+**The line mark** — the inline SVG sun in `site/index.html`. Use it in the site
+header, the favicon, and anywhere the roundel would be too busy or needs to be
+one flat colour (stamps, print, embroidery).
+
+Sizes supplied: 1024, 512, 256 (plain) and 1024, 512 (with the gold ring). The
+ring exists so the dark foreground doesn't dissolve into a white feed
+background. On dark backgrounds either works.
