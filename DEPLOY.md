@@ -1,90 +1,96 @@
 # Putting the site on thehelpingsun.com
 
-Free, about fifteen minutes, no build step. The site is plain HTML, so there's
-nothing to compile — Cloudflare just serves the `site/` folder.
+The site is plain HTML with no build step. Cloudflare just needs to be told
+which folder to serve.
 
-One useful thing already true: `claude/adoring-hypatia-us33gp` is the repo's
-**default branch**, so Cloudflare will select it as the production branch on its
-own. You don't need to merge anything first.
+## Important: this is a Worker, not a Pages project
 
----
+When you connect a Git repo today, Cloudflare creates a **Worker** (with
+Workers Builds), not a Pages project. You can tell from the dashboard: it shows
+**Bindings**, **Workers Logs**, a `*.workers.dev` subdomain, and a **Deploy
+command** of `npx wrangler deploy`.
 
-## Step 1 — Connect the repo
+That matters because a Worker doesn't have a "build output directory" setting.
+It runs `npx wrangler deploy`, and wrangler reads **`wrangler.toml`** in the
+repo root to learn what to publish. Without that file it deploys an empty
+Worker, the build goes green, and the URL shows nothing.
 
-1. Go to **dash.cloudflare.com** and sign in.
-2. In the left sidebar: **Compute (Workers & Pages)** → **Create** → the
-   **Pages** tab → **Connect to Git**.
-3. Authorize Cloudflare for GitHub if it asks. When GitHub offers
-   *All repositories* or *Only select repositories*, pick **Only select
-   repositories** and choose **World-Swap/the-helping-sun**.
-4. Select the repo, then **Begin setup**.
+`wrangler.toml` is committed to this repo and does exactly one job:
 
-## Step 2 — Build settings
+```toml
+name = "the-helping-sun"
+compatibility_date = "2026-11-01"
 
-This is the only screen where a wrong answer causes trouble. Set:
+[assets]
+directory = "./site"
+```
+
+No `main` entrypoint, because there's no server-side code. The `[assets]`
+block is what makes the deploy publish `site/`.
+
+> If you rename the Worker in the dashboard, change `name` here to match.
+
+## The dashboard settings
+
+With `wrangler.toml` in place, these are correct as-is. Confirm under
+**Settings → Builds**:
 
 | Field | Value |
 | --- | --- |
-| Project name | `the-helping-sun` (becomes `the-helping-sun.pages.dev`) |
 | Production branch | `claude/adoring-hypatia-us33gp` |
-| Framework preset | **None** |
-| Build command | **leave completely empty** |
-| Build output directory | `site` |
+| Build command | **empty / None** |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` |
 
-> ⚠️ `site` is the one that matters. Point it at the repository root instead and
-> you'll get a 404, because `index.html` lives inside `site/`.
+Root directory stays `/` — that's where `wrangler.toml` lives. The config
+points at `site/` from there. Setting root directory to `site` would break it,
+because wrangler would no longer find the config.
 
-Click **Save and Deploy**. It finishes in under a minute and gives you a
-`.pages.dev` address. **Open it and confirm the site looks right before moving
-on** — it's much easier to debug now than after DNS is involved.
+## Custom domain
 
-## Step 3 — Attach thehelpingsun.com
+Already done: `thehelpingsun.com` is attached under **Domains**. Because the
+domain is on Cloudflare, the DNS record was created automatically.
 
-1. In the project: **Custom domains** → **Set up a domain**.
-2. Enter `thehelpingsun.com` → **Continue**.
+Add `www.thehelpingsun.com` the same way if you want both. To make one
+canonical, use **Rules → Redirect Rules** and send `www` to the root with a 301.
 
-**If the domain is registered at Cloudflare** (most likely, since you mentioned
-Cloudflare): it adds the DNS record itself. Click **Activate domain** and you're
-done. Live in a minute or two, sometimes up to an hour.
+HTTPS is automatic. Nothing to buy or renew.
 
-**If it's registered somewhere else** (GoDaddy, Namecheap): the simplest route
-is to move the domain's **nameservers** to Cloudflare — Cloudflare shows you the
-two to use, and you paste them into the registrar's nameserver settings. This is
-free, you keep ownership, and it makes the root domain work properly. A plain
-CNAME can't be used on a root domain at most registrars, which is why the
-nameserver route is worth the extra ten minutes.
+## Publishing changes
 
-## Step 4 — Add the www version
+Push to `claude/adoring-hypatia-us33gp` and it redeploys, usually within a
+minute. To edit text without a terminal, open `site/index.html` on github.com,
+click the pencil, and commit — same result.
 
-Repeat Step 3 with `www.thehelpingsun.com`. Cloudflare will serve the same site
-at both. If you'd rather have one canonical address, go to **Rules** →
-**Redirect Rules** and send `www` to the root domain with a 301.
+Every deploy is kept. **Deployments** → pick an earlier one → **Rollback**.
 
-HTTPS is automatic on both. No certificate to buy or renew.
+## Testing a deploy before pushing
 
----
+```bash
+npx wrangler deploy --dry-run
+```
 
-## Publishing changes later
+It should print `Read N files from the assets directory`. If N is 0 or it
+errors, the deploy will produce a blank site.
 
-Every push to `claude/adoring-hypatia-us33gp` redeploys automatically, usually
-within a minute. To edit text without touching a terminal, you can open
-`site/index.html` on github.com, click the pencil icon, make the change, and
-commit — Cloudflare picks it up the same way.
+To preview locally exactly as Cloudflare will serve it:
 
-Every deploy keeps its own permanent preview URL, so a bad edit is never
-unrecoverable. **Deployments** → find a previous one → **Rollback**.
+```bash
+npx wrangler dev
+```
 
-## If something goes wrong
+## Troubleshooting
 
 | What you see | Cause |
 | --- | --- |
-| 404 on the home page | Build output directory isn't `site` |
-| Site loads, photos don't | The `site/img/` folder didn't get committed |
-| Domain shows a Cloudflare error page | DNS hasn't finished; wait, then hard-refresh |
+| Build green, URL blank or "not found" | No `wrangler.toml`, or `[assets] directory` points somewhere wrong |
+| `Deployment failed: name` | `name` in `wrangler.toml` doesn't match the Worker |
+| Site loads, photos don't | `site/img/` wasn't committed |
 | Old version keeps appearing | Browser cache — try a private window |
+| Domain shows a Cloudflare error | DNS still propagating; wait, then hard-refresh |
 
-## One thing to do once it's live
+## Once it's live
 
-Set up a free uptime check (UptimeRobot, Better Stack) pointing at
-`https://thehelpingsun.com`. If someone in a bad moment reaches a dead site,
-you want to be the first to know, not the last.
+Set up a free uptime check (UptimeRobot, Better Stack) on
+`https://thehelpingsun.com`. If someone in a bad moment hits a dead site, you
+want to be the first to know rather than the last.

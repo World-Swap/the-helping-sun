@@ -1,0 +1,13 @@
+# Cloudflare Workers config for thehelpingsun.com
+#
+# This is a static site with no server-side code, so there is no `main`
+# entrypoint. The [assets] block below is what makes `npx wrangler deploy`
+# publish the contents of site/ instead of an empty Worker.
+#
+# Worker name must match the one in the Cloudflare dashboard.
+
+name = "the-helping-sun"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "./site"
