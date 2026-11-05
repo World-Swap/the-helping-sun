@@ -11,7 +11,9 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | `site/img/` | Web-optimised photographs (Ian's own, from the Drive folder) |
 | `BRAND.md` | Palette, type, voice, naming, the Sunrise Log concept |
 | `LAUNCH-PLAN.md` | Entity structure, 90-day plan, how this makes money |
-| `CONTENT.md` | Social strategy, the five pillars, first 30 days of posts |
+| `CONTENT.md` | Social strategy, the five pillars, platform choice |
+| `POSTS.md` | **The launch post and 30 days of content, written and ready to post** |
+| `DEPLOY.md` | Step-by-step Cloudflare Pages setup for thehelpingsun.com |
 | `SAFETY-AND-LEGAL.md` | **Read this first.** Scope of practice, crisis protocol, insurance, burnout |
 | `tools/prep-photos.py` | Turns new full-res photos into web-ready sizes |
 
@@ -37,7 +39,7 @@ Then open `http://localhost:8000`.
 
 ## Deploying to thehelpingsun.com
 
-It's a static site, so hosting is free. Easiest path:
+**Full step-by-step walkthrough in `DEPLOY.md`.** Short version:
 
 1. Push this repository to GitHub.
 2. Create a site on **Cloudflare Pages** or **Netlify**, point it at the repo,
