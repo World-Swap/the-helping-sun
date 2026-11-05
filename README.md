@@ -13,7 +13,8 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | `LAUNCH-PLAN.md` | Entity structure, 90-day plan, how this makes money |
 | `CONTENT.md` | Social strategy, the five pillars, platform choice |
 | `POSTS.md` | **The launch post and 30 days of content, written and ready to post** |
-| `DEPLOY.md` | Step-by-step Cloudflare Pages setup for thehelpingsun.com |
+| `DEPLOY.md` | Step-by-step Cloudflare setup for thehelpingsun.com |
+| `SOCIAL-PROFILES.md` | **Bios, About copy, categories and images for Instagram and Facebook** |
 | `SAFETY-AND-LEGAL.md` | **Read this first.** Scope of practice, crisis protocol, insurance, burnout |
 | `tools/prep-photos.py` | Turns new full-res photos into web-ready sizes |
 
