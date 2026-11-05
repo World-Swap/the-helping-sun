@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="The Helping Sun">
+  <title>The Helping Sun</title>
+  <g fill="currentColor" color="#141A26">
+    <path d="M256 16a240 240 0 1 0 0 480 240 240 0 0 0 0-480zm0 26a214 214 0 1 1 0 428 214 214 0 0 1 0-428z"/>
+    <circle cx="258" cy="170" r="62"/>
+    <path d="M60 330 C 140 316, 220 330, 310 352 C 376 368, 424 372, 460 368 L460 400 C 410 404, 360 398, 300 382 C 220 360, 140 348, 60 360 Z"/>
+    <path d="M122 322 L132 216 h26 l10 106 z"/>
+    <rect x="126" y="207" width="38" height="11" rx="3"/>
+    <path d="M135 186 h20 v21 h-20 z"/>
+    <path d="M133 186 q12 -17 24 0 z"/>
+    <circle cx="145" cy="166" r="4.5"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="The Helping Sun">
+  <title>The Helping Sun</title>
+  <defs>
+    <clipPath id="hs-badge"><circle cx="256" cy="256" r="248"/></clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="248" fill="#FBEFD9"/>
+  <g clip-path="url(#hs-badge)">
+    <circle cx="258" cy="170" r="70" fill="#F5C774"/>
+    <rect x="0" y="296" width="512" height="216" fill="#5E7FA6"/>
+    <path d="M0 316 C 100 304, 180 308, 260 318 C 340 328, 420 330, 512 322 L512 512 L0 512 Z" fill="#1E2C44"/>
+    <path d="M0 356 C 120 340, 230 356, 330 378 C 410 396, 460 398, 512 392 L512 512 L0 512 Z" fill="#141A26"/>
+    <g fill="#141A26">
+      <path d="M122 322 L132 216 h26 l10 106 z"/>
+      <rect x="126" y="207" width="38" height="11" rx="3"/>
+      <path d="M135 186 h20 v21 h-20 z"/>
+      <path d="M133 186 q12 -17 24 0 z"/>
+      <circle cx="145" cy="166" r="4.5"/>
+    </g>
+  </g>
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#141A26" stroke-width="6" opacity="0.14"/>
+</svg>

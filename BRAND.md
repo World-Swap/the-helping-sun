@@ -116,3 +116,26 @@ one flat colour (stamps, print, embroidery).
 Sizes supplied: 1024, 512, 256 (plain) and 1024, 512 (with the gold ring). The
 ring exists so the dark foreground doesn't dissolve into a white feed
 background. On dark backgrounds either works.
+
+### The vector mark
+
+`brand/logo-mark.svg` — a circular badge: gold sun above a clean horizon, with
+the Walton Lighthouse in silhouette on the headland. Drawn from the Nov 4
+photograph's own composition, so the mark and the roundel are the same scene
+in two registers.
+
+Variants: `logo-mark.svg` (light), `logo-mark-dark.svg` (for dark surfaces),
+`logo-mark-mono.svg` (single colour via `currentColor` — for stamps, embroidery,
+one-colour print, the business card). PNG exports from 1024 down to 32.
+
+It degrades correctly: below about 48px the lighthouse disappears and the mark
+reads as sun-over-horizon. That is intended. Don't add detail to "fix" it.
+
+**When to use which**
+
+| Use | Mark |
+| --- | --- |
+| Social profile pictures | the photo roundel — it's the real morning |
+| Favicon, app icon | `logo-mark.svg` |
+| Site header | the inline line mark in `index.html` |
+| Print, stamps, the card, merch | `logo-mark-mono.svg` |
