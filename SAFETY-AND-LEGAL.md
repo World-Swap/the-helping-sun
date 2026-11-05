@@ -62,9 +62,19 @@ You will get a message from someone who is suicidal. Decide now, not then.
 2. **Ask directly:** *"Are you thinking about killing yourself?"* Asking plainly
    does not plant the idea; avoiding it loses the thread.
 3. **If there is immediate danger** (a plan, the means at hand, a timeline) —
-   stay with them and get emergency services involved: **911**, or in Santa Cruz
-   County the **Behavioral Health crisis line**. Look up and write the current
-   county number here: `________________`
+   stay with them and get emergency services involved.
+
+   > **Santa Cruz County Behavioral Health Access & Crisis Line**
+   > ## 1-800-952-2335
+   > 24/7, every day. The same number reaches the **Mobile Crisis Response
+   > Team**, which has operated around the clock since December 2024 — follow
+   > the prompts for mobile crisis. Hearing impaired: dial **711**.
+   > Call **911** instead if there is immediate physical danger.
+
+   **Walk-in crisis services**, Monday–Friday 8:00 a.m.–4:00 p.m.:
+   1400 Emeline Ave, Bldg K, Santa Cruz · 1430 Freedom Blvd, Ste F, Watsonville
+
+   Verify this number once a year. County lines change.
 4. **If there is no immediate danger** — **988**, call or text. Stay on with
    them while they connect if they'll let you.
 5. **Never** promise secrecy. Say up front: *"If I think you're about to die,

@@ -190,8 +190,7 @@ anyone arriving from a share will read.
 - [ ] No public phone number
 - [ ] Category is Community / Community Organization, not anything clinical
 - [ ] Both profiles point to thehelpingsun.com and the site is live
-- [ ] County crisis line filled into your printed protocol
-      (`SAFETY-AND-LEGAL.md` §4)
+- [x] County crisis line in the printed protocol — **1-800-952-2335**
 - [ ] You have somewhere of your own to take this — your support, before
       you start carrying other people's
 

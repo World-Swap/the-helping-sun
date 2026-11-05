@@ -24,7 +24,7 @@ Search the repo for each:
 
 - `hello@thehelpingsun.com` — set up the real mailbox, or change the address
 - Social handles are live: Instagram `@the_helping_sun`, Facebook `thehelpingsun`
-- The county crisis line in `SAFETY-AND-LEGAL.md` §4 — currently blank
+- ~~County crisis line~~ — done: 1-800-952-2335, in the protocol and the site footer
 - `Opening early 2027` / `Santa Cruz County first` — adjust the Circle and
   Helping Hand timing to what's true
 - The story in the "Who's behind this" section is a **draft in your voice**.
