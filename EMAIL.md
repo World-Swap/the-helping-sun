@@ -116,10 +116,24 @@ mail-tester score **9/10**.
 Publishing the key and signing with it are two separate steps. The record is in
 DNS; Zoho hasn't been told to use it.
 
-**Zoho Mail Admin Console → Domains → thehelpingsun.com → Email Configuration
-→ DKIM.** Find the `zmail` selector and click **Verify**. Zoho checks the
-record already in your DNS, marks it Verified, and starts signing outbound
-mail. Re-test afterwards for 10/10.
+Exact path, per Zoho's own documentation:
+
+1. Sign in at **https://mailadmin.zoho.com**
+2. Left menu → **Domains** → choose **thehelpingsun.com**
+3. **Email Configuration** tab → **DKIM**
+4. Click **Verify** on the row for the `zmail` selector
+5. When asked, choose to **enable DKIM immediately**, and set the selector as
+   **default**
+
+Step 5 is the one people miss. Verifying alone does not start signing — the
+selector has to be verified *and* enabled *and* default.
+
+On a phone, switch Chrome to **⋮ → Desktop site** first; the console collapses
+its left menu on mobile and Domains becomes hard to reach.
+
+Zoho's own checker is at **https://zohomail.tools** → Run Checks. DNS changes
+can take up to 12–24 hours to propagate depending on TTL, though Cloudflare is
+usually near-instant. Re-test at mail-tester.com afterwards for 10/10.
 
 **Why it's worth the two minutes.** DMARC currently passes on SPF alone, which
 is fine for mail sent straight from you to someone. But **SPF breaks when a
