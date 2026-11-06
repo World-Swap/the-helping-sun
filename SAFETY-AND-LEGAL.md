@@ -127,11 +127,12 @@ else.
   half-presence.
 - **Published hours.** "I answer between 9 a.m. and 9 p.m." A 24/7 promise is a
   promise to fail. 988 covers the hours you don't.
-- **Your own support.** You need your own therapist or peer group — someone who
-  is *yours*, not someone you're also helping. Non-negotiable. Budget for it
-  before you budget for a logo.
-- **A co-pilot.** One other person who knows the work and can cover. Launching
-  entirely alone is the single biggest structural risk here.
+- **Your own support.** Somewhere you are the one being helped — not someone
+  you're also helping. Non-negotiable. See `YOUR-SUPPORT.md` for options,
+  starting with NAMI Santa Cruz County, which is free.
+- **A co-pilot.** One other person who knows the work and checks on you inside
+  it. Launching entirely alone is the single biggest structural risk here.
+  `YOUR-SUPPORT.md` has the words to ask someone.
 - **A written "when I'm not okay" protocol.** Decide in advance: what pauses,
   what message goes out, who gets told. Put the message in a draft today so you
   never have to write it on a bad day.
@@ -147,4 +148,4 @@ else.
 - [x] Terms of service and privacy policy written — live at /terms.html and /privacy.html (fill in the LLC name)
 - [ ] Crisis protocol **printed** — number is filled in (1-800-952-2335)
 - [x] Client agreement written — `CLIENT-AGREEMENT.md` (have a CA attorney read it)
-- [ ] Your own support in place
+- [ ] Your own support in place — see `YOUR-SUPPORT.md`
