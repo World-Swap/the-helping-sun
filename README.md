@@ -23,7 +23,6 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 
 Search the repo for each:
 
-- `hello@thehelpingsun.com` — set up the real mailbox, or change the address
 - Social handles are live: Instagram `@the_helping_sun`, Facebook `thehelpingsun`
 - ~~`hello@thehelpingsun.com`~~ — done: live, authenticated, 10/10 on mail-tester
 - ~~County crisis line~~ — done: 1-800-952-2335, in the protocol and the site footer
