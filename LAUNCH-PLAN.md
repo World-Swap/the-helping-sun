@@ -59,11 +59,12 @@ revisit a 501(c)(3). Not before.
 - [x] LLC and business bank account — already in place
 - [ ] "The Helping Sun" DBA filed with Santa Cruz County Clerk
 - [ ] Insurer told about the change of activity
-- [ ] `hello@thehelpingsun.com` set up (Google Workspace or Fastmail)
-- [ ] Site deployed to `thehelpingsun.com` (see `README.md`)
-- [ ] Crisis protocol printed, county crisis number filled in
+- [x] `hello@thehelpingsun.com` — live on Zoho, 10/10 authenticated
+- [x] Site deployed to `thehelpingsun.com` — live, auto-deploys on push
+- [ ] Crisis protocol **printed** (county number is in it: 1-800-952-2335)
 - [ ] Insurance quotes requested
-- [ ] Handles claimed everywhere, even platforms you won't use yet
+- [x] Instagram `@the_helping_sun` and Facebook `thehelpingsun` claimed
+- [ ] Claim the same name on TikTok, YouTube and Threads (park them, don't post)
 - [ ] **Your own support booked** — therapist or peer group
 - [ ] Ask one person to be your co-pilot
 

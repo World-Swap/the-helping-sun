@@ -140,11 +140,12 @@ else.
 
 ## 8. Before you accept a single dollar
 
-- [ ] Business entity registered (see `LAUNCH-PLAN.md` §1)
-- [ ] Separate business bank account — never commingle
+- [x] Business entity registered — LLC in place
+- [ ] "The Helping Sun" DBA filed under it (see `LAUNCH-PLAN.md` §1)
+- [x] Business bank account — in place
 - [ ] Liability + professional insurance active
 - [ ] Terms of service and privacy policy on the site
-- [ ] Crisis protocol printed, with the county number filled in
+- [ ] Crisis protocol **printed** — number is filled in (1-800-952-2335)
 - [ ] A client agreement that states, in plain English, that this is not
       therapy, not medical advice, not financial advice, not an emergency service
 - [ ] Your own support in place
