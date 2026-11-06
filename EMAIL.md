@@ -98,14 +98,38 @@ monthly, 30 GB. It's Gmail, which you already know, with full IMAP and no
 **Fastmail** (~$5/month) and **Migadu** (~$19/year) are both good and more
 privacy-minded than Google.
 
+## Current status — verified 6 Nov 2026
+
+Mailbox is live on the Zoho free plan and receiving. DNS checked against public
+resolvers:
+
+| | Record | Value |
+| --- | --- | --- |
+| ✅ | MX | `mx.zoho.com` (10), `mx2.zoho.com` (20), `mx3.zoho.com` (50) |
+| ✅ | SPF | `v=spf1 include:zohomail.com ~all` |
+| ✅ | DKIM | selector `zmail`, RSA key published |
+| ❌ | DMARC | **not set — see below** |
+
+Remaining: add the DMARC record, confirm sending works, turn on 2FA.
+
 ## Don't skip SPF, DKIM and DMARC
 
 Without them your mail lands in spam. For a normal business that's annoying.
 For this one it means **someone who finally worked up to asking for help never
 hears back, and concludes nobody answered.**
 
-Your mail provider gives you SPF and DKIM records during setup. Add both. Then
-add a DMARC record in Cloudflare — type TXT, name `_dmarc`, value:
+SPF and DKIM are already done. DMARC is the one still missing.
+
+**In Cloudflare: DNS → Records → Add record**
+
+| Field | Value |
+| --- | --- |
+| Type | `TXT` |
+| Name | `_dmarc` |
+| Content | `v=DMARC1; p=none; rua=mailto:hello@thehelpingsun.com` |
+| TTL | Auto |
+
+Name is just `_dmarc`, not the full domain — Cloudflare appends it. The record:
 
 ```
 v=DMARC1; p=none; rua=mailto:hello@thehelpingsun.com
