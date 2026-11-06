@@ -501,11 +501,15 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
 
         <button class="btn btn--wide" type="submit">Send it</button>
         <p class="form-note">This goes to Ian, and only to Ian. I usually reply within a day. If you're in danger right now, please use 988 or 911 instead — I'm one person and I'm not always at my phone.</p>
+        <p class="form-note" id="fallback-note" hidden>One extra tap: this opens your email app with the message ready to send, so it comes straight to me and nothing is stored anywhere in between.</p>
       </form>
 
       <div class="sent" id="sent" hidden>
-        <h3>That took something. Thank you.</h3>
-        <p>I'll come back to you within a day. If it's urgent before then, email me directly:</p>
+        <h3 id="sent-title">That took something. Thank you.</h3>
+        <p id="sent-body">I'll come back to you within a day. If it's urgent before then, email me directly:</p>
+        <p id="sent-action" hidden style="margin-top:16px">
+          <a class="btn" id="open-mail" href="#">Open my email app</a>
+        </p>
         <div class="mailrow">
           <span class="mail" id="mail">hello@thehelpingsun.com</span>
           <button class="copy" type="button" id="copy">Copy address</button>
@@ -581,20 +585,97 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
 
 <script>
 (function(){
+  // ---------------------------------------------------------------------
+  //  WHERE THE FORM GOES
+  //
+  //  ENDPOINT = ''  ->  no backend. The form hands off to the visitor's own
+  //                     email app with the message prefilled. Nothing is
+  //                     stored anywhere, and the page never claims a message
+  //                     was received when it wasn't.
+  //
+  //  To take submissions in the background instead, create a free form at
+  //  formspree.io (or usebasin.com) and paste the endpoint URL below.
+  //  Nothing else needs changing. See README.md -> "Wiring up the form".
+  // ---------------------------------------------------------------------
+  var ENDPOINT = '';
+  var ADDRESS  = 'hello@thehelpingsun.com';
+
   var form = document.getElementById('ask-form');
   var sent = document.getElementById('sent');
+  var title = document.getElementById('sent-title');
+  var body = document.getElementById('sent-body');
+  var action = document.getElementById('sent-action');
+  var openMail = document.getElementById('open-mail');
+  var fallbackNote = document.getElementById('fallback-note');
+
+  if (!ENDPOINT && fallbackNote) fallbackNote.hidden = false;
+
+  function val(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; }
+
+  function compose(){
+    var who = (document.getElementById('who-someone') || {}).checked
+      ? 'for someone I care about' : 'for me';
+    var topicEl = document.getElementById('topic');
+    var topic = topicEl ? topicEl.options[topicEl.selectedIndex].text : '';
+    var name = val('name');
+    var lines = [];
+    if (name) lines.push('Name: ' + name);
+    lines.push('This is ' + who + '.');
+    if (topic) lines.push('Weighing on me: ' + topic);
+    var note = val('note');
+    if (note) lines.push('', note);
+    lines.push('', '—', 'Sent from thehelpingsun.com');
+    return {
+      subject: 'Reaching out' + (name ? ' — ' + name : ''),
+      body: lines.join('\n')
+    };
+  }
+
+  function reveal(){
+    form.hidden = true;
+    sent.hidden = false;
+    sent.setAttribute('tabindex','-1');
+    sent.focus();
+  }
+
   if (form) {
     form.addEventListener('submit', function(e){
       e.preventDefault();
-      // To receive these for real, point ENDPOINT at a form service (Formspree,
-      // Netlify Forms, Basin) and POST before showing the confirmation.
-      // See README.md -> "Wiring up the form".
-      form.hidden = true;
-      sent.hidden = false;
-      sent.setAttribute('tabindex','-1');
-      sent.focus();
+
+      if (ENDPOINT) {
+        var btn = form.querySelector('button[type=submit]');
+        if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+        fetch(ENDPOINT, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' }
+        }).then(function(r){
+          if (!r.ok) throw new Error('bad status');
+          reveal();
+        }).catch(function(){
+          // Never pretend it arrived. Fall back to the email hand-off.
+          handoff();
+        });
+        return;
+      }
+      handoff();
     });
   }
+
+  function handoff(){
+    var m = compose();
+    var href = 'mailto:' + ADDRESS +
+      '?subject=' + encodeURIComponent(m.subject) +
+      '&body=' + encodeURIComponent(m.body);
+    if (openMail) openMail.setAttribute('href', href);
+    if (title) title.textContent = 'One more tap and it reaches me.';
+    if (body) body.textContent = 'Your message isn\u2019t sent yet. This opens your email app with it already written \u2014 just press send. If that doesn\u2019t work, copy the address below and paste it into your email.';
+    if (action) action.hidden = false;
+    reveal();
+    // Nudge the mail app for people who expect it to just happen.
+    try { window.location.href = href; } catch (err) {}
+  }
+
   var copy = document.getElementById('copy');
   if (copy) {
     copy.addEventListener('click', function(){
@@ -606,8 +687,8 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
       function select(){
         var r = document.createRange();
         r.selectNodeContents(document.getElementById('mail'));
-        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
-        copy.textContent = 'Press ⌘/Ctrl+C';
+        var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        copy.textContent = 'Press \u2318/Ctrl+C';
         setTimeout(function(){ copy.textContent='Copy address'; }, 2600);
       }
     });

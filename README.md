@@ -53,32 +53,35 @@ Then open `http://localhost:8000`.
 
 ## Wiring up the form
 
-The "Reach out" form currently shows a confirmation and the email address, but
-doesn't send anything anywhere. To make it deliver:
+**Current behaviour:** the form has no backend. On submit it composes the
+message and hands off to the visitor's own email app with everything
+prefilled, then shows them the address as a fallback. Nothing is stored
+anywhere in between, and **the page never tells anyone their message was
+received when it wasn't.**
 
-**Netlify** — add `netlify` and `name="ask"` to the `<form>` tag; Netlify
-collects submissions automatically.
+That last part is the rule. A support site that says "I'll come back to you
+within a day" and then drops the message is worse than having no form at all.
 
-**Anywhere else** — create a form at [Formspree](https://formspree.io) or
-[Basin](https://usebasin.com) (both have free tiers), then in the `<script>`
-block at the bottom of `site/index.html`, replace the comment inside the submit
-handler with:
+### To take submissions in the background instead
+
+1. Create a free form at [Formspree](https://formspree.io) (50/month free) or
+   [Basin](https://usebasin.com). Point it at `hello@thehelpingsun.com`.
+2. In `site/index.html`, find `var ENDPOINT = '';` near the top of the script
+   and paste the URL in:
 
 ```js
-fetch('https://formspree.io/f/YOUR_ID', {
-  method: 'POST',
-  body: new FormData(form),
-  headers: { Accept: 'application/json' }
-});
+var ENDPOINT = 'https://formspree.io/f/YOUR_ID';
 ```
 
-Keep the `preventDefault()` and the confirmation panel exactly as they are, so
-someone who reaches out always sees an acknowledgement even if the network
-fails them.
+Nothing else changes. The page switches to a real background submit, shows the
+original "That took something, thank you" confirmation, and **falls back to the
+email hand-off automatically if the request fails** — so a network error still
+can't swallow someone's message.
 
-⚠️ Form submissions will contain some of the most sensitive information anyone
-will ever send you. Turn on two-factor authentication on whichever service you
-choose, and read `SAFETY-AND-LEGAL.md` §6 before the form goes live.
+⚠️ Submissions will contain some of the most sensitive information anyone
+sends you. Turn on two-factor authentication on whichever service you choose,
+and read `SAFETY-AND-LEGAL.md` §6 first. The no-backend hand-off above is
+actually the most private option, since no third party ever holds the message.
 
 ## Adding new sunrise photos
 
