@@ -34,10 +34,38 @@ separate app you open on purpose, rather than crisis mail landing in the same
 inbox as your receipts at 2 a.m. See `SAFETY-AND-LEGAL.md` §7 — your published
 hours only mean something if there's a door you can close.
 
+### Finding the free plan (Zoho hides it)
+
+The plan chooser at `mailadmin.zoho.com/hosting` is the **upgrade** page for an
+organization that already exists. It only shows paid plans, and there is no way
+to reach the free tier from it.
+
+The free plan is now called **Mail Free**. Use a direct signup link — the
+`plan=free` parameter is what does the work:
+
+```
+https://mail.zoho.com/signup?type=org&plan=free
+```
+
+```
+https://workplace.zoho.com/signup?type=org&plan=free
+```
+
+Different Zoho hosts; if one bounces you to pricing, try the other. Zoho's own
+footnote says the free plan is "available only in select data centers", so it
+may simply not be offered in your region.
+
+**If it won't appear, buy Mail Lite: $1/user/month billed annually, $12/year,
+and it includes IMAP** (the free tier does not). Don't lose an hour to a
+signup funnel over $12 while the site points at a mailbox that doesn't exist.
+
+⚠️ Zoho's FAQ: when you upgrade, **every user** is billed at that plan's rate,
+not just the one you're upgrading. Keep it to the single `hello@` user.
+
 ### Steps
 
-1. Sign up at zoho.com/mail, choose the **Forever Free** plan, enter
-   `thehelpingsun.com` as your domain.
+1. Sign up using one of the links above, and enter `thehelpingsun.com` as your
+   domain.
 2. Zoho gives you a **TXT record** to prove you own the domain. In Cloudflare:
    **DNS → Records → Add record**, type TXT, paste what Zoho gives you.
 3. Back in Zoho, verify. Create the mailbox `hello`.
