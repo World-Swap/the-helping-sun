@@ -16,6 +16,7 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | `DEPLOY.md` | Step-by-step Cloudflare setup for thehelpingsun.com |
 | `EMAIL.md` | Setting up hello@thehelpingsun.com, and why SPF/DKIM matter here |
 | `NEWSLETTER.md` | **Golden Hour: the welcome email, issue 01, and the repeatable template** |
+| `CLIENT-AGREEMENT.md` | Plain-English agreement to send before the first call |
 | `SOCIAL-PROFILES.md` | **Bios, About copy, categories and images for Instagram and Facebook** |
 | `SAFETY-AND-LEGAL.md` | **Read this first.** Scope of practice, crisis protocol, insurance, burnout |
 | `tools/prep-photos.py` | Turns new full-res photos into web-ready sizes |
@@ -27,6 +28,8 @@ Search the repo for each:
 - Social handles are live: Instagram `@the_helping_sun`, Facebook `thehelpingsun`
 - ~~`hello@thehelpingsun.com`~~ — done: live, authenticated, 10/10 on mail-tester
 - ~~County crisis line~~ — done: 1-800-952-2335, in the protocol and the site footer
+- `[LLC LEGAL NAME]` — in `site/privacy.html`, `site/terms.html` and
+  `CLIENT-AGREEMENT.md`. Replace with the LLC's registered name
 - `Opening early 2027` / `Santa Cruz County first` — adjust the Circle and
   Helping Hand timing to what's true
 - The story in the "Who's behind this" section is a **draft in your voice**.

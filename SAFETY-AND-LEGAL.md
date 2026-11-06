@@ -144,8 +144,7 @@ else.
 - [ ] "The Helping Sun" DBA filed under it (see `LAUNCH-PLAN.md` §1)
 - [x] Business bank account — in place
 - [ ] Liability + professional insurance active
-- [ ] Terms of service and privacy policy on the site
+- [x] Terms of service and privacy policy written — live at /terms.html and /privacy.html (fill in the LLC name)
 - [ ] Crisis protocol **printed** — number is filled in (1-800-952-2335)
-- [ ] A client agreement that states, in plain English, that this is not
-      therapy, not medical advice, not financial advice, not an emergency service
+- [x] Client agreement written — `CLIENT-AGREEMENT.md` (have a CA attorney read it)
 - [ ] Your own support in place

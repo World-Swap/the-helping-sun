@@ -1,0 +1,80 @@
+/* Shared styling for the privacy policy and terms pages.
+   Same tokens as index.html, simpler treatment: these are documents. */
+:root{
+  --bg:#F1F4F8; --surface:#FFFFFF; --fg:#141A26; --muted:#55627A; --line:#D5DEE9;
+  --deep:#141A26; --deep-fg:#E9EEF5; --deep-muted:#9CAABE; --deep-line:#2B3548;
+  --sun:#F5C774; --sun-deep:#8A5712; --ember:#C4553F;
+  --wash:#FBEFD9; --wash-fg:#4A3410; --wash-line:#EBD8AF;
+  --ff-display:"Newsreader",Georgia,"Times New Roman",serif;
+  --ff-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --ff-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --gut:max(20px, env(safe-area-inset-left, 0px));
+  --gutr:max(20px, env(safe-area-inset-right, 0px));
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0D131D; --surface:#151D2A; --fg:#E9EEF5; --muted:#95A4B8; --line:#263244;
+  --deep:#070B12; --sun-deep:#F5C774; --ember:#EE8672;
+  --wash:#231B0E; --wash-fg:#F3DAA6; --wash-line:#3C2F15;
+  color-scheme: dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0D131D; --surface:#151D2A; --fg:#E9EEF5; --muted:#95A4B8; --line:#263244;
+  --deep:#070B12; --sun-deep:#F5C774; --ember:#EE8672;
+  --wash:#231B0E; --wash-fg:#F3DAA6; --wash-line:#3C2F15;
+  color-scheme: dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--ff-body);
+  font-size:16.5px;line-height:1.68;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--sun-deep)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:2px}
+.wrap{max-width:760px;margin-inline:auto;padding-left:var(--gut);padding-right:var(--gutr)}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:12px;top:12px;z-index:99;background:var(--sun);color:#141A26;padding:10px 16px;border-radius:6px}
+
+.crisis{background:var(--deep);color:var(--deep-fg);font-size:14.5px;line-height:1.5}
+.crisis .wrap{padding-block:11px;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline}
+.crisis b{color:var(--sun);font-weight:600}
+.crisis .note{color:var(--deep-muted);font-size:13px}
+
+.site-head{background:var(--deep);color:var(--deep-fg);border-bottom:1px solid var(--deep-line)}
+.site-head .wrap{display:flex;align-items:center;gap:16px;padding-block:14px}
+.brand{display:flex;align-items:center;gap:11px;font-family:var(--ff-display);font-size:19px;
+  color:var(--deep-fg);text-decoration:none;font-weight:500;white-space:nowrap}
+.brand .mark{width:26px;height:26px;flex:none}
+.back{margin-left:auto;color:var(--deep-muted);text-decoration:none;font-size:15px}
+.back:hover{color:var(--sun)}
+
+main{padding-block:clamp(40px,6vw,72px)}
+h1{font-family:var(--ff-display);font-weight:500;font-size:clamp(32px,5.5vw,46px);
+  line-height:1.08;margin:0 0 10px;letter-spacing:-.015em;text-wrap:balance}
+.updated{font-family:var(--ff-mono);font-size:12.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 30px}
+h2{font-family:var(--ff-display);font-weight:500;font-size:clamp(22px,3.2vw,27px);
+  margin:44px 0 10px;letter-spacing:-.01em;text-wrap:balance}
+h3{font-family:var(--ff-body);font-weight:600;font-size:17px;margin:26px 0 6px}
+p{margin:0 0 15px}
+ul{margin:0 0 15px;padding-left:22px}
+li{margin-bottom:8px}
+strong{font-weight:600}
+code{font-family:var(--ff-mono);font-size:.92em;background:var(--surface);
+  border:1px solid var(--line);border-radius:4px;padding:1px 5px}
+
+.summary{background:var(--wash);color:var(--wash-fg);border:1px solid var(--wash-line);
+  border-radius:14px;padding:24px 26px;margin:0 0 36px}
+.summary h2{margin:0 0 10px;font-size:21px;color:var(--wash-fg)}
+.summary p:last-child,.summary ul:last-child{margin-bottom:0}
+.summary li{margin-bottom:6px}
+
+.flag{border-left:4px solid var(--ember);background:var(--surface);border-radius:0 10px 10px 0;
+  padding:18px 22px;margin:24px 0}
+.flag p:last-child{margin-bottom:0}
+.flag strong{color:var(--ember)}
+
+.foot{background:var(--deep);color:var(--deep-muted);padding-block:38px;font-size:14px;margin-top:60px}
+.foot a{color:var(--deep-fg);text-decoration:none}
+.foot a:hover{color:var(--sun)}
+.foot .row{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between}
