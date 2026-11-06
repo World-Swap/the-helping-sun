@@ -98,55 +98,37 @@ monthly, 30 GB. It's Gmail, which you already know, with full IMAP and no
 **Fastmail** (~$5/month) and **Migadu** (~$19/year) are both good and more
 privacy-minded than Google.
 
-## Current status — verified 6 Nov 2026
+## Status: done — verified 6 Nov 2026
 
-Mailbox live on the Zoho free plan. Sending and receiving both confirmed.
-mail-tester score **9/10**.
+`hello@thehelpingsun.com` is live on the Zoho free plan. Sending and receiving
+both confirmed. **mail-tester score 10/10, fully authenticated.**
 
 | | Record | Value |
 | --- | --- | --- |
 | ✅ | MX | `mx.zoho.com` (10), `mx2.zoho.com` (20), `mx3.zoho.com` (50) |
 | ✅ | SPF | `v=spf1 include:zohomail.com ~all` |
-| ✅ | DKIM key in DNS | selector `zmail`, published |
+| ✅ | DKIM | selector `zmail`, published, verified and signing |
 | ✅ | DMARC | `v=DMARC1; p=none; rua=mailto:hello@thehelpingsun.com` |
-| ⚠️ | DKIM **signing** | key published but Zoho is not signing yet |
 
-### The last point: turn DKIM signing on
+### Two mail-tester warnings that are not problems
 
-Publishing the key and signing with it are two separate steps. The record is in
-DNS; Zoho hasn't been told to use it.
+**"Your message could be improved — 1% text."** An artefact of sending a nearly
+empty test message. Real emails with content in them don't trigger it.
 
-Exact path, per Zoho's own documentation:
+**"No List-Unsubscribe header."** Applies to bulk mail only. Never add one to a
+personal reply. When Golden Hour launches, Beehiiv or Ghost adds the header to
+the newsletter automatically.
 
-1. Sign in at **https://mailadmin.zoho.com**
-2. Left menu → **Domains** → choose **thehelpingsun.com**
-3. **Email Configuration** tab → **DKIM**
-4. Click **Verify** on the row for the `zmail` selector
-5. When asked, choose to **enable DKIM immediately**, and set the selector as
-   **default**
+### Still to do on the account
 
-Step 5 is the one people miss. Verifying alone does not start signing — the
-selector has to be verified *and* enabled *and* default.
+- [ ] Two-factor authentication on the Zoho login
+- [ ] Push notifications off, or limited to your answering hours
 
-On a phone, switch Chrome to **⋮ → Desktop site** first; the console collapses
-its left menu on mobile and Domains becomes hard to reach.
+### In a few weeks
 
-Zoho's own checker is at **https://zohomail.tools** → Run Checks. DNS changes
-can take up to 12–24 hours to propagate depending on TTL, though Cloudflare is
-usually near-instant. Re-test at mail-tester.com afterwards for 10/10.
-
-**Why it's worth the two minutes.** DMARC currently passes on SPF alone, which
-is fine for mail sent straight from you to someone. But **SPF breaks when a
-message is forwarded** and DKIM survives it. People will forward your emails —
-to a partner, a parent, a doctor, a caseworker. Without a DKIM signature those
-forwarded copies can fail authentication and land in spam, at exactly the
-moment someone is trying to bring another person in to help.
-
-### Remaining
-
-- [ ] DKIM signing verified in Zoho (above)
-- [ ] Two-factor authentication on the Zoho account
-- [ ] Push notifications off, or limited to answering hours
+DMARC is at `p=none`, which monitors without blocking. Once a few weeks of
+reports arrive at `hello@` and nothing legitimate is failing, tighten it to
+`p=quarantine` in the same Cloudflare TXT record.
 
 ## Don't skip SPF, DKIM and DMARC
 

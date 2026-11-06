@@ -25,7 +25,7 @@ Search the repo for each:
 
 - `hello@thehelpingsun.com` — set up the real mailbox, or change the address
 - Social handles are live: Instagram `@the_helping_sun`, Facebook `thehelpingsun`
-- `hello@thehelpingsun.com` — the mailbox does not exist yet. See `EMAIL.md`
+- ~~`hello@thehelpingsun.com`~~ — done: live, authenticated, 10/10 on mail-tester
 - ~~County crisis line~~ — done: 1-800-952-2335, in the protocol and the site footer
 - `Opening early 2027` / `Santa Cruz County first` — adjust the Circle and
   Helping Hand timing to what's true
