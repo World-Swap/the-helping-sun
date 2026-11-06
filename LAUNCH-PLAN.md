@@ -4,60 +4,87 @@ Read `SAFETY-AND-LEGAL.md` first. This document assumes it.
 
 ---
 
-## 1. Structure — you already have the entity
+## 1. Structure — check the LLC before you use it
 
-You have an LLC and a business bank account, which skips the whole first stage
-of this plan. Three things still need attention.
+You have **SMG Payments LLC**, a California LLC from a business you started
+and stopped. It has never traded. That is not the clean starting point it
+sounds like, and the first job is finding out what state it's actually in.
 
-### File "The Helping Sun" as a DBA under the LLC
+### Step one, today: look it up. It's free and takes two minutes.
 
-Unless the LLC is already named The Helping Sun, you need a **fictitious
-business name** so you can trade, invoice and take payment under that name.
-In California that's filed with the **county**, not the state: Santa Cruz
-County Clerk, roughly $50–60, plus publication in a local paper for four
-consecutive weeks.
+1. **California Secretary of State** — `bizfileOnline.sos.ca.gov`, search the
+   name. You're looking at **Status**. "Active" is fine. **"Suspended – FTB"**
+   or "FTB Forfeited" is the problem case.
+2. **Franchise Tax Board** — log in at `ftb.ca.gov` (or call) and check the
+   balance on the LLC.
 
-Without it, a client agreement signed "The Helping Sun" is a name that doesn't
-legally exist, and banks will refuse cheques made out to it.
+### Why this matters more than it looks
 
-### Tell your insurer what you're now doing
+California charges **$800 a year in minimum franchise tax for every LLC on the
+Secretary of State's records — trading or not, earning or not.** Dormancy
+changes nothing. It is owed for any year the LLC exists on 1 January, and it
+does not prorate.
 
-This is the one that actually matters. If the LLC carries any policy, it was
-written for whatever the LLC did before. **Peer support and coaching are a
-different risk class and almost certainly aren't covered.**
+So if the LLC has been sitting there unused for a few years, it has very
+likely been quietly accruing $800 a year, plus penalties and interest. On top
+of that the biennial **Statement of Information** (Form LLC-12, $20) carries a
+**$250 penalty** when late.
 
-Call the broker and describe the work in the unprotected language from
-`SAFETY-AND-LEGAL.md` §1 — peer support, accountability, navigation. Never
-"counselling". Then add general liability and professional liability (E&O).
-Expect roughly $40–70/month.
+If unpaid for more than a year past the tax year, the FTB suspends the LLC.
+A suspended LLC **cannot legally do business, cannot enforce its contracts,
+and cannot even be cancelled** until it's revived with Form FTB 3557 and the
+arrears are paid.
 
-An insurer that was never told about the activity can decline the claim, which
-is the worst possible moment to discover the gap.
+**This liability exists whether or not you ever use it for The Helping Sun.**
+It doesn't go away by being ignored, and it grows every January.
 
-### Keep the books separable
+### Then choose
 
-Same LLC and same bank account is fine, but tag every Helping Sun transaction
-so the line of business can be reported — and separated later if you ever spin
-it out or move the charitable side to a nonprofit. A second free checking
-account under the same LLC makes this trivial and costs nothing.
+| | When it fits | What to do |
+| --- | --- | --- |
+| **A. Use it** | Active and current | File a DBA for "The Helping Sun" under the LLC with the Santa Cruz County Clerk (~$50–60 + four weeks' publication). You're paying the $800 anyway, so the entity is effectively free. |
+| **B. Close it, run simple** | Suspended, or you don't want a $800/year bill for a free service | Revive it, cancel it (Form LLC-4/7), and run The Helping Sun as a **sole proprietor with a DBA**. No franchise tax at all. Perfectly adequate while everything is free. |
+| **C. Close it, open clean** | You want the liability shield and a name that fits | Cancel SMG Payments, form **The Helping Sun LLC**. New $800/year, but no DBA needed and the name matches. |
 
-### Still true from before
+**My read: B, unless the LLC is already clean and current.** You're pre-revenue
+and everything you offer is free. $800 a year for a liability shield around a
+service that takes no money is a bad trade, and insurance is what actually
+protects you here. Revisit the LLC when money starts coming in.
 
-⚠️ **Do not solicit public donations as a for-profit LLC.** Taking money "for
-the fund" without charitable registration creates real problems in California.
-Either stay services-only, or use a fiscal sponsor — a community foundation
-hosts you under their 501(c)(3) for ~5–10%, which lets you accept
-tax-deductible donations without forming anything.
+If it turns out to be Active and paid up, A is the obvious answer — don't
+throw away something you've already paid for.
 
-If the Helping Hand fund ever becomes the main event, that's the moment to
-revisit a 501(c)(3). Not before.
+### A note on the name
+
+"SMG Payments" reads as a financial services company. You'll be talking to
+people about debt and hardship, and a payments-branded entity behind that is
+at best confusing and at worst looks like something it isn't. A DBA solves it
+on paper, but it's one more reason not to force this entity into the role.
+
+### Talk to whoever did the LLC
+
+If an accountant or filing service set it up, ask them to pull the status and
+tell you the exact arrears before you decide. An hour of a CPA's time here is
+cheap next to a surprise multi-year franchise tax bill.
+
+### Until it's settled
+
+The privacy policy, terms and client agreement name **Ian Sun** as the
+operator, which is accurate today — the LLC has never traded and no DBA links
+it to The Helping Sun. Add the entity line to all three once you've chosen and
+filed. Don't name a suspended LLC as the operator of a live service.
+
+⚠️ **Still true:** don't solicit public donations without charitable
+registration or a fiscal sponsor.
 
 ## 2. The first 90 days
 
 ### Days 1–14 — Foundation (nothing public)
 
-- [x] LLC and business bank account — already in place
-- [ ] "The Helping Sun" DBA filed with Santa Cruz County Clerk
+- [ ] **Check SMG Payments LLC status** at bizfileOnline.sos.ca.gov and the FTB balance
+- [ ] Decide: use it, close it, or replace it (§1)
+- [x] Business bank account — in place
+- [ ] "The Helping Sun" DBA filed with Santa Cruz County Clerk (after the above)
 - [ ] Insurer told about the change of activity
 - [x] `hello@thehelpingsun.com` — live on Zoho, 10/10 authenticated
 - [x] Site deployed to `thehelpingsun.com` — live, auto-deploys on push

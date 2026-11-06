@@ -141,7 +141,7 @@ else.
 
 ## 8. Before you accept a single dollar
 
-- [x] Business entity registered — LLC in place
+- [ ] Entity settled — SMG Payments LLC status checked and a route chosen (`LAUNCH-PLAN.md` §1)
 - [ ] "The Helping Sun" DBA filed under it (see `LAUNCH-PLAN.md` §1)
 - [x] Business bank account — in place
 - [ ] Liability + professional insurance active

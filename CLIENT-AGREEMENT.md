@@ -5,7 +5,7 @@
 > boundaries in `SAFETY-AND-LEGAL.md`, but it has not been reviewed by a
 > lawyer. An hour of someone's time is cheap next to the alternative.
 >
-> Replace `SMG Payments LLC` throughout. Send it before the first First Light
+> Decide the entity line first — see `LAUNCH-PLAN.md` §1. Send it before the first First Light
 > call, not after. Free tools like Documenso or Dropbox Sign will collect a
 > signature; an emailed "I agree" reply is also a record.
 
@@ -13,8 +13,8 @@
 
 ## Working Together — The Helping Sun
 
-**Between:** Ian Sun, trading as The Helping Sun, a DBA of SMG Payments LLC,
-Santa Cruz County, California
+**Between:** Ian Sun, trading as The Helping Sun, Santa Cruz County, California
+*(add "a DBA of [entity]" once the DBA is filed — see `LAUNCH-PLAN.md` §1)*
 **And:** ______________________________ ("you")
 **Date:** ____________________
 
