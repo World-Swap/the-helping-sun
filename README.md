@@ -15,6 +15,7 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | `POSTS.md` | **The launch post and 30 days of content, written and ready to post** |
 | `DEPLOY.md` | Step-by-step Cloudflare setup for thehelpingsun.com |
 | `EMAIL.md` | Setting up hello@thehelpingsun.com, and why SPF/DKIM matter here |
+| `NEWSLETTER.md` | **Golden Hour: the welcome email, issue 01, and the repeatable template** |
 | `SOCIAL-PROFILES.md` | **Bios, About copy, categories and images for Instagram and Facebook** |
 | `SAFETY-AND-LEGAL.md` | **Read this first.** Scope of practice, crisis protocol, insurance, burnout |
 | `tools/prep-photos.py` | Turns new full-res photos into web-ready sizes |

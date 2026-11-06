@@ -4,29 +4,61 @@ Read `SAFETY-AND-LEGAL.md` first. This document assumes it.
 
 ---
 
-## 1. Structure: start cheap, stay flexible
+## 1. Structure — you already have the entity
 
-The instinct is to form a nonprofit immediately. Don't — not yet.
+You have an LLC and a business bank account, which skips the whole first stage
+of this plan. Three things still need attention.
 
-| Option | Reality |
-| --- | --- |
-| **Sole proprietor + DBA** | ~$40–60 for a fictitious business name in Santa Cruz County plus newspaper publication. No franchise tax. **Start here.** |
-| **California LLC** | $70 to file, but **$800/year minimum franchise tax** regardless of revenue. Worth it once you're earning or taking on liability-heavy work — not on day one. |
-| **501(c)(3) nonprofit** | IRS Form 1023-EZ ($275), three board members, CA Attorney General charity registration, annual 990s. Unlocks tax-deductible donations and grants. A real option *later*. |
-| **Fiscal sponsorship** | A community foundation hosts you under their 501(c)(3) for ~5–10% of funds. Lets you take deductible donations **without** forming anything. Best path if the Helping Hand fund becomes central. |
+### File "The Helping Sun" as a DBA under the LLC
 
-**Recommendation:** DBA now → LLC when you take your first paying client →
-revisit nonprofit or fiscal sponsorship only if the fund becomes the main event.
+Unless the LLC is already named The Helping Sun, you need a **fictitious
+business name** so you can trade, invoice and take payment under that name.
+In California that's filed with the **county**, not the state: Santa Cruz
+County Clerk, roughly $50–60, plus publication in a local paper for four
+consecutive weeks.
 
-⚠️ **Do not solicit public donations in year one** as a for-profit. Taking
-money "for the fund" without charitable registration creates real problems in
-California. Either stay services-only, or get a fiscal sponsor first.
+Without it, a client agreement signed "The Helping Sun" is a name that doesn't
+legally exist, and banks will refuse cheques made out to it.
+
+### Tell your insurer what you're now doing
+
+This is the one that actually matters. If the LLC carries any policy, it was
+written for whatever the LLC did before. **Peer support and coaching are a
+different risk class and almost certainly aren't covered.**
+
+Call the broker and describe the work in the unprotected language from
+`SAFETY-AND-LEGAL.md` §1 — peer support, accountability, navigation. Never
+"counselling". Then add general liability and professional liability (E&O).
+Expect roughly $40–70/month.
+
+An insurer that was never told about the activity can decline the claim, which
+is the worst possible moment to discover the gap.
+
+### Keep the books separable
+
+Same LLC and same bank account is fine, but tag every Helping Sun transaction
+so the line of business can be reported — and separated later if you ever spin
+it out or move the charitable side to a nonprofit. A second free checking
+account under the same LLC makes this trivial and costs nothing.
+
+### Still true from before
+
+⚠️ **Do not solicit public donations as a for-profit LLC.** Taking money "for
+the fund" without charitable registration creates real problems in California.
+Either stay services-only, or use a fiscal sponsor — a community foundation
+hosts you under their 501(c)(3) for ~5–10%, which lets you accept
+tax-deductible donations without forming anything.
+
+If the Helping Hand fund ever becomes the main event, that's the moment to
+revisit a 501(c)(3). Not before.
 
 ## 2. The first 90 days
 
 ### Days 1–14 — Foundation (nothing public)
 
-- [ ] DBA filed; business bank account opened
+- [x] LLC and business bank account — already in place
+- [ ] "The Helping Sun" DBA filed with Santa Cruz County Clerk
+- [ ] Insurer told about the change of activity
 - [ ] `hello@thehelpingsun.com` set up (Google Workspace or Fastmail)
 - [ ] Site deployed to `thehelpingsun.com` (see `README.md`)
 - [ ] Crisis protocol printed, county crisis number filled in
