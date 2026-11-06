@@ -100,17 +100,39 @@ privacy-minded than Google.
 
 ## Current status — verified 6 Nov 2026
 
-Mailbox is live on the Zoho free plan and receiving. DNS checked against public
-resolvers:
+Mailbox live on the Zoho free plan. Sending and receiving both confirmed.
+mail-tester score **9/10**.
 
 | | Record | Value |
 | --- | --- | --- |
 | ✅ | MX | `mx.zoho.com` (10), `mx2.zoho.com` (20), `mx3.zoho.com` (50) |
 | ✅ | SPF | `v=spf1 include:zohomail.com ~all` |
-| ✅ | DKIM | selector `zmail`, RSA key published |
-| ❌ | DMARC | **not set — see below** |
+| ✅ | DKIM key in DNS | selector `zmail`, published |
+| ✅ | DMARC | `v=DMARC1; p=none; rua=mailto:hello@thehelpingsun.com` |
+| ⚠️ | DKIM **signing** | key published but Zoho is not signing yet |
 
-Remaining: add the DMARC record, confirm sending works, turn on 2FA.
+### The last point: turn DKIM signing on
+
+Publishing the key and signing with it are two separate steps. The record is in
+DNS; Zoho hasn't been told to use it.
+
+**Zoho Mail Admin Console → Domains → thehelpingsun.com → Email Configuration
+→ DKIM.** Find the `zmail` selector and click **Verify**. Zoho checks the
+record already in your DNS, marks it Verified, and starts signing outbound
+mail. Re-test afterwards for 10/10.
+
+**Why it's worth the two minutes.** DMARC currently passes on SPF alone, which
+is fine for mail sent straight from you to someone. But **SPF breaks when a
+message is forwarded** and DKIM survives it. People will forward your emails —
+to a partner, a parent, a doctor, a caseworker. Without a DKIM signature those
+forwarded copies can fail authentication and land in spam, at exactly the
+moment someone is trying to bring another person in to help.
+
+### Remaining
+
+- [ ] DKIM signing verified in Zoho (above)
+- [ ] Two-factor authentication on the Zoho account
+- [ ] Push notifications off, or limited to answering hours
 
 ## Don't skip SPF, DKIM and DMARC
 
