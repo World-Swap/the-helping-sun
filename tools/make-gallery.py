@@ -20,7 +20,7 @@ PICKS = [
 ("20260512_201845.jpg","mauve","Mauve","12 May 2026, 8:18 pm","Main Beach, Santa Cruz"),
 ("20260919_192400.jpg","ember-band","Ember Band","19 September 2026, 7:24 pm","Main Beach, Santa Cruz"),
 ("20260926_193109.jpg","after-the-light","After the Light Went","26 September 2026, 7:31 pm","Santa Cruz"),
-("20260712_210904.jpg","reflected","Boardwalk, Reflected","12 July 2026, 9:09 pm","San Lorenzo Rivermouth"),
+("20260920_191704.jpg","last-light","The Last Light","20 September 2026, 7:17 pm","Santa Cruz County"),
 ("20260722_200159.jpg","into-the-lagoon","Into the Lagoon","22 July 2026, 8:01 pm","San Lorenzo Rivermouth"),
 ("20260628_203623.jpg","lavender","Lavender at the Reeds","28 June 2026, 8:36 pm","San Lorenzo Rivermouth"),
 ("20260705_211058.jpg","late","Late","5 July 2026, 9:10 pm","Main Beach, Santa Cruz"),
