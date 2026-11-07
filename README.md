@@ -9,6 +9,7 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | --- | --- |
 | `site/` | The website. Static HTML — no build step, no dependencies. |
 | `site/img/` | Web-optimised photographs (Ian's own, from the Drive folder) |
+| `site/gallery/` | The 24 print-gallery images, two sizes each, plus a manifest |
 | `BRAND.md` | Palette, type, voice, naming, the Sunrise Log concept |
 | `LAUNCH-PLAN.md` | Entity structure, 90-day plan, how this makes money |
 | `CONTENT.md` | Social strategy, the five pillars, platform choice |
@@ -18,6 +19,7 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | `NEWSLETTER.md` | **Golden Hour: the welcome email, issue 01, and the repeatable template** |
 | `CLIENT-AGREEMENT.md` | Plain-English agreement to send before the first call |
 | `YOUR-SUPPORT.md` | **Your own support and your co-pilot — what they are and how to set them up** |
+| `PRINTS.md` | The print gallery: pricing, fulfilment, seller's permit, and the framing rule |
 | `SOCIAL-PROFILES.md` | **Bios, About copy, categories and images for Instagram and Facebook** |
 | `SAFETY-AND-LEGAL.md` | **Read this first.** Scope of practice, crisis protocol, insurance, burnout |
 | `tools/prep-photos.py` | Turns new full-res photos into web-ready sizes |

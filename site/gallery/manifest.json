@@ -1,0 +1,218 @@
+[
+ {
+  "slug": "first-light",
+  "title": "First Light",
+  "when": "4 November 2026, 6:43 am",
+  "place": "Walton Lighthouse, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "caught-fire",
+  "title": "The Morning It Caught Fire",
+  "when": "21 October 2026, 7:15 am",
+  "place": "Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "mackerel-sky",
+  "title": "Mackerel Sky",
+  "when": "5 October 2026, 6:48 am",
+  "place": "West Cliff, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "before-anyone",
+  "title": "Before Anyone Else",
+  "when": "2 November 2026, 6:43 am",
+  "place": "Main Beach, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "crimson",
+  "title": "Crimson Rivermouth",
+  "when": "12 July 2026, 8:40 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "night-after",
+  "title": "The Night After",
+  "when": "13 July 2026, 8:40 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "giant-dipper",
+  "title": "Behind the Giant Dipper",
+  "when": "24 May 2026, 7:53 pm",
+  "place": "Beach Boardwalk, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "the-wheel",
+  "title": "The Wheel",
+  "when": "29 May 2026, 8:34 pm",
+  "place": "Beach Boardwalk, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "gold-on-water",
+  "title": "Gold on the Water",
+  "when": "20 June 2026, 8:48 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "first-star",
+  "title": "First Star",
+  "when": "20 June 2026, 9:02 pm",
+  "place": "Main Beach, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "mauve",
+  "title": "Mauve",
+  "when": "12 May 2026, 8:18 pm",
+  "place": "Main Beach, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "ember-band",
+  "title": "Ember Band",
+  "when": "19 September 2026, 7:24 pm",
+  "place": "Main Beach, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "after-the-light",
+  "title": "After the Light Went",
+  "when": "26 September 2026, 7:31 pm",
+  "place": "Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "reflected",
+  "title": "Boardwalk, Reflected",
+  "when": "12 July 2026, 9:09 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "into-the-lagoon",
+  "title": "Into the Lagoon",
+  "when": "22 July 2026, 8:01 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "lavender",
+  "title": "Lavender at the Reeds",
+  "when": "28 June 2026, 8:36 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "late",
+  "title": "Late",
+  "when": "5 July 2026, 9:10 pm",
+  "place": "Main Beach, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "the-dunes",
+  "title": "The Dunes",
+  "when": "20 June 2026, 8:41 pm",
+  "place": "Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "west-cliff",
+  "title": "West Cliff, Midday",
+  "when": "21 June 2026, 2:17 pm",
+  "place": "West Cliff Drive, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "tetrapods",
+  "title": "The Tetrapods",
+  "when": "6 July 2026, 8:24 pm",
+  "place": "Santa Cruz Harbour",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "cliffside",
+  "title": "Cliffside",
+  "when": "6 October 2026, 6:37 pm",
+  "place": "West Cliff, Santa Cruz",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "sun-through",
+  "title": "Sun Through",
+  "when": "25 October 2026, 4:18 pm",
+  "place": "Seabright Beach, Santa Cruz",
+  "w": 570,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "afternoon-jetty",
+  "title": "Afternoon, Jetty",
+  "when": "1 November 2026, 2:15 pm",
+  "place": "Santa Cruz Harbour",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "the-redwoods",
+  "title": "The Redwoods",
+  "when": "4 May 2026, 9:53 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ }
+]
