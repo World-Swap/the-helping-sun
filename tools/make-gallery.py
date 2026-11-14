@@ -1,56 +1,107 @@
-"""Build gallery images + manifest from photos/original."""
-import os, json
+"""Build gallery images + manifest from photos/original.
+
+Titles: the 24 selected works keep their given names. Everything else is
+labelled documentary-style by time of day and date, which comes from the
+file's own timestamp — no invented place names. Edit TITLES to name any of
+them, and REJECT to drop one.
+"""
+import os, json, re, datetime
 from PIL import Image, ImageOps, ImageEnhance
 
 SRC="photos/original"; OUT="site/gallery"
 os.makedirs(OUT, exist_ok=True)
 
-# file, slug, title, when, place
-PICKS = [
-("20261104_064349.jpg","first-light","First Light","4 November 2026, 6:43 am","Walton Lighthouse, Santa Cruz"),
-("20261021_071526.jpg","caught-fire","The Morning It Caught Fire","21 October 2026, 7:15 am","Santa Cruz"),
-("20261005_064839.jpg","mackerel-sky","Mackerel Sky","5 October 2026, 6:48 am","West Cliff, Santa Cruz"),
-("20261102_064330.jpg","before-anyone","Before Anyone Else","2 November 2026, 6:43 am","Main Beach, Santa Cruz"),
-("20260712_204036.jpg","crimson","Crimson Rivermouth","12 July 2026, 8:40 pm","San Lorenzo Rivermouth"),
-("20260713_204007.jpg","night-after","The Night After","13 July 2026, 8:40 pm","San Lorenzo Rivermouth"),
-("20260524_195347.jpg","giant-dipper","Behind the Giant Dipper","24 May 2026, 7:53 pm","Beach Boardwalk, Santa Cruz"),
-("20260529_203449.jpg","the-wheel","The Wheel","29 May 2026, 8:34 pm","Beach Boardwalk, Santa Cruz"),
-("20260620_204807.jpg","gold-on-water","Gold on the Water","20 June 2026, 8:48 pm","San Lorenzo Rivermouth"),
-("20260620_210208.jpg","first-star","First Star","20 June 2026, 9:02 pm","Main Beach, Santa Cruz"),
-("20260512_201845.jpg","mauve","Mauve","12 May 2026, 8:18 pm","Main Beach, Santa Cruz"),
-("20260919_192400.jpg","ember-band","Ember Band","19 September 2026, 7:24 pm","Main Beach, Santa Cruz"),
-("20260926_193109.jpg","after-the-light","After the Light Went","26 September 2026, 7:31 pm","Santa Cruz"),
-("20260920_191704.jpg","last-light","The Last Light","20 September 2026, 7:17 pm","Santa Cruz County"),
-("20260722_200159.jpg","into-the-lagoon","Into the Lagoon","22 July 2026, 8:01 pm","San Lorenzo Rivermouth"),
-("20260628_203623.jpg","lavender","Lavender at the Reeds","28 June 2026, 8:36 pm","San Lorenzo Rivermouth"),
-("20260705_211058.jpg","late","Late","5 July 2026, 9:10 pm","Main Beach, Santa Cruz"),
-("20260620_204117.jpg","the-dunes","The Dunes","20 June 2026, 8:41 pm","Santa Cruz"),
-("20260621_141734.jpg","west-cliff","West Cliff, Midday","21 June 2026, 2:17 pm","West Cliff Drive, Santa Cruz"),
-("20260706_202420.jpg","tetrapods","The Tetrapods","6 July 2026, 8:24 pm","Santa Cruz Harbour"),
-("20261006_183721.jpg","cliffside","Cliffside","6 October 2026, 6:37 pm","West Cliff, Santa Cruz"),
-("20261025_161822_6709c948.jpg","sun-through","Sun Through","25 October 2026, 4:18 pm","Seabright Beach, Santa Cruz"),
-("20261101_141550.jpg","afternoon-jetty","Afternoon, Jetty","1 November 2026, 2:15 pm","Santa Cruz Harbour"),
-("20260504_095320.jpg","the-redwoods","The Redwoods","4 May 2026, 9:53 am","Santa Cruz County"),
-]
+# Not in the gallery, and why.
+REJECT = {
+ "20251225_115121.jpg": "the pug - wonderful, not a landscape print",
+ "20260627_123834.jpg": "personal",
+ "20251222_171317.jpg": "flat overcast",
+ "20251225_172350.jpg": "flat, muddy",
+ "20251226_105513.jpg": "awkward framing",
+ "20260101_171805.jpg": "flat overcast",
+ "20260102_162108.jpg": "flat overcast",
+ "20260522_114159.jpg": "nothing happening",
+ "20260617_200603.jpg": "flat overcast",
+ "20260617_201628.jpg": "flat overcast",
+ "20260512_204109.jpg": "underexposed",
+ "20260106_064751.jpg": "underexposed",
+}
+
+# Named works. Everything else gets a documentary label.
+TITLES = {
+ "20261104_064349.jpg": ("First Light", "Walton Lighthouse, Santa Cruz"),
+ "20261021_071526.jpg": ("The Morning It Caught Fire", "Santa Cruz"),
+ "20261005_064839.jpg": ("Mackerel Sky", "West Cliff, Santa Cruz"),
+ "20261102_064330.jpg": ("Before Anyone Else", "Main Beach, Santa Cruz"),
+ "20260712_204036.jpg": ("Crimson Rivermouth", "San Lorenzo Rivermouth"),
+ "20260713_204007.jpg": ("The Night After", "San Lorenzo Rivermouth"),
+ "20260524_195347.jpg": ("Behind the Giant Dipper", "Beach Boardwalk, Santa Cruz"),
+ "20260529_203449.jpg": ("The Wheel", "Beach Boardwalk, Santa Cruz"),
+ "20260620_204807.jpg": ("Gold on the Water", "San Lorenzo Rivermouth"),
+ "20260620_210208.jpg": ("First Star", "Main Beach, Santa Cruz"),
+ "20260512_201845.jpg": ("Mauve", "Main Beach, Santa Cruz"),
+ "20260919_192400.jpg": ("Ember Band", "Main Beach, Santa Cruz"),
+ "20260926_193109.jpg": ("After the Light Went", "Santa Cruz"),
+ "20260920_191704.jpg": ("The Last Light", "Santa Cruz County"),
+ "20260722_200159.jpg": ("Into the Lagoon", "San Lorenzo Rivermouth"),
+ "20260628_203623.jpg": ("Lavender at the Reeds", "San Lorenzo Rivermouth"),
+ "20260705_211058.jpg": ("Late", "Main Beach, Santa Cruz"),
+ "20260620_204117.jpg": ("The Dunes", "Santa Cruz"),
+ "20260621_141734.jpg": ("West Cliff, Midday", "West Cliff Drive, Santa Cruz"),
+ "20260706_202420.jpg": ("The Tetrapods", "Santa Cruz Harbour"),
+ "20261006_183721.jpg": ("Cliffside", "West Cliff, Santa Cruz"),
+ "20261025_161822_6709c948.jpg": ("Sun Through", "Seabright Beach, Santa Cruz"),
+ "20261101_141550.jpg": ("Afternoon, Jetty", "Santa Cruz Harbour"),
+ "20260504_095320.jpg": ("The Redwoods", "Santa Cruz County"),
+ "20251226_133752.jpg": ("Fly Agaric", "Santa Cruz County"),
+ "20251229_172403.jpg": ("December Wharf", "Santa Cruz"),
+ "20251228_142219.jpg": ("The Green Bluff", "Santa Cruz"),
+ "20251225_114326.jpg": ("Christmas Surf", "Santa Cruz"),
+}
+
+def label(hhmm):
+    h = hhmm.hour + hhmm.minute/60
+    if   h < 5:    return "Night"
+    elif h < 8.5:  return "Sunrise"
+    elif h < 11:   return "Morning"
+    elif h < 15:   return "Midday"
+    elif h < 17:   return "Afternoon"
+    elif h < 19.5: return "Sunset"
+    elif h < 21:   return "Dusk"
+    return "Night"
 
 def fit(im, longest):
     w, h = im.size
     s = longest / max(w, h)
-    if s >= 1: return im.copy()
-    return im.resize((round(w*s), round(h*s)), Image.LANCZOS)
+    return im.copy() if s >= 1 else im.resize((round(w*s), round(h*s)), Image.LANCZOS)
 
 man = []
-for fn, slug, title, when, place in PICKS:
-    p = os.path.join(SRC, fn)
-    if not os.path.exists(p):
-        print("MISSING", fn); continue
-    im = ImageOps.exif_transpose(Image.open(p)).convert("RGB")   # honour EXIF rotation
+for fn in sorted(os.listdir(SRC)):
+    if not fn.endswith(".jpg") or fn in REJECT: continue
+    m = re.match(r"(\d{8}_\d{6})", fn)
+    if not m: continue
+    dt = datetime.datetime.strptime(m.group(1), "%Y%m%d_%H%M%S")
+    slug = m.group(1)
+    title, place = TITLES.get(fn, (label(dt), "Santa Cruz County"))
+    when = dt.strftime("%-d %B %Y, %-I:%M %p").replace("AM","am").replace("PM","pm")
+    im = ImageOps.exif_transpose(Image.open(os.path.join(SRC, fn))).convert("RGB")
     im = ImageEnhance.Color(im).enhance(1.05)
-    big = fit(im, 1600);  big.save(f"{OUT}/{slug}.jpg", "JPEG", quality=76, optimize=True, progressive=True)
-    th  = fit(im, 760);   th.save(f"{OUT}/{slug}-t.jpg", "JPEG", quality=74, optimize=True, progressive=True)
+    fit(im, 1600).save(f"{OUT}/{slug}.jpg",   "JPEG", quality=76, optimize=True, progressive=True)
+    th = fit(im, 760); th.save(f"{OUT}/{slug}-t.jpg", "JPEG", quality=74, optimize=True, progressive=True)
     man.append({"slug":slug,"title":title,"when":when,"place":place,
                 "w":th.size[0],"h":th.size[1],
-                "orient":"portrait" if th.size[1] > th.size[0] else "landscape"})
+                "orient":"portrait" if th.size[1]>th.size[0] else "landscape",
+                "named": fn in TITLES})
+
+# LEAD sets the first twelve, which are also the homepage featured strip.
+LEAD = ["20261104_064349","20260712_204036","20261021_071526","20260529_203449",
+        "20251229_172403","20260524_195347","20251226_133752","20260620_210208",
+        "20260713_204007","20251228_142219","20260919_192400","20260926_193109"]
+by = {m["slug"]: m for m in man}
+lead  = [by[s] for s in LEAD if s in by]
+rest_named = sorted([m for m in man if m["named"] and m["slug"] not in LEAD], key=lambda m: m["slug"], reverse=True)
+docs       = sorted([m for m in man if not m["named"]], key=lambda m: m["slug"], reverse=True)
+man = lead + rest_named + docs
+for m in man: m.pop("named")
 json.dump(man, open(f"{OUT}/manifest.json","w"), indent=1)
-print(f"{len(man)} images")
-for m in man[:3]: print(" ", m["slug"], m["w"], "x", m["h"], m["orient"])
+print(f"{len(man)} images ({len(lead)} leading, {len(rest_named)} other named, {len(docs)} documentary)")

@@ -1,6 +1,6 @@
 [
  {
-  "slug": "first-light",
+  "slug": "20261104_064349",
   "title": "First Light",
   "when": "4 November 2026, 6:43 am",
   "place": "Walton Lighthouse, Santa Cruz",
@@ -9,34 +9,7 @@
   "orient": "landscape"
  },
  {
-  "slug": "caught-fire",
-  "title": "The Morning It Caught Fire",
-  "when": "21 October 2026, 7:15 am",
-  "place": "Santa Cruz",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "mackerel-sky",
-  "title": "Mackerel Sky",
-  "when": "5 October 2026, 6:48 am",
-  "place": "West Cliff, Santa Cruz",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "before-anyone",
-  "title": "Before Anyone Else",
-  "when": "2 November 2026, 6:43 am",
-  "place": "Main Beach, Santa Cruz",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "crimson",
+  "slug": "20260712_204036",
   "title": "Crimson Rivermouth",
   "when": "12 July 2026, 8:40 pm",
   "place": "San Lorenzo Rivermouth",
@@ -45,25 +18,16 @@
   "orient": "landscape"
  },
  {
-  "slug": "night-after",
-  "title": "The Night After",
-  "when": "13 July 2026, 8:40 pm",
-  "place": "San Lorenzo Rivermouth",
+  "slug": "20261021_071526",
+  "title": "The Morning It Caught Fire",
+  "when": "21 October 2026, 7:15 am",
+  "place": "Santa Cruz",
   "w": 760,
   "h": 428,
   "orient": "landscape"
  },
  {
-  "slug": "giant-dipper",
-  "title": "Behind the Giant Dipper",
-  "when": "24 May 2026, 7:53 pm",
-  "place": "Beach Boardwalk, Santa Cruz",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "the-wheel",
+  "slug": "20260529_203449",
   "title": "The Wheel",
   "when": "29 May 2026, 8:34 pm",
   "place": "Beach Boardwalk, Santa Cruz",
@@ -72,16 +36,34 @@
   "orient": "landscape"
  },
  {
-  "slug": "gold-on-water",
-  "title": "Gold on the Water",
-  "when": "20 June 2026, 8:48 pm",
-  "place": "San Lorenzo Rivermouth",
+  "slug": "20251229_172403",
+  "title": "December Wharf",
+  "when": "29 December 2025, 5:24 pm",
+  "place": "Santa Cruz",
   "w": 760,
   "h": 428,
   "orient": "landscape"
  },
  {
-  "slug": "first-star",
+  "slug": "20260524_195347",
+  "title": "Behind the Giant Dipper",
+  "when": "24 May 2026, 7:53 pm",
+  "place": "Beach Boardwalk, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20251226_133752",
+  "title": "Fly Agaric",
+  "when": "26 December 2025, 1:37 pm",
+  "place": "Santa Cruz County",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20260620_210208",
   "title": "First Star",
   "when": "20 June 2026, 9:02 pm",
   "place": "Main Beach, Santa Cruz",
@@ -90,16 +72,25 @@
   "orient": "landscape"
  },
  {
-  "slug": "mauve",
-  "title": "Mauve",
-  "when": "12 May 2026, 8:18 pm",
-  "place": "Main Beach, Santa Cruz",
+  "slug": "20260713_204007",
+  "title": "The Night After",
+  "when": "13 July 2026, 8:40 pm",
+  "place": "San Lorenzo Rivermouth",
   "w": 760,
   "h": 428,
   "orient": "landscape"
  },
  {
-  "slug": "ember-band",
+  "slug": "20251228_142219",
+  "title": "The Green Bluff",
+  "when": "28 December 2025, 2:22 pm",
+  "place": "Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260919_192400",
   "title": "Ember Band",
   "when": "19 September 2026, 7:24 pm",
   "place": "Main Beach, Santa Cruz",
@@ -108,7 +99,7 @@
   "orient": "landscape"
  },
  {
-  "slug": "after-the-light",
+  "slug": "20260926_193109",
   "title": "After the Light Went",
   "when": "26 September 2026, 7:31 pm",
   "place": "Santa Cruz",
@@ -117,88 +108,16 @@
   "orient": "landscape"
  },
  {
-  "slug": "last-light",
-  "title": "The Last Light",
-  "when": "20 September 2026, 7:17 pm",
-  "place": "Santa Cruz County",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "into-the-lagoon",
-  "title": "Into the Lagoon",
-  "when": "22 July 2026, 8:01 pm",
-  "place": "San Lorenzo Rivermouth",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "lavender",
-  "title": "Lavender at the Reeds",
-  "when": "28 June 2026, 8:36 pm",
-  "place": "San Lorenzo Rivermouth",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "late",
-  "title": "Late",
-  "when": "5 July 2026, 9:10 pm",
+  "slug": "20261102_064330",
+  "title": "Before Anyone Else",
+  "when": "2 November 2026, 6:43 am",
   "place": "Main Beach, Santa Cruz",
   "w": 760,
   "h": 428,
   "orient": "landscape"
  },
  {
-  "slug": "the-dunes",
-  "title": "The Dunes",
-  "when": "20 June 2026, 8:41 pm",
-  "place": "Santa Cruz",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "west-cliff",
-  "title": "West Cliff, Midday",
-  "when": "21 June 2026, 2:17 pm",
-  "place": "West Cliff Drive, Santa Cruz",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "tetrapods",
-  "title": "The Tetrapods",
-  "when": "6 July 2026, 8:24 pm",
-  "place": "Santa Cruz Harbour",
-  "w": 760,
-  "h": 428,
-  "orient": "landscape"
- },
- {
-  "slug": "cliffside",
-  "title": "Cliffside",
-  "when": "6 October 2026, 6:37 pm",
-  "place": "West Cliff, Santa Cruz",
-  "w": 428,
-  "h": 760,
-  "orient": "portrait"
- },
- {
-  "slug": "sun-through",
-  "title": "Sun Through",
-  "when": "25 October 2026, 4:18 pm",
-  "place": "Seabright Beach, Santa Cruz",
-  "w": 570,
-  "h": 760,
-  "orient": "portrait"
- },
- {
-  "slug": "afternoon-jetty",
+  "slug": "20261101_141550",
   "title": "Afternoon, Jetty",
   "when": "1 November 2026, 2:15 pm",
   "place": "Santa Cruz Harbour",
@@ -207,9 +126,693 @@
   "orient": "landscape"
  },
  {
-  "slug": "the-redwoods",
+  "slug": "20261025_161822",
+  "title": "Sun Through",
+  "when": "25 October 2026, 4:18 pm",
+  "place": "Seabright Beach, Santa Cruz",
+  "w": 570,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20261006_183721",
+  "title": "Cliffside",
+  "when": "6 October 2026, 6:37 pm",
+  "place": "West Cliff, Santa Cruz",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20261005_064839",
+  "title": "Mackerel Sky",
+  "when": "5 October 2026, 6:48 am",
+  "place": "West Cliff, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260920_191704",
+  "title": "The Last Light",
+  "when": "20 September 2026, 7:17 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260722_200159",
+  "title": "Into the Lagoon",
+  "when": "22 July 2026, 8:01 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260706_202420",
+  "title": "The Tetrapods",
+  "when": "6 July 2026, 8:24 pm",
+  "place": "Santa Cruz Harbour",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260705_211058",
+  "title": "Late",
+  "when": "5 July 2026, 9:10 pm",
+  "place": "Main Beach, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260628_203623",
+  "title": "Lavender at the Reeds",
+  "when": "28 June 2026, 8:36 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260621_141734",
+  "title": "West Cliff, Midday",
+  "when": "21 June 2026, 2:17 pm",
+  "place": "West Cliff Drive, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260620_204807",
+  "title": "Gold on the Water",
+  "when": "20 June 2026, 8:48 pm",
+  "place": "San Lorenzo Rivermouth",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260620_204117",
+  "title": "The Dunes",
+  "when": "20 June 2026, 8:41 pm",
+  "place": "Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260512_201845",
+  "title": "Mauve",
+  "when": "12 May 2026, 8:18 pm",
+  "place": "Main Beach, Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260504_095320",
   "title": "The Redwoods",
   "when": "4 May 2026, 9:53 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20251225_114326",
+  "title": "Christmas Surf",
+  "when": "25 December 2025, 11:43 am",
+  "place": "Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261111_172617",
+  "title": "Sunset",
+  "when": "11 November 2026, 5:26 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261111_172259",
+  "title": "Sunset",
+  "when": "11 November 2026, 5:22 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261111_101851",
+  "title": "Morning",
+  "when": "11 November 2026, 10:18 am",
+  "place": "Santa Cruz County",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20261111_095244",
+  "title": "Morning",
+  "when": "11 November 2026, 9:52 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261111_094826",
+  "title": "Morning",
+  "when": "11 November 2026, 9:48 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261110_065853",
+  "title": "Sunrise",
+  "when": "10 November 2026, 6:58 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261107_172540",
+  "title": "Sunset",
+  "when": "7 November 2026, 5:25 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261107_172107",
+  "title": "Sunset",
+  "when": "7 November 2026, 5:21 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261107_171319",
+  "title": "Sunset",
+  "when": "7 November 2026, 5:13 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261106_165834",
+  "title": "Afternoon",
+  "when": "6 November 2026, 4:58 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261106_165348",
+  "title": "Afternoon",
+  "when": "6 November 2026, 4:53 pm",
+  "place": "Santa Cruz County",
+  "w": 570,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20261106_163911",
+  "title": "Afternoon",
+  "when": "6 November 2026, 4:39 pm",
+  "place": "Santa Cruz County",
+  "w": 570,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20261106_061825",
+  "title": "Sunrise",
+  "when": "6 November 2026, 6:18 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261106_060844",
+  "title": "Sunrise",
+  "when": "6 November 2026, 6:08 am",
+  "place": "Santa Cruz County",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20261105_172505",
+  "title": "Sunset",
+  "when": "5 November 2026, 5:25 pm",
+  "place": "Santa Cruz County",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20261105_172000",
+  "title": "Sunset",
+  "when": "5 November 2026, 5:20 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261105_170710",
+  "title": "Sunset",
+  "when": "5 November 2026, 5:07 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261105_170119",
+  "title": "Sunset",
+  "when": "5 November 2026, 5:01 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261105_165331",
+  "title": "Afternoon",
+  "when": "5 November 2026, 4:53 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261105_165010",
+  "title": "Afternoon",
+  "when": "5 November 2026, 4:50 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261105_164456",
+  "title": "Afternoon",
+  "when": "5 November 2026, 4:44 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261105_164132",
+  "title": "Afternoon",
+  "when": "5 November 2026, 4:41 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261105_163253",
+  "title": "Afternoon",
+  "when": "5 November 2026, 4:32 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261105_162048",
+  "title": "Afternoon",
+  "when": "5 November 2026, 4:20 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261103_064355",
+  "title": "Sunrise",
+  "when": "3 November 2026, 6:43 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261101_094731",
+  "title": "Morning",
+  "when": "1 November 2026, 9:47 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261031_165235",
+  "title": "Afternoon",
+  "when": "31 October 2026, 4:52 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261024_151324",
+  "title": "Afternoon",
+  "when": "24 October 2026, 3:13 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261024_150456",
+  "title": "Afternoon",
+  "when": "24 October 2026, 3:04 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261024_145350",
+  "title": "Midday",
+  "when": "24 October 2026, 2:53 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261017_143450",
+  "title": "Midday",
+  "when": "17 October 2026, 2:34 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261010_070855",
+  "title": "Sunrise",
+  "when": "10 October 2026, 7:08 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20261006_182132",
+  "title": "Sunset",
+  "when": "6 October 2026, 6:21 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260920_184735",
+  "title": "Sunset",
+  "when": "20 September 2026, 6:47 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260722_201552",
+  "title": "Dusk",
+  "when": "22 July 2026, 8:15 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260721_184104",
+  "title": "Sunset",
+  "when": "21 July 2026, 6:41 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260712_210904",
+  "title": "Night",
+  "when": "12 July 2026, 9:09 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260706_161420",
+  "title": "Afternoon",
+  "when": "6 July 2026, 4:14 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260705_211710",
+  "title": "Night",
+  "when": "5 July 2026, 9:17 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260622_211835",
+  "title": "Night",
+  "when": "22 June 2026, 9:18 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260622_210450",
+  "title": "Night",
+  "when": "22 June 2026, 9:04 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260529_203628",
+  "title": "Dusk",
+  "when": "29 May 2026, 8:36 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260527_201836",
+  "title": "Dusk",
+  "when": "27 May 2026, 8:18 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260524_202225",
+  "title": "Dusk",
+  "when": "24 May 2026, 8:22 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260512_201110",
+  "title": "Dusk",
+  "when": "12 May 2026, 8:11 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260113_172848",
+  "title": "Sunset",
+  "when": "13 January 2026, 5:28 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260113_171318",
+  "title": "Sunset",
+  "when": "13 January 2026, 5:13 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260113_170855",
+  "title": "Sunset",
+  "when": "13 January 2026, 5:08 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260112_064500",
+  "title": "Sunrise",
+  "when": "12 January 2026, 6:45 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260110_173804",
+  "title": "Sunset",
+  "when": "10 January 2026, 5:38 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260110_173138",
+  "title": "Sunset",
+  "when": "10 January 2026, 5:31 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260110_153241",
+  "title": "Afternoon",
+  "when": "10 January 2026, 3:32 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260110_152139",
+  "title": "Afternoon",
+  "when": "10 January 2026, 3:21 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260110_150106",
+  "title": "Afternoon",
+  "when": "10 January 2026, 3:01 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260110_143911",
+  "title": "Midday",
+  "when": "10 January 2026, 2:39 pm",
+  "place": "Santa Cruz County",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait"
+ },
+ {
+  "slug": "20260108_064955",
+  "title": "Sunrise",
+  "when": "8 January 2026, 6:49 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260106_072339",
+  "title": "Sunrise",
+  "when": "6 January 2026, 7:23 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260105_065127",
+  "title": "Sunrise",
+  "when": "5 January 2026, 6:51 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260102_164618",
+  "title": "Afternoon",
+  "when": "2 January 2026, 4:46 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260102_162445",
+  "title": "Afternoon",
+  "when": "2 January 2026, 4:24 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20251229_173443",
+  "title": "Sunset",
+  "when": "29 December 2025, 5:34 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20251228_141001",
+  "title": "Midday",
+  "when": "28 December 2025, 2:10 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20251223_064857",
+  "title": "Sunrise",
+  "when": "23 December 2025, 6:48 am",
   "place": "Santa Cruz County",
   "w": 760,
   "h": 428,

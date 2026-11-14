@@ -26,3 +26,24 @@ if n != 1:
     raise SystemExit("could not locate the grid block in " + PAGE)
 open(PAGE, "w").write(new)
 print(f"rebuilt {PAGE} with {len(man)} photographs")
+
+# --- homepage featured grid: the first 12 of the manifest (the named works)
+HOME = "site/index.html"
+feat = man[:12]
+home_figs = "\n".join(
+f'''        <figure class="shot" data-slug="{m['slug']}" data-title="{m['title']}" data-when="{m['when']}" data-place="{m['place']}">
+          <button type="button" class="shot-btn" aria-label="Enlarge {m['title']}">
+            <img src="gallery/{m['slug']}-t.jpg" alt="{m['title']} — {m['place']}" loading="lazy" width="{m['w']}" height="{m['h']}">
+          </button>
+          <figcaption><span class="t">{m['title']}</span><span class="w">{m['when']}</span></figcaption>
+        </figure>''' for m in feat)
+
+h = open(HOME).read()
+new_h, n2 = re.subn(r'(<div class="home-grid">\n).*?(\n    </div>)',
+                    lambda _: _.group(1) + home_figs + _.group(2),
+                    h, count=1, flags=re.S)
+if n2 != 1:
+    raise SystemExit("could not locate the home-grid block in " + HOME)
+new_h = re.sub(r'See all \d+ photographs', f'See all {len(man)} photographs', new_h)
+open(HOME, "w").write(new_h)
+print(f"rebuilt {HOME} featured grid ({len(feat)} of {len(man)})")
