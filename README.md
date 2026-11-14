@@ -8,6 +8,8 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | File | What it's for |
 | --- | --- |
 | `site/` | The website. Static HTML — no build step, no dependencies. |
+| `site/index.html` | Home — gallery and prints first, then the story and the support |
+| `site/prints.html` | The Archive — all 24 photographs |
 | `site/img/` | Web-optimised photographs (Ian's own, from the Drive folder) |
 | `site/gallery/` | The 24 print-gallery images, two sizes each, plus a manifest |
 | `BRAND.md` | Palette, type, voice, naming, the Sunrise Log concept |

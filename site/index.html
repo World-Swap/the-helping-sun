@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="claude:viewport-fit-sides" content="cover">
 <title>The Helping Sun</title>
-<meta name="description" content="Peer support for people carrying hard things — mental health, physical health, money. Santa Cruz, California. You don't have to ask well. You just have to ask.">
+<meta name="description" content="Sunrise photographs from Santa Cruz County by Ian Sun. Every print sold pays for The Helping Sun — free peer support for people carrying hard things.">
 <meta property="og:title" content="The Helping Sun">
-<meta property="og:description" content="You don't have to ask well. You just have to ask.">
+<meta property="og:description" content="I shoot the sunrise on the mornings that are hardest to get up for. Every print sold keeps the help free.">
 <meta property="og:image" content="https://thehelpingsun.com/img/sunrise-lighthouse-1400.jpg">
 <meta property="og:url" content="https://thehelpingsun.com">
 <meta property="og:type" content="website">
@@ -17,7 +17,7 @@
 <meta property="og:image:alt" content="Sunrise over Monterey Bay with Walton Lighthouse on the jetty">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Helping Sun">
-<meta name="twitter:description" content="You don't have to ask well. You just have to ask.">
+<meta name="twitter:description" content="I shoot the sunrise on the mornings that are hardest to get up for. Every print sold keeps the help free.">
 <meta name="twitter:image" content="https://thehelpingsun.com/img/sunrise-lighthouse-1400.jpg">
 <meta name="theme-color" content="#141A26">
 <link rel="icon" href="img/logo-mark.svg" type="image/svg+xml">
@@ -245,6 +245,43 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
 .foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
 .foot .fine{border-top:1px solid var(--deep-line);margin-top:38px;padding-top:22px;font-size:13px;
   line-height:1.6;display:flex;flex-wrap:wrap;gap:12px 26px;justify-content:space-between}
+
+/* ---- photography-first homepage ---- */
+.hero-eyebrow{font-family:var(--ff-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.76);margin:0 0 16px;text-shadow:0 1px 12px rgba(6,10,16,.7)}
+.home-grid{columns:3 270px;column-gap:16px;margin-top:38px}
+.shot{break-inside:avoid;margin:0 0 16px;display:block}
+.shot-btn{display:block;padding:0;border:0;background:none;cursor:zoom-in;width:100%;
+  border-radius:11px;overflow:hidden;line-height:0}
+.shot-btn img{width:100%;height:auto;border-radius:11px;background:var(--surface-2);
+  transition:transform .35s ease, filter .35s ease}
+.shot-btn:hover img{transform:scale(1.025);filter:brightness(1.05)}
+.shot figcaption{display:flex;flex-wrap:wrap;gap:3px 12px;align-items:baseline;padding:9px 2px 0}
+.shot .t{font-family:var(--ff-display);font-size:17px}
+.shot .w{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.05em;color:var(--muted);text-transform:uppercase}
+.btn--line{background:transparent;color:var(--sun-deep);border:1px solid var(--line)}
+.btn--line:hover{border-color:var(--sun-deep);box-shadow:none}
+.prices{width:100%;border-collapse:collapse;margin:26px 0 10px;font-size:16px;color:var(--deep-fg)}
+.prices th,.prices td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--deep-line)}
+.prices th{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--deep-muted);font-weight:500}
+.prices td:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;
+  font-family:var(--ff-mono);color:var(--sun)}
+dialog.lb{border:0;padding:0;background:#070B12;max-width:100vw;max-height:100vh;width:100%;height:100%}
+dialog.lb::backdrop{background:#070B12}
+.lb-inner{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:16px;padding:max(18px,env(safe-area-inset-top,0px)) 18px max(18px,env(safe-area-inset-bottom,0px))}
+.lb-inner img{max-width:100%;max-height:78vh;width:auto;height:auto;border-radius:8px;object-fit:contain}
+.lb-cap{color:#EDF1F6;text-align:center;font-family:var(--ff-display);font-size:19px}
+.lb-cap span{display:block;font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.07em;
+  text-transform:uppercase;color:rgba(255,255,255,.6);margin-top:5px}
+.lb-close{position:fixed;top:max(14px,env(safe-area-inset-top,0px));right:16px;background:rgba(255,255,255,.1);
+  color:#fff;border:0;border-radius:999px;width:42px;height:42px;font-size:22px;cursor:pointer;line-height:1}
+.lb-nav{position:fixed;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.1);color:#fff;
+  border:0;border-radius:999px;width:46px;height:46px;font-size:22px;cursor:pointer;line-height:1}
+.lb-prev{left:12px} .lb-next{right:12px}
+.lb-close:hover,.lb-nav:hover{background:rgba(245,199,116,.3)}
+@media (max-width:700px){ .lb-nav{display:none} }
 </style>
 </head>
 <body>
@@ -268,11 +305,10 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
       The Helping Sun
     </a>
     <nav class="nav">
-      <a href="#story">Who I am</a>
-      <a href="#areas">What's hard</a>
-      <a href="#help">How this works</a>
-      <a href="#log">Sunrise log</a>
-      <a href="/prints">Prints</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#prints">Prints</a>
+      <a href="#story">Why</a>
+      <a href="#areas">Get help</a>
     </nav>
     <a class="btn" href="#ask">Reach out</a>
   </div>
@@ -285,17 +321,145 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
     <img src="img/sunrise-lighthouse-2400.jpg" alt="Sunrise over Monterey Bay with Walton Lighthouse silhouetted on the jetty" fetchpriority="high" width="4000" height="2252">
   </picture>
   <div class="wrap">
-    <h1>You don't have to ask <em>well</em>.</h1>
-    <p class="sub">You just have to ask. Support for people carrying hard things — your head, your body, your money — from someone who has carried all three.</p>
+    <p class="hero-eyebrow">Photographs by Ian Sun · Santa Cruz, California</p>
+    <h1>Photographs that <em>pay for the help</em>.</h1>
+    <p class="sub">I shoot the sunrise on the mornings that are hardest to get up for. Every print sold keeps The Helping Sun free for somebody who can't afford to ask.</p>
     <div class="cta">
-      <a class="btn" href="#ask">Ask for help</a>
-      <a class="btn btn--ghost" href="#ask">Ask for someone else</a>
+      <a class="btn" href="#gallery">See the photographs</a>
+      <a class="btn btn--ghost" href="#prints">Sizes &amp; prices</a>
     </div>
-    <p class="credit">Santa Cruz, California · 6:43 am, November 4</p>
+    <p class="credit">First Light · 6:43 am, 4 November 2026</p>
   </div>
 </section>
 
 <main id="main">
+
+<section class="band" id="gallery">
+  <div class="wrap">
+    <p class="eyebrow">The work</p>
+    <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:20ch">Every one of these is a morning I got out of bed.</h2>
+    <p class="lede" style="margin-top:16px">I started photographing sunrises on the mornings that were hardest to start. The photograph was never the point — getting outside once and pressing a button was. These are what came back. All of them Santa Cruz County, all of them mine.</p>
+    <div class="home-grid">
+        <figure class="shot" data-slug="first-light" data-title="First Light" data-when="4 November 2026, 6:43 am" data-place="Walton Lighthouse, Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge First Light">
+            <img src="gallery/first-light-t.jpg" alt="First Light — Walton Lighthouse, Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">First Light</span><span class="w">4 November 2026, 6:43 am</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="caught-fire" data-title="The Morning It Caught Fire" data-when="21 October 2026, 7:15 am" data-place="Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge The Morning It Caught Fire">
+            <img src="gallery/caught-fire-t.jpg" alt="The Morning It Caught Fire — Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">The Morning It Caught Fire</span><span class="w">21 October 2026, 7:15 am</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="mackerel-sky" data-title="Mackerel Sky" data-when="5 October 2026, 6:48 am" data-place="West Cliff, Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge Mackerel Sky">
+            <img src="gallery/mackerel-sky-t.jpg" alt="Mackerel Sky — West Cliff, Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">Mackerel Sky</span><span class="w">5 October 2026, 6:48 am</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="before-anyone" data-title="Before Anyone Else" data-when="2 November 2026, 6:43 am" data-place="Main Beach, Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge Before Anyone Else">
+            <img src="gallery/before-anyone-t.jpg" alt="Before Anyone Else — Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">Before Anyone Else</span><span class="w">2 November 2026, 6:43 am</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="crimson" data-title="Crimson Rivermouth" data-when="12 July 2026, 8:40 pm" data-place="San Lorenzo Rivermouth">
+          <button type="button" class="shot-btn" aria-label="Enlarge Crimson Rivermouth">
+            <img src="gallery/crimson-t.jpg" alt="Crimson Rivermouth — San Lorenzo Rivermouth" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">Crimson Rivermouth</span><span class="w">12 July 2026, 8:40 pm</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="night-after" data-title="The Night After" data-when="13 July 2026, 8:40 pm" data-place="San Lorenzo Rivermouth">
+          <button type="button" class="shot-btn" aria-label="Enlarge The Night After">
+            <img src="gallery/night-after-t.jpg" alt="The Night After — San Lorenzo Rivermouth" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">The Night After</span><span class="w">13 July 2026, 8:40 pm</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="giant-dipper" data-title="Behind the Giant Dipper" data-when="24 May 2026, 7:53 pm" data-place="Beach Boardwalk, Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge Behind the Giant Dipper">
+            <img src="gallery/giant-dipper-t.jpg" alt="Behind the Giant Dipper — Beach Boardwalk, Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">Behind the Giant Dipper</span><span class="w">24 May 2026, 7:53 pm</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="the-wheel" data-title="The Wheel" data-when="29 May 2026, 8:34 pm" data-place="Beach Boardwalk, Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge The Wheel">
+            <img src="gallery/the-wheel-t.jpg" alt="The Wheel — Beach Boardwalk, Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">The Wheel</span><span class="w">29 May 2026, 8:34 pm</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="gold-on-water" data-title="Gold on the Water" data-when="20 June 2026, 8:48 pm" data-place="San Lorenzo Rivermouth">
+          <button type="button" class="shot-btn" aria-label="Enlarge Gold on the Water">
+            <img src="gallery/gold-on-water-t.jpg" alt="Gold on the Water — San Lorenzo Rivermouth" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">Gold on the Water</span><span class="w">20 June 2026, 8:48 pm</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="first-star" data-title="First Star" data-when="20 June 2026, 9:02 pm" data-place="Main Beach, Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge First Star">
+            <img src="gallery/first-star-t.jpg" alt="First Star — Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">First Star</span><span class="w">20 June 2026, 9:02 pm</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="mauve" data-title="Mauve" data-when="12 May 2026, 8:18 pm" data-place="Main Beach, Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge Mauve">
+            <img src="gallery/mauve-t.jpg" alt="Mauve — Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">Mauve</span><span class="w">12 May 2026, 8:18 pm</span></figcaption>
+        </figure>
+        <figure class="shot" data-slug="ember-band" data-title="Ember Band" data-when="19 September 2026, 7:24 pm" data-place="Main Beach, Santa Cruz">
+          <button type="button" class="shot-btn" aria-label="Enlarge Ember Band">
+            <img src="gallery/ember-band-t.jpg" alt="Ember Band — Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
+          </button>
+          <figcaption><span class="t">Ember Band</span><span class="w">19 September 2026, 7:24 pm</span></figcaption>
+        </figure>
+    </div>
+    <p style="margin-top:26px"><a class="btn btn--line" href="/prints">See all 24 photographs →</a></p>
+  </div>
+</section>
+
+<section class="band band--deep" id="prints">
+  <div class="wrap">
+    <p class="eyebrow">Prints</p>
+    <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:22ch">Buy a photograph. Keep somebody's call free.</h2>
+    <p class="lede" style="margin-top:16px">You're not donating to a charity. You're buying a print, and the margin pays for the running costs of help I give away — so nobody has to weigh up whether they can afford to ask.</p>
+
+    <table class="prices">
+      <tr><th>Size</th><th>Material</th><th></th></tr>
+      <tr><td>8 × 12″</td><td>Archival lustre</td><td>$45</td></tr>
+      <tr><td>12 × 18″</td><td>Archival lustre</td><td>$85</td></tr>
+      <tr><td>16 × 24″</td><td>Archival lustre</td><td>$140</td></tr>
+      <tr><td>16 × 24″</td><td>Metal, ready to hang</td><td>$225</td></tr>
+      <tr><td>24 × 36″</td><td>Metal, ready to hang</td><td>$340</td></tr>
+    </table>
+    <p style="color:var(--deep-muted);font-size:15px">US shipping included. Signed on the back with the date and the place it was taken. No frame, so you choose your own.</p>
+
+    <div class="grid g3" style="margin-top:34px">
+      <article class="card">
+        <p class="kicker">What it pays for</p>
+        <h3>The running costs</h3>
+        <p>Insurance, the phone line, petrol for driving somebody to an appointment, and a small fund for the practical things that actually shift someone's week.</p>
+      </article>
+      <article class="card">
+        <p class="kicker">Where it's printed</p>
+        <h3>Fifteen minutes away</h3>
+        <p>Bay Photo Lab in Scotts Valley, about fifteen minutes from where most of these were taken. Printed in the same county as the sunrise, shipped straight to you.</p>
+      </article>
+      <article class="card">
+        <p class="kicker">How to order</p>
+        <h3>Send me an email</h3>
+        <p>No shopping cart — it's one person. Email the title and the size you want and I'll send a payment link. About two weeks, door to door.</p>
+      </article>
+    </div>
+
+    <p style="margin-top:30px"><a class="btn" href="mailto:hello@thehelpingsun.com?subject=Print%20enquiry">hello@thehelpingsun.com</a></p>
+  </div>
+</section>
+
+<div class="break">
+  <img src="img/crimson-rivermouth-1600.jpg" alt="Crimson clouds over the Boardwalk mirrored in the San Lorenzo rivermouth" loading="lazy" width="1600" height="901">
+  <div class="quote"><div><blockquote>Nobody should have to be articulate to get help.</blockquote></div></div>
+</div>
+
 
 <section class="band" id="story">
   <div class="wrap">
@@ -311,57 +475,6 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
         <img src="img/ferris-wheel-800.jpg" alt="The Boardwalk ferris wheel in silhouette against a peach-colored dusk" loading="lazy" width="800" height="450">
         <figcaption>Santa Cruz Beach Boardwalk · May 29, 8:34 pm</figcaption>
       </figure>
-    </div>
-  </div>
-</section>
-
-<div class="break">
-  <img src="img/crimson-rivermouth-1600.jpg" alt="Crimson clouds over the Boardwalk mirrored in the San Lorenzo rivermouth" loading="lazy" width="1600" height="901">
-  <div class="quote"><div><blockquote>Nobody should have to be articulate to get help.</blockquote></div></div>
-</div>
-
-<section class="band band--deep" id="areas">
-  <div class="wrap">
-    <p class="eyebrow">What we talk about</p>
-    <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:18ch">The three things people are most ashamed to bring up.</h2>
-    <p class="lede" style="margin-top:16px">None of these are character flaws. All of them are easier with a second person in the room. Here's where I'd start — real first steps, not affirmations.</p>
-
-    <div class="grid g3">
-      <article class="card">
-        <p class="kicker">Mental health</p>
-        <h3>The 3 a.m. ones</h3>
-        <p>Depression, anxiety, the isolation that builds its own walls, the thoughts you haven't said to anyone.</p>
-        <ul class="steps">
-          <li>Get <b>10–20 minutes of outdoor light before noon.</b> It is not a cure. It measurably helps, and it's free.</li>
-          <li>Tell <b>one person one true sentence.</b> Not the whole thing. One sentence.</li>
-          <li>Ask a doctor for a <b>PHQ-9</b>. It's nine questions, takes two minutes, and gives you language.</li>
-          <li>With insurance, the phrase is <span class="say">I need a behavioral health referral.</span></li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <p class="kicker">Physical health</p>
-        <h3>The body keeps the receipts</h3>
-        <p>The appointment you've rescheduled twice. The pain you've decided to live with. The sleep that stopped working.</p>
-        <ul class="steps">
-          <li><b>One fixed wake-up time, seven days.</b> Sleep repair starts at the morning end, not the night end.</li>
-          <li>A <b>ten-minute walk</b>, not a gym membership you'll quit in March.</li>
-          <li>No insurance? Community health centers charge on a sliding scale — <b>findahealthcenter.hrsa.gov</b>.</li>
-          <li>Booking it is the hard part. Try <span class="say">I've been putting this off and I need help getting started.</span></li>
-        </ul>
-      </article>
-
-      <article class="card">
-        <p class="kicker">Financial health</p>
-        <h3>The unopened mail pile</h3>
-        <p>Debt, overdrafts, the envelopes you stopped opening. Money shame is the quietest and the heaviest of the three.</p>
-        <ul class="steps">
-          <li><b>Open all of it in one sitting</b>, with someone on the phone. The pile is almost always smaller than the dread.</li>
-          <li>The word that unlocks things is <b>hardship</b>. Nearly every lender has a program and won't mention it first.</li>
-          <li>Call <b>211</b> for rent, utilities, and food assistance in your county. Free, 24/7.</li>
-          <li>Free credit counseling exists through <b>NFCC-accredited nonprofits</b>. Never pay a "debt settlement" company up front.</li>
-        </ul>
-      </article>
     </div>
   </div>
 </section>
@@ -416,44 +529,49 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
   <div class="quote"><div><blockquote>The sun comes up whether you asked it to or not.</blockquote></div></div>
 </div>
 
-<section class="band band--deep" id="log">
+
+<section class="band band--deep" id="areas">
   <div class="wrap">
-    <p class="eyebrow">The sunrise log</p>
-    <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:22ch">Every one of these is a morning I got out of bed.</h2>
-    <p class="lede" style="margin-top:16px">I started photographing sunrises on the mornings that were hardest to start. The photo isn't the point — the proof is. On a bad day, the whole job is getting outside once and pressing a button. These are all mine, all Santa Cruz.</p>
-    <div class="log">
-      <ul>
-        <li>
-          <img src="img/sunrise-lighthouse-800.jpg" alt="Sunrise over Monterey Bay with Walton Lighthouse on the jetty" loading="lazy" width="800" height="450">
-          <p class="when">Nov 4, 2026 · 6:43 am</p>
-          <p class="cap">Walton Lighthouse. Third morning in a row — that part mattered more than the photo.</p>
-        </li>
-        <li>
-          <img src="img/fire-morning-800.jpg" alt="A morning sky burning pink and orange above the park" loading="lazy" width="800" height="450">
-          <p class="when">Oct 21, 2026 · 7:15 am</p>
-          <p class="cap">Ten minutes from my door. I almost didn't go.</p>
-        </li>
-        <li>
-          <img src="img/sun-into-lagoon-800.jpg" alt="The sun going down into the lagoon at the rivermouth" loading="lazy" width="800" height="450">
-          <p class="when">Jul 22, 2026 · 8:01 pm</p>
-          <p class="cap">The rivermouth. Some days the sunset is the one you make it to.</p>
-        </li>
-        <li>
-          <img src="img/golden-coaster-800.jpg" alt="The sun dropping behind the Giant Dipper roller coaster" loading="lazy" width="800" height="450">
-          <p class="when">May 24, 2026 · 7:53 pm</p>
-          <p class="cap">Behind the Giant Dipper. You can hear it from the beach.</p>
-        </li>
-        <li>
-          <img src="img/lavender-dusk-800.jpg" alt="Lavender dusk over the reeds at the rivermouth" loading="lazy" width="800" height="450">
-          <p class="when">Jun 28, 2026 · 8:36 pm</p>
-          <p class="cap">Not every sky is dramatic. This one was just quiet, which also counts.</p>
-        </li>
-        <li>
-          <img src="img/night-lights-800.jpg" alt="Boardwalk lights on the water after dark" loading="lazy" width="800" height="450">
-          <p class="when">Sep 26, 2026 · 7:31 pm</p>
-          <p class="cap">After the light went. Still worth standing there.</p>
-        </li>
-      </ul>
+    <p class="eyebrow">What we talk about</p>
+    <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:18ch">The three things people are most ashamed to bring up.</h2>
+    <p class="lede" style="margin-top:16px">None of these are character flaws. All of them are easier with a second person in the room. Here's where I'd start — real first steps, not affirmations.</p>
+
+    <div class="grid g3">
+      <article class="card">
+        <p class="kicker">Mental health</p>
+        <h3>The 3 a.m. ones</h3>
+        <p>Depression, anxiety, the isolation that builds its own walls, the thoughts you haven't said to anyone.</p>
+        <ul class="steps">
+          <li>Get <b>10–20 minutes of outdoor light before noon.</b> It is not a cure. It measurably helps, and it's free.</li>
+          <li>Tell <b>one person one true sentence.</b> Not the whole thing. One sentence.</li>
+          <li>Ask a doctor for a <b>PHQ-9</b>. It's nine questions, takes two minutes, and gives you language.</li>
+          <li>With insurance, the phrase is <span class="say">I need a behavioral health referral.</span></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <p class="kicker">Physical health</p>
+        <h3>The body keeps the receipts</h3>
+        <p>The appointment you've rescheduled twice. The pain you've decided to live with. The sleep that stopped working.</p>
+        <ul class="steps">
+          <li><b>One fixed wake-up time, seven days.</b> Sleep repair starts at the morning end, not the night end.</li>
+          <li>A <b>ten-minute walk</b>, not a gym membership you'll quit in March.</li>
+          <li>No insurance? Community health centers charge on a sliding scale — <b>findahealthcenter.hrsa.gov</b>.</li>
+          <li>Booking it is the hard part. Try <span class="say">I've been putting this off and I need help getting started.</span></li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <p class="kicker">Financial health</p>
+        <h3>The unopened mail pile</h3>
+        <p>Debt, overdrafts, the envelopes you stopped opening. Money shame is the quietest and the heaviest of the three.</p>
+        <ul class="steps">
+          <li><b>Open all of it in one sitting</b>, with someone on the phone. The pile is almost always smaller than the dread.</li>
+          <li>The word that unlocks things is <b>hardship</b>. Nearly every lender has a program and won't mention it first.</li>
+          <li>Call <b>211</b> for rent, utilities, and food assistance in your county. Free, 24/7.</li>
+          <li>Free credit counseling exists through <b>NFCC-accredited nonprofits</b>. Never pay a "debt settlement" company up front.</li>
+        </ul>
+      </article>
     </div>
   </div>
 </section>
@@ -585,6 +703,47 @@ textarea{min-height:128px;resize:vertical;line-height:1.55}
     </div>
   </div>
 </footer>
+
+<dialog class="lb" id="lb" aria-label="Enlarged photograph">
+  <div class="lb-inner">
+    <img id="lb-img" src="" alt="">
+    <p class="lb-cap" id="lb-cap"></p>
+  </div>
+  <button class="lb-close" id="lb-close" aria-label="Close">×</button>
+  <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous photograph">‹</button>
+  <button class="lb-nav lb-next" id="lb-next" aria-label="Next photograph">›</button>
+</dialog>
+
+<script>
+(function(){
+  var shots = [].slice.call(document.querySelectorAll('.shot'));
+  var lb = document.getElementById('lb');
+  if (!lb || !lb.showModal || !shots.length) return;
+  var img = document.getElementById('lb-img');
+  var cap = document.getElementById('lb-cap');
+  var i = 0;
+  function show(n){
+    i = (n + shots.length) % shots.length;
+    var s = shots[i];
+    img.src = 'gallery/' + s.dataset.slug + '.jpg';
+    img.alt = s.dataset.title + ' \u2014 ' + s.dataset.place;
+    cap.innerHTML = s.dataset.title + '<span>' + s.dataset.when + ' \u00b7 ' + s.dataset.place + '</span>';
+  }
+  shots.forEach(function(s, n){
+    s.querySelector('.shot-btn').addEventListener('click', function(){
+      show(n); if (!lb.open) lb.showModal();
+    });
+  });
+  document.getElementById('lb-close').addEventListener('click', function(){ lb.close(); });
+  document.getElementById('lb-prev').addEventListener('click', function(){ show(i-1); });
+  document.getElementById('lb-next').addEventListener('click', function(){ show(i+1); });
+  lb.addEventListener('click', function(e){ if (e.target === lb) lb.close(); });
+  lb.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight') { e.preventDefault(); show(i+1); }
+    if (e.key === 'ArrowLeft')  { e.preventDefault(); show(i-1); }
+  });
+})();
+</script>
 
 <script>
 (function(){

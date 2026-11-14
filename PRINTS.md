@@ -1,7 +1,16 @@
 # Prints
 
-Live at **thehelpingsun.com/prints** — 24 photographs, lightbox, pricing, and
-the story of what the money does.
+**The homepage leads with the photography now.** The gallery and the sales
+floor come first; the support story is the *why* underneath it.
+
+| Page | What's on it |
+| --- | --- |
+| **thehelpingsun.com** | Hero, 12 featured photographs, **sizes and prices**, what the money pays for, then the story and the support |
+| **thehelpingsun.com/prints** | The Archive — all 24 photographs with a lightbox, linking back to the homepage for pricing |
+
+**Prices live in one place only: the `#prints` section of `site/index.html`.**
+The archive page links to it rather than repeating it, so the two can't drift
+apart.
 
 The model in one line: **people buy a photograph, and the margin keeps the
 support free.**
@@ -116,8 +125,14 @@ the page:
 python3 -c "import runpy; runpy.run_path('tools/make-gallery.py')"
 ```
 
-and regenerate `site/prints.html` from the manifest the same way it was built.
-Originals live in Google Drive; only the web sizes are tracked here.
+```bash
+python3 tools/build-prints-page.py
+```
+
+That rebuilds the archive page from the manifest. The 12 featured photographs
+on the homepage are the first 12 in the manifest — reorder `PICKS` to change
+which ones lead. Originals live in Google Drive; only the web sizes are tracked
+here.
 
 ## One caution
 
