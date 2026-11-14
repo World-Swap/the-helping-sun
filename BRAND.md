@@ -5,6 +5,13 @@
 **The sun comes up whether you asked it to or not.** Help that shows up
 without needing to be requested well.
 
+## Ian
+
+Born in Hawaii, raised in Santa Cruz, California. A lifelong eye for framing
+and for beauty — which is where the photographs come from, and why the
+business is a photography business that funds peer support rather than the
+other way round.
+
 ## Name
 
 **The Helping Sun** — Ian Sun's own name, which means the brand can never be
