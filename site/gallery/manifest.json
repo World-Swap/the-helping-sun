@@ -243,6 +243,15 @@
   "orient": "landscape"
  },
  {
+  "slug": "20251225_115121",
+  "title": "Full Speed",
+  "when": "25 December 2025, 11:51 am",
+  "place": "Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
   "slug": "20251225_114326",
   "title": "Christmas Surf",
   "when": "25 December 2025, 11:43 am",
@@ -648,6 +657,24 @@
   "orient": "landscape"
  },
  {
+  "slug": "20260522_114159",
+  "title": "Midday",
+  "when": "22 May 2026, 11:41 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260512_204109",
+  "title": "Dusk",
+  "when": "12 May 2026, 8:41 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
   "slug": "20260512_201110",
   "title": "Dusk",
   "when": "12 May 2026, 8:11 pm",
@@ -765,6 +792,15 @@
   "orient": "landscape"
  },
  {
+  "slug": "20260106_064751",
+  "title": "Sunrise",
+  "when": "6 January 2026, 6:47 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
   "slug": "20260105_065127",
   "title": "Sunrise",
   "when": "5 January 2026, 6:51 am",
@@ -786,6 +822,15 @@
   "slug": "20260102_162445",
   "title": "Afternoon",
   "when": "2 January 2026, 4:24 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape"
+ },
+ {
+  "slug": "20260101_171805",
+  "title": "Sunset",
+  "when": "1 January 2026, 5:18 pm",
   "place": "Santa Cruz County",
   "w": 760,
   "h": 428,

@@ -13,18 +13,16 @@ os.makedirs(OUT, exist_ok=True)
 
 # Not in the gallery, and why.
 REJECT = {
- "20251225_115121.jpg": "the pug - wonderful, not a landscape print",
- "20260627_123834.jpg": "personal",
- "20251222_171317.jpg": "flat overcast",
- "20251225_172350.jpg": "flat, muddy",
- "20251226_105513.jpg": "awkward framing",
- "20260101_171805.jpg": "flat overcast",
+ # Not photographs, or nothing in the frame. The gallery is the whole body of
+ # work now, not only sunrises, so the bar is "is it a good picture" rather
+ # than "is it a sunset".
+ "20260627_123834.jpg": "a snapshot, not a photograph",
+ "20251222_171317.jpg": "flat grey, nothing happening",
+ "20251225_172350.jpg": "muddy, no subject",
+ "20251226_105513.jpg": "confused framing - the Fly Agaric is the better mushroom",
  "20260102_162108.jpg": "flat overcast",
- "20260522_114159.jpg": "nothing happening",
  "20260617_200603.jpg": "flat overcast",
- "20260617_201628.jpg": "flat overcast",
- "20260512_204109.jpg": "underexposed",
- "20260106_064751.jpg": "underexposed",
+ "20260617_201628.jpg": "same scene, same problem",
 }
 
 # Named works. Everything else gets a documentary label.
@@ -57,6 +55,7 @@ TITLES = {
  "20251229_172403.jpg": ("December Wharf", "Santa Cruz"),
  "20251228_142219.jpg": ("The Green Bluff", "Santa Cruz"),
  "20251225_114326.jpg": ("Christmas Surf", "Santa Cruz"),
+ "20251225_115121.jpg": ("Full Speed", "Santa Cruz"),
 }
 
 def label(hhmm):
