@@ -21,7 +21,9 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | `NEWSLETTER.md` | **Golden Hour: the welcome email, issue 01, and the repeatable template** |
 | `CLIENT-AGREEMENT.md` | Plain-English agreement to send before the first call |
 | `YOUR-SUPPORT.md` | **Your own support and your co-pilot — what they are and how to set them up** |
-| `PRINTS.md` | The print gallery: pricing, fulfilment, seller's permit, and the framing rule |
+| `PRINTS.md` | The print gallery: pricing, fulfilment, and the framing rule |
+| `SELLING-PRINTS.md` | **Hands-off print sales: platform choice, setup, markups, how the site connects** |
+| `faa-upload-list.csv` | Titles, locations and keywords for bulk upload, named works first |
 | `SOCIAL-PROFILES.md` | **Bios, About copy, categories and images for Instagram and Facebook** |
 | `SAFETY-AND-LEGAL.md` | **Read this first.** Scope of practice, crisis protocol, insurance, burnout |
 | `tools/prep-photos.py` | Turns new full-res photos into web-ready sizes |

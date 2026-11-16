@@ -87,6 +87,14 @@ You will get a message from someone who is suicidal. Decide now, not then.
 reporting, parental consent, and background-check obligations you are not set up
 for. Say so publicly and refer minors to their school counsellor or 988.
 
+### A note on sales tax
+
+If prints are sold **only** through a platform that takes the payment (Fine
+Art America, Etsy), that platform is the *marketplace facilitator*: it is the
+retailer, it collects and remits the sales tax, and a CDTFA seller's permit is
+generally not required of you. **Sell one print directly and that changes** —
+then you are the retailer for that sale. See `SELLING-PRINTS.md`.
+
 ## 5. Insurance
 
 Before the first conversation with anyone outside your family:

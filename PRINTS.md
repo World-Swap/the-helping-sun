@@ -35,7 +35,11 @@ This isn't pedantry. Say "proceeds go to charity" on an Instagram post and
 you've made a representation you can't back, about the one subject where your
 credibility is the entire asset.
 
-## You'll need a seller's permit
+> **Update:** if everything sells through Fine Art America, you probably do
+> **not** need a seller's permit — they are the retailer and handle the tax.
+> See `SELLING-PRINTS.md`. The section below applies to **direct** sales only.
+
+## For direct sales, you'll need a seller's permit
 
 Prints are tangible goods. California requires a **seller's permit from CDTFA**
 for anyone regularly selling physical products, and you collect sales tax on
@@ -89,13 +93,13 @@ and an underpriced print that funds nothing defeats the entire point.
 
 ## Taking payment
 
-**Now:** no cart. Buyers email, you reply with a **Stripe Payment Link** —
-free to create, no monthly fee, works from your phone. Perfectly respectable
-at this volume and it keeps the conversation human.
+**Hands-off (recommended):** Fine Art America. Free for 25 images, $30/year
+for all 96. They print, ship, take payment and handle support — see
+`SELLING-PRINTS.md` for the full setup.
 
-**Later, if volume justifies it:** Pixieset, SmugMug or Shopify will give you a
-real store with automatic Bay Photo fulfilment. Don't pay a monthly fee until
-prints are selling without you chasing them.
+**Direct, for local or bespoke orders:** buyers email, you reply with a
+**Stripe Payment Link** — free, no monthly fee, works from your phone. Better
+margin, and it keeps the Bay Photo story, but you do the work.
 
 ## What to track
 
