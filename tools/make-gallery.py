@@ -134,7 +134,6 @@ for fn in sorted(os.listdir(SRC)):
     man.append({"slug":slug,"title":title,"when":when,"iso":dt.isoformat(),"place":place,
                 "w":th.size[0],"h":th.size[1],
                 "orient":"portrait" if th.size[1]>th.size[0] else "landscape",
-                "faa": LINKS.get(slug, ""),
                 "named": fn in TITLES})
 
 # LEAD sets the first twelve, which are also the homepage featured strip.
@@ -146,6 +145,7 @@ lead  = [by[s] for s in LEAD if s in by]
 rest_named = sorted([m for m in man if m["named"] and m["slug"] not in LEAD], key=lambda m: m["slug"], reverse=True)
 docs       = sorted([m for m in man if not m["named"]], key=lambda m: m["slug"], reverse=True)
 man = lead + rest_named + docs
-for m in man: m.pop("named")
+# Keep "named": the site shows a title only where a person wrote one, so the
+# pages need to know which those are. It used to be dropped here.
 json.dump(man, open(f"{OUT}/manifest.json","w"), indent=1)
 print(f"{len(man)} images ({len(lead)} leading, {len(rest_named)} other named, {len(docs)} documentary)")
