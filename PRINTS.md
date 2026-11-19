@@ -124,33 +124,66 @@ Put that number in Golden Hour occasionally. Not as a sales pitch — as an
 accounting. *"Three prints sold this month, which covered insurance and two
 tanks of petrol."* People who bought one will want to know what it did.
 
-## Location data does not survive the trip to me
+## Why the coordinates never arrive: Android redacts them
 
-**Corrected twice, 19 November 2026.** This file first said location tagging
-was off in the camera. Then it said Google Drive was stripping it. Both were
-wrong, and Ian disproved each one.
+**Answered 19 November 2026, from Android's own documentation** - after two
+wrong guesses here (first blaming the camera setting, then blaming Drive).
+Ian disproved both, and the real cause is neither.
 
-What is actually established:
+### The mechanism
 
-- His phone's gallery shows these photographs on a map, reading the file at
-  `/Internal storage/DCIM/Camera`. **The originals on the phone have
-  coordinates.**
-- Of 153 originals pulled from Drive, 150 carry a GPS block that is present
-  but zeroed, 3 carry none. Real coordinates: zero.
-- A photograph **uploaded straight into the chat, never touching Drive**,
-  arrived with the same zeroed block.
+Since **Android 10**, photographs handed to another app do not carry their
+location. The MediaProvider module **redacts the GPS tags by zeroing them**,
+leaving the EXIF structure in place and the image data untouched. From the
+Android Open Source Project: the MediaProvider module "enforces the scoped
+storage security model introduced in Android 10, which includes redacting
+sensitive location metadata."
 
-So the data is lost somewhere between the phone's storage and this session,
-on every route tried. Which step empties it is not established and should not
-be guessed at again - it could be the Android share sheet, Samsung Gallery's
-sharing behaviour, or the chat upload itself. Three guesses have now cost
-more than the answer is worth.
+An app only receives the real coordinates if it:
 
-**The practical consequence: do not try to recover location from a file.**
-Read it off the phone instead - open the photograph in Gallery, swipe up or
-tap Details, and the place is written there under the map. Telling me "132 is
-Natural Bridges" is faster than any amount of metadata archaeology, and it is
-the only source that has actually proved reliable.
+1. declares `ACCESS_MEDIA_LOCATION` in its manifest,
+2. requests that permission at runtime, and
+3. opens the file via `MediaStore.setRequireOriginal()`.
+
+Android's guide states it plainly: an app targeting API 29+ "needs to declare
+the ACCESS_MEDIA_LOCATION permission ... then request this permission at
+runtime" to "retrieve unredacted EXIF metadata from photos." Without it, the
+call throws `UnsupportedOperationException`, so most apps simply take the
+redacted copy.
+
+### Why this fits the evidence exactly
+
+| observed | explained |
+|---|---|
+| GPS block present, values zeroed / NaN | redaction overwrites, it does not delete |
+| Gallery shows the map | Gallery reads the file in place, no handoff |
+| Drive copies empty | shared through the system, redacted |
+| Direct chat upload also empty | same handoff, same redaction |
+| 150 of 153 identical | it is systematic, not per-photo |
+
+Nothing is wrong with the camera, the phone or the files. **The originals in
+`DCIM/Camera` still hold the coordinates.** Every copy that leaves by the
+normal route is stripped on the way out, by design.
+
+### Getting them out anyway
+
+Untested here, in rough order of likelihood:
+
+- **Google Photos.** Back the photograph up, then download it from
+  photos.google.com **in a desktop browser**. Google Photos holds the
+  permission, so the location rides along in its own store, and a web download
+  is not an Android app handoff at all.
+- **USB cable to a computer.** Mixed reports: MTP transfers go through the
+  same MediaProvider and are often redacted too. Worth one test.
+- A file manager that holds `ACCESS_MEDIA_LOCATION`.
+
+Test any of these by sending one file through; measuring it takes seconds.
+
+### The cheaper answer
+
+Read the place off the phone. Open the photograph in Gallery, swipe up, and
+the location is written under the map. "142 is Walton Lighthouse" settles a
+listing in seconds and needs no metadata at all.
 
 **It does not leak to buyers.** `tools/make-upload-files.py` strips every
 metadata block before upload, coordinates included. You get accurate titles
