@@ -23,7 +23,8 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | `YOUR-SUPPORT.md` | **Your own support and your co-pilot — what they are and how to set them up** |
 | `PRINTS.md` | The print gallery: pricing, fulfilment, and the framing rule |
 | `SELLING-PRINTS.md` | **Hands-off print sales: platform choice, setup, markups, how the site connects** |
-| `faa-upload-list.csv` | Titles, locations and keywords for bulk upload, named works first |
+| `FAA-LISTINGS.md` | **Per-photo title, keywords and description for the shop upload form** |
+| `faa-listings.csv` | The same, as a spreadsheet |
 | `BIOGRAPHY.md` | **Artist biography in four lengths, for the shop profile and press** |
 | `SOCIAL-PROFILES.md` | **Bios, About copy, categories and images for Instagram and Facebook** |
 | `SAFETY-AND-LEGAL.md` | **Read this first.** Scope of practice, crisis protocol, insurance, burnout |
