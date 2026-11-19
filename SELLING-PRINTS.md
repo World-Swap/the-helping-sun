@@ -72,9 +72,32 @@ Your earnings still count as business income. Expect a 1099 and report it.
 
 **1. Open the account.** `fineartamerica.com/sell-art-online`. Free, no card.
 
-**2. Set your default markups before uploading anything.** This is the step
-that makes it automatic: set them once and every future upload inherits them.
-Don't price image by image — you'll never keep up.
+> **You upload photographs, never products.** Their words: *"Create hundreds
+> of products in seconds from a single image upload. Our technology
+> automatically positions your design onto each available product."* One JPEG
+> becomes the canvas, the mug, the tote and the phone case. You then *"choose
+> which products you want to sell and for how much."*
+
+**2. Set your markups.** This is the step that decides whether the thing is
+actually hands-off, so do it before you upload a pile of images.
+
+What their site states plainly:
+
+> *"We set a base price for each product that can be manufactured by our
+> fulfillment partners, and then you add a markup on top of that base price."*
+> …and *"you can change them at any time."*
+
+**What I could not verify:** the exact menu path, or whether a markup you set
+once is inherited by later uploads. Their FAQ and help pages are both 404 and
+the control panel is behind the login, so anyone telling you the precise
+button name without an account is guessing.
+
+When you're in, look for pricing controls that apply across images rather than
+to one — wording like "all images", "defaults", or a copy/apply-to-all option
+on the pricing screen. Nearly every platform of this type has one, because the
+alternative is unusable at 96 images. **Confirm it exists before you upload in
+bulk.** If it turns out there's no apply-to-all, that changes the plan — tell
+me and we'll rethink, because pricing 96 images by hand is not automation.
 
 A sane starting point, given they take nothing from your markup:
 
@@ -184,7 +207,7 @@ keeping a direct option alive for anyone local who asks.
 ## Do this in order
 
 1. Open the free account — $0, no card
-2. Set default markups **before** uploading
+2. Check the pricing screen for an apply-to-all control, and set markups
 3. Upload the 25 named works
 4. Paste the storefront URL into `FAA_STORE` and push
 5. Sell something
