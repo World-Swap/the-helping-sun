@@ -192,6 +192,22 @@ people to ask for anything missing.
 To deep-link an individual photograph once it is listed, add an `faa` field to
 its entry in the manifest — **only using a URL you have actually opened.**
 
+## The 25-image cap
+
+A free Pixels account **displays only 25 images**, in their own words on
+https://pixels.com/membershipplans.html:
+
+> Premium accounts may upload an unlimited number of images. Free accounts are
+> limited to 25 images.
+
+Uploading more does not queue them for later. On 19 November 2026, 45 images
+had been uploaded and the storefront reported `Displaying: 1 - 24 of 25`.
+Premium is $30/year, stated on https://pixels.com/sell-art-online.html.
+
+So until that is paid, the shop holds 25 and the choice is *which* 25. The
+site reflects this honestly rather than hiding it: the homepage shows the
+photographs that are actually listed, and the archive badges them.
+
 **Every Buy button goes to the shop front**, and that is a deliberate choice.
 
 Deep links to individual product pages exist and work, but they have to be

@@ -45,5 +45,29 @@ new_h, n2 = re.subn(r'(<div class="home-grid">\n).*?(\n    </div>)',
 if n2 != 1:
     raise SystemExit("could not locate the home-grid block in " + HOME)
 new_h = re.sub(r'See all \d+ photographs', f'See all {len(man)} photographs', new_h)
+new_h = re.sub(r'Browse all \d+ photographs', f'Browse all {len(man)} photographs', new_h)
+
+# "Available now": only photographs with a product URL that was read off the
+# live shop and answered 200. Everything else in the archive is work you can
+# look at but not yet buy, and the page must not blur the two.
+avail = [m for m in man if m.get("faa")]
+cards = []
+for m in avail:
+    cards.append(
+        f'      <a class="sale" href="{m["faa"]}" target="_blank" rel="noopener">\n'
+        f'        <img src="gallery/{m["slug"]}-t.jpg" alt="{m["title"]}" loading="lazy" width="760" height="507">\n'
+        f'        <figcaption>{m["title"]}<span class="buy-tag">Buy a print</span></figcaption>\n'
+        f'      </a>')
+new_h, n3 = re.subn(r'(<div class="sale-grid">\n).*?(\n    </div>)',
+                    lambda mm: mm.group(1) + "\n".join(cards) + mm.group(2),
+                    new_h, count=1, flags=re.S)
+if not n3:
+    raise SystemExit("could not locate the sale-grid block in " + HOME)
+note = (f"These {len(avail)} are listed in the shop right now and ship worldwide. "
+        f"The other {len(man)-len(avail)} in the archive are not listed yet \u2014 "
+        f'<a href="#ask" style="color:var(--sun)">tell me which you want</a> and I will put it up next.')
+new_h = re.sub(r'(<p class="sale-note">).*?(</p>)', lambda mm: mm.group(1)+note+mm.group(2),
+               new_h, count=1, flags=re.S)
+print(f"rebuilt the Available-now showcase ({len(avail)} listed of {len(man)})")
 open(HOME, "w").write(new_h)
 print(f"rebuilt {HOME} featured grid ({len(feat)} of {len(man)})")
