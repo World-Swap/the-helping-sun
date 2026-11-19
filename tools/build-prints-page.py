@@ -4,10 +4,21 @@ Run after tools/make-gallery.py so the page can never drift from the images
 that actually exist. Everything outside the .grid block is left untouched, so
 prose, prices and the lightbox script are safe to edit by hand.
 """
-import json, re
+import datetime, json, re
 
 PAGE = "site/prints.html"
 MAN  = "site/gallery/manifest.json"
+
+
+def short(m):
+    """A compact stamp for the grid: '4 Nov 2026 - 6:43am'.
+
+    The full form wrapped onto two lines in a two-column grid, which pushed
+    the photographs apart and made the page taller than the pictures needed.
+    """
+    d = datetime.datetime.fromisoformat(m["iso"])
+    return (d.strftime("%-d %b %Y \u00b7 %-I:%M") +
+            d.strftime("%p").lower())
 
 
 def label(m):
@@ -32,7 +43,7 @@ f'''      <figure class="shot" data-slug="{m['slug']}" data-title="{label(m)}" d
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from {m['when']}">
           <img src="gallery/{m['slug']}-t.jpg" alt="Photograph taken {m['when']} at {m['place']}" loading="lazy" width="{m['w']}" height="{m['h']}">
         </button>
-        <figcaption><span class="t">{label(m)}</span><span class="w">{sub(m)}</span></figcaption>
+        <figcaption><span class="t">{short(m)}</span><span class="w">{sub(m)}</span></figcaption>
       </figure>''' for m in man)
 
 s = open(PAGE).read()

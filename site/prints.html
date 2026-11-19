@@ -29,16 +29,26 @@
 .prices th,.prices td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
 .prices th{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500}
 .prices td:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
-.grid{columns:3 300px;column-gap:16px;margin-top:10px}
-.shot{break-inside:avoid;margin:0 0 16px;display:block}
+/* A real grid, not masonry columns. Masonry let the 11 portrait photographs
+   run to full height while the 136 landscape ones sat small, and on a phone
+   it collapsed to one tall column. Uniform 4:3 tiles, two across on a phone,
+   put every photograph on the same footing. */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 9px;margin-top:10px}
+@media (min-width:700px){.grid{grid-template-columns:repeat(3,1fr);gap:15px}}
+@media (min-width:1080px){.grid{grid-template-columns:repeat(4,1fr);gap:16px}}
+.shot{margin:0;display:block;min-width:0}
 .shot-btn{display:block;padding:0;border:0;background:none;cursor:zoom-in;width:100%;border-radius:11px;
   overflow:hidden;line-height:0}
-.shot-btn img{width:100%;height:auto;border-radius:11px;background:var(--surface);
+.shot-btn img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
+  border-radius:11px;background:var(--surface);
   transition:transform .35s ease, filter .35s ease}
 .shot-btn:hover img{transform:scale(1.025);filter:brightness(1.05)}
-.shot figcaption{display:flex;flex-wrap:wrap;gap:3px 12px;align-items:baseline;padding:9px 2px 0}
-.shot .t{font-family:var(--ff-display);font-size:17px}
-.shot .w{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.05em;color:var(--muted);text-transform:uppercase}
+.shot figcaption{display:block;padding:6px 2px 0;line-height:1.3}
+.shot .t{font-family:var(--ff-mono);font-size:11px;letter-spacing:.03em;display:block;opacity:.95}
+.shot .w{font-family:var(--ff-mono);font-size:9.5px;letter-spacing:.04em;color:var(--muted);
+  text-transform:uppercase;display:block;margin-top:1px;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
+@media (min-width:700px){.shot .t{font-size:12px}.shot .w{font-size:10px}}
 .shot{position:relative}
 @media (max-width:520px){}
 dialog.lb{border:0;padding:0;background:#070B12;max-width:100vw;max-height:100vh;width:100%;height:100%}
@@ -112,883 +122,883 @@ dialog.lb::backdrop{background:#070B12}
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 4 November 2026, 6:43 am">
           <img src="gallery/20261104_064349-t.jpg" alt="Photograph taken 4 November 2026, 6:43 am at Walton Lighthouse, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">4 November 2026, 6:43 am</span><span class="w">Walton Lighthouse, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">4 Nov 2026 · 6:43am</span><span class="w">Walton Lighthouse, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260712_204036" data-title="12 July 2026, 8:40 pm" data-when="12 July 2026, 8:40 pm" data-place="San Lorenzo Rivermouth">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 12 July 2026, 8:40 pm">
           <img src="gallery/20260712_204036-t.jpg" alt="Photograph taken 12 July 2026, 8:40 pm at San Lorenzo Rivermouth" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">12 July 2026, 8:40 pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
+        <figcaption><span class="t">12 Jul 2026 · 8:40pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261021_071526" data-title="21 October 2026, 7:15 am" data-when="21 October 2026, 7:15 am" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 21 October 2026, 7:15 am">
           <img src="gallery/20261021_071526-t.jpg" alt="Photograph taken 21 October 2026, 7:15 am at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">21 October 2026, 7:15 am</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">21 Oct 2026 · 7:15am</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260529_203449" data-title="29 May 2026, 8:34 pm" data-when="29 May 2026, 8:34 pm" data-place="Beach Boardwalk, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 29 May 2026, 8:34 pm">
           <img src="gallery/20260529_203449-t.jpg" alt="Photograph taken 29 May 2026, 8:34 pm at Beach Boardwalk, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">29 May 2026, 8:34 pm</span><span class="w">Beach Boardwalk, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">29 May 2026 · 8:34pm</span><span class="w">Beach Boardwalk, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251229_172403" data-title="29 December 2025, 5:24 pm" data-when="29 December 2025, 5:24 pm" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 29 December 2025, 5:24 pm">
           <img src="gallery/20251229_172403-t.jpg" alt="Photograph taken 29 December 2025, 5:24 pm at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">29 December 2025, 5:24 pm</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">29 Dec 2025 · 5:24pm</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260524_195347" data-title="24 May 2026, 7:53 pm" data-when="24 May 2026, 7:53 pm" data-place="Beach Boardwalk, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 24 May 2026, 7:53 pm">
           <img src="gallery/20260524_195347-t.jpg" alt="Photograph taken 24 May 2026, 7:53 pm at Beach Boardwalk, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">24 May 2026, 7:53 pm</span><span class="w">Beach Boardwalk, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">24 May 2026 · 7:53pm</span><span class="w">Beach Boardwalk, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251226_133752" data-title="26 December 2025, 1:37 pm" data-when="26 December 2025, 1:37 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 26 December 2025, 1:37 pm">
           <img src="gallery/20251226_133752-t.jpg" alt="Photograph taken 26 December 2025, 1:37 pm at Santa Cruz County" loading="lazy" width="428" height="760">
         </button>
-        <figcaption><span class="t">26 December 2025, 1:37 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">26 Dec 2025 · 1:37pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260620_210208" data-title="20 June 2026, 9:02 pm" data-when="20 June 2026, 9:02 pm" data-place="Main Beach, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 20 June 2026, 9:02 pm">
           <img src="gallery/20260620_210208-t.jpg" alt="Photograph taken 20 June 2026, 9:02 pm at Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">20 June 2026, 9:02 pm</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">20 Jun 2026 · 9:02pm</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260713_204007" data-title="13 July 2026, 8:40 pm" data-when="13 July 2026, 8:40 pm" data-place="San Lorenzo Rivermouth">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 13 July 2026, 8:40 pm">
           <img src="gallery/20260713_204007-t.jpg" alt="Photograph taken 13 July 2026, 8:40 pm at San Lorenzo Rivermouth" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">13 July 2026, 8:40 pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
+        <figcaption><span class="t">13 Jul 2026 · 8:40pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251228_142219" data-title="28 December 2025, 2:22 pm" data-when="28 December 2025, 2:22 pm" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 28 December 2025, 2:22 pm">
           <img src="gallery/20251228_142219-t.jpg" alt="Photograph taken 28 December 2025, 2:22 pm at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">28 December 2025, 2:22 pm</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">28 Dec 2025 · 2:22pm</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260919_192400" data-title="19 September 2026, 7:24 pm" data-when="19 September 2026, 7:24 pm" data-place="Main Beach, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 19 September 2026, 7:24 pm">
           <img src="gallery/20260919_192400-t.jpg" alt="Photograph taken 19 September 2026, 7:24 pm at Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">19 September 2026, 7:24 pm</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">19 Sep 2026 · 7:24pm</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260926_193109" data-title="26 September 2026, 7:31 pm" data-when="26 September 2026, 7:31 pm" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 26 September 2026, 7:31 pm">
           <img src="gallery/20260926_193109-t.jpg" alt="Photograph taken 26 September 2026, 7:31 pm at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">26 September 2026, 7:31 pm</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">26 Sep 2026 · 7:31pm</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261119_085425" data-title="19 November 2026, 8:54 am" data-when="19 November 2026, 8:54 am" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 19 November 2026, 8:54 am">
           <img src="gallery/20261119_085425-t.jpg" alt="Photograph taken 19 November 2026, 8:54 am at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">19 November 2026, 8:54 am</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">19 Nov 2026 · 8:54am</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261117_165552" data-title="17 November 2026, 4:55 pm" data-when="17 November 2026, 4:55 pm" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 17 November 2026, 4:55 pm">
           <img src="gallery/20261117_165552-t.jpg" alt="Photograph taken 17 November 2026, 4:55 pm at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">17 November 2026, 4:55 pm</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">17 Nov 2026 · 4:55pm</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261117_065329" data-title="17 November 2026, 6:53 am" data-when="17 November 2026, 6:53 am" data-place="Walton Lighthouse, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 17 November 2026, 6:53 am">
           <img src="gallery/20261117_065329-t.jpg" alt="Photograph taken 17 November 2026, 6:53 am at Walton Lighthouse, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">17 November 2026, 6:53 am</span><span class="w">Walton Lighthouse, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">17 Nov 2026 · 6:53am</span><span class="w">Walton Lighthouse, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261102_064330" data-title="2 November 2026, 6:43 am" data-when="2 November 2026, 6:43 am" data-place="Main Beach, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 2 November 2026, 6:43 am">
           <img src="gallery/20261102_064330-t.jpg" alt="Photograph taken 2 November 2026, 6:43 am at Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">2 November 2026, 6:43 am</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">2 Nov 2026 · 6:43am</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261101_141550" data-title="1 November 2026, 2:15 pm" data-when="1 November 2026, 2:15 pm" data-place="Santa Cruz Harbour">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 November 2026, 2:15 pm">
           <img src="gallery/20261101_141550-t.jpg" alt="Photograph taken 1 November 2026, 2:15 pm at Santa Cruz Harbour" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 November 2026, 2:15 pm</span><span class="w">Santa Cruz Harbour</span></figcaption>
+        <figcaption><span class="t">1 Nov 2026 · 2:15pm</span><span class="w">Santa Cruz Harbour</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261025_161822" data-title="25 October 2026, 4:18 pm" data-when="25 October 2026, 4:18 pm" data-place="Seabright Beach, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 25 October 2026, 4:18 pm">
           <img src="gallery/20261025_161822-t.jpg" alt="Photograph taken 25 October 2026, 4:18 pm at Seabright Beach, Santa Cruz" loading="lazy" width="570" height="760">
         </button>
-        <figcaption><span class="t">25 October 2026, 4:18 pm</span><span class="w">Seabright Beach, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">25 Oct 2026 · 4:18pm</span><span class="w">Seabright Beach, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261006_183721" data-title="6 October 2026, 6:37 pm" data-when="6 October 2026, 6:37 pm" data-place="West Cliff, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 October 2026, 6:37 pm">
           <img src="gallery/20261006_183721-t.jpg" alt="Photograph taken 6 October 2026, 6:37 pm at West Cliff, Santa Cruz" loading="lazy" width="428" height="760">
         </button>
-        <figcaption><span class="t">6 October 2026, 6:37 pm</span><span class="w">West Cliff, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">6 Oct 2026 · 6:37pm</span><span class="w">West Cliff, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261005_064839" data-title="5 October 2026, 6:48 am" data-when="5 October 2026, 6:48 am" data-place="West Cliff, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 October 2026, 6:48 am">
           <img src="gallery/20261005_064839-t.jpg" alt="Photograph taken 5 October 2026, 6:48 am at West Cliff, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 October 2026, 6:48 am</span><span class="w">West Cliff, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">5 Oct 2026 · 6:48am</span><span class="w">West Cliff, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260920_191704" data-title="20 September 2026, 7:17 pm" data-when="20 September 2026, 7:17 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 20 September 2026, 7:17 pm">
           <img src="gallery/20260920_191704-t.jpg" alt="Photograph taken 20 September 2026, 7:17 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">20 September 2026, 7:17 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">20 Sep 2026 · 7:17pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260722_200159" data-title="22 July 2026, 8:01 pm" data-when="22 July 2026, 8:01 pm" data-place="San Lorenzo Rivermouth">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 22 July 2026, 8:01 pm">
           <img src="gallery/20260722_200159-t.jpg" alt="Photograph taken 22 July 2026, 8:01 pm at San Lorenzo Rivermouth" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">22 July 2026, 8:01 pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
+        <figcaption><span class="t">22 Jul 2026 · 8:01pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260706_202420" data-title="6 July 2026, 8:24 pm" data-when="6 July 2026, 8:24 pm" data-place="Santa Cruz Harbour">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 July 2026, 8:24 pm">
           <img src="gallery/20260706_202420-t.jpg" alt="Photograph taken 6 July 2026, 8:24 pm at Santa Cruz Harbour" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 July 2026, 8:24 pm</span><span class="w">Santa Cruz Harbour</span></figcaption>
+        <figcaption><span class="t">6 Jul 2026 · 8:24pm</span><span class="w">Santa Cruz Harbour</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260705_211058" data-title="5 July 2026, 9:10 pm" data-when="5 July 2026, 9:10 pm" data-place="Main Beach, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 July 2026, 9:10 pm">
           <img src="gallery/20260705_211058-t.jpg" alt="Photograph taken 5 July 2026, 9:10 pm at Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 July 2026, 9:10 pm</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">5 Jul 2026 · 9:10pm</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260628_203623" data-title="28 June 2026, 8:36 pm" data-when="28 June 2026, 8:36 pm" data-place="San Lorenzo Rivermouth">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 28 June 2026, 8:36 pm">
           <img src="gallery/20260628_203623-t.jpg" alt="Photograph taken 28 June 2026, 8:36 pm at San Lorenzo Rivermouth" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">28 June 2026, 8:36 pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
+        <figcaption><span class="t">28 Jun 2026 · 8:36pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260621_141734" data-title="21 June 2026, 2:17 pm" data-when="21 June 2026, 2:17 pm" data-place="West Cliff Drive, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 21 June 2026, 2:17 pm">
           <img src="gallery/20260621_141734-t.jpg" alt="Photograph taken 21 June 2026, 2:17 pm at West Cliff Drive, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">21 June 2026, 2:17 pm</span><span class="w">West Cliff Drive, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">21 Jun 2026 · 2:17pm</span><span class="w">West Cliff Drive, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260620_204807" data-title="20 June 2026, 8:48 pm" data-when="20 June 2026, 8:48 pm" data-place="San Lorenzo Rivermouth">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 20 June 2026, 8:48 pm">
           <img src="gallery/20260620_204807-t.jpg" alt="Photograph taken 20 June 2026, 8:48 pm at San Lorenzo Rivermouth" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">20 June 2026, 8:48 pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
+        <figcaption><span class="t">20 Jun 2026 · 8:48pm</span><span class="w">San Lorenzo Rivermouth</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260620_204117" data-title="20 June 2026, 8:41 pm" data-when="20 June 2026, 8:41 pm" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 20 June 2026, 8:41 pm">
           <img src="gallery/20260620_204117-t.jpg" alt="Photograph taken 20 June 2026, 8:41 pm at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">20 June 2026, 8:41 pm</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">20 Jun 2026 · 8:41pm</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260512_201845" data-title="12 May 2026, 8:18 pm" data-when="12 May 2026, 8:18 pm" data-place="Main Beach, Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 12 May 2026, 8:18 pm">
           <img src="gallery/20260512_201845-t.jpg" alt="Photograph taken 12 May 2026, 8:18 pm at Main Beach, Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">12 May 2026, 8:18 pm</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
+        <figcaption><span class="t">12 May 2026 · 8:18pm</span><span class="w">Main Beach, Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260504_095320" data-title="4 May 2026, 9:53 am" data-when="4 May 2026, 9:53 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 4 May 2026, 9:53 am">
           <img src="gallery/20260504_095320-t.jpg" alt="Photograph taken 4 May 2026, 9:53 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">4 May 2026, 9:53 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">4 May 2026 · 9:53am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251225_115121" data-title="25 December 2025, 11:51 am" data-when="25 December 2025, 11:51 am" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 25 December 2025, 11:51 am">
           <img src="gallery/20251225_115121-t.jpg" alt="Photograph taken 25 December 2025, 11:51 am at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">25 December 2025, 11:51 am</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">25 Dec 2025 · 11:51am</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251225_114326" data-title="25 December 2025, 11:43 am" data-when="25 December 2025, 11:43 am" data-place="Santa Cruz">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 25 December 2025, 11:43 am">
           <img src="gallery/20251225_114326-t.jpg" alt="Photograph taken 25 December 2025, 11:43 am at Santa Cruz" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">25 December 2025, 11:43 am</span><span class="w">Santa Cruz</span></figcaption>
+        <figcaption><span class="t">25 Dec 2025 · 11:43am</span><span class="w">Santa Cruz</span></figcaption>
       </figure>
       <figure class="shot" data-slug="s7jllp" data-title="7 December 2025, 5:11 pm" data-when="7 December 2025, 5:11 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 7 December 2025, 5:11 pm">
           <img src="gallery/s7jllp-t.jpg" alt="Photograph taken 7 December 2025, 5:11 pm at Santa Cruz County" loading="lazy" width="760" height="253">
         </button>
-        <figcaption><span class="t">7 December 2025, 5:11 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">7 Dec 2025 · 5:11pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="4x2up0" data-title="1 February 2026, 5:25 pm" data-when="1 February 2026, 5:25 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 February 2026, 5:25 pm">
           <img src="gallery/4x2up0-t.jpg" alt="Photograph taken 1 February 2026, 5:25 pm at Santa Cruz County" loading="lazy" width="760" height="253">
         </button>
-        <figcaption><span class="t">1 February 2026, 5:25 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Feb 2026 · 5:25pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261116_171831" data-title="16 November 2026, 5:18 pm" data-when="16 November 2026, 5:18 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 16 November 2026, 5:18 pm">
           <img src="gallery/20261116_171831-t.jpg" alt="Photograph taken 16 November 2026, 5:18 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">16 November 2026, 5:18 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">16 Nov 2026 · 5:18pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261116_170017" data-title="16 November 2026, 5:00 pm" data-when="16 November 2026, 5:00 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 16 November 2026, 5:00 pm">
           <img src="gallery/20261116_170017-t.jpg" alt="Photograph taken 16 November 2026, 5:00 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">16 November 2026, 5:00 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">16 Nov 2026 · 5:00pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261111_172617" data-title="11 November 2026, 5:26 pm" data-when="11 November 2026, 5:26 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 11 November 2026, 5:26 pm">
           <img src="gallery/20261111_172617-t.jpg" alt="Photograph taken 11 November 2026, 5:26 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">11 November 2026, 5:26 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">11 Nov 2026 · 5:26pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261111_172259" data-title="11 November 2026, 5:22 pm" data-when="11 November 2026, 5:22 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 11 November 2026, 5:22 pm">
           <img src="gallery/20261111_172259-t.jpg" alt="Photograph taken 11 November 2026, 5:22 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">11 November 2026, 5:22 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">11 Nov 2026 · 5:22pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261111_101851" data-title="11 November 2026, 10:18 am" data-when="11 November 2026, 10:18 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 11 November 2026, 10:18 am">
           <img src="gallery/20261111_101851-t.jpg" alt="Photograph taken 11 November 2026, 10:18 am at Santa Cruz County" loading="lazy" width="428" height="760">
         </button>
-        <figcaption><span class="t">11 November 2026, 10:18 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">11 Nov 2026 · 10:18am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261111_101802" data-title="11 November 2026, 10:18 am" data-when="11 November 2026, 10:18 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 11 November 2026, 10:18 am">
           <img src="gallery/20261111_101802-t.jpg" alt="Photograph taken 11 November 2026, 10:18 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">11 November 2026, 10:18 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">11 Nov 2026 · 10:18am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261111_095244" data-title="11 November 2026, 9:52 am" data-when="11 November 2026, 9:52 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 11 November 2026, 9:52 am">
           <img src="gallery/20261111_095244-t.jpg" alt="Photograph taken 11 November 2026, 9:52 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">11 November 2026, 9:52 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">11 Nov 2026 · 9:52am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261111_094826" data-title="11 November 2026, 9:48 am" data-when="11 November 2026, 9:48 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 11 November 2026, 9:48 am">
           <img src="gallery/20261111_094826-t.jpg" alt="Photograph taken 11 November 2026, 9:48 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">11 November 2026, 9:48 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">11 Nov 2026 · 9:48am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261110_065853" data-title="10 November 2026, 6:58 am" data-when="10 November 2026, 6:58 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 November 2026, 6:58 am">
           <img src="gallery/20261110_065853-t.jpg" alt="Photograph taken 10 November 2026, 6:58 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 November 2026, 6:58 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Nov 2026 · 6:58am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261110_065828" data-title="10 November 2026, 6:58 am" data-when="10 November 2026, 6:58 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 November 2026, 6:58 am">
           <img src="gallery/20261110_065828-t.jpg" alt="Photograph taken 10 November 2026, 6:58 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 November 2026, 6:58 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Nov 2026 · 6:58am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261107_172540" data-title="7 November 2026, 5:25 pm" data-when="7 November 2026, 5:25 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 7 November 2026, 5:25 pm">
           <img src="gallery/20261107_172540-t.jpg" alt="Photograph taken 7 November 2026, 5:25 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">7 November 2026, 5:25 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">7 Nov 2026 · 5:25pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261107_172107" data-title="7 November 2026, 5:21 pm" data-when="7 November 2026, 5:21 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 7 November 2026, 5:21 pm">
           <img src="gallery/20261107_172107-t.jpg" alt="Photograph taken 7 November 2026, 5:21 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">7 November 2026, 5:21 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">7 Nov 2026 · 5:21pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261107_171319" data-title="7 November 2026, 5:13 pm" data-when="7 November 2026, 5:13 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 7 November 2026, 5:13 pm">
           <img src="gallery/20261107_171319-t.jpg" alt="Photograph taken 7 November 2026, 5:13 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">7 November 2026, 5:13 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">7 Nov 2026 · 5:13pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261106_165834" data-title="6 November 2026, 4:58 pm" data-when="6 November 2026, 4:58 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 November 2026, 4:58 pm">
           <img src="gallery/20261106_165834-t.jpg" alt="Photograph taken 6 November 2026, 4:58 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 November 2026, 4:58 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Nov 2026 · 4:58pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261106_165348" data-title="6 November 2026, 4:53 pm" data-when="6 November 2026, 4:53 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 November 2026, 4:53 pm">
           <img src="gallery/20261106_165348-t.jpg" alt="Photograph taken 6 November 2026, 4:53 pm at Santa Cruz County" loading="lazy" width="570" height="760">
         </button>
-        <figcaption><span class="t">6 November 2026, 4:53 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Nov 2026 · 4:53pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261106_163911" data-title="6 November 2026, 4:39 pm" data-when="6 November 2026, 4:39 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 November 2026, 4:39 pm">
           <img src="gallery/20261106_163911-t.jpg" alt="Photograph taken 6 November 2026, 4:39 pm at Santa Cruz County" loading="lazy" width="570" height="760">
         </button>
-        <figcaption><span class="t">6 November 2026, 4:39 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Nov 2026 · 4:39pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261106_061825" data-title="6 November 2026, 6:18 am" data-when="6 November 2026, 6:18 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 November 2026, 6:18 am">
           <img src="gallery/20261106_061825-t.jpg" alt="Photograph taken 6 November 2026, 6:18 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 November 2026, 6:18 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Nov 2026 · 6:18am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261106_061817" data-title="6 November 2026, 6:18 am" data-when="6 November 2026, 6:18 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 November 2026, 6:18 am">
           <img src="gallery/20261106_061817-t.jpg" alt="Photograph taken 6 November 2026, 6:18 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 November 2026, 6:18 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Nov 2026 · 6:18am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261106_060844" data-title="6 November 2026, 6:08 am" data-when="6 November 2026, 6:08 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 November 2026, 6:08 am">
           <img src="gallery/20261106_060844-t.jpg" alt="Photograph taken 6 November 2026, 6:08 am at Santa Cruz County" loading="lazy" width="428" height="760">
         </button>
-        <figcaption><span class="t">6 November 2026, 6:08 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Nov 2026 · 6:08am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_172516" data-title="5 November 2026, 5:25 pm" data-when="5 November 2026, 5:25 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 5:25 pm">
           <img src="gallery/20261105_172516-t.jpg" alt="Photograph taken 5 November 2026, 5:25 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 5:25 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 5:25pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_172505" data-title="5 November 2026, 5:25 pm" data-when="5 November 2026, 5:25 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 5:25 pm">
           <img src="gallery/20261105_172505-t.jpg" alt="Photograph taken 5 November 2026, 5:25 pm at Santa Cruz County" loading="lazy" width="428" height="760">
         </button>
-        <figcaption><span class="t">5 November 2026, 5:25 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 5:25pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_172000" data-title="5 November 2026, 5:20 pm" data-when="5 November 2026, 5:20 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 5:20 pm">
           <img src="gallery/20261105_172000-t.jpg" alt="Photograph taken 5 November 2026, 5:20 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 5:20 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 5:20pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_171726" data-title="5 November 2026, 5:17 pm" data-when="5 November 2026, 5:17 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 5:17 pm">
           <img src="gallery/20261105_171726-t.jpg" alt="Photograph taken 5 November 2026, 5:17 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 5:17 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 5:17pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_170710" data-title="5 November 2026, 5:07 pm" data-when="5 November 2026, 5:07 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 5:07 pm">
           <img src="gallery/20261105_170710-t.jpg" alt="Photograph taken 5 November 2026, 5:07 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 5:07 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 5:07pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_170119" data-title="5 November 2026, 5:01 pm" data-when="5 November 2026, 5:01 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 5:01 pm">
           <img src="gallery/20261105_170119-t.jpg" alt="Photograph taken 5 November 2026, 5:01 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 5:01 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 5:01pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_165350" data-title="5 November 2026, 4:53 pm" data-when="5 November 2026, 4:53 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 4:53 pm">
           <img src="gallery/20261105_165350-t.jpg" alt="Photograph taken 5 November 2026, 4:53 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 4:53 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 4:53pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_165331" data-title="5 November 2026, 4:53 pm" data-when="5 November 2026, 4:53 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 4:53 pm">
           <img src="gallery/20261105_165331-t.jpg" alt="Photograph taken 5 November 2026, 4:53 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 4:53 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 4:53pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_165010" data-title="5 November 2026, 4:50 pm" data-when="5 November 2026, 4:50 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 4:50 pm">
           <img src="gallery/20261105_165010-t.jpg" alt="Photograph taken 5 November 2026, 4:50 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 4:50 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 4:50pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_164456" data-title="5 November 2026, 4:44 pm" data-when="5 November 2026, 4:44 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 4:44 pm">
           <img src="gallery/20261105_164456-t.jpg" alt="Photograph taken 5 November 2026, 4:44 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 4:44 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 4:44pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_164132" data-title="5 November 2026, 4:41 pm" data-when="5 November 2026, 4:41 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 4:41 pm">
           <img src="gallery/20261105_164132-t.jpg" alt="Photograph taken 5 November 2026, 4:41 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 4:41 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 4:41pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_163253" data-title="5 November 2026, 4:32 pm" data-when="5 November 2026, 4:32 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 4:32 pm">
           <img src="gallery/20261105_163253-t.jpg" alt="Photograph taken 5 November 2026, 4:32 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 4:32 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 4:32pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_163040" data-title="5 November 2026, 4:30 pm" data-when="5 November 2026, 4:30 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 4:30 pm">
           <img src="gallery/20261105_163040-t.jpg" alt="Photograph taken 5 November 2026, 4:30 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 4:30 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 4:30pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261105_162048" data-title="5 November 2026, 4:20 pm" data-when="5 November 2026, 4:20 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 November 2026, 4:20 pm">
           <img src="gallery/20261105_162048-t.jpg" alt="Photograph taken 5 November 2026, 4:20 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 November 2026, 4:20 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Nov 2026 · 4:20pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261103_064355" data-title="3 November 2026, 6:43 am" data-when="3 November 2026, 6:43 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 3 November 2026, 6:43 am">
           <img src="gallery/20261103_064355-t.jpg" alt="Photograph taken 3 November 2026, 6:43 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">3 November 2026, 6:43 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">3 Nov 2026 · 6:43am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261101_094731" data-title="1 November 2026, 9:47 am" data-when="1 November 2026, 9:47 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 November 2026, 9:47 am">
           <img src="gallery/20261101_094731-t.jpg" alt="Photograph taken 1 November 2026, 9:47 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 November 2026, 9:47 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Nov 2026 · 9:47am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261031_165235" data-title="31 October 2026, 4:52 pm" data-when="31 October 2026, 4:52 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 31 October 2026, 4:52 pm">
           <img src="gallery/20261031_165235-t.jpg" alt="Photograph taken 31 October 2026, 4:52 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">31 October 2026, 4:52 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">31 Oct 2026 · 4:52pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261024_151324" data-title="24 October 2026, 3:13 pm" data-when="24 October 2026, 3:13 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 24 October 2026, 3:13 pm">
           <img src="gallery/20261024_151324-t.jpg" alt="Photograph taken 24 October 2026, 3:13 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">24 October 2026, 3:13 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">24 Oct 2026 · 3:13pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261024_150456" data-title="24 October 2026, 3:04 pm" data-when="24 October 2026, 3:04 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 24 October 2026, 3:04 pm">
           <img src="gallery/20261024_150456-t.jpg" alt="Photograph taken 24 October 2026, 3:04 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">24 October 2026, 3:04 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">24 Oct 2026 · 3:04pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261024_145350" data-title="24 October 2026, 2:53 pm" data-when="24 October 2026, 2:53 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 24 October 2026, 2:53 pm">
           <img src="gallery/20261024_145350-t.jpg" alt="Photograph taken 24 October 2026, 2:53 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">24 October 2026, 2:53 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">24 Oct 2026 · 2:53pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261017_143450" data-title="17 October 2026, 2:34 pm" data-when="17 October 2026, 2:34 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 17 October 2026, 2:34 pm">
           <img src="gallery/20261017_143450-t.jpg" alt="Photograph taken 17 October 2026, 2:34 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">17 October 2026, 2:34 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">17 Oct 2026 · 2:34pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261010_070855" data-title="10 October 2026, 7:08 am" data-when="10 October 2026, 7:08 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 October 2026, 7:08 am">
           <img src="gallery/20261010_070855-t.jpg" alt="Photograph taken 10 October 2026, 7:08 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 October 2026, 7:08 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Oct 2026 · 7:08am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261006_182140" data-title="6 October 2026, 6:21 pm" data-when="6 October 2026, 6:21 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 October 2026, 6:21 pm">
           <img src="gallery/20261006_182140-t.jpg" alt="Photograph taken 6 October 2026, 6:21 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 October 2026, 6:21 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Oct 2026 · 6:21pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20261006_182132" data-title="6 October 2026, 6:21 pm" data-when="6 October 2026, 6:21 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 October 2026, 6:21 pm">
           <img src="gallery/20261006_182132-t.jpg" alt="Photograph taken 6 October 2026, 6:21 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 October 2026, 6:21 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Oct 2026 · 6:21pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260920_184735" data-title="20 September 2026, 6:47 pm" data-when="20 September 2026, 6:47 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 20 September 2026, 6:47 pm">
           <img src="gallery/20260920_184735-t.jpg" alt="Photograph taken 20 September 2026, 6:47 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">20 September 2026, 6:47 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">20 Sep 2026 · 6:47pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260918_122400" data-title="18 September 2026, 12:24 pm" data-when="18 September 2026, 12:24 pm" data-place="Lake Camanche, California">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 18 September 2026, 12:24 pm">
           <img src="gallery/20260918_122400-t.jpg" alt="Photograph taken 18 September 2026, 12:24 pm at Lake Camanche, California" loading="lazy" width="428" height="760">
         </button>
-        <figcaption><span class="t">18 September 2026, 12:24 pm</span><span class="w">Lake Camanche, California</span></figcaption>
+        <figcaption><span class="t">18 Sep 2026 · 12:24pm</span><span class="w">Lake Camanche, California</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260918_115202" data-title="18 September 2026, 11:52 am" data-when="18 September 2026, 11:52 am" data-place="Lake Camanche, California">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 18 September 2026, 11:52 am">
           <img src="gallery/20260918_115202-t.jpg" alt="Photograph taken 18 September 2026, 11:52 am at Lake Camanche, California" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">18 September 2026, 11:52 am</span><span class="w">Lake Camanche, California</span></figcaption>
+        <figcaption><span class="t">18 Sep 2026 · 11:52am</span><span class="w">Lake Camanche, California</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260916_214332" data-title="16 September 2026, 9:43 pm" data-when="16 September 2026, 9:43 pm" data-place="Lake Camanche, California">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 16 September 2026, 9:43 pm">
           <img src="gallery/20260916_214332-t.jpg" alt="Photograph taken 16 September 2026, 9:43 pm at Lake Camanche, California" loading="lazy" width="428" height="760">
         </button>
-        <figcaption><span class="t">16 September 2026, 9:43 pm</span><span class="w">Lake Camanche, California</span></figcaption>
+        <figcaption><span class="t">16 Sep 2026 · 9:43pm</span><span class="w">Lake Camanche, California</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260916_192350" data-title="16 September 2026, 7:23 pm" data-when="16 September 2026, 7:23 pm" data-place="Lake Camanche, California">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 16 September 2026, 7:23 pm">
           <img src="gallery/20260916_192350-t.jpg" alt="Photograph taken 16 September 2026, 7:23 pm at Lake Camanche, California" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">16 September 2026, 7:23 pm</span><span class="w">Lake Camanche, California</span></figcaption>
+        <figcaption><span class="t">16 Sep 2026 · 7:23pm</span><span class="w">Lake Camanche, California</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260722_201552" data-title="22 July 2026, 8:15 pm" data-when="22 July 2026, 8:15 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 22 July 2026, 8:15 pm">
           <img src="gallery/20260722_201552-t.jpg" alt="Photograph taken 22 July 2026, 8:15 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">22 July 2026, 8:15 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">22 Jul 2026 · 8:15pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260721_184104" data-title="21 July 2026, 6:41 pm" data-when="21 July 2026, 6:41 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 21 July 2026, 6:41 pm">
           <img src="gallery/20260721_184104-t.jpg" alt="Photograph taken 21 July 2026, 6:41 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">21 July 2026, 6:41 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">21 Jul 2026 · 6:41pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260712_210904" data-title="12 July 2026, 9:09 pm" data-when="12 July 2026, 9:09 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 12 July 2026, 9:09 pm">
           <img src="gallery/20260712_210904-t.jpg" alt="Photograph taken 12 July 2026, 9:09 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">12 July 2026, 9:09 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">12 Jul 2026 · 9:09pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260712_203927" data-title="12 July 2026, 8:39 pm" data-when="12 July 2026, 8:39 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 12 July 2026, 8:39 pm">
           <img src="gallery/20260712_203927-t.jpg" alt="Photograph taken 12 July 2026, 8:39 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">12 July 2026, 8:39 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">12 Jul 2026 · 8:39pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260706_161420" data-title="6 July 2026, 4:14 pm" data-when="6 July 2026, 4:14 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 July 2026, 4:14 pm">
           <img src="gallery/20260706_161420-t.jpg" alt="Photograph taken 6 July 2026, 4:14 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 July 2026, 4:14 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Jul 2026 · 4:14pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260705_211710" data-title="5 July 2026, 9:17 pm" data-when="5 July 2026, 9:17 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 July 2026, 9:17 pm">
           <img src="gallery/20260705_211710-t.jpg" alt="Photograph taken 5 July 2026, 9:17 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 July 2026, 9:17 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Jul 2026 · 9:17pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260622_211835" data-title="22 June 2026, 9:18 pm" data-when="22 June 2026, 9:18 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 22 June 2026, 9:18 pm">
           <img src="gallery/20260622_211835-t.jpg" alt="Photograph taken 22 June 2026, 9:18 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">22 June 2026, 9:18 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">22 Jun 2026 · 9:18pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260622_210450" data-title="22 June 2026, 9:04 pm" data-when="22 June 2026, 9:04 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 22 June 2026, 9:04 pm">
           <img src="gallery/20260622_210450-t.jpg" alt="Photograph taken 22 June 2026, 9:04 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">22 June 2026, 9:04 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">22 Jun 2026 · 9:04pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260529_203628" data-title="29 May 2026, 8:36 pm" data-when="29 May 2026, 8:36 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 29 May 2026, 8:36 pm">
           <img src="gallery/20260529_203628-t.jpg" alt="Photograph taken 29 May 2026, 8:36 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">29 May 2026, 8:36 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">29 May 2026 · 8:36pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260527_201836" data-title="27 May 2026, 8:18 pm" data-when="27 May 2026, 8:18 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 27 May 2026, 8:18 pm">
           <img src="gallery/20260527_201836-t.jpg" alt="Photograph taken 27 May 2026, 8:18 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">27 May 2026, 8:18 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">27 May 2026 · 8:18pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260524_202225" data-title="24 May 2026, 8:22 pm" data-when="24 May 2026, 8:22 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 24 May 2026, 8:22 pm">
           <img src="gallery/20260524_202225-t.jpg" alt="Photograph taken 24 May 2026, 8:22 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">24 May 2026, 8:22 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">24 May 2026 · 8:22pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260522_114159" data-title="22 May 2026, 11:41 am" data-when="22 May 2026, 11:41 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 22 May 2026, 11:41 am">
           <img src="gallery/20260522_114159-t.jpg" alt="Photograph taken 22 May 2026, 11:41 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">22 May 2026, 11:41 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">22 May 2026 · 11:41am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260512_204109" data-title="12 May 2026, 8:41 pm" data-when="12 May 2026, 8:41 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 12 May 2026, 8:41 pm">
           <img src="gallery/20260512_204109-t.jpg" alt="Photograph taken 12 May 2026, 8:41 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">12 May 2026, 8:41 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">12 May 2026 · 8:41pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260512_201110" data-title="12 May 2026, 8:11 pm" data-when="12 May 2026, 8:11 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 12 May 2026, 8:11 pm">
           <img src="gallery/20260512_201110-t.jpg" alt="Photograph taken 12 May 2026, 8:11 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">12 May 2026, 8:11 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">12 May 2026 · 8:11pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260117_170539" data-title="17 January 2026, 5:05 pm" data-when="17 January 2026, 5:05 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 17 January 2026, 5:05 pm">
           <img src="gallery/20260117_170539-t.jpg" alt="Photograph taken 17 January 2026, 5:05 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">17 January 2026, 5:05 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">17 Jan 2026 · 5:05pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260114_065220" data-title="14 January 2026, 6:52 am" data-when="14 January 2026, 6:52 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 14 January 2026, 6:52 am">
           <img src="gallery/20260114_065220-t.jpg" alt="Photograph taken 14 January 2026, 6:52 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">14 January 2026, 6:52 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">14 Jan 2026 · 6:52am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260113_172848" data-title="13 January 2026, 5:28 pm" data-when="13 January 2026, 5:28 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 13 January 2026, 5:28 pm">
           <img src="gallery/20260113_172848-t.jpg" alt="Photograph taken 13 January 2026, 5:28 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">13 January 2026, 5:28 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">13 Jan 2026 · 5:28pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260113_171318" data-title="13 January 2026, 5:13 pm" data-when="13 January 2026, 5:13 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 13 January 2026, 5:13 pm">
           <img src="gallery/20260113_171318-t.jpg" alt="Photograph taken 13 January 2026, 5:13 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">13 January 2026, 5:13 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">13 Jan 2026 · 5:13pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260113_170855" data-title="13 January 2026, 5:08 pm" data-when="13 January 2026, 5:08 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 13 January 2026, 5:08 pm">
           <img src="gallery/20260113_170855-t.jpg" alt="Photograph taken 13 January 2026, 5:08 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">13 January 2026, 5:08 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">13 Jan 2026 · 5:08pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260112_064500" data-title="12 January 2026, 6:45 am" data-when="12 January 2026, 6:45 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 12 January 2026, 6:45 am">
           <img src="gallery/20260112_064500-t.jpg" alt="Photograph taken 12 January 2026, 6:45 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">12 January 2026, 6:45 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">12 Jan 2026 · 6:45am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260110_173804" data-title="10 January 2026, 5:38 pm" data-when="10 January 2026, 5:38 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 January 2026, 5:38 pm">
           <img src="gallery/20260110_173804-t.jpg" alt="Photograph taken 10 January 2026, 5:38 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 January 2026, 5:38 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Jan 2026 · 5:38pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260110_173138" data-title="10 January 2026, 5:31 pm" data-when="10 January 2026, 5:31 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 January 2026, 5:31 pm">
           <img src="gallery/20260110_173138-t.jpg" alt="Photograph taken 10 January 2026, 5:31 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 January 2026, 5:31 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Jan 2026 · 5:31pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260110_153241" data-title="10 January 2026, 3:32 pm" data-when="10 January 2026, 3:32 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 January 2026, 3:32 pm">
           <img src="gallery/20260110_153241-t.jpg" alt="Photograph taken 10 January 2026, 3:32 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 January 2026, 3:32 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Jan 2026 · 3:32pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260110_152139" data-title="10 January 2026, 3:21 pm" data-when="10 January 2026, 3:21 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 January 2026, 3:21 pm">
           <img src="gallery/20260110_152139-t.jpg" alt="Photograph taken 10 January 2026, 3:21 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 January 2026, 3:21 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Jan 2026 · 3:21pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260110_150106" data-title="10 January 2026, 3:01 pm" data-when="10 January 2026, 3:01 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 January 2026, 3:01 pm">
           <img src="gallery/20260110_150106-t.jpg" alt="Photograph taken 10 January 2026, 3:01 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 January 2026, 3:01 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Jan 2026 · 3:01pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260110_143911" data-title="10 January 2026, 2:39 pm" data-when="10 January 2026, 2:39 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 January 2026, 2:39 pm">
           <img src="gallery/20260110_143911-t.jpg" alt="Photograph taken 10 January 2026, 2:39 pm at Santa Cruz County" loading="lazy" width="428" height="760">
         </button>
-        <figcaption><span class="t">10 January 2026, 2:39 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Jan 2026 · 2:39pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260108_064955" data-title="8 January 2026, 6:49 am" data-when="8 January 2026, 6:49 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 8 January 2026, 6:49 am">
           <img src="gallery/20260108_064955-t.jpg" alt="Photograph taken 8 January 2026, 6:49 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">8 January 2026, 6:49 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">8 Jan 2026 · 6:49am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260106_072339" data-title="6 January 2026, 7:23 am" data-when="6 January 2026, 7:23 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 January 2026, 7:23 am">
           <img src="gallery/20260106_072339-t.jpg" alt="Photograph taken 6 January 2026, 7:23 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 January 2026, 7:23 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Jan 2026 · 7:23am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260106_064751" data-title="6 January 2026, 6:47 am" data-when="6 January 2026, 6:47 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 January 2026, 6:47 am">
           <img src="gallery/20260106_064751-t.jpg" alt="Photograph taken 6 January 2026, 6:47 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 January 2026, 6:47 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Jan 2026 · 6:47am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260105_065127" data-title="5 January 2026, 6:51 am" data-when="5 January 2026, 6:51 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 January 2026, 6:51 am">
           <img src="gallery/20260105_065127-t.jpg" alt="Photograph taken 5 January 2026, 6:51 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 January 2026, 6:51 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Jan 2026 · 6:51am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260102_164618" data-title="2 January 2026, 4:46 pm" data-when="2 January 2026, 4:46 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 2 January 2026, 4:46 pm">
           <img src="gallery/20260102_164618-t.jpg" alt="Photograph taken 2 January 2026, 4:46 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">2 January 2026, 4:46 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">2 Jan 2026 · 4:46pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260102_162445" data-title="2 January 2026, 4:24 pm" data-when="2 January 2026, 4:24 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 2 January 2026, 4:24 pm">
           <img src="gallery/20260102_162445-t.jpg" alt="Photograph taken 2 January 2026, 4:24 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">2 January 2026, 4:24 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">2 Jan 2026 · 4:24pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20260101_171805" data-title="1 January 2026, 5:18 pm" data-when="1 January 2026, 5:18 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 January 2026, 5:18 pm">
           <img src="gallery/20260101_171805-t.jpg" alt="Photograph taken 1 January 2026, 5:18 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 January 2026, 5:18 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Jan 2026 · 5:18pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251229_173443" data-title="29 December 2025, 5:34 pm" data-when="29 December 2025, 5:34 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 29 December 2025, 5:34 pm">
           <img src="gallery/20251229_173443-t.jpg" alt="Photograph taken 29 December 2025, 5:34 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">29 December 2025, 5:34 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">29 Dec 2025 · 5:34pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251229_172205" data-title="29 December 2025, 5:22 pm" data-when="29 December 2025, 5:22 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 29 December 2025, 5:22 pm">
           <img src="gallery/20251229_172205-t.jpg" alt="Photograph taken 29 December 2025, 5:22 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">29 December 2025, 5:22 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">29 Dec 2025 · 5:22pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251228_141001" data-title="28 December 2025, 2:10 pm" data-when="28 December 2025, 2:10 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 28 December 2025, 2:10 pm">
           <img src="gallery/20251228_141001-t.jpg" alt="Photograph taken 28 December 2025, 2:10 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">28 December 2025, 2:10 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">28 Dec 2025 · 2:10pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251226_105224" data-title="26 December 2025, 10:52 am" data-when="26 December 2025, 10:52 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 26 December 2025, 10:52 am">
           <img src="gallery/20251226_105224-t.jpg" alt="Photograph taken 26 December 2025, 10:52 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">26 December 2025, 10:52 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">26 Dec 2025 · 10:52am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251225_114953" data-title="25 December 2025, 11:49 am" data-when="25 December 2025, 11:49 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 25 December 2025, 11:49 am">
           <img src="gallery/20251225_114953-t.jpg" alt="Photograph taken 25 December 2025, 11:49 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">25 December 2025, 11:49 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">25 Dec 2025 · 11:49am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251223_064857" data-title="23 December 2025, 6:48 am" data-when="23 December 2025, 6:48 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 23 December 2025, 6:48 am">
           <img src="gallery/20251223_064857-t.jpg" alt="Photograph taken 23 December 2025, 6:48 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">23 December 2025, 6:48 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">23 Dec 2025 · 6:48am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251207_171110" data-title="7 December 2025, 5:11 pm" data-when="7 December 2025, 5:11 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 7 December 2025, 5:11 pm">
           <img src="gallery/20251207_171110-t.jpg" alt="Photograph taken 7 December 2025, 5:11 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">7 December 2025, 5:11 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">7 Dec 2025 · 5:11pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251206_173414" data-title="6 December 2025, 5:34 pm" data-when="6 December 2025, 5:34 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 December 2025, 5:34 pm">
           <img src="gallery/20251206_173414-t.jpg" alt="Photograph taken 6 December 2025, 5:34 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 December 2025, 5:34 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Dec 2025 · 5:34pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251205_161752" data-title="5 December 2025, 4:17 pm" data-when="5 December 2025, 4:17 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 5 December 2025, 4:17 pm">
           <img src="gallery/20251205_161752-t.jpg" alt="Photograph taken 5 December 2025, 4:17 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">5 December 2025, 4:17 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">5 Dec 2025 · 4:17pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251202_171251" data-title="2 December 2025, 5:12 pm" data-when="2 December 2025, 5:12 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 2 December 2025, 5:12 pm">
           <img src="gallery/20251202_171251-t.jpg" alt="Photograph taken 2 December 2025, 5:12 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">2 December 2025, 5:12 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">2 Dec 2025 · 5:12pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251201_171840" data-title="1 December 2025, 5:18 pm" data-when="1 December 2025, 5:18 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 December 2025, 5:18 pm">
           <img src="gallery/20251201_171840-t.jpg" alt="Photograph taken 1 December 2025, 5:18 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 December 2025, 5:18 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Dec 2025 · 5:18pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251107_095641" data-title="7 November 2025, 9:56 am" data-when="7 November 2025, 9:56 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 7 November 2025, 9:56 am">
           <img src="gallery/20251107_095641-t.jpg" alt="Photograph taken 7 November 2025, 9:56 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">7 November 2025, 9:56 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">7 Nov 2025 · 9:56am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20251010_093421" data-title="10 October 2025, 9:34 am" data-when="10 October 2025, 9:34 am" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 10 October 2025, 9:34 am">
           <img src="gallery/20251010_093421-t.jpg" alt="Photograph taken 10 October 2025, 9:34 am at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">10 October 2025, 9:34 am</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">10 Oct 2025 · 9:34am</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250828_194941" data-title="28 August 2025, 7:49 pm" data-when="28 August 2025, 7:49 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 28 August 2025, 7:49 pm">
           <img src="gallery/20250828_194941-t.jpg" alt="Photograph taken 28 August 2025, 7:49 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">28 August 2025, 7:49 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">28 Aug 2025 · 7:49pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250828_134149" data-title="28 August 2025, 1:41 pm" data-when="28 August 2025, 1:41 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 28 August 2025, 1:41 pm">
           <img src="gallery/20250828_134149-t.jpg" alt="Photograph taken 28 August 2025, 1:41 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">28 August 2025, 1:41 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">28 Aug 2025 · 1:41pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250827_200037" data-title="27 August 2025, 8:00 pm" data-when="27 August 2025, 8:00 pm" data-place="San Francisco, California">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 27 August 2025, 8:00 pm">
           <img src="gallery/20250827_200037-t.jpg" alt="Photograph taken 27 August 2025, 8:00 pm at San Francisco, California" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">27 August 2025, 8:00 pm</span><span class="w">San Francisco, California</span></figcaption>
+        <figcaption><span class="t">27 Aug 2025 · 8:00pm</span><span class="w">San Francisco, California</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250825_194922" data-title="25 August 2025, 7:49 pm" data-when="25 August 2025, 7:49 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 25 August 2025, 7:49 pm">
           <img src="gallery/20250825_194922-t.jpg" alt="Photograph taken 25 August 2025, 7:49 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">25 August 2025, 7:49 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">25 Aug 2025 · 7:49pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250825_192230" data-title="25 August 2025, 7:22 pm" data-when="25 August 2025, 7:22 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 25 August 2025, 7:22 pm">
           <img src="gallery/20250825_192230-t.jpg" alt="Photograph taken 25 August 2025, 7:22 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">25 August 2025, 7:22 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">25 Aug 2025 · 7:22pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250811_191710" data-title="11 August 2025, 7:17 pm" data-when="11 August 2025, 7:17 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 11 August 2025, 7:17 pm">
           <img src="gallery/20250811_191710-t.jpg" alt="Photograph taken 11 August 2025, 7:17 pm at Santa Cruz County" loading="lazy" width="760" height="427">
         </button>
-        <figcaption><span class="t">11 August 2025, 7:17 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">11 Aug 2025 · 7:17pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250806_193639" data-title="6 August 2025, 7:36 pm" data-when="6 August 2025, 7:36 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 6 August 2025, 7:36 pm">
           <img src="gallery/20250806_193639-t.jpg" alt="Photograph taken 6 August 2025, 7:36 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">6 August 2025, 7:36 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">6 Aug 2025 · 7:36pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250616_134103" data-title="16 June 2025, 1:41 pm" data-when="16 June 2025, 1:41 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 16 June 2025, 1:41 pm">
           <img src="gallery/20250616_134103-t.jpg" alt="Photograph taken 16 June 2025, 1:41 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">16 June 2025, 1:41 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">16 Jun 2025 · 1:41pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250609_204931" data-title="9 June 2025, 8:49 pm" data-when="9 June 2025, 8:49 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 9 June 2025, 8:49 pm">
           <img src="gallery/20250609_204931-t.jpg" alt="Photograph taken 9 June 2025, 8:49 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">9 June 2025, 8:49 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">9 Jun 2025 · 8:49pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250601_191305" data-title="1 June 2025, 7:13 pm" data-when="1 June 2025, 7:13 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 June 2025, 7:13 pm">
           <img src="gallery/20250601_191305-t.jpg" alt="Photograph taken 1 June 2025, 7:13 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 June 2025, 7:13 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Jun 2025 · 7:13pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250601_141917" data-title="1 June 2025, 2:19 pm" data-when="1 June 2025, 2:19 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 June 2025, 2:19 pm">
           <img src="gallery/20250601_141917-t.jpg" alt="Photograph taken 1 June 2025, 2:19 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 June 2025, 2:19 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Jun 2025 · 2:19pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250601_141806" data-title="1 June 2025, 2:18 pm" data-when="1 June 2025, 2:18 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 June 2025, 2:18 pm">
           <img src="gallery/20250601_141806-t.jpg" alt="Photograph taken 1 June 2025, 2:18 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 June 2025, 2:18 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Jun 2025 · 2:18pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250601_140238" data-title="1 June 2025, 2:02 pm" data-when="1 June 2025, 2:02 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 June 2025, 2:02 pm">
           <img src="gallery/20250601_140238-t.jpg" alt="Photograph taken 1 June 2025, 2:02 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 June 2025, 2:02 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Jun 2025 · 2:02pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250601_135533" data-title="1 June 2025, 1:55 pm" data-when="1 June 2025, 1:55 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 1 June 2025, 1:55 pm">
           <img src="gallery/20250601_135533-t.jpg" alt="Photograph taken 1 June 2025, 1:55 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">1 June 2025, 1:55 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">1 Jun 2025 · 1:55pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250531_193718" data-title="31 May 2025, 7:37 pm" data-when="31 May 2025, 7:37 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 31 May 2025, 7:37 pm">
           <img src="gallery/20250531_193718-t.jpg" alt="Photograph taken 31 May 2025, 7:37 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">31 May 2025, 7:37 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">31 May 2025 · 7:37pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250531_191710" data-title="31 May 2025, 7:17 pm" data-when="31 May 2025, 7:17 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 31 May 2025, 7:17 pm">
           <img src="gallery/20250531_191710-t.jpg" alt="Photograph taken 31 May 2025, 7:17 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">31 May 2025, 7:17 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">31 May 2025 · 7:17pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250531_190339" data-title="31 May 2025, 7:03 pm" data-when="31 May 2025, 7:03 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 31 May 2025, 7:03 pm">
           <img src="gallery/20250531_190339-t.jpg" alt="Photograph taken 31 May 2025, 7:03 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">31 May 2025, 7:03 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">31 May 2025 · 7:03pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250526_203009" data-title="26 May 2025, 8:30 pm" data-when="26 May 2025, 8:30 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 26 May 2025, 8:30 pm">
           <img src="gallery/20250526_203009-t.jpg" alt="Photograph taken 26 May 2025, 8:30 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">26 May 2025, 8:30 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">26 May 2025 · 8:30pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
       <figure class="shot" data-slug="20250525_202216" data-title="25 May 2025, 8:22 pm" data-when="25 May 2025, 8:22 pm" data-place="Santa Cruz County">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from 25 May 2025, 8:22 pm">
           <img src="gallery/20250525_202216-t.jpg" alt="Photograph taken 25 May 2025, 8:22 pm at Santa Cruz County" loading="lazy" width="760" height="428">
         </button>
-        <figcaption><span class="t">25 May 2025, 8:22 pm</span><span class="w">Santa Cruz County</span></figcaption>
+        <figcaption><span class="t">25 May 2025 · 8:22pm</span><span class="w">Santa Cruz County</span></figcaption>
       </figure>
 </div>
 
