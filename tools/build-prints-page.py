@@ -64,8 +64,9 @@ HOME = "site/index.html"
 slides = "\n".join(
 f'''      <figure class="shot ss-slide" data-slug="{m['slug']}" data-title="{label(m)}" data-when="{m['when']}" data-place="{m['place']}">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from {m['when']}">
-          <img src="gallery/{m['slug']}.jpg" alt="Photograph taken {m['when']} at {m['place']}" loading="lazy" decoding="async" width="{round(m['w']*1600/760)}" height="{round(m['h']*1600/760)}">
+          <img src="gallery/{m['slug']}-t.jpg" alt="Photograph taken {m['when']} at {m['place']}" loading="lazy" decoding="async" width="{m['w']}" height="{m['h']}">
         </button>
+        <figcaption><span class="t">{short(m)}</span><span class="w">{sub(m)}</span></figcaption>
       </figure>''' for m in man)
 
 h = open(HOME).read()
