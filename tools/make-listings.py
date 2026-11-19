@@ -83,7 +83,19 @@ DESC = {
 ARTIST_KW = ["Ian Sun", "fine art photography", "landscape photography"]
 COASTAL_KW = ["Santa Cruz", "Monterey Bay", "California coast", "coastal photography"]
 
-def base_kw(place):
+# Photographs taken in a coastal place that are not pictures of the coast.
+# "Monterey Bay" on a picture of trees and sky is the same false claim to a
+# buyer as putting it on one taken inland.
+NOT_COASTAL = {
+    "20261119_085425": ["rainbow", "autumn leaves", "fall colour", "trees",
+                        "Santa Cruz"],
+    "20251226_133752": ["mushroom", "fly agaric", "forest floor", "Santa Cruz"],
+    "20260504_095320": ["redwoods", "forest", "trees", "Santa Cruz"],
+}
+
+def base_kw(place, slug=None):
+    if slug in NOT_COASTAL:
+        return NOT_COASTAL[slug] + ["California"] + ARTIST_KW
     if "Santa Cruz" in place or "Monterey" in place:
         return COASTAL_KW + ["California"] + ARTIST_KW
     return [place.split(",")[0], "California"] + ARTIST_KW
@@ -137,7 +149,16 @@ rows = []
 for i, m in enumerate(man):
     slug, title, place, when = m["slug"], m["title"], m["place"], m["when"]
     t = tod(when)
-    kw = extra_kw(title, place) + TOD_KW[t] + base_kw(place)
+    tod_kw = TOD_KW[t]
+    if slug in NOT_COASTAL:
+        # Time-of-day keywords assert sun conditions. On a photograph where
+        # the sun is not the subject - an overcast rainbow at 8:54, a mushroom
+        # on a forest floor - "sunrise" and "golden hour" send a buyer
+        # somewhere the picture does not go.
+        tod_kw = [k for k in tod_kw if k not in {
+            "sunrise", "sunset", "dawn", "dusk", "first light",
+            "golden hour", "blue hour", "last light"}]
+    kw = extra_kw(title, place) + tod_kw + base_kw(place, slug)
     seen, uniq = set(), []
     for x in kw:
         if x.lower() not in seen: seen.add(x.lower()); uniq.append(x)
@@ -158,7 +179,11 @@ for i, m in enumerate(man):
     else:
         series = SERIES_AWAY.format(place)
     desc = d + " " + series
-    shop_title = NAMES.get(slug, title)
+    # The manifest title already prefers a hand-written name over a generated
+    # one, so trust it. Reading NAMES first meant a named work could be sold
+    # under its generated colour name: "November Rainbow" went up as "Gold
+    # Morning", which describes the leaves and misses what a buyer is after.
+    shop_title = title
     rows.append(dict(n=filenum(slug), shop_title=shop_title, named=(slug in DESC), file=f"{filenum(slug):03d}-" + re.sub(r"[^A-Za-z0-9]+","-",title).strip("-").lower() + ".jpg",
                      title=title, medium="Photography", category="Photograph",
                      keywords=s, description=desc, place=place, when=when))

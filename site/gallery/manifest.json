@@ -132,6 +132,17 @@
   "faa": "https://ian-sun.pixels.com/featured/after-the-light-went-ian-sun.html"
  },
  {
+  "slug": "20261119_085425",
+  "title": "November Rainbow",
+  "when": "19 November 2026, 8:54 am",
+  "iso": "2026-11-19T08:54:25",
+  "place": "Santa Cruz",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape",
+  "faa": ""
+ },
+ {
   "slug": "20261117_165552",
   "title": "Across the Bay",
   "when": "17 November 2026, 4:55 pm",
@@ -359,17 +370,6 @@
   "place": "Santa Cruz County",
   "w": 760,
   "h": 253,
-  "orient": "landscape",
-  "faa": ""
- },
- {
-  "slug": "20261119_085425",
-  "title": "Morning",
-  "when": "19 November 2026, 8:54 am",
-  "iso": "2026-11-19T08:54:25",
-  "place": "Santa Cruz County",
-  "w": 760,
-  "h": 428,
   "orient": "landscape",
   "faa": ""
  },

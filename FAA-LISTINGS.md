@@ -12,7 +12,7 @@ Three fields are identical every time. Set them once under
 | **Medium** | Photography |
 | **Artwork Category** | Photograph |
 
-**33 names are written** — those photographs were looked at
+**34 names are written** — those photographs were looked at
 individually and the description says what is actually in the frame.
 
 **113 names are generated** and marked ★. They come from
@@ -161,9 +161,9 @@ The sun dropping behind the Giant Dipper, the wooden roller coaster that has sto
 Fly Agaric
 ```
 
-**Keywords** (225/500)
+**Keywords** (172/500)
 ```
-mushroom, fly agaric, amanita muscaria, fungi, forest floor, macro, midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+mushroom, fly agaric, amanita muscaria, fungi, forest floor, macro, midday, blue sky, daylight, Santa Cruz, California, Ian Sun, fine art photography, landscape photography
 ```
 
 **Description**
@@ -581,9 +581,9 @@ A mauve and pink sky above Main Beach in the middle of May. Part of a year-long 
 The Redwoods
 ```
 
-**Keywords** (178/500)
+**Keywords** (125/500)
 ```
-redwoods, forest, trees, morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+redwoods, forest, trees, morning light, morning, Santa Cruz, California, Ian Sun, fine art photography, landscape photography
 ```
 
 **Description**
@@ -3088,6 +3088,27 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 **Description**
 ```
 A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 1 February 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 147 — November Rainbow
+
+**File:** `147-november-rainbow.jpg`  ·  **Taken:** 19 November 2026, 8:54 am
+
+**Title**
+```
+November Rainbow
+```
+
+**Keywords** (129/500)
+```
+morning, rainbow, autumn leaves, fall colour, trees, Santa Cruz, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A rainbow standing in a flat grey November sky, framed between a redwood and a pine, over a canopy of leaves turning red and gold. Photographed at 8:54 on a Thursday morning in Santa Cruz. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
