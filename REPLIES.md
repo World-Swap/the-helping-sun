@@ -72,6 +72,38 @@ Ian
 
 ---
 
+## 3a. The NFT / Web3 version
+
+A second shape of the same fraud, usually arriving after a vague first email.
+Big offer in crypto, an "exhibition", a profile link as proof, and one
+question doing all the work: *do you have any experience with NFTs?*
+
+The answer "no" is what they are fishing for. What follows is a platform where
+you must pay a minting or gas fee, verify or upgrade an account, connect a
+wallet, or confirm a seed phrase. The payment never arrives.
+
+**Rules, no exceptions:**
+
+- You never pay anything to sell your own work. Money flows to the artist.
+- Never connect a wallet to a site somebody sends you.
+- Never type a seed phrase anywhere, for anyone, ever. Not support, not a
+  marketplace, not a friend.
+- Don't answer the experience question. It is the probe, not small talk.
+
+If you want to close it politely:
+
+```
+Thanks for the offer. I'm not minting or licensing work as NFTs, and all my
+sales go through my shop. All the best with the exhibition.
+```
+
+Then stop replying, and report the account to the platform they contacted you
+through. That takes two minutes and protects the next artist.
+
+**Checking a "collector" takes a minute.** Open the profile they link. Does it
+contain any art? Does the displayed name match the web address? A real
+collector leaves a trail; a throwaway account does not.
+
 ## 3. If they push back — check, own shipper, overpayment
 
 The moment any of these appear, the conversation is over. One line, no

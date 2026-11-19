@@ -214,7 +214,12 @@ their own shipper, then send a check for too much and ask you to forward the
 difference. The check bounces weeks later and the bank takes it back out of
 your account.
 
-`REPLIES.md` has a template that answers them warmly and routes everything to
+A second wave offers large sums in cryptocurrency to mint your work as NFTs
+for an "exhibition", and asks whether you have any experience with NFTs. That
+question is the whole email. What follows is a platform charging minting, gas
+or verification fees, or a wallet connection that drains it.
+
+`REPLIES.md` has templates that answer both warmly and route everything to
 the shop. It costs nothing if they're genuine and gives them nothing if
 they're not.
 
