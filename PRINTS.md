@@ -113,6 +113,28 @@ Put that number in Golden Hour occasionally. Not as a sales pitch — as an
 accounting. *"Three prints sold this month, which covered insurance and two
 tanks of petrol."* People who bought one will want to know what it did.
 
+## Turn on location tagging — it solves the naming problem
+
+**None of the existing 103 photographs carry coordinates.** The GPS block is
+present on 100 of them but completely empty, which means location tagging was
+off in the camera app. There is nothing to recover.
+
+That is why the 27 written titles name places from what the picture looks
+like, and the other 69 name only colour and time. It is also why one of them
+was once called "Boardwalk, Reflected" when it is a rooftop and a tree.
+
+**Switch it on and every future photograph names itself.** On a Samsung the
+setting is in the Camera app under Settings, usually called *Location tags*.
+Once it is on, the coordinates travel inside the file and the exact spot —
+Walton Lighthouse, the rivermouth, West Cliff — can be read straight off it
+instead of guessed.
+
+**It does not leak to buyers.** `tools/make-upload-files.py` strips every
+metadata block before upload, coordinates included. You get accurate titles
+for your own records; the public file carries nothing.
+
+Worth doing before the next morning you go out.
+
 ## Adding or changing photographs
 
 Edit the `PICKS` list in `tools/make-gallery.py` — each entry is a filename,
