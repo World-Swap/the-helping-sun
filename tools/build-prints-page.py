@@ -11,20 +11,19 @@ MAN  = "site/gallery/manifest.json"
 
 
 def label(m):
-    """What to call a photograph on the site.
+    """What to call a photograph on the site: when it was taken.
 
-    Only the works Ian actually named carry a title here. The rest were named
-    by measuring their colour, and those machine names collided with the names
-    he gives things on the shop - the same picture reading "Cobalt Morning"
-    here and something else there. Showing the date instead says something
-    true and nothing confusing.
+    No titles at all. The machine-made ones collided with the names Ian gives
+    things on the shop, and carrying only some titles made the gallery look
+    like two different systems. A date and a place are true of every
+    photograph and need no upkeep.
     """
-    return m["title"] if m.get("named") else m["when"]
+    return m["when"]
 
 
 def sub(m):
-    """The second line: the date, unless the date is already the title."""
-    return m["when"] if m.get("named") else m["place"]
+    """The second line: where it was taken."""
+    return m["place"]
 
 
 man = json.load(open(MAN))
@@ -33,7 +32,6 @@ f'''      <figure class="shot" data-slug="{m['slug']}" data-title="{label(m)}" d
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from {m['when']}">
           <img src="gallery/{m['slug']}-t.jpg" alt="{label(m)} — {m['place']}" loading="lazy" width="{m['w']}" height="{m['h']}">
         </button>
-        <figcaption><span class="t">{label(m)}</span><span class="w">{sub(m)}</span></figcaption>
       </figure>''' for m in man)
 
 s = open(PAGE).read()
@@ -45,23 +43,26 @@ if n != 1:
 open(PAGE, "w").write(new)
 print(f"rebuilt {PAGE} with {len(man)} photographs")
 
-# --- homepage featured grid: the first 12 of the manifest (the named works)
 HOME = "site/index.html"
-feat = man[:12]
-home_figs = "\n".join(
-f'''        <figure class="shot" data-slug="{m['slug']}" data-title="{label(m)}" data-when="{m['when']}" data-place="{m['place']}">
-          <button type="button" class="shot-btn" aria-label="Enlarge photograph from {m['when']}">
-            <img src="gallery/{m['slug']}-t.jpg" alt="{label(m)} — {m['place']}" loading="lazy" width="{m['w']}" height="{m['h']}">
-          </button>
-          <figcaption><span class="t">{label(m)}</span><span class="w">{sub(m)}</span></figcaption>
-        </figure>''' for m in feat)
+
+# --- homepage: a slideshow of every photograph. A column of 147 is a very
+# long page on a phone; one at a time, swipeable, is the same work in a
+# screenful. These carry class "shot", so the existing lightbox picks them all
+# up and opening one starts at the right photograph.
+slides = "\n".join(
+f'''      <figure class="shot ss-slide" data-slug="{m['slug']}" data-title="{label(m)}" data-when="{m['when']}" data-place="{m['place']}">
+        <button type="button" class="shot-btn" aria-label="Enlarge photograph from {m['when']}">
+          <img src="gallery/{m['slug']}.jpg" alt="Photograph taken {m['when']} at {m['place']}" loading="lazy" decoding="async" width="{round(m['w']*1600/760)}" height="{round(m['h']*1600/760)}">
+        </button>
+      </figure>''' for m in man)
 
 h = open(HOME).read()
-new_h, n2 = re.subn(r'(<div class="home-grid">\n).*?(\n    </div>)',
-                    lambda _: _.group(1) + home_figs + _.group(2),
+new_h, n2 = re.subn(r'(<div class="ss-track" id="ss-track">\n).*?(\n      </div><!-- /ss-track -->)',
+                    lambda _: _.group(1) + slides + _.group(2),
                     h, count=1, flags=re.S)
 if n2 != 1:
-    raise SystemExit("could not locate the home-grid block in " + HOME)
+    raise SystemExit("could not locate the slideshow track in " + HOME)
+new_h = re.sub(r'<span id="ss-total">\d+</span>', f'<span id="ss-total">{len(man)}</span>', new_h)
 new_h = re.sub(r'See all \d+ photographs', f'See all {len(man)} photographs', new_h)
 new_h = re.sub(r'Browse all \d+ photographs', f'Browse all {len(man)} photographs', new_h)
 
@@ -73,4 +74,4 @@ new_h = re.sub(r'Browse all \d+ photographs', f'Browse all {len(man)} photograph
 # front and the shop keeps its own catalogue. Nothing on this site needs to
 # be re-matched after an upload.
 open(HOME, "w").write(new_h)
-print(f"rebuilt {HOME} featured grid ({len(feat)} of {len(man)})")
+print(f"rebuilt {HOME} slideshow ({len(man)} photographs)")
