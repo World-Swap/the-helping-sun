@@ -52,6 +52,9 @@ TITLES = {
  "20261101_141550.jpg": ("Afternoon, Jetty", "Santa Cruz Harbour"),
  "20260504_095320.jpg": ("The Redwoods", "Santa Cruz County"),
  "20251226_133752.jpg": ("Fly Agaric", "Santa Cruz County"),
+ # Place confirmed by Ian from the phone's own gallery, not guessed from the
+ # picture - the one photograph in the set whose location is actually known.
+ "20261119_085425.jpg": ("November Rainbow", "Santa Cruz"),
  "20261117_065329.jpg": ("Daybreak", "Walton Lighthouse, Santa Cruz"),
  "20261117_165552.jpg": ("Across the Bay", "Santa Cruz"),
  "20251229_172403.jpg": ("December Wharf", "Santa Cruz"),

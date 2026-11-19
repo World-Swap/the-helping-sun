@@ -53,6 +53,7 @@ DESC = {
 "20251229_172403": "Winter sunset over the Santa Cruz wharf, the water gone completely flat, in the last week of December.",
 "20260524_195347": "The sun dropping behind the Giant Dipper, the wooden roller coaster that has stood on the Santa Cruz Beach Boardwalk since 1924.",
 "20251226_133752": "A fly agaric mushroom on the forest floor in Santa Cruz County, found the day after Christmas.",
+"20261119_085425": "A rainbow standing in a flat grey November sky, framed between a redwood and a pine, over a canopy of leaves turning red and gold. Photographed at 8:54 on a Thursday morning in Santa Cruz.",
 "20260620_210208": "The first star of the evening above the lit Boardwalk, just after nine on the longest week of the year.",
 "20260713_204007": "Red and pink cloud over the Boardwalk, reflected in the shallow water of the rivermouth, the night after an almost identical sky.",
 "20251228_142219": "Winter afternoon light on the water, seen from the green bluff above the beach, two days before the end of the year.",
