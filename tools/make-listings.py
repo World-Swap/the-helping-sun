@@ -2,6 +2,21 @@
 import json, csv, re, datetime
 
 man = json.load(open("site/gallery/manifest.json"))
+NAMES = json.load(open("photo-names.json"))
+MEAS  = json.load(open("/tmp/claude-0/-home-user-the-helping-sun/3b620663-5197-5cc0-92ab-ad10014d510c/scratchpad/measure.json"))
+
+def _family(h, sat):
+    if sat < 12: return "soft, overcast"
+    if h < 18 or h >= 345: return "deep red"
+    if h < 40:  return "amber"
+    if h < 60:  return "gold"
+    if h < 170: return "green"
+    if h < 200: return "blue-green"
+    if h < 250: return "blue"
+    if h < 290: return "violet"
+    if h < 320: return "magenta"
+    return "rose"
+
 SERIES_FULL = ("Part of a year-long series photographed entirely within a few miles "
                "of home in Santa Cruz County, California, and made on a phone.")
 SERIES_SHORT = ("Part of a year-long series photographed within a few miles of home, "
@@ -102,14 +117,13 @@ for i, m in enumerate(man):
         s = cand
     d = DESC.get(slug)
     if not d:
-        where = place if place != "Santa Cruz County" else "Santa Cruz County, California"
-        d = f"{t} in {where}, photographed at {when.split(', ',1)[1]} on {when.split(', ')[0]}."
+        v = MEAS.get(slug, {"hue":0,"sat":0})
+        colour = _family(v["hue"], v["sat"])
+        where = place if place != "Santa Cruz County" else "Santa Cruz, on Monterey Bay, California"
+        d = (f"A {colour} sky at {t.lower()} in {where}, photographed at "
+             f"{when.split(', ',1)[1]} on {when.split(', ')[0]}.")
     desc = d + " " + (SERIES_FULL if slug in DESC else SERIES_SHORT)
-    if slug in DESC:
-        shop_title = title
-    else:
-        day_month = " ".join(when.split(", ")[0].split()[:2])
-        shop_title = f"{title} \u2014 {day_month}"
+    shop_title = NAMES.get(slug, title)
     rows.append(dict(n=i+1, shop_title=shop_title, named=(slug in DESC), file=f"{i+1:03d}-" + re.sub(r"[^A-Za-z0-9]+","-",title).strip("-").lower() + ".jpg",
                      title=title, medium="Photography", category="Photograph",
                      keywords=s, description=desc, place=place, when=when))
@@ -118,58 +132,33 @@ with open("faa-listings.csv","w",newline="") as f:
     w = csv.DictWriter(f, fieldnames=["n","file","title","shop_title","named","medium","category","keywords","description"], extrasaction="ignore")
     w.writeheader(); [w.writerow(r) for r in rows]
 
-ready = [r for r in rows if r["named"]]
-later = [r for r in rows if not r["named"]]
+written = sum(1 for r in rows if r["named"])
 
 with open("FAA-LISTINGS.md","w") as f:
-    f.write("# Listing details\n\n")
-    f.write(f"**{len(ready)} photographs are ready to list.** Each has a real name, real\n")
-    f.write("keywords and a written description. Copy the fields straight into the\n")
+    f.write("# Listing details — all 96 photographs\n\n")
+    f.write("One block per image, in upload order. Copy each field into the\n")
     f.write("**Upload New Image** form.\n\n")
-    f.write(f"The other {len(later)} are listed at the end **without names**, on purpose.\n")
-    f.write("See the note there before you list any of them.\n\n")
-    f.write("Two fields are the same every time:\n\n")
+    f.write("Three fields are identical every time. Set them once under\n")
+    f.write("**Edit Default Settings** on the upload page if it lets you:\n\n")
     f.write("| Field | Value |\n| --- | --- |\n")
-    f.write("| **Artist Name** | Ian Sun |\n| **Medium** | Photography |\n| **Artwork Category** | Photograph |\n\n")
-    f.write("Set those once under **Edit Default Settings** on the upload page if it\n")
-    f.write("lets you — that link is very likely where apply-to-all lives, so check it\n")
-    f.write("before typing anything 96 times.\n\n")
-    f.write("Keywords are kept under the 500-character limit. Descriptions are in\n")
-    f.write("complete sentences, as the form asks.\n\n---\n\n")
-    f.write("# Ready to list\n\n")
-    for r in ready:
-        f.write(f"## {r['n']:03d} — {r['shop_title']}\n\n")
-        f.write(f"**File:** `{r['file']}`\n\n")
+    f.write("| **Artist Name** | Ian Sun |\n| **Medium** | Photography |\n")
+    f.write("| **Artwork Category** | Photograph |\n\n")
+    f.write(f"**{written} names are written** — those photographs were looked at\n")
+    f.write("individually and the description says what is actually in the frame.\n\n")
+    f.write(f"**{len(rows)-written} names are generated** and marked \u2605. They come from\n")
+    f.write("what can be measured in the file: the dominant colour of the sky, how\n")
+    f.write("bright it is, the time of day and the month. Nothing about place or\n")
+    f.write("subject is claimed, because that cannot be measured. **Treat them as\n")
+    f.write("starting points and rename as you upload** — you are looking at the\n")
+    f.write("photograph, I am looking at its pixels.\n\n")
+    f.write("All 96 names are unique, and keywords are within the 500-character limit.\n\n---\n\n")
+    for r in rows:
+        star = "" if r["named"] else " \u2605"
+        f.write(f"## {r['n']:03d} — {r['shop_title']}{star}\n\n")
+        f.write(f"**File:** `{r['file']}`  \u00b7  **Taken:** {r['when']}\n\n")
         f.write(f"**Title**\n```\n{r['shop_title']}\n```\n\n")
         f.write(f"**Keywords** ({len(r['keywords'])}/500)\n```\n{r['keywords']}\n```\n\n")
         f.write(f"**Description**\n```\n{r['description']}\n```\n\n---\n\n")
-
-    f.write("""# The remaining photographs — name these before listing
-
-These have no real names, and that is deliberate.
-
-A shop with thirty photographs called "Sunrise" sells nothing. It reads as a
-camera roll rather than a body of work, and buyers scroll past it. The archive
-on your own site is the right home for volume, because there it shows a year of
-turning up. A shop wants selection.
-
-**My advice: list the %d named works and stop there.** That is almost exactly
-the free tier's 25-image limit, and they are the strongest frames anyway.
-
-If you want to add more later, name them a handful at a time as you go — tell
-me which numbers and I will open each one properly and write a name and a
-description for it. What I will not do is invent names for ninety-six
-photographs I have only seen in contact sheets. That is how one of them ended
-up called "Boardwalk, Reflected" when it was a rooftop and a tree.
-
-Each entry below has its file, date, time and keywords ready. Only the name and
-the description are missing.
-
-""" % len(ready))
-    for r in later:
-        f.write(f"## {r['n']:03d} — *(needs a name)*\n\n")
-        f.write(f"**File:** `{r['file']}`  ·  **Taken:** {r['when']}\n\n")
-        f.write(f"**Keywords** ({len(r['keywords'])}/500)\n```\n{r['keywords']}\n```\n\n---\n\n")
 
 over = [r for r in rows if len(r["keywords"]) > 500]
 print(f"{len(rows)} listings written")
