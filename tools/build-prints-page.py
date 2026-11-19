@@ -11,7 +11,7 @@ MAN  = "site/gallery/manifest.json"
 
 man = json.load(open(MAN))
 figures = "\n".join(
-f'''      <figure class="shot" data-slug="{m['slug']}" data-title="{m['title']}" data-when="{m['when']}" data-place="{m['place']}">
+f'''      <figure class="shot" data-slug="{m['slug']}" data-title="{m['title']}" data-when="{m['when']}" data-place="{m['place']}" data-faa="{m.get('faa','')}">
         <button type="button" class="shot-btn" aria-label="Enlarge {m['title']}">
           <img src="gallery/{m['slug']}-t.jpg" alt="{m['title']} — {m['place']}" loading="lazy" width="{m['w']}" height="{m['h']}">
         </button>
@@ -31,7 +31,7 @@ print(f"rebuilt {PAGE} with {len(man)} photographs")
 HOME = "site/index.html"
 feat = man[:12]
 home_figs = "\n".join(
-f'''        <figure class="shot" data-slug="{m['slug']}" data-title="{m['title']}" data-when="{m['when']}" data-place="{m['place']}">
+f'''        <figure class="shot" data-slug="{m['slug']}" data-title="{m['title']}" data-when="{m['when']}" data-place="{m['place']}" data-faa="{m.get('faa','')}">
           <button type="button" class="shot-btn" aria-label="Enlarge {m['title']}">
             <img src="gallery/{m['slug']}-t.jpg" alt="{m['title']} — {m['place']}" loading="lazy" width="{m['w']}" height="{m['h']}">
           </button>

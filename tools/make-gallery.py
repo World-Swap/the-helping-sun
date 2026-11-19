@@ -76,6 +76,10 @@ def fit(im, longest):
     s = longest / max(w, h)
     return im.copy() if s >= 1 else im.resize((round(w*s), round(h*s)), Image.LANCZOS)
 
+NAMES = json.load(open("photo-names.json")) if os.path.exists("photo-names.json") else {}
+# Verified product URLs, read from the live storefront - never predicted.
+LINKS = json.load(open("faa-links.json")) if os.path.exists("faa-links.json") else {}
+
 man = []
 for fn in sorted(os.listdir(SRC)):
     if not fn.endswith(".jpg") or fn in REJECT: continue
@@ -83,7 +87,7 @@ for fn in sorted(os.listdir(SRC)):
     if not m: continue
     dt = datetime.datetime.strptime(m.group(1), "%Y%m%d_%H%M%S")
     slug = m.group(1)
-    title, place = TITLES.get(fn, (label(dt), "Santa Cruz County"))
+    title, place = TITLES.get(fn, (NAMES.get(slug) or label(dt), "Santa Cruz County"))
     when = dt.strftime("%-d %B %Y, %-I:%M %p").replace("AM","am").replace("PM","pm")
     im = ImageOps.exif_transpose(Image.open(os.path.join(SRC, fn))).convert("RGB")
     im = ImageEnhance.Color(im).enhance(1.05)
@@ -92,6 +96,7 @@ for fn in sorted(os.listdir(SRC)):
     man.append({"slug":slug,"title":title,"when":when,"place":place,
                 "w":th.size[0],"h":th.size[1],
                 "orient":"portrait" if th.size[1]>th.size[0] else "landscape",
+                "faa": LINKS.get(slug, ""),
                 "named": fn in TITLES})
 
 # LEAD sets the first twelve, which are also the homepage featured strip.

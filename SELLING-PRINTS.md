@@ -179,7 +179,7 @@ location for a photograph.
 
 ### It's switched on
 
-`FAA_STORE` is set to `https://fineartamerica.com/profiles/ian-sun` in both
+`FAA_STORE` is set to `https://ian-sun.pixels.com/` in both
 `site/index.html` and `site/prints.html`. **Buy a print** appears in every
 lightbox across all 98 photographs, and the prints section links to the shop
 directly. Email ordering and the price table are gone.
@@ -191,6 +191,19 @@ people to ask for anything missing.
 
 To deep-link an individual photograph once it is listed, add an `faa` field to
 its entry in the manifest — **only using a URL you have actually opened.**
+
+The mapping lives in `faa-links.json`, built by reading the live storefront
+index and matching slugs against the gallery manifest — never by predicting a
+URL from a title. `tools/make-gallery.py` copies it into the manifest, and
+`tools/build-prints-page.py` writes it onto each figure as `data-faa`. A
+photograph with a link gets a **Buy this print** button straight to its own
+product page; everything else gets **Buy a print** to the shop front. All 18
+current links were opened and returned 200 on 19 November 2026.
+
+Six storefront items were renamed during upload and so cannot be matched back
+to a photograph yet: `dual-streaks`, `sunset-beach-ride`,
+`sunset-over-a-coastal-lighthouse`, `sunset-over-amusement-park`,
+`sunset-over-the-wharf`, `warm-wishes`.
 
 ---
 

@@ -637,7 +637,7 @@ Storm surf and sea foam on Christmas morning, with the wharf in the distance und
 
 ## 030 — Amber Evening ★
 
-**File:** `030-sunset.jpg`  ·  **Taken:** 11 November 2026, 5:26 pm
+**File:** `030-amber-evening.jpg`  ·  **Taken:** 11 November 2026, 5:26 pm
 
 **Title**
 ```
@@ -658,7 +658,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 031 — Evening in Amber ★
 
-**File:** `031-sunset.jpg`  ·  **Taken:** 11 November 2026, 5:22 pm
+**File:** `031-evening-in-amber.jpg`  ·  **Taken:** 11 November 2026, 5:22 pm
 
 **Title**
 ```
@@ -679,7 +679,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 032 — Blue Morning ★
 
-**File:** `032-morning.jpg`  ·  **Taken:** 11 November 2026, 10:18 am
+**File:** `032-blue-morning.jpg`  ·  **Taken:** 11 November 2026, 10:18 am
 
 **Title**
 ```
@@ -700,7 +700,7 @@ A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 033 — Morning in Blue ★
 
-**File:** `033-morning.jpg`  ·  **Taken:** 11 November 2026, 9:52 am
+**File:** `033-morning-in-blue.jpg`  ·  **Taken:** 11 November 2026, 9:52 am
 
 **Title**
 ```
@@ -721,7 +721,7 @@ A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 034 — November Blue ★
 
-**File:** `034-morning.jpg`  ·  **Taken:** 11 November 2026, 9:48 am
+**File:** `034-november-blue.jpg`  ·  **Taken:** 11 November 2026, 9:48 am
 
 **Title**
 ```
@@ -742,7 +742,7 @@ A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 035 — Amber Dawn ★
 
-**File:** `035-sunrise.jpg`  ·  **Taken:** 10 November 2026, 6:58 am
+**File:** `035-amber-dawn.jpg`  ·  **Taken:** 10 November 2026, 6:58 am
 
 **Title**
 ```
@@ -763,7 +763,7 @@ A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed 
 
 ## 036 — November Amber ★
 
-**File:** `036-sunset.jpg`  ·  **Taken:** 7 November 2026, 5:25 pm
+**File:** `036-november-amber.jpg`  ·  **Taken:** 7 November 2026, 5:25 pm
 
 **Title**
 ```
@@ -784,7 +784,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 037 — The Amber Hour ★
 
-**File:** `037-sunset.jpg`  ·  **Taken:** 7 November 2026, 5:21 pm
+**File:** `037-the-amber-hour.jpg`  ·  **Taken:** 7 November 2026, 5:21 pm
 
 **Title**
 ```
@@ -805,7 +805,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 038 — Amber over the Bay ★
 
-**File:** `038-sunset.jpg`  ·  **Taken:** 7 November 2026, 5:13 pm
+**File:** `038-amber-over-the-bay.jpg`  ·  **Taken:** 7 November 2026, 5:13 pm
 
 **Title**
 ```
@@ -826,7 +826,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 039 — Blue Afternoon ★
 
-**File:** `039-afternoon.jpg`  ·  **Taken:** 6 November 2026, 4:58 pm
+**File:** `039-blue-afternoon.jpg`  ·  **Taken:** 6 November 2026, 4:58 pm
 
 **Title**
 ```
@@ -847,7 +847,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 040 — Afternoon in Blue ★
 
-**File:** `040-afternoon.jpg`  ·  **Taken:** 6 November 2026, 4:53 pm
+**File:** `040-afternoon-in-blue.jpg`  ·  **Taken:** 6 November 2026, 4:53 pm
 
 **Title**
 ```
@@ -868,7 +868,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 041 — The Blue Hour ★
 
-**File:** `041-afternoon.jpg`  ·  **Taken:** 6 November 2026, 4:39 pm
+**File:** `041-the-blue-hour.jpg`  ·  **Taken:** 6 November 2026, 4:39 pm
 
 **Title**
 ```
@@ -889,7 +889,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 042 — Magenta Dawn ★
 
-**File:** `042-sunrise.jpg`  ·  **Taken:** 6 November 2026, 6:18 am
+**File:** `042-magenta-dawn.jpg`  ·  **Taken:** 6 November 2026, 6:18 am
 
 **Title**
 ```
@@ -910,7 +910,7 @@ A magenta sky at sunrise in Santa Cruz, on Monterey Bay, California, photographe
 
 ## 043 — Blue Dawn ★
 
-**File:** `043-sunrise.jpg`  ·  **Taken:** 6 November 2026, 6:08 am
+**File:** `043-blue-dawn.jpg`  ·  **Taken:** 6 November 2026, 6:08 am
 
 **Title**
 ```
@@ -931,7 +931,7 @@ A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 044 — Ember Evening ★
 
-**File:** `044-sunset.jpg`  ·  **Taken:** 5 November 2026, 5:25 pm
+**File:** `044-ember-evening.jpg`  ·  **Taken:** 5 November 2026, 5:25 pm
 
 **Title**
 ```
@@ -952,7 +952,7 @@ A deep red sky at sunset in Santa Cruz, on Monterey Bay, California, photographe
 
 ## 045 — Evening in Ember ★
 
-**File:** `045-sunset.jpg`  ·  **Taken:** 5 November 2026, 5:20 pm
+**File:** `045-evening-in-ember.jpg`  ·  **Taken:** 5 November 2026, 5:20 pm
 
 **Title**
 ```
@@ -973,7 +973,7 @@ A deep red sky at sunset in Santa Cruz, on Monterey Bay, California, photographe
 
 ## 046 — Blue Evening ★
 
-**File:** `046-sunset.jpg`  ·  **Taken:** 5 November 2026, 5:07 pm
+**File:** `046-blue-evening.jpg`  ·  **Taken:** 5 November 2026, 5:07 pm
 
 **Title**
 ```
@@ -994,7 +994,7 @@ A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 047 — Amber Light ★
 
-**File:** `047-sunset.jpg`  ·  **Taken:** 5 November 2026, 5:01 pm
+**File:** `047-amber-light.jpg`  ·  **Taken:** 5 November 2026, 5:01 pm
 
 **Title**
 ```
@@ -1015,7 +1015,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 048 — Amber Afternoon ★
 
-**File:** `048-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:53 pm
+**File:** `048-amber-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:53 pm
 
 **Title**
 ```
@@ -1036,7 +1036,7 @@ A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographe
 
 ## 049 — Afternoon in Amber ★
 
-**File:** `049-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:50 pm
+**File:** `049-afternoon-in-amber.jpg`  ·  **Taken:** 5 November 2026, 4:50 pm
 
 **Title**
 ```
@@ -1057,7 +1057,7 @@ A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographe
 
 ## 050 — Blue over the Bay ★
 
-**File:** `050-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:44 pm
+**File:** `050-blue-over-the-bay.jpg`  ·  **Taken:** 5 November 2026, 4:44 pm
 
 **Title**
 ```
@@ -1078,7 +1078,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 051 — Amber November ★
 
-**File:** `051-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:41 pm
+**File:** `051-amber-november.jpg`  ·  **Taken:** 5 November 2026, 4:41 pm
 
 **Title**
 ```
@@ -1099,7 +1099,7 @@ A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographe
 
 ## 052 — Honey Afternoon ★
 
-**File:** `052-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:32 pm
+**File:** `052-honey-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:32 pm
 
 **Title**
 ```
@@ -1120,7 +1120,7 @@ A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographe
 
 ## 053 — Blue Light ★
 
-**File:** `053-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:20 pm
+**File:** `053-blue-light.jpg`  ·  **Taken:** 5 November 2026, 4:20 pm
 
 **Title**
 ```
@@ -1141,7 +1141,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 054 — Dawn in Blue ★
 
-**File:** `054-sunrise.jpg`  ·  **Taken:** 3 November 2026, 6:43 am
+**File:** `054-dawn-in-blue.jpg`  ·  **Taken:** 3 November 2026, 6:43 am
 
 **Title**
 ```
@@ -1162,7 +1162,7 @@ A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 055 — Blue November ★
 
-**File:** `055-morning.jpg`  ·  **Taken:** 1 November 2026, 9:47 am
+**File:** `055-blue-november.jpg`  ·  **Taken:** 1 November 2026, 9:47 am
 
 **Title**
 ```
@@ -1183,7 +1183,7 @@ A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 056 — October Blue ★
 
-**File:** `056-afternoon.jpg`  ·  **Taken:** 31 October 2026, 4:52 pm
+**File:** `056-october-blue.jpg`  ·  **Taken:** 31 October 2026, 4:52 pm
 
 **Title**
 ```
@@ -1204,7 +1204,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 057 — Blue October ★
 
-**File:** `057-afternoon.jpg`  ·  **Taken:** 24 October 2026, 3:13 pm
+**File:** `057-blue-october.jpg`  ·  **Taken:** 24 October 2026, 3:13 pm
 
 **Title**
 ```
@@ -1225,7 +1225,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 058 — Cobalt Afternoon ★
 
-**File:** `058-afternoon.jpg`  ·  **Taken:** 24 October 2026, 3:04 pm
+**File:** `058-cobalt-afternoon.jpg`  ·  **Taken:** 24 October 2026, 3:04 pm
 
 **Title**
 ```
@@ -1246,7 +1246,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 059 — Blue Midday ★
 
-**File:** `059-midday.jpg`  ·  **Taken:** 24 October 2026, 2:53 pm
+**File:** `059-blue-midday.jpg`  ·  **Taken:** 24 October 2026, 2:53 pm
 
 **Title**
 ```
@@ -1267,7 +1267,7 @@ A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 060 — Midday in Blue ★
 
-**File:** `060-midday.jpg`  ·  **Taken:** 17 October 2026, 2:34 pm
+**File:** `060-midday-in-blue.jpg`  ·  **Taken:** 17 October 2026, 2:34 pm
 
 **Title**
 ```
@@ -1288,7 +1288,7 @@ A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 061 — Cobalt Dawn ★
 
-**File:** `061-sunrise.jpg`  ·  **Taken:** 10 October 2026, 7:08 am
+**File:** `061-cobalt-dawn.jpg`  ·  **Taken:** 10 October 2026, 7:08 am
 
 **Title**
 ```
@@ -1309,7 +1309,7 @@ A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 062 — October Amber ★
 
-**File:** `062-sunset.jpg`  ·  **Taken:** 6 October 2026, 6:21 pm
+**File:** `062-october-amber.jpg`  ·  **Taken:** 6 October 2026, 6:21 pm
 
 **Title**
 ```
@@ -1330,7 +1330,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 063 — Evening in Blue ★
 
-**File:** `063-sunset.jpg`  ·  **Taken:** 20 September 2026, 6:47 pm
+**File:** `063-evening-in-blue.jpg`  ·  **Taken:** 20 September 2026, 6:47 pm
 
 **Title**
 ```
@@ -1351,7 +1351,7 @@ A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 064 — Amber Dusk ★
 
-**File:** `064-dusk.jpg`  ·  **Taken:** 22 July 2026, 8:15 pm
+**File:** `064-amber-dusk.jpg`  ·  **Taken:** 22 July 2026, 8:15 pm
 
 **Title**
 ```
@@ -1372,7 +1372,7 @@ A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 
 
 ## 065 — July Blue ★
 
-**File:** `065-sunset.jpg`  ·  **Taken:** 21 July 2026, 6:41 pm
+**File:** `065-july-blue.jpg`  ·  **Taken:** 21 July 2026, 6:41 pm
 
 **Title**
 ```
@@ -1393,7 +1393,7 @@ A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 066 — Blue Night ★
 
-**File:** `066-night.jpg`  ·  **Taken:** 12 July 2026, 9:09 pm
+**File:** `066-blue-night.jpg`  ·  **Taken:** 12 July 2026, 9:09 pm
 
 **Title**
 ```
@@ -1414,7 +1414,7 @@ A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 
 
 ## 067 — Blue July ★
 
-**File:** `067-afternoon.jpg`  ·  **Taken:** 6 July 2026, 4:14 pm
+**File:** `067-blue-july.jpg`  ·  **Taken:** 6 July 2026, 4:14 pm
 
 **Title**
 ```
@@ -1435,7 +1435,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 068 — Night in Blue ★
 
-**File:** `068-night.jpg`  ·  **Taken:** 5 July 2026, 9:17 pm
+**File:** `068-night-in-blue.jpg`  ·  **Taken:** 5 July 2026, 9:17 pm
 
 **Title**
 ```
@@ -1456,7 +1456,7 @@ A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 
 
 ## 069 — June Blue ★
 
-**File:** `069-night.jpg`  ·  **Taken:** 22 June 2026, 9:18 pm
+**File:** `069-june-blue.jpg`  ·  **Taken:** 22 June 2026, 9:18 pm
 
 **Title**
 ```
@@ -1477,7 +1477,7 @@ A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 
 
 ## 070 — Blue June ★
 
-**File:** `070-night.jpg`  ·  **Taken:** 22 June 2026, 9:04 pm
+**File:** `070-blue-june.jpg`  ·  **Taken:** 22 June 2026, 9:04 pm
 
 **Title**
 ```
@@ -1498,7 +1498,7 @@ A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 
 
 ## 071 — Dusk in Amber ★
 
-**File:** `071-dusk.jpg`  ·  **Taken:** 29 May 2026, 8:36 pm
+**File:** `071-dusk-in-amber.jpg`  ·  **Taken:** 29 May 2026, 8:36 pm
 
 **Title**
 ```
@@ -1519,7 +1519,7 @@ A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 
 
 ## 072 — May Amber ★
 
-**File:** `072-dusk.jpg`  ·  **Taken:** 27 May 2026, 8:18 pm
+**File:** `072-may-amber.jpg`  ·  **Taken:** 27 May 2026, 8:18 pm
 
 **Title**
 ```
@@ -1540,7 +1540,7 @@ A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 
 
 ## 073 — Blue Dusk ★
 
-**File:** `073-dusk.jpg`  ·  **Taken:** 24 May 2026, 8:22 pm
+**File:** `073-blue-dusk.jpg`  ·  **Taken:** 24 May 2026, 8:22 pm
 
 **Title**
 ```
@@ -1561,7 +1561,7 @@ A blue sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8
 
 ## 074 — May Blue ★
 
-**File:** `074-midday.jpg`  ·  **Taken:** 22 May 2026, 11:41 am
+**File:** `074-may-blue.jpg`  ·  **Taken:** 22 May 2026, 11:41 am
 
 **Title**
 ```
@@ -1582,7 +1582,7 @@ A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 075 — Dusk in Blue ★
 
-**File:** `075-dusk.jpg`  ·  **Taken:** 12 May 2026, 8:41 pm
+**File:** `075-dusk-in-blue.jpg`  ·  **Taken:** 12 May 2026, 8:41 pm
 
 **Title**
 ```
@@ -1603,7 +1603,7 @@ A blue sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8
 
 ## 076 — Amber May ★
 
-**File:** `076-dusk.jpg`  ·  **Taken:** 12 May 2026, 8:11 pm
+**File:** `076-amber-may.jpg`  ·  **Taken:** 12 May 2026, 8:11 pm
 
 **Title**
 ```
@@ -1624,7 +1624,7 @@ A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 
 
 ## 077 — Gold Evening ★
 
-**File:** `077-sunset.jpg`  ·  **Taken:** 13 January 2026, 5:28 pm
+**File:** `077-gold-evening.jpg`  ·  **Taken:** 13 January 2026, 5:28 pm
 
 **Title**
 ```
@@ -1645,7 +1645,7 @@ A gold sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 078 — January Amber ★
 
-**File:** `078-sunset.jpg`  ·  **Taken:** 13 January 2026, 5:13 pm
+**File:** `078-january-amber.jpg`  ·  **Taken:** 13 January 2026, 5:13 pm
 
 **Title**
 ```
@@ -1666,7 +1666,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 079 — Amber January ★
 
-**File:** `079-sunset.jpg`  ·  **Taken:** 13 January 2026, 5:08 pm
+**File:** `079-amber-january.jpg`  ·  **Taken:** 13 January 2026, 5:08 pm
 
 **Title**
 ```
@@ -1687,7 +1687,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 080 — January Blue ★
 
-**File:** `080-sunrise.jpg`  ·  **Taken:** 12 January 2026, 6:45 am
+**File:** `080-january-blue.jpg`  ·  **Taken:** 12 January 2026, 6:45 am
 
 **Title**
 ```
@@ -1708,7 +1708,7 @@ A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 081 — Honey Evening ★
 
-**File:** `081-sunset.jpg`  ·  **Taken:** 10 January 2026, 5:38 pm
+**File:** `081-honey-evening.jpg`  ·  **Taken:** 10 January 2026, 5:38 pm
 
 **Title**
 ```
@@ -1729,7 +1729,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 082 — Evening in Honey ★
 
-**File:** `082-sunset.jpg`  ·  **Taken:** 10 January 2026, 5:31 pm
+**File:** `082-evening-in-honey.jpg`  ·  **Taken:** 10 January 2026, 5:31 pm
 
 **Title**
 ```
@@ -1750,7 +1750,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 083 — Blue January ★
 
-**File:** `083-afternoon.jpg`  ·  **Taken:** 10 January 2026, 3:32 pm
+**File:** `083-blue-january.jpg`  ·  **Taken:** 10 January 2026, 3:32 pm
 
 **Title**
 ```
@@ -1771,7 +1771,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 084 — Afternoon in Cobalt ★
 
-**File:** `084-afternoon.jpg`  ·  **Taken:** 10 January 2026, 3:21 pm
+**File:** `084-afternoon-in-cobalt.jpg`  ·  **Taken:** 10 January 2026, 3:21 pm
 
 **Title**
 ```
@@ -1792,7 +1792,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 085 — January Cobalt ★
 
-**File:** `085-afternoon.jpg`  ·  **Taken:** 10 January 2026, 3:01 pm
+**File:** `085-january-cobalt.jpg`  ·  **Taken:** 10 January 2026, 3:01 pm
 
 **Title**
 ```
@@ -1813,7 +1813,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 086 — Cobalt Midday ★
 
-**File:** `086-midday.jpg`  ·  **Taken:** 10 January 2026, 2:39 pm
+**File:** `086-cobalt-midday.jpg`  ·  **Taken:** 10 January 2026, 2:39 pm
 
 **Title**
 ```
@@ -1834,7 +1834,7 @@ A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 087 — Dawn in Amber ★
 
-**File:** `087-sunrise.jpg`  ·  **Taken:** 8 January 2026, 6:49 am
+**File:** `087-dawn-in-amber.jpg`  ·  **Taken:** 8 January 2026, 6:49 am
 
 **Title**
 ```
@@ -1855,7 +1855,7 @@ A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed 
 
 ## 088 — Honey Dawn ★
 
-**File:** `088-sunrise.jpg`  ·  **Taken:** 6 January 2026, 7:23 am
+**File:** `088-honey-dawn.jpg`  ·  **Taken:** 6 January 2026, 7:23 am
 
 **Title**
 ```
@@ -1876,7 +1876,7 @@ A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed 
 
 ## 089 — Dawn in Cobalt ★
 
-**File:** `089-sunrise.jpg`  ·  **Taken:** 6 January 2026, 6:47 am
+**File:** `089-dawn-in-cobalt.jpg`  ·  **Taken:** 6 January 2026, 6:47 am
 
 **Title**
 ```
@@ -1897,7 +1897,7 @@ A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 090 — Dawn in Honey ★
 
-**File:** `090-sunrise.jpg`  ·  **Taken:** 5 January 2026, 6:51 am
+**File:** `090-dawn-in-honey.jpg`  ·  **Taken:** 5 January 2026, 6:51 am
 
 **Title**
 ```
@@ -1918,7 +1918,7 @@ A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed 
 
 ## 091 — The Cobalt Hour ★
 
-**File:** `091-afternoon.jpg`  ·  **Taken:** 2 January 2026, 4:46 pm
+**File:** `091-the-cobalt-hour.jpg`  ·  **Taken:** 2 January 2026, 4:46 pm
 
 **Title**
 ```
@@ -1939,7 +1939,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 092 — Cobalt over the Bay ★
 
-**File:** `092-afternoon.jpg`  ·  **Taken:** 2 January 2026, 4:24 pm
+**File:** `092-cobalt-over-the-bay.jpg`  ·  **Taken:** 2 January 2026, 4:24 pm
 
 **Title**
 ```
@@ -1960,7 +1960,7 @@ A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed
 
 ## 093 — Cobalt Evening ★
 
-**File:** `093-sunset.jpg`  ·  **Taken:** 1 January 2026, 5:18 pm
+**File:** `093-cobalt-evening.jpg`  ·  **Taken:** 1 January 2026, 5:18 pm
 
 **Title**
 ```
@@ -1981,7 +1981,7 @@ A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 094 — December Amber ★
 
-**File:** `094-sunset.jpg`  ·  **Taken:** 29 December 2025, 5:34 pm
+**File:** `094-december-amber.jpg`  ·  **Taken:** 29 December 2025, 5:34 pm
 
 **Title**
 ```
@@ -2002,7 +2002,7 @@ A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed a
 
 ## 095 — December Blue ★
 
-**File:** `095-midday.jpg`  ·  **Taken:** 28 December 2025, 2:10 pm
+**File:** `095-december-blue.jpg`  ·  **Taken:** 28 December 2025, 2:10 pm
 
 **Title**
 ```
@@ -2023,7 +2023,7 @@ A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at
 
 ## 096 — Blue December ★
 
-**File:** `096-sunrise.jpg`  ·  **Taken:** 23 December 2025, 6:48 am
+**File:** `096-blue-december.jpg`  ·  **Taken:** 23 December 2025, 6:48 am
 
 **Title**
 ```

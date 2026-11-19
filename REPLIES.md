@@ -24,7 +24,7 @@ Thanks for getting in touch, and for the kind words about the work.
 All of my photographs are available as prints — paper, canvas, metal and a
 few other things besides — through my shop here:
 
-https://fineartamerica.com/profiles/ian-sun
+https://ian-sun.pixels.com/
 
 You can choose any image and any size or format, and they take care of the
 printing and delivery straight to you. All my sales go through there, so it's
@@ -58,7 +58,7 @@ Thank you — [TITLE] is one of mine too. It was taken [WHERE/WHEN].
 
 It's on my shop here, where you can pick the size and the material:
 
-https://fineartamerica.com/profiles/ian-sun
+https://ian-sun.pixels.com/
 
 They print and ship it directly. If you want a size that isn't listed, say so
 and I'll add it.
