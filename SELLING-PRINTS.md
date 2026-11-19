@@ -197,13 +197,18 @@ index and matching slugs against the gallery manifest — never by predicting a
 URL from a title. `tools/make-gallery.py` copies it into the manifest, and
 `tools/build-prints-page.py` writes it onto each figure as `data-faa`. A
 photograph with a link gets a **Buy this print** button straight to its own
-product page; everything else gets **Buy a print** to the shop front. All 18
+product page; everything else gets **Buy a print** to the shop front. All 25
 current links were opened and returned 200 on 19 November 2026.
 
-Six storefront items were renamed during upload and so cannot be matched back
-to a photograph yet: `dual-streaks`, `sunset-beach-ride`,
-`sunset-over-a-coastal-lighthouse`, `sunset-over-amusement-park`,
-`sunset-over-the-wharf`, `warm-wishes`.
+Run `python3 tools/match-storefront.py` after every batch of uploads. It reads
+the live index, requests each product page, and drops any that does not answer
+200 — a dead *Buy this print* button is worse than no button.
+
+A listing you rename during upload cannot be matched on its title, so record it
+in `faa-manual.json` by upload number (the `001-` prefix on the file you sent
+up). Keying on the number means neither a new site title nor a new shop title
+breaks the link. Note that the storefront index page showed only 24 of the 25
+listings, so trust the script over the index.
 
 ---
 
