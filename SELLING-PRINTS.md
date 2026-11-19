@@ -192,23 +192,36 @@ people to ask for anything missing.
 To deep-link an individual photograph once it is listed, add an `faa` field to
 its entry in the manifest — **only using a URL you have actually opened.**
 
-The mapping lives in `faa-links.json`, built by reading the live storefront
-index and matching slugs against the gallery manifest — never by predicting a
-URL from a title. `tools/make-gallery.py` copies it into the manifest, and
-`tools/build-prints-page.py` writes it onto each figure as `data-faa`. A
-photograph with a link gets a **Buy this print** button straight to its own
-product page; everything else gets **Buy a print** to the shop front. All 25
-current links were opened and returned 200 on 19 November 2026.
+**Every Buy button goes to the shop front**, and that is a deliberate choice.
 
-Run `python3 tools/match-storefront.py` after every batch of uploads. It reads
-the live index, requests each product page, and drops any that does not answer
-200 — a dead *Buy this print* button is worse than no button.
+Deep links to individual product pages exist and work, but they have to be
+re-matched against the shop after every batch of uploads, and a listing you
+rename during upload cannot be matched on its title at all. A system that needs
+a step every time is a system that eventually carries a dead button. One link
+that is always right beats twenty-five that are right until the next upload.
 
-A listing you rename during upload cannot be matched on its title, so record it
-in `faa-manual.json` by upload number (the `001-` prefix on the file you sent
-up). Keying on the number means neither a new site title nor a new shop title
-breaks the link. Note that the storefront index page showed only 24 of the 25
-listings, so trust the script over the index.
+The machinery is still in the repo and still correct, so this is reversible with
+one line. In `site/index.html` and `site/prints.html`:
+
+```js
+var PER_PHOTO_LINKS = false;   // true = link each photograph to its own page
+```
+
+With it on, a photograph with a verified product page gets **Buy this print**
+straight to that page; everything else gets **Buy a print** to the shop front.
+`data-faa` is still written onto every figure, so flipping the flag needs no
+rebuild.
+
+Keeping the mapping fresh, if you ever turn it back on:
+
+- `python3 tools/match-storefront.py` reads the live index, requests every
+  product page, and refuses to write one that does not return 200 — a dead
+  *Buy this print* button is worse than no button.
+- A listing renamed during upload goes in `faa-manual.json`, keyed by upload
+  number (the `001-` prefix on the file you sent up). Keying on the number means
+  neither a new site title nor a new shop title breaks the link.
+- The storefront index page showed only 24 of 25 listings, so trust the script
+  over the index.
 
 ---
 

@@ -708,6 +708,10 @@ dialog.lb::backdrop{background:#070B12}
   // a Buy button pointing at an empty shop is worse than no Buy button.
   //   var FAA_STORE = 'https://ian-sun.pixels.com/';
   var FAA_STORE = 'https://ian-sun.pixels.com/';
+  // false: every Buy button goes to the shop front, and nothing needs matching
+  // after an upload. true: photographs with a verified product page link
+  // straight to it. See SELLING-PRINTS.md.
+  var PER_PHOTO_LINKS = false;
   var shots = [].slice.call(document.querySelectorAll('.shot'));
   var lb = document.getElementById('lb');
   var buy = document.getElementById('lb-buy');
@@ -724,7 +728,10 @@ dialog.lb::backdrop{background:#070B12}
     cap.innerHTML = s.dataset.title + '<span>' + s.dataset.when + ' · ' + s.dataset.place + '</span>';
     if (buy) {
       if (FAA_STORE) {
-        var direct = s.dataset.faa;
+        // One destination for every photograph: the shop front. Deep links need
+        // re-matching after every upload, so they are off by choice, not for
+        // want of the data. Flip PER_PHOTO_LINKS to true to use them.
+        var direct = PER_PHOTO_LINKS ? s.dataset.faa : '';
         buy.href = direct || FAA_STORE;
         buy.textContent = direct ? 'Buy this print \u2192' : 'Buy a print \u2192';
         buy.hidden = false;
