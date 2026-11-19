@@ -93,10 +93,20 @@ NOT_COASTAL = {
     "20260504_095320": ["redwoods", "forest", "trees", "Santa Cruz"],
 }
 
+# Places that are home. Matching on the words "Santa Cruz" alone was not
+# enough: "San Lorenzo Rivermouth" is five minutes from the Boardwalk, and the
+# listings were telling buyers it was photographed away from home.
+AWAY = {"Lake Camanche, California", "San Francisco, California"}
+
+
+def is_home(place):
+    return place not in AWAY
+
+
 def base_kw(place, slug=None):
     if slug in NOT_COASTAL:
         return NOT_COASTAL[slug] + ["California"] + ARTIST_KW
-    if "Santa Cruz" in place or "Monterey" in place:
+    if is_home(place):
         return COASTAL_KW + ["California"] + ARTIST_KW
     return [place.split(",")[0], "California"] + ARTIST_KW
 
@@ -174,7 +184,7 @@ for i, m in enumerate(man):
         where = place if place != "Santa Cruz County" else "Santa Cruz, on Monterey Bay, California"
         d = (f"A {colour} sky at {t.lower()} in {where}, photographed at "
              f"{when.split(', ',1)[1]} on {when.split(', ')[0]}.")
-    if "Santa Cruz" in place or "Monterey" in place:
+    if is_home(place):
         series = SERIES_FULL if slug in DESC else SERIES_SHORT
     else:
         series = SERIES_AWAY.format(place)

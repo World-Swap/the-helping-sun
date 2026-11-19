@@ -56,14 +56,14 @@ Sunrise over Monterey Bay, with Walton Lighthouse standing on the jetty and the 
 Crimson Rivermouth
 ```
 
-**Keywords** (175/500)
+**Keywords** (216/500)
 ```
-San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, San Lorenzo Rivermouth, California, Ian Sun, fine art photography, landscape photography
+San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
 ```
 
 **Description**
 ```
-Crimson cloud breaking over the Santa Cruz Beach Boardwalk, mirrored in the still water of the San Lorenzo rivermouth on a July evening. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+Crimson cloud breaking over the Santa Cruz Beach Boardwalk, mirrored in the still water of the San Lorenzo rivermouth on a July evening. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -203,14 +203,14 @@ The first star of the evening above the lit Boardwalk, just after nine on the lo
 The Night After
 ```
 
-**Keywords** (175/500)
+**Keywords** (216/500)
 ```
-San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, San Lorenzo Rivermouth, California, Ian Sun, fine art photography, landscape photography
+San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
 ```
 
 **Description**
 ```
-Red and pink cloud over the Boardwalk, reflected in the shallow water of the rivermouth, the night after an almost identical sky. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+Red and pink cloud over the Boardwalk, reflected in the shallow water of the rivermouth, the night after an almost identical sky. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -413,14 +413,14 @@ The last of the light breaking under heavy cloud above the rocks on a September 
 Into the Lagoon
 ```
 
-**Keywords** (175/500)
+**Keywords** (216/500)
 ```
-San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, San Lorenzo Rivermouth, California, Ian Sun, fine art photography, landscape photography
+San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
 ```
 
 **Description**
 ```
-The sun going down directly into the lagoon at the San Lorenzo rivermouth on a July evening. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+The sun going down directly into the lagoon at the San Lorenzo rivermouth on a July evening. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -476,14 +476,14 @@ The Boardwalk still lit at ten past nine on a July night. Part of an ongoing ser
 Lavender at the Reeds
 ```
 
-**Keywords** (175/500)
+**Keywords** (216/500)
 ```
-San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, San Lorenzo Rivermouth, California, Ian Sun, fine art photography, landscape photography
+San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
 ```
 
 **Description**
 ```
-Lavender dusk over the reeds at the rivermouth at the end of June. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+Lavender dusk over the reeds at the rivermouth at the end of June. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -518,14 +518,14 @@ Midday on West Cliff Drive, the swell breaking over the rocks below the path. Pa
 Gold on the Water
 ```
 
-**Keywords** (175/500)
+**Keywords** (216/500)
 ```
-San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, San Lorenzo Rivermouth, California, Ian Sun, fine art photography, landscape photography
+San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
 ```
 
 **Description**
 ```
-Gold light laid across the water of the rivermouth on a June evening. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+Gold light laid across the water of the rivermouth on a June evening. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
