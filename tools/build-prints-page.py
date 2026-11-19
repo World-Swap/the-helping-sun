@@ -30,8 +30,9 @@ man = json.load(open(MAN))
 figures = "\n".join(
 f'''      <figure class="shot" data-slug="{m['slug']}" data-title="{label(m)}" data-when="{m['when']}" data-place="{m['place']}">
         <button type="button" class="shot-btn" aria-label="Enlarge photograph from {m['when']}">
-          <img src="gallery/{m['slug']}-t.jpg" alt="{label(m)} — {m['place']}" loading="lazy" width="{m['w']}" height="{m['h']}">
+          <img src="gallery/{m['slug']}-t.jpg" alt="Photograph taken {m['when']} at {m['place']}" loading="lazy" width="{m['w']}" height="{m['h']}">
         </button>
+        <figcaption><span class="t">{label(m)}</span><span class="w">{sub(m)}</span></figcaption>
       </figure>''' for m in man)
 
 s = open(PAGE).read()
