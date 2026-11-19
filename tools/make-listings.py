@@ -18,9 +18,9 @@ def _family(h, sat):
     return "rose"
 
 SERIES_FULL = ("Part of a year-long series photographed entirely within a few miles "
-               "of home in Santa Cruz County, California, and made on a phone.")
-SERIES_SHORT = ("Part of a year-long series photographed within a few miles of home, "
-                "and made on a phone.")
+               "of home in Santa Cruz County, California.")
+SERIES_SHORT = ("Part of a year-long series photographed within a few miles of home "
+                "on the Santa Cruz coast.")
 
 # Individual descriptions for the named works.
 DESC = {
@@ -55,7 +55,7 @@ DESC = {
 }
 
 BASE_KW = ["Santa Cruz", "California", "Monterey Bay", "California coast",
-           "coastal photography", "Ian Sun", "fine art photography", "phone photography"]
+           "coastal photography", "Ian Sun", "fine art photography", "landscape photography"]
 
 def extra_kw(title, place):
     t = (title + " " + place).lower(); k = []

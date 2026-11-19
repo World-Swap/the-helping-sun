@@ -128,7 +128,7 @@ I started photographing sunrises on the mornings that were hardest to start.
 The photo isn't the point. The proof is. On a bad day the whole job is getting
 outside once and pressing a button.
 
-These are all mine, all Santa Cruz. There are a hundred more.
+These are all mine, all Monterey Bay. There are a hundred more.
 
 If you're up early and it's bad: go outside for ten minutes. It is not a cure.
 It helps.
