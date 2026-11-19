@@ -26,13 +26,24 @@ def _family(h, sat):
     if h < 320: return "magenta"
     return "rose"
 
-SERIES_FULL = ("Part of a year-long series photographed entirely within a few miles "
+SERIES_FULL = ("Part of a year-long series photographed mostly within a few miles "
                "of home in Santa Cruz County, California.")
-SERIES_SHORT = ("Part of a year-long series photographed within a few miles of home "
-                "on the Santa Cruz coast.")
+SERIES_SHORT = ("Part of a year-long series photographed mostly within a few miles "
+                "of home on the Santa Cruz coast.")
+# A photograph taken away from home cannot carry either line: it would tell a
+# buyer the picture was made somewhere it was not.
+SERIES_AWAY = "Part of a year-long series by Ian Sun, photographed away from home at {}."
 
 # Individual descriptions for the named works.
 DESC = {
+# Lake Camanche, September 2026. Written from what is actually in each frame:
+# the generated line describes sky colour, which says nothing true about a
+# campfire or a creek under tree cover.
+"20260916_192350": "Valley oaks in silhouette against an amber sky, the last light going down over Lake Camanche. Photographed at 7:23 on a September evening.",
+"20260916_214332": "A campfire burning down to embers in a steel ring, the only light left at the end of the night. Photographed at 9:43 on a September evening at Lake Camanche.",
+"20260918_115202": "A shallow creek running over pale river rock, with willow and oak closing in overhead and the water clear enough to read the stones through it. Photographed late on a September morning near Lake Camanche.",
+"20260918_122400": "Still green water in a creek, holding the reflection of the trees above it, with bunchgrass on the banks and leaf litter on the bottom. Photographed at midday in September near Lake Camanche.",
+
 "20261117_065329": "The sun coming up over the ridge across Monterey Bay, with Walton Lighthouse standing on the jetty and mist lifting off the break. A pool of tidewater holds the light in the foreground. Taken at 6:53 on a November morning.",
 "20261117_165552": "Late afternoon light over the Santa Cruz wharf, seen across the water from the cliffs, with a few people out on the bluff. Taken just before five on a November afternoon.",
 "20261104_064349": "Sunrise over Monterey Bay, with Walton Lighthouse standing on the jetty and the tide pooled across the sand. Taken at 6:43 on a November morning, the third consecutive dawn of a run of early starts.",
@@ -65,8 +76,16 @@ DESC = {
 "20260920_191704": "The last of the light breaking under heavy cloud above the rocks on a September evening.",
 }
 
-BASE_KW = ["Santa Cruz", "California", "Monterey Bay", "California coast",
-           "coastal photography", "Ian Sun", "fine art photography", "landscape photography"]
+# Keywords follow the place, rather than being stamped on every photograph.
+# "Monterey Bay" on a picture taken 120 miles inland is a false claim to a
+# buyer searching for the bay, and it was on four of them.
+ARTIST_KW = ["Ian Sun", "fine art photography", "landscape photography"]
+COASTAL_KW = ["Santa Cruz", "Monterey Bay", "California coast", "coastal photography"]
+
+def base_kw(place):
+    if "Santa Cruz" in place or "Monterey" in place:
+        return COASTAL_KW + ["California"] + ARTIST_KW
+    return [place.split(",")[0], "California"] + ARTIST_KW
 
 def extra_kw(title, place):
     t = (title + " " + place).lower(); k = []
@@ -117,7 +136,7 @@ rows = []
 for i, m in enumerate(man):
     slug, title, place, when = m["slug"], m["title"], m["place"], m["when"]
     t = tod(when)
-    kw = extra_kw(title, place) + TOD_KW[t] + BASE_KW
+    kw = extra_kw(title, place) + TOD_KW[t] + base_kw(place)
     seen, uniq = set(), []
     for x in kw:
         if x.lower() not in seen: seen.add(x.lower()); uniq.append(x)
@@ -133,7 +152,11 @@ for i, m in enumerate(man):
         where = place if place != "Santa Cruz County" else "Santa Cruz, on Monterey Bay, California"
         d = (f"A {colour} sky at {t.lower()} in {where}, photographed at "
              f"{when.split(', ',1)[1]} on {when.split(', ')[0]}.")
-    desc = d + " " + (SERIES_FULL if slug in DESC else SERIES_SHORT)
+    if "Santa Cruz" in place or "Monterey" in place:
+        series = SERIES_FULL if slug in DESC else SERIES_SHORT
+    else:
+        series = SERIES_AWAY.format(place)
+    desc = d + " " + series
     shop_title = NAMES.get(slug, title)
     rows.append(dict(n=filenum(slug), shop_title=shop_title, named=(slug in DESC), file=f"{filenum(slug):03d}-" + re.sub(r"[^A-Za-z0-9]+","-",title).strip("-").lower() + ".jpg",
                      title=title, medium="Photography", category="Photograph",

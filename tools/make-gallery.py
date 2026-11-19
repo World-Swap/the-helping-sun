@@ -77,6 +77,17 @@ def fit(im, longest):
     return im.copy() if s >= 1 else im.resize((round(w*s), round(h*s)), Image.LANCZOS)
 
 NAMES = json.load(open("photo-names.json")) if os.path.exists("photo-names.json") else {}
+
+# Photographs taken away from home. Everything else defaults to Santa Cruz
+# County, which is where the body of work lives - but a default is not a fact,
+# and a photograph from a trip must say where it was taken, not where most of
+# them were. Add a slug here before adding a photograph shot elsewhere.
+PLACES = {
+    "20260916_192350": "Lake Camanche, California",   # oaks over the lake
+    "20260916_214332": "Lake Camanche, California",   # campfire at the campsite
+    "20260918_115202": "Lake Camanche, California",   # creek - exact spot unverified
+    "20260918_122400": "Lake Camanche, California",   # creek - exact spot unverified
+}
 # Verified product URLs, read from the live storefront - never predicted.
 LINKS = json.load(open("faa-links.json")) if os.path.exists("faa-links.json") else {}
 
@@ -87,7 +98,7 @@ for fn in sorted(os.listdir(SRC)):
     if not m: continue
     dt = datetime.datetime.strptime(m.group(1), "%Y%m%d_%H%M%S")
     slug = m.group(1)
-    title, place = TITLES.get(fn, (NAMES.get(slug) or label(dt), "Santa Cruz County"))
+    title, place = TITLES.get(fn, (NAMES.get(slug) or label(dt), PLACES.get(slug, "Santa Cruz County")))
     when = dt.strftime("%-d %B %Y, %-I:%M %p").replace("AM","am").replace("PM","pm")
     im = ImageOps.exif_transpose(Image.open(os.path.join(SRC, fn))).convert("RGB")
     im = ImageEnhance.Color(im).enhance(1.05)
