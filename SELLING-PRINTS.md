@@ -68,6 +68,28 @@ Your earnings still count as business income. Expect a 1099 and report it.
 
 ---
 
+## If uploads are rejected as the wrong file type
+
+Your phone writes an **APP4 segment** into every JPEG — a Samsung vendor block,
+alongside ICC and XMP. The files are valid, but a strict uploader that sniffs
+the format can trip over the unexpected marker and report it as a bad file
+type. That is why the error names file extensions you are already using, and
+why its two lists of "acceptable" formats disagree with each other.
+
+The fix is to re-encode clean:
+
+```bash
+python3 tools/make-upload-files.py
+```
+
+That writes `faa-upload/` — every selected photograph at full resolution,
+plain baseline sRGB JPEG, rotation baked in, **every marker stripped**, numbered
+in gallery order with readable names (`001-first-light.jpg`). Largest file is
+3.2 MB against their 25 MB limit.
+
+These files are also simply better to sell: 4000 px on the long edge, 4:4:4
+chroma, no compression artefacts from a second round of phone processing.
+
 ## Setup — about an hour, once
 
 **1. Open the account.** `fineartamerica.com/sell-art-online`. Free, no card.

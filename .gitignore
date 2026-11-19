@@ -3,3 +3,7 @@
 photos/original/
 .DS_Store
 node_modules/
+
+# Full-resolution upload files: regenerated from photos/original with
+# tools/make-upload-files.py. ~165 MB, originals live in Google Drive.
+faa-upload/
