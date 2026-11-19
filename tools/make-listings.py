@@ -26,13 +26,13 @@ def _family(h, sat):
     if h < 320: return "magenta"
     return "rose"
 
-SERIES_FULL = ("Part of a year-long series photographed mostly within a few miles "
+SERIES_FULL = ("Part of an ongoing series photographed mostly within a few miles "
                "of home in Santa Cruz County, California.")
-SERIES_SHORT = ("Part of a year-long series photographed mostly within a few miles "
+SERIES_SHORT = ("Part of an ongoing series photographed mostly within a few miles "
                 "of home on the Santa Cruz coast.")
 # A photograph taken away from home cannot carry either line: it would tell a
 # buyer the picture was made somewhere it was not.
-SERIES_AWAY = "Part of a year-long series by Ian Sun, photographed away from home at {}."
+SERIES_AWAY = "Part of an ongoing series by Ian Sun, photographed away from home at {}."
 
 # Individual descriptions for the named works.
 DESC = {

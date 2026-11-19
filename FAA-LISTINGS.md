@@ -42,7 +42,7 @@ lighthouse, Walton Lighthouse, jetty, sunrise, dawn, first light, golden hour, m
 
 **Description**
 ```
-Sunrise over Monterey Bay, with Walton Lighthouse standing on the jetty and the tide pooled across the sand. Taken at 6:43 on a November morning, the third consecutive dawn of a run of early starts. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Sunrise over Monterey Bay, with Walton Lighthouse standing on the jetty and the tide pooled across the sand. Taken at 6:43 on a November morning, the third consecutive dawn of a run of early starts. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -63,7 +63,7 @@ San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, ev
 
 **Description**
 ```
-Crimson cloud breaking over the Santa Cruz Beach Boardwalk, mirrored in the still water of the San Lorenzo rivermouth on a July evening. Part of a year-long series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+Crimson cloud breaking over the Santa Cruz Beach Boardwalk, mirrored in the still water of the San Lorenzo rivermouth on a July evening. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
 ```
 
 ---
@@ -84,7 +84,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-The whole sky turned pink and orange over a park ten minutes from my front door, a little after seven on an October morning. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The whole sky turned pink and orange over a park ten minutes from my front door, a little after seven on an October morning. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -105,7 +105,7 @@ ferris wheel, amusement park, Boardwalk, Santa Cruz Beach Boardwalk, dusk, blue 
 
 **Description**
 ```
-The ferris wheel at the Santa Cruz Beach Boardwalk in silhouette against a peach-coloured dusk. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The ferris wheel at the Santa Cruz Beach Boardwalk in silhouette against a peach-coloured dusk. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -126,7 +126,7 @@ Santa Cruz wharf, pier, sunset, golden hour, evening, dusk, Santa Cruz, Monterey
 
 **Description**
 ```
-Winter sunset over the Santa Cruz wharf, the water gone completely flat, in the last week of December. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Winter sunset over the Santa Cruz wharf, the water gone completely flat, in the last week of December. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -147,7 +147,7 @@ roller coaster, Giant Dipper, Santa Cruz Beach Boardwalk, amusement park, sunset
 
 **Description**
 ```
-The sun dropping behind the Giant Dipper, the wooden roller coaster that has stood on the Santa Cruz Beach Boardwalk since 1924. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The sun dropping behind the Giant Dipper, the wooden roller coaster that has stood on the Santa Cruz Beach Boardwalk since 1924. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -168,7 +168,7 @@ mushroom, fly agaric, amanita muscaria, fungi, forest floor, macro, midday, blue
 
 **Description**
 ```
-A fly agaric mushroom on the forest floor in Santa Cruz County, found the day after Christmas. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+A fly agaric mushroom on the forest floor in Santa Cruz County, found the day after Christmas. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -189,7 +189,7 @@ night, stars, blue hour, night photography, lights, Santa Cruz, Monterey Bay, Ca
 
 **Description**
 ```
-The first star of the evening above the lit Boardwalk, just after nine on the longest week of the year. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The first star of the evening above the lit Boardwalk, just after nine on the longest week of the year. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -210,7 +210,7 @@ San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, ev
 
 **Description**
 ```
-Red and pink cloud over the Boardwalk, reflected in the shallow water of the rivermouth, the night after an almost identical sky. Part of a year-long series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+Red and pink cloud over the Boardwalk, reflected in the shallow water of the rivermouth, the night after an almost identical sky. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
 ```
 
 ---
@@ -231,7 +231,7 @@ bluff, iceplant, midday, blue sky, daylight, Santa Cruz, Monterey Bay, Californi
 
 **Description**
 ```
-Winter afternoon light on the water, seen from the green bluff above the beach, two days before the end of the year. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Winter afternoon light on the water, seen from the green bluff above the beach, two days before the end of the year. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -252,7 +252,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A band of ember-coloured light low on the horizon above the Boardwalk, on a September evening. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+A band of ember-coloured light low on the horizon above the Boardwalk, on a September evening. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -273,7 +273,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-The Boardwalk lights on the water after the last of the daylight had gone. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The Boardwalk lights on the water after the last of the daylight had gone. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -294,7 +294,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-Dawn at Main Beach before anyone else was out, at 6:43 on a November morning. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Dawn at Main Beach before anyone else was out, at 6:43 on a November morning. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -315,7 +315,7 @@ harbor, jetty, breakwater, midday, blue sky, daylight, Santa Cruz, Monterey Bay,
 
 **Description**
 ```
-Afternoon light at the Santa Cruz harbour jetty in early November. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Afternoon light at the Santa Cruz harbour jetty in early November. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -336,7 +336,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Seabright Beach, Santa Cruz, photographed at 4:18 pm on 25 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Seabright Beach, Santa Cruz, photographed at 4:18 pm on 25 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -357,7 +357,7 @@ cliffs, West Cliff Drive, bluff, sunset, golden hour, evening, dusk, Santa Cruz,
 
 **Description**
 ```
-Evening light along the cliffs on the West Cliff side of Santa Cruz, looking down to the water. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Evening light along the cliffs on the West Cliff side of Santa Cruz, looking down to the water. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -378,7 +378,7 @@ cliffs, West Cliff Drive, bluff, clouds, mackerel sky, sunrise, dawn, first ligh
 
 **Description**
 ```
-A mackerel sky at dawn in early October, the cloud broken into rows above the coast. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+A mackerel sky at dawn in early October, the cloud broken into rows above the coast. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -399,7 +399,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-The last of the light breaking under heavy cloud above the rocks on a September evening. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The last of the light breaking under heavy cloud above the rocks on a September evening. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -420,7 +420,7 @@ San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, ev
 
 **Description**
 ```
-The sun going down directly into the lagoon at the San Lorenzo rivermouth on a July evening. Part of a year-long series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+The sun going down directly into the lagoon at the San Lorenzo rivermouth on a July evening. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
 ```
 
 ---
@@ -441,7 +441,7 @@ harbor, jetty, breakwater, tetrapods, dusk, blue hour, twilight, evening, Santa 
 
 **Description**
 ```
-The concrete tetrapods of the harbour breakwater against a gold horizon. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The concrete tetrapods of the harbour breakwater against a gold horizon. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -462,7 +462,7 @@ night, night photography, blue hour, lights, Santa Cruz, Monterey Bay, Californi
 
 **Description**
 ```
-The Boardwalk still lit at ten past nine on a July night. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The Boardwalk still lit at ten past nine on a July night. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -483,7 +483,7 @@ San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, ev
 
 **Description**
 ```
-Lavender dusk over the reeds at the rivermouth at the end of June. Part of a year-long series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+Lavender dusk over the reeds at the rivermouth at the end of June. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
 ```
 
 ---
@@ -504,7 +504,7 @@ cliffs, West Cliff Drive, bluff, midday, blue sky, daylight, Santa Cruz, Montere
 
 **Description**
 ```
-Midday on West Cliff Drive, the swell breaking over the rocks below the path. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Midday on West Cliff Drive, the swell breaking over the rocks below the path. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -525,7 +525,7 @@ San Lorenzo River, rivermouth, lagoon, reflection, dusk, blue hour, twilight, ev
 
 **Description**
 ```
-Gold light laid across the water of the rivermouth on a June evening. Part of a year-long series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
+Gold light laid across the water of the rivermouth on a June evening. Part of an ongoing series by Ian Sun, photographed away from home at San Lorenzo Rivermouth.
 ```
 
 ---
@@ -546,7 +546,7 @@ dunes, beach grass, dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay
 
 **Description**
 ```
-A blue sky at dusk in Santa Cruz, photographed at 8:41 pm on 20 June 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at dusk in Santa Cruz, photographed at 8:41 pm on 20 June 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -567,7 +567,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A mauve and pink sky above Main Beach in the middle of May. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+A mauve and pink sky above Main Beach in the middle of May. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -588,7 +588,7 @@ redwoods, forest, trees, morning light, morning, Santa Cruz, California, Ian Sun
 
 **Description**
 ```
-Redwoods and open grass in Santa Cruz County on a May morning. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Redwoods and open grass in Santa Cruz County on a May morning. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -609,7 +609,7 @@ dog, pug, beach, sea foam, joy, midday, blue sky, daylight, Santa Cruz, Monterey
 
 **Description**
 ```
-Christmas morning on the beach in Santa Cruz, sea foam banked up along the sand after a storm, and a pug running flat out through it. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Christmas morning on the beach in Santa Cruz, sea foam banked up along the sand after a storm, and a pug running flat out through it. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -630,7 +630,7 @@ surf, waves, storm, sea foam, ocean, midday, blue sky, daylight, Santa Cruz, Mon
 
 **Description**
 ```
-Storm surf and sea foam on Christmas morning, with the wharf in the distance under a broken sky. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Storm surf and sea foam on Christmas morning, with the wharf in the distance under a broken sky. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -651,7 +651,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:26 pm on 11 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:26 pm on 11 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -672,7 +672,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:22 pm on 11 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:22 pm on 11 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -693,7 +693,7 @@ morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal phot
 
 **Description**
 ```
-A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 10:18 am on 11 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 10:18 am on 11 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -714,7 +714,7 @@ morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal phot
 
 **Description**
 ```
-A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:52 am on 11 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:52 am on 11 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -735,7 +735,7 @@ morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal phot
 
 **Description**
 ```
-A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:48 am on 11 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:48 am on 11 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -756,7 +756,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:58 am on 10 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:58 am on 10 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -777,7 +777,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 7 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 7 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -798,7 +798,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:21 pm on 7 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:21 pm on 7 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -819,7 +819,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:13 pm on 7 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:13 pm on 7 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -840,7 +840,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:58 pm on 6 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:58 pm on 6 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -861,7 +861,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:53 pm on 6 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:53 pm on 6 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -882,7 +882,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:39 pm on 6 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:39 pm on 6 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -903,7 +903,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A magenta sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:18 am on 6 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A magenta sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:18 am on 6 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -924,7 +924,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:08 am on 6 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:08 am on 6 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -945,7 +945,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A deep red sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A deep red sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -966,7 +966,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A deep red sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:20 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A deep red sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:20 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -987,7 +987,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:07 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:07 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1008,7 +1008,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:01 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:01 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1029,7 +1029,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:53 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:53 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1050,7 +1050,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:50 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:50 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1071,7 +1071,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:44 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:44 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1092,7 +1092,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:41 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:41 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1113,7 +1113,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:32 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:32 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1134,7 +1134,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:20 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:20 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1155,7 +1155,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:43 am on 3 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:43 am on 3 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1176,7 +1176,7 @@ morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal phot
 
 **Description**
 ```
-A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:47 am on 1 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:47 am on 1 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1197,7 +1197,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:52 pm on 31 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:52 pm on 31 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1218,7 +1218,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:13 pm on 24 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:13 pm on 24 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1239,7 +1239,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:04 pm on 24 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:04 pm on 24 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1260,7 +1260,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:53 pm on 24 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:53 pm on 24 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1281,7 +1281,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:34 pm on 17 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:34 pm on 17 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1302,7 +1302,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 7:08 am on 10 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 7:08 am on 10 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1323,7 +1323,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:21 pm on 6 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:21 pm on 6 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1344,7 +1344,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:47 pm on 20 September 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:47 pm on 20 September 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1365,7 +1365,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:15 pm on 22 July 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:15 pm on 22 July 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1386,7 +1386,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:41 pm on 21 July 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:41 pm on 21 July 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1407,7 +1407,7 @@ night, night photography, blue hour, lights, Santa Cruz, Monterey Bay, Californi
 
 **Description**
 ```
-A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:09 pm on 12 July 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:09 pm on 12 July 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1428,7 +1428,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:14 pm on 6 July 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:14 pm on 6 July 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1449,7 +1449,7 @@ night, night photography, blue hour, lights, Santa Cruz, Monterey Bay, Californi
 
 **Description**
 ```
-A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:17 pm on 5 July 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:17 pm on 5 July 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1470,7 +1470,7 @@ night, night photography, blue hour, lights, Santa Cruz, Monterey Bay, Californi
 
 **Description**
 ```
-A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:18 pm on 22 June 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:18 pm on 22 June 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1491,7 +1491,7 @@ night, night photography, blue hour, lights, Santa Cruz, Monterey Bay, Californi
 
 **Description**
 ```
-A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:04 pm on 22 June 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:04 pm on 22 June 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1512,7 +1512,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:36 pm on 29 May 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:36 pm on 29 May 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1533,7 +1533,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:18 pm on 27 May 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:18 pm on 27 May 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1554,7 +1554,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A blue sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:22 pm on 24 May 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:22 pm on 24 May 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1575,7 +1575,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 11:41 am on 22 May 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 11:41 am on 22 May 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1596,7 +1596,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A blue sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:41 pm on 12 May 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:41 pm on 12 May 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1617,7 +1617,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:11 pm on 12 May 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:11 pm on 12 May 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1638,7 +1638,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A gold sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:28 pm on 13 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A gold sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:28 pm on 13 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1659,7 +1659,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:13 pm on 13 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:13 pm on 13 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1680,7 +1680,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:08 pm on 13 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:08 pm on 13 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1701,7 +1701,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:45 am on 12 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:45 am on 12 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1722,7 +1722,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:38 pm on 10 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:38 pm on 10 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1743,7 +1743,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:31 pm on 10 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:31 pm on 10 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1764,7 +1764,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:32 pm on 10 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:32 pm on 10 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1785,7 +1785,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:21 pm on 10 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:21 pm on 10 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1806,7 +1806,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:01 pm on 10 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 3:01 pm on 10 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1827,7 +1827,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:39 pm on 10 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:39 pm on 10 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1848,7 +1848,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:49 am on 8 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:49 am on 8 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1869,7 +1869,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 7:23 am on 6 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 7:23 am on 6 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1890,7 +1890,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:47 am on 6 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:47 am on 6 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1911,7 +1911,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:51 am on 5 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:51 am on 5 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1932,7 +1932,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:46 pm on 2 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:46 pm on 2 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1953,7 +1953,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:24 pm on 2 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:24 pm on 2 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1974,7 +1974,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:18 pm on 1 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:18 pm on 1 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -1995,7 +1995,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:34 pm on 29 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A amber sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:34 pm on 29 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2016,7 +2016,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:10 pm on 28 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:10 pm on 28 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2037,7 +2037,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:48 am on 23 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:48 am on 23 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2058,7 +2058,7 @@ lighthouse, Walton Lighthouse, jetty, sunrise, dawn, first light, golden hour, m
 
 **Description**
 ```
-The sun coming up over the ridge across Monterey Bay, with Walton Lighthouse standing on the jetty and mist lifting off the break. A pool of tidewater holds the light in the foreground. Taken at 6:53 on a November morning. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+The sun coming up over the ridge across Monterey Bay, with Walton Lighthouse standing on the jetty and mist lifting off the break. A pool of tidewater holds the light in the foreground. Taken at 6:53 on a November morning. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -2079,7 +2079,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-Late afternoon light over the Santa Cruz wharf, seen across the water from the cliffs, with a few people out on the bluff. Taken just before five on a November afternoon. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+Late afternoon light over the Santa Cruz wharf, seen across the water from the cliffs, with a few people out on the bluff. Taken just before five on a November afternoon. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---
@@ -2100,7 +2100,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:39 pm on 12 July 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:39 pm on 12 July 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2121,7 +2121,7 @@ sunset, golden hour, evening, dusk, Lake Camanche, California, Ian Sun, fine art
 
 **Description**
 ```
-Valley oaks in silhouette against an amber sky, the last light going down over Lake Camanche. Photographed at 7:23 on a September evening. Part of a year-long series by Ian Sun, photographed away from home at Lake Camanche, California.
+Valley oaks in silhouette against an amber sky, the last light going down over Lake Camanche. Photographed at 7:23 on a September evening. Part of an ongoing series by Ian Sun, photographed away from home at Lake Camanche, California.
 ```
 
 ---
@@ -2142,7 +2142,7 @@ night, night photography, blue hour, lights, Lake Camanche, California, Ian Sun,
 
 **Description**
 ```
-A campfire burning down to embers in a steel ring, the only light left at the end of the night. Photographed at 9:43 on a September evening at Lake Camanche. Part of a year-long series by Ian Sun, photographed away from home at Lake Camanche, California.
+A campfire burning down to embers in a steel ring, the only light left at the end of the night. Photographed at 9:43 on a September evening at Lake Camanche. Part of an ongoing series by Ian Sun, photographed away from home at Lake Camanche, California.
 ```
 
 ---
@@ -2163,7 +2163,7 @@ midday, blue sky, daylight, Lake Camanche, California, Ian Sun, fine art photogr
 
 **Description**
 ```
-A shallow creek running over pale river rock, with willow and oak closing in overhead and the water clear enough to read the stones through it. Photographed late on a September morning near Lake Camanche. Part of a year-long series by Ian Sun, photographed away from home at Lake Camanche, California.
+A shallow creek running over pale river rock, with willow and oak closing in overhead and the water clear enough to read the stones through it. Photographed late on a September morning near Lake Camanche. Part of an ongoing series by Ian Sun, photographed away from home at Lake Camanche, California.
 ```
 
 ---
@@ -2184,7 +2184,7 @@ midday, blue sky, daylight, Lake Camanche, California, Ian Sun, fine art photogr
 
 **Description**
 ```
-Still green water in a creek, holding the reflection of the trees above it, with bunchgrass on the banks and leaf litter on the bottom. Photographed at midday in September near Lake Camanche. Part of a year-long series by Ian Sun, photographed away from home at Lake Camanche, California.
+Still green water in a creek, holding the reflection of the trees above it, with bunchgrass on the banks and leaf litter on the bottom. Photographed at midday in September near Lake Camanche. Part of an ongoing series by Ian Sun, photographed away from home at Lake Camanche, California.
 ```
 
 ---
@@ -2205,7 +2205,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:21 pm on 6 October 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:21 pm on 6 October 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2226,7 +2226,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:17 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:17 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2247,7 +2247,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:18 am on 6 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:18 am on 6 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2268,7 +2268,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:58 am on 10 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:58 am on 10 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2289,7 +2289,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:22 pm on 25 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:22 pm on 25 May 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2310,7 +2310,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:30 pm on 26 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:30 pm on 26 May 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2331,7 +2331,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:03 pm on 31 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:03 pm on 31 May 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2352,7 +2352,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:17 pm on 31 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:17 pm on 31 May 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2373,7 +2373,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:37 pm on 31 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:37 pm on 31 May 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2394,7 +2394,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:55 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:55 pm on 1 June 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2415,7 +2415,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:02 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:02 pm on 1 June 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2436,7 +2436,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:18 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:18 pm on 1 June 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2457,7 +2457,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:19 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:19 pm on 1 June 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2478,7 +2478,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:13 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:13 pm on 1 June 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2499,7 +2499,7 @@ dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:49 pm on 9 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:49 pm on 9 June 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2520,7 +2520,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:41 pm on 16 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:41 pm on 16 June 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2541,7 +2541,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:36 pm on 6 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:36 pm on 6 August 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2562,7 +2562,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:17 pm on 11 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:17 pm on 11 August 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2583,7 +2583,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:22 pm on 25 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:22 pm on 25 August 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2604,7 +2604,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:49 pm on 25 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:49 pm on 25 August 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2625,7 +2625,7 @@ dusk, blue hour, twilight, evening, San Francisco, California, Ian Sun, fine art
 
 **Description**
 ```
-A soft, overcast sky at dusk in San Francisco, California, photographed at 8:00 pm on 27 August 2025. Part of a year-long series by Ian Sun, photographed away from home at San Francisco, California.
+A soft, overcast sky at dusk in San Francisco, California, photographed at 8:00 pm on 27 August 2025. Part of an ongoing series by Ian Sun, photographed away from home at San Francisco, California.
 ```
 
 ---
@@ -2646,7 +2646,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:41 pm on 28 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:41 pm on 28 August 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2667,7 +2667,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:49 pm on 28 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:49 pm on 28 August 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2688,7 +2688,7 @@ morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal phot
 
 **Description**
 ```
-A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:34 am on 10 October 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:34 am on 10 October 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2709,7 +2709,7 @@ morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal phot
 
 **Description**
 ```
-A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:56 am on 7 November 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:56 am on 7 November 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2730,7 +2730,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:18 pm on 1 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:18 pm on 1 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2751,7 +2751,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:12 pm on 2 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:12 pm on 2 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2772,7 +2772,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:17 pm on 5 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:17 pm on 5 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2793,7 +2793,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:34 pm on 6 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:34 pm on 6 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2814,7 +2814,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:11 pm on 7 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:11 pm on 7 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2835,7 +2835,7 @@ midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal 
 
 **Description**
 ```
-A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 11:49 am on 25 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 11:49 am on 25 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2856,7 +2856,7 @@ morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal phot
 
 **Description**
 ```
-A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 10:52 am on 26 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 10:52 am on 26 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2877,7 +2877,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:22 pm on 29 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:22 pm on 29 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2898,7 +2898,7 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 
 **Description**
 ```
-A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:52 am on 14 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:52 am on 14 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2919,7 +2919,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:05 pm on 17 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:05 pm on 17 January 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2940,7 +2940,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:30 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:30 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2961,7 +2961,7 @@ afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coasta
 
 **Description**
 ```
-A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:53 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:53 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -2982,7 +2982,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 5 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -3003,7 +3003,7 @@ morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal phot
 
 **Description**
 ```
-A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 10:18 am on 11 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 10:18 am on 11 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -3024,7 +3024,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:00 pm on 16 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:00 pm on 16 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -3045,7 +3045,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:18 pm on 16 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:18 pm on 16 November 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -3066,7 +3066,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:11 pm on 7 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:11 pm on 7 December 2025. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -3087,7 +3087,7 @@ sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, 
 
 **Description**
 ```
-A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 1 February 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 1 February 2026. Part of an ongoing series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---
@@ -3108,7 +3108,7 @@ morning, rainbow, autumn leaves, fall colour, trees, Santa Cruz, California, Ian
 
 **Description**
 ```
-A rainbow standing in a flat grey November sky, framed between a redwood and a pine, over a canopy of leaves turning red and gold. Photographed at 8:54 on a Thursday morning in Santa Cruz. Part of a year-long series photographed mostly within a few miles of home in Santa Cruz County, California.
+A rainbow standing in a flat grey November sky, framed between a redwood and a pine, over a canopy of leaves turning red and gold. Photographed at 8:54 on a Thursday morning in Santa Cruz. Part of an ongoing series photographed mostly within a few miles of home in Santa Cruz County, California.
 ```
 
 ---

@@ -6,6 +6,12 @@ Everything here is true and nothing is padded with art-world language. If a
 line doesn't sound like you, change it — this reads better in your voice than
 in anyone else's.
 
+**Rewritten 19 November 2026.** The old version was built on "a year, the same
+few miles," and said the work was made "most often before sunrise." Neither
+survived contact with the archive: it is now 18 months and 147 photographs,
+some of them 120 miles inland, and there are **75 taken after 5pm against 19
+before 8am**. The shape below is the real one.
+
 ---
 
 ## One line
@@ -16,103 +22,145 @@ Ian Sun — photographer, Santa Cruz, California.
 ```
 
 ```
-Ian Sun photographs the Santa Cruz coast on Monterey Bay, mostly at first light.
+Ian Sun photographs the Monterey Bay coast, and whatever else makes him stop walking.
 ```
 
 ---
 
-## Short — 55 words
-*Fine Art America profile, gallery labels, anywhere with a small box*
+## Short — 60 words
+*Pixels profile, gallery labels, anywhere with a small box*
 
 ```
 Ian Sun was born in Hawaii and raised in Santa Cruz, California — two places
 that teach you early what light does to water.
 
-He photographs the Santa Cruz coast on Monterey Bay: the Boardwalk, the
-rivermouth, West Cliff, the lighthouse at dawn. Every image is made within a
-few miles of home.
+He started photographing sunrises because he needed a reason to get out of
+bed. Eighteen months on it has widened: the coast, the redwoods, a lake two
+hours inland, a rainbow over a canopy turning red.
 ```
 
 ---
 
-## Medium — 150 words
+## Medium — 160 words
 *Artist statement, press, exhibition blurb*
 
 ```
 Ian Sun was born in Hawaii and raised in Santa Cruz, California — two places
 that teach you early what light does to water.
 
-His work is made almost entirely within a few miles of home on Monterey Bay:
-the Beach Boardwalk, the San Lorenzo rivermouth, West Cliff Drive, Walton
-Lighthouse at dawn. Over the course of a year he photographed the same stretch
-of coast in every kind of weather and light, most often before sunrise.
+He started photographing sunrises because he needed a reason to get out of
+bed. The photograph was never really the point; getting outside once and
+pressing a button was.
 
-These are not expeditions. They are the record of someone who went outside,
-most mornings, and looked.
+Eighteen months and a hundred and forty-seven photographs later it has
+changed shape. There are more evenings than mornings now, which is its own
+kind of progress report. And it stopped being only the coast — mushrooms
+after rain, storm surf on Christmas morning, sea stars at low water, a creek
+running over pale rock a long way inland.
 
-Prints of his work fund The Helping Sun, a free peer-support project he runs
-for people carrying hard things — their mental health, their health, their
-money. Buying a photograph keeps that free for someone who can't afford to
-ask.
+These are not expeditions. They are the record of someone who went outside
+and looked.
+
+Prints fund The Helping Sun, the free peer-support project Ian runs for
+people carrying hard things. Buying a photograph keeps it free for someone
+who can't afford to ask.
 ```
 
 ---
 
-## Long — 300 words
+## Long — 320 words
 *Website About page, feature pieces, grant and exhibition applications*
 
 ```
 Ian Sun was born in Hawaii and raised in Santa Cruz, California — two places
-that teach you early what light does to water. He has been chasing that ever
-since: the framing, the few minutes when it's worth looking at, the reason to
-be outside at six in the morning.
+that teach you early what light does to water.
 
-His photographs are made almost entirely within a few miles of home on
-Monterey Bay. The Beach Boardwalk and its ferris wheel. The San Lorenzo
-rivermouth, where the lagoon goes still enough to hold the whole sky. West
-Cliff Drive. Walton Lighthouse on the jetty at first light. Over a single year
-he photographed the same short stretch of coastline in every kind of weather —
-storm surf at Christmas, mackerel skies in October, mushrooms after the rain,
-a dog at full speed through sea foam.
+He started photographing sunrises because he needed a reason to get out of
+bed. That was during a long stretch of depression, and the photograph was
+never really the point — getting outside once and pressing a button was. A
+good number of these pictures are, quite literally, proof that he did.
+
+Eighteen months and a hundred and forty-seven photographs later, the work has
+changed shape twice over.
+
+There are more evenings in it than mornings now, which is its own kind of
+progress report: the dawn ones were a discipline, the dusk ones are a choice.
+And it stopped being only the coast. Mushrooms on the forest floor after
+rain. Storm surf on Christmas morning. Sea stars under a ledge at low water.
+A rainbow standing in a flat grey sky over a canopy turning red. A creek
+running clear over pale rock, a long way from any ocean. A city waterfront at
+dusk, which is not his subject at all, photographed anyway because the light
+was doing something.
+
+Most of it is still made within a few miles of home on Monterey Bay — the
+Beach Boardwalk and its ferris wheel, the San Lorenzo rivermouth where the
+lagoon goes still enough to hold the whole sky, West Cliff Drive, Walton
+Lighthouse on the jetty. But the frame has widened, and that is the honest
+story of this body of work.
 
 These are not expeditions. They are the record of somebody who went outside
-and looked, most days, for a year.
+and looked.
 
-The series began during a long stretch of depression. Photographing the
-sunrise was a reason to get up, and the photograph was never really the point
-— getting outside once and pressing a button was. Many of these images are,
-quite literally, proof that he did.
-
-That is also why the work pays for something. Prints fund The Helping Sun, a
-free peer-support project Ian runs for people carrying hard things: their
-mental health, their physical health, their money. He offers it free because
-nobody should have to decide whether they can afford to ask for help. Buying a
-photograph is what keeps it that way.
+Prints fund The Helping Sun, a free peer-support project Ian runs for people
+carrying hard things: their mental health, their physical health, their
+money. He offers it free because nobody should have to work out whether they
+can afford to ask. Buying a photograph is what keeps it that way.
 
 Ian lives and works in Santa Cruz County.
 ```
 
 ---
 
+## What changed, and why it matters
+
+The old bio's spine was **"a year, the same few miles"** — a photographer who
+kept returning to one stretch of coast until it gave something up. That was a
+good story and it is no longer the true one.
+
+**The new spine is the widening.** It started as one thing — a reason to get
+up, pointed at one horizon — and became another: someone who now notices light
+anywhere, including two hours inland and in a city he wasn't photographing.
+That is a better story than the old one, and it is better because it is what
+actually happened. Nobody needs it spelled out as a metaphor for recovery.
+Leave it as a fact about the pictures and let people arrive on their own.
+
+**The evening/morning count is worth keeping.** 75 after 5pm against 19
+before 8am is a real detail, and the line it earns — *the dawn ones were a
+discipline, the dusk ones are a choice* — is the best sentence here. It is
+also checkable, which is why it works.
+
 ## How much of the personal story to include
 
-This is your call and it changes by context.
+**The short and medium versions work without it.** They stand on consistency
+and range, which is a good artist story on its own.
 
-**The short and medium versions work without it.** They stand on the place and
-the consistency — a year of the same coastline, in every weather — which is a
-genuinely good artist story on its own.
-
-**The long version includes the depression openly**, because on your own site
-that's already public and it's the truest thing about how the work came to
+**The long version names the depression openly**, because on your own site it
+is already public, and it is the truest thing about how the work came to
 exist.
 
-For a **gallery submission or a corporate buyer**, consider the medium version
-without the final paragraph. For **your own site, press, or anyone who asks
-what The Helping Sun is**, use the long one. Don't let anyone tell you the
-personal part is oversharing — it's the reason the photographs exist, and it's
-why someone would rather buy from you than from a stock library.
+For a **gallery submission or a corporate buyer**, use the medium version
+without the final paragraph. For **your own site, press, or anyone asking what
+The Helping Sun is**, use the long one. Nobody gets to tell you the personal
+part is oversharing — it is the reason the photographs exist, and it is why
+someone would rather buy from you than from a stock library.
 
-One thing worth protecting in every version: **a year, the same few miles.**
-That's the story — not a travelling photographer collecting places, but
-someone who kept going back to the same coastline until it gave something up.
-It's why the work holds together as a body rather than a collection.
+## Keep these accurate
+
+These numbers are in the text and they will drift:
+
+- **147 photographs**, **18 months** (25 May 2025 to 19 November 2026)
+- **75 after 5pm, 19 before 8am**
+
+Re-run the count before you reuse the long version somewhere that matters:
+
+```bash
+python3 -c "
+import json, datetime, collections
+m = json.load(open('site/gallery/manifest.json'))
+d = sorted(datetime.datetime.fromisoformat(x['iso']) for x in m)
+h = collections.Counter(x.hour for x in d)
+print(len(m), 'photographs |', d[0].date(), 'to', d[-1].date())
+print('before 8am:', sum(v for k,v in h.items() if k<8),
+      ' after 5pm:', sum(v for k,v in h.items() if k>=17))
+"
+```
