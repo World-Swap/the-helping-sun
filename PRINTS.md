@@ -124,21 +124,31 @@ Put that number in Golden Hour occasionally. Not as a sales pitch — as an
 accounting. *"Three prints sold this month, which covered insurance and two
 tanks of petrol."* People who bought one will want to know what it did.
 
-## Turn on location tagging — it solves the naming problem
+## The coordinates exist — but not in the copies we have
 
-**None of the existing 103 photographs carry coordinates.** The GPS block is
-present on 100 of them but completely empty, which means location tagging was
-off in the camera app. There is nothing to recover.
+**Corrected 19 November 2026.** An earlier version of this file said location
+tagging was off in the camera. That was wrong, and Ian was right to push back.
 
-That is why the 27 written titles name places from what the picture looks
-like, and the other 69 name only colour and time. It is also why one of them
-was once called "Boardwalk, Reflected" when it is a rooftop and a tree.
+What is actually true. Of the 153 originals pulled from Drive, **150 carry a
+GPS block that exists but has been emptied** — nulls where the latitude should
+be — and 3 carry none at all. Real coordinates: zero.
 
-**Switch it on and every future photograph names itself.** On a Samsung the
-setting is in the Camera app under Settings, usually called *Location tags*.
-Once it is on, the coordinates travel inside the file and the exact spot —
-Walton Lighthouse, the rivermouth, West Cliff — can be read straight off it
-instead of guessed.
+But a camera that never got a fix normally writes **no GPS block at all**. A
+block that is present and zeroed is the signature of something *stripping* the
+data in transit. And the phone's own gallery shows these photographs on a map,
+reading the file at `/Internal storage/DCIM/Camera`.
+
+So the coordinates are in the originals on the phone. Every copy that reached
+Google Drive has had them removed somewhere along the way.
+
+**To recover them**, upload a few originals through the Drive app's *Upload*
+(from Files), rather than the share sheet — sharing is the step that usually
+strips EXIF. Then the exact spot — Walton Lighthouse, the rivermouth, West
+Cliff — can be read straight off the file instead of guessed.
+
+That guessing is why the written titles name places from what the picture
+looks like, and why one was once called "Boardwalk, Reflected" when it is a
+rooftop and a tree.
 
 **It does not leak to buyers.** `tools/make-upload-files.py` strips every
 metadata block before upload, coordinates included. You get accurate titles
