@@ -36,7 +36,7 @@ for fn in sorted(os.listdir(SRC)):
     out = os.path.join(OUT, f"{idx+1:03d}-{safe(title)}.jpg")
     # Step quality down only if needed to stay under the transfer ceiling.
     # Resolution and 4:4:4 are never sacrificed - they are what printing needs.
-    for q in (92, 90, 88, 86, 84, 82):
+    for q in (92, 90, 88, 86, 84, 82, 80, 78, 76):
         im.save(out, "JPEG", quality=q, optimize=True,
                 progressive=False,      # baseline: the most widely accepted
                 subsampling=0,          # 4:4:4, best for print
@@ -45,4 +45,6 @@ for fn in sorted(os.listdir(SRC)):
     n += 1
 print(f"{n} files written to {OUT}/")
 tot = sum(os.path.getsize(os.path.join(OUT,f)) for f in os.listdir(OUT))
+over = [f for f in os.listdir(OUT) if os.path.getsize(os.path.join(OUT,f)) > CEILING]
+if over: print(f"  ! still over {CEILING/1e6:.2f} MB, so not transferable in one call: {sorted(over)}")
 print(f"total {tot/1048576:.0f} MB, largest {max(os.path.getsize(os.path.join(OUT,f)) for f in os.listdir(OUT))/1048576:.1f} MB (limit 25 MB)")

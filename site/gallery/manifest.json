@@ -370,6 +370,16 @@
   "faa": ""
  },
  {
+  "slug": "20261110_065828",
+  "title": "November Honey",
+  "when": "10 November 2026, 6:58 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape",
+  "faa": ""
+ },
+ {
   "slug": "20261107_172540",
   "title": "November Amber",
   "when": "7 November 2026, 5:25 pm",
@@ -440,6 +450,16 @@
   "faa": ""
  },
  {
+  "slug": "20261106_061817",
+  "title": "Rose Dawn",
+  "when": "6 November 2026, 6:18 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape",
+  "faa": ""
+ },
+ {
   "slug": "20261106_060844",
   "title": "Blue Dawn",
   "when": "6 November 2026, 6:08 am",
@@ -463,6 +483,16 @@
   "slug": "20261105_172000",
   "title": "Evening in Ember",
   "when": "5 November 2026, 5:20 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape",
+  "faa": ""
+ },
+ {
+  "slug": "20261105_171726",
+  "title": "November Ember",
+  "when": "5 November 2026, 5:17 pm",
   "place": "Santa Cruz County",
   "w": 760,
   "h": 428,
@@ -630,6 +660,16 @@
   "faa": ""
  },
  {
+  "slug": "20261006_182140",
+  "title": "Amber October",
+  "when": "6 October 2026, 6:21 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape",
+  "faa": ""
+ },
+ {
   "slug": "20261006_182132",
   "title": "October Amber",
   "when": "6 October 2026, 6:21 pm",
@@ -648,6 +688,46 @@
   "h": 428,
   "orient": "landscape",
   "faa": "https://ian-sun.pixels.com/featured/sunset-over-the-wharf-ian-sun.html"
+ },
+ {
+  "slug": "20260918_122400",
+  "title": "Gold Midday",
+  "when": "18 September 2026, 12:24 pm",
+  "place": "Santa Cruz County",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait",
+  "faa": ""
+ },
+ {
+  "slug": "20260918_115202",
+  "title": "Midday in Gold",
+  "when": "18 September 2026, 11:52 am",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape",
+  "faa": ""
+ },
+ {
+  "slug": "20260916_214332",
+  "title": "Violet Night",
+  "when": "16 September 2026, 9:43 pm",
+  "place": "Santa Cruz County",
+  "w": 428,
+  "h": 760,
+  "orient": "portrait",
+  "faa": ""
+ },
+ {
+  "slug": "20260916_192350",
+  "title": "September Ember",
+  "when": "16 September 2026, 7:23 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape",
+  "faa": ""
  },
  {
   "slug": "20260722_201552",
@@ -673,6 +753,16 @@
   "slug": "20260712_210904",
   "title": "Blue Night",
   "when": "12 July 2026, 9:09 pm",
+  "place": "Santa Cruz County",
+  "w": 760,
+  "h": 428,
+  "orient": "landscape",
+  "faa": ""
+ },
+ {
+  "slug": "20260712_203927",
+  "title": "Rose Dusk",
+  "when": "12 July 2026, 8:39 pm",
   "place": "Santa Cruz County",
   "w": 760,
   "h": 428,

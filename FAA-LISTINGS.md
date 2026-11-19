@@ -15,7 +15,7 @@ Three fields are identical every time. Set them once under
 **29 names are written** — those photographs were looked at
 individually and the description says what is actually in the frame.
 
-**69 names are generated** and marked ★. They come from
+**78 names are generated** and marked ★. They come from
 what can be measured in the file: the dominant colour of the sky, how
 bright it is, the time of day and the month. Nothing about place or
 subject is claimed, because that cannot be measured. **Treat them as
@@ -2080,6 +2080,195 @@ afternoon light, golden hour, Santa Cruz, California, Monterey Bay, California c
 **Description**
 ```
 Late afternoon light over the Santa Cruz wharf, seen across the water from the cliffs, with a few people out on the bluff. Taken just before five on a November afternoon. Part of a year-long series photographed entirely within a few miles of home in Santa Cruz County, California.
+```
+
+---
+
+## 099 — Rose Dusk ★
+
+**File:** `099-rose-dusk.jpg`  ·  **Taken:** 12 July 2026, 8:39 pm
+
+**Title**
+```
+Rose Dusk
+```
+
+**Keywords** (165/500)
+```
+dusk, blue hour, twilight, evening, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:39 pm on 12 July 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 100 — September Ember ★
+
+**File:** `100-september-ember.jpg`  ·  **Taken:** 16 September 2026, 7:23 pm
+
+**Title**
+```
+September Ember
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:23 pm on 16 September 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 101 — Violet Night ★
+
+**File:** `101-violet-night.jpg`  ·  **Taken:** 16 September 2026, 9:43 pm
+
+**Title**
+```
+Violet Night
+```
+
+**Keywords** (174/500)
+```
+night, night photography, blue hour, lights, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at night in Santa Cruz, on Monterey Bay, California, photographed at 9:43 pm on 16 September 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 102 — Midday in Gold ★
+
+**File:** `102-midday-in-gold.jpg`  ·  **Taken:** 18 September 2026, 11:52 am
+
+**Title**
+```
+Midday in Gold
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 11:52 am on 18 September 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 103 — Gold Midday ★
+
+**File:** `103-gold-midday.jpg`  ·  **Taken:** 18 September 2026, 12:24 pm
+
+**Title**
+```
+Gold Midday
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 12:24 pm on 18 September 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 104 — Amber October ★
+
+**File:** `104-amber-october.jpg`  ·  **Taken:** 6 October 2026, 6:21 pm
+
+**Title**
+```
+Amber October
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 6:21 pm on 6 October 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 105 — November Ember ★
+
+**File:** `105-november-ember.jpg`  ·  **Taken:** 5 November 2026, 5:17 pm
+
+**Title**
+```
+November Ember
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:17 pm on 5 November 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 106 — Rose Dawn ★
+
+**File:** `106-rose-dawn.jpg`  ·  **Taken:** 6 November 2026, 6:18 am
+
+**Title**
+```
+Rose Dawn
+```
+
+**Keywords** (179/500)
+```
+sunrise, dawn, first light, golden hour, morning, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:18 am on 6 November 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 107 — November Honey ★
+
+**File:** `107-november-honey.jpg`  ·  **Taken:** 10 November 2026, 6:58 am
+
+**Title**
+```
+November Honey
+```
+
+**Keywords** (179/500)
+```
+sunrise, dawn, first light, golden hour, morning, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:58 am on 10 November 2026. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
 ```
 
 ---

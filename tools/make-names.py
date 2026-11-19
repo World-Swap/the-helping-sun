@@ -8,9 +8,36 @@ not guessed - that is how a rooftop got called "Boardwalk, Reflected".
 
 These are starting points. Rename freely while uploading.
 """
-import json, datetime, re
+import json, datetime, re, colorsys
+from PIL import Image, ImageOps
 
-MEAS = json.load(open("/tmp/claude-0/-home-user-the-helping-sun/3b620663-5197-5cc0-92ab-ad10014d510c/scratchpad/measure.json"))
+def measure(slug):
+    """Measure a photograph's colour from its own pixels.
+
+    Done here rather than read from a cache so that a photograph added later
+    is named like every other one. An earlier version read a file in a
+    session scratchpad; when that was cleared, new photographs silently fell
+    back to generic labels and the gallery showed "Sunset" three times.
+    """
+    im = ImageOps.exif_transpose(Image.open(f"photos/original/{slug}.jpg")).convert("RGB")
+    w, h = im.size
+    sm = im.resize((120, max(1, int(120 * h / w))))
+    px = list(sm.getdata())
+    sky = px[:len(px) // 3]                       # top third, where the light is
+    def stats(sample):
+        hs = [colorsys.rgb_to_hsv(r/255, g/255, b/255) for r, g, b in sample]
+        # circular mean of hue, weighted by saturation so grey pixels do not vote
+        import math
+        x = sum(math.cos(hh*2*math.pi) * ss for hh, ss, _ in hs)
+        y = sum(math.sin(hh*2*math.pi) * ss for hh, ss, _ in hs)
+        hue = (math.degrees(math.atan2(y, x)) + 360) % 360
+        return hue, 255*sum(s for _, s, _ in hs)/len(hs), 255*sum(v for _, _, v in hs)/len(hs)
+    hue, sat, bright = stats(px)
+    _, _, skybright = stats(sky)
+    return {"hue": round(hue,1), "sat": round(sat,1),
+            "bright": round(bright,1), "skybright": round(skybright,1)}
+
+MEAS = {}
 man  = json.load(open("site/gallery/manifest.json"))
 
 def family(h, sat, sky):
@@ -71,7 +98,7 @@ def build():
         slug = m["slug"]
         if m["title"].lower() in used and m["title"] not in ("Sunrise","Sunset","Dawn","Dusk","Night","Midday","Morning","Afternoon"):
             names[slug] = m["title"]; continue
-        v  = MEAS[slug]
+        v  = MEAS.setdefault(slug, measure(slug))
         dt = datetime.datetime.strptime(slug[:15], "%Y%m%d_%H%M%S")
         fam = family(v["hue"], v["sat"], v["skybright"])
         day = DAY[part_of_day(dt)]
@@ -92,4 +119,4 @@ if __name__ == "__main__":
     gen = [ (m['slug'], names[m['slug']]) for m in man if m['place']=="Santa Cruz County" ]
     print("\nsample of generated names:")
     for s,n in gen[:18]:
-        v=MEAS[s]; print(f"  {s}  hue{v['hue']:>6.1f} sat{v['sat']:>5.1f} br{v['bright']:>5.1f}  ->  {n}")
+        v=MEAS.setdefault(s, measure(s)); print(f"  {s}  hue{v['hue']:>6.1f} sat{v['sat']:>5.1f} br{v['bright']:>5.1f}  ->  {n}")
