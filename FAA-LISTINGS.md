@@ -15,7 +15,7 @@ Three fields are identical every time. Set them once under
 **33 names are written** — those photographs were looked at
 individually and the description says what is actually in the frame.
 
-**74 names are generated** and marked ★. They come from
+**113 names are generated** and marked ★. They come from
 what can be measured in the file: the dominant colour of the sky, how
 bright it is, the time of day and the month. Nothing about place or
 subject is claimed, because that cannot be measured. **Treat them as
@@ -2269,6 +2269,825 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, Cali
 **Description**
 ```
 A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:58 am on 10 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 108 — Blue May ★
+
+**File:** `108-blue-may.jpg`  ·  **Taken:** 25 May 2025, 8:22 pm
+
+**Title**
+```
+Blue May
+```
+
+**Keywords** (165/500)
+```
+dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:22 pm on 25 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 109 — Ember Dusk ★
+
+**File:** `109-ember-dusk.jpg`  ·  **Taken:** 26 May 2025, 8:30 pm
+
+**Title**
+```
+Ember Dusk
+```
+
+**Keywords** (165/500)
+```
+dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:30 pm on 26 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 110 — Green Evening ★
+
+**File:** `110-green-evening.jpg`  ·  **Taken:** 31 May 2025, 7:03 pm
+
+**Title**
+```
+Green Evening
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:03 pm on 31 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 111 — May Honey ★
+
+**File:** `111-may-honey.jpg`  ·  **Taken:** 31 May 2025, 7:17 pm
+
+**Title**
+```
+May Honey
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:17 pm on 31 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 112 — Honey Dusk ★
+
+**File:** `112-honey-dusk.jpg`  ·  **Taken:** 31 May 2025, 7:37 pm
+
+**Title**
+```
+Honey Dusk
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:37 pm on 31 May 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 113 — Cobalt Light ★
+
+**File:** `113-cobalt-light.jpg`  ·  **Taken:** 1 June 2025, 1:55 pm
+
+**Title**
+```
+Cobalt Light
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:55 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 114 — June Cobalt ★
+
+**File:** `114-june-cobalt.jpg`  ·  **Taken:** 1 June 2025, 2:02 pm
+
+**Title**
+```
+June Cobalt
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:02 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 115 — Midday in Cobalt ★
+
+**File:** `115-midday-in-cobalt.jpg`  ·  **Taken:** 1 June 2025, 2:18 pm
+
+**Title**
+```
+Midday in Cobalt
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:18 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 116 — Steel Midday ★
+
+**File:** `116-steel-midday.jpg`  ·  **Taken:** 1 June 2025, 2:19 pm
+
+**Title**
+```
+Steel Midday
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 2:19 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 117 — Evening in Gold ★
+
+**File:** `117-evening-in-gold.jpg`  ·  **Taken:** 1 June 2025, 7:13 pm
+
+**Title**
+```
+Evening in Gold
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:13 pm on 1 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 118 — June Ember ★
+
+**File:** `118-june-ember.jpg`  ·  **Taken:** 9 June 2025, 8:49 pm
+
+**Title**
+```
+June Ember
+```
+
+**Keywords** (165/500)
+```
+dusk, blue hour, twilight, evening, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at dusk in Santa Cruz, on Monterey Bay, California, photographed at 8:49 pm on 9 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 119 — Cobalt June ★
+
+**File:** `119-cobalt-june.jpg`  ·  **Taken:** 16 June 2025, 1:41 pm
+
+**Title**
+```
+Cobalt June
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:41 pm on 16 June 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 120 — August Amber ★
+
+**File:** `120-august-amber.jpg`  ·  **Taken:** 6 August 2025, 7:36 pm
+
+**Title**
+```
+August Amber
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:36 pm on 6 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 121 — Aqua Evening ★
+
+**File:** `121-aqua-evening.jpg`  ·  **Taken:** 11 August 2025, 7:17 pm
+
+**Title**
+```
+Aqua Evening
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:17 pm on 11 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 122 — August Ember ★
+
+**File:** `122-august-ember.jpg`  ·  **Taken:** 25 August 2025, 7:22 pm
+
+**Title**
+```
+August Ember
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:22 pm on 25 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 123 — Dusk in Ember ★
+
+**File:** `123-dusk-in-ember.jpg`  ·  **Taken:** 25 August 2025, 7:49 pm
+
+**Title**
+```
+Dusk in Ember
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:49 pm on 25 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 124 — Aqua Dusk ★
+
+**File:** `124-aqua-dusk.jpg`  ·  **Taken:** 27 August 2025, 8:00 pm
+
+**Title**
+```
+Aqua Dusk
+```
+
+**Keywords** (115/500)
+```
+dusk, blue hour, twilight, evening, San Francisco, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at dusk in San Francisco, California, photographed at 8:00 pm on 27 August 2025. Part of a year-long series by Ian Sun, photographed away from home at San Francisco, California.
+```
+
+---
+
+## 125 — August Blue ★
+
+**File:** `125-august-blue.jpg`  ·  **Taken:** 28 August 2025, 1:41 pm
+
+**Title**
+```
+August Blue
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 1:41 pm on 28 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 126 — Dusk in Rose ★
+
+**File:** `126-dusk-in-rose.jpg`  ·  **Taken:** 28 August 2025, 7:49 pm
+
+**Title**
+```
+Dusk in Rose
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 7:49 pm on 28 August 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 127 — October Cobalt ★
+
+**File:** `127-october-cobalt.jpg`  ·  **Taken:** 10 October 2025, 9:34 am
+
+**Title**
+```
+October Cobalt
+```
+
+**Keywords** (153/500)
+```
+morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:34 am on 10 October 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 128 — Morning in Cobalt ★
+
+**File:** `128-morning-in-cobalt.jpg`  ·  **Taken:** 7 November 2025, 9:56 am
+
+**Title**
+```
+Morning in Cobalt
+```
+
+**Keywords** (153/500)
+```
+morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 9:56 am on 7 November 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 129 — Ember December ★
+
+**File:** `129-ember-december.jpg`  ·  **Taken:** 1 December 2025, 5:18 pm
+
+**Title**
+```
+Ember December
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:18 pm on 1 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 130 — Rose Evening ★
+
+**File:** `130-rose-evening.jpg`  ·  **Taken:** 2 December 2025, 5:12 pm
+
+**Title**
+```
+Rose Evening
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:12 pm on 2 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 131 — Amber December ★
+
+**File:** `131-amber-december.jpg`  ·  **Taken:** 5 December 2025, 4:17 pm
+
+**Title**
+```
+Amber December
+```
+
+**Keywords** (159/500)
+```
+afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:17 pm on 5 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 132 — Evening in Violet ★
+
+**File:** `132-evening-in-violet.jpg`  ·  **Taken:** 6 December 2025, 5:34 pm
+
+**Title**
+```
+Evening in Violet
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:34 pm on 6 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 133 — Ember Light ★
+
+**File:** `133-ember-light.jpg`  ·  **Taken:** 7 December 2025, 5:11 pm
+
+**Title**
+```
+Ember Light
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:11 pm on 7 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 134 — December Cobalt ★
+
+**File:** `134-december-cobalt.jpg`  ·  **Taken:** 25 December 2025, 11:49 am
+
+**Title**
+```
+December Cobalt
+```
+
+**Keywords** (157/500)
+```
+midday, blue sky, daylight, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at midday in Santa Cruz, on Monterey Bay, California, photographed at 11:49 am on 25 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 135 — Amber Morning ★
+
+**File:** `135-amber-morning.jpg`  ·  **Taken:** 26 December 2025, 10:52 am
+
+**Title**
+```
+Amber Morning
+```
+
+**Keywords** (153/500)
+```
+morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 10:52 am on 26 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 136 — Ember over the Bay ★
+
+**File:** `136-ember-over-the-bay.jpg`  ·  **Taken:** 29 December 2025, 5:22 pm
+
+**Title**
+```
+Ember over the Bay
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:22 pm on 29 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 137 — Dawn in Rose ★
+
+**File:** `137-dawn-in-rose.jpg`  ·  **Taken:** 14 January 2026, 6:52 am
+
+**Title**
+```
+Dawn in Rose
+```
+
+**Keywords** (179/500)
+```
+sunrise, dawn, first light, golden hour, morning, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:52 am on 14 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 138 — Evening in Cobalt ★
+
+**File:** `138-evening-in-cobalt.jpg`  ·  **Taken:** 17 January 2026, 5:05 pm
+
+**Title**
+```
+Evening in Cobalt
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:05 pm on 17 January 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 139 — Green Afternoon ★
+
+**File:** `139-green-afternoon.jpg`  ·  **Taken:** 5 November 2026, 4:30 pm
+
+**Title**
+```
+Green Afternoon
+```
+
+**Keywords** (159/500)
+```
+afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:30 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 140 — Afternoon in Honey ★
+
+**File:** `140-afternoon-in-honey.jpg`  ·  **Taken:** 5 November 2026, 4:53 pm
+
+**Title**
+```
+Afternoon in Honey
+```
+
+**Keywords** (159/500)
+```
+afternoon light, golden hour, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at afternoon in Santa Cruz, on Monterey Bay, California, photographed at 4:53 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 141 — The Ember Hour ★
+
+**File:** `141-the-ember-hour.jpg`  ·  **Taken:** 5 November 2026, 5:25 pm
+
+**Title**
+```
+The Ember Hour
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 5 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 142 — Cobalt Morning ★
+
+**File:** `142-cobalt-morning.jpg`  ·  **Taken:** 11 November 2026, 10:18 am
+
+**Title**
+```
+Cobalt Morning
+```
+
+**Keywords** (153/500)
+```
+morning light, morning, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at morning in Santa Cruz, on Monterey Bay, California, photographed at 10:18 am on 11 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 143 — November Cobalt ★
+
+**File:** `143-november-cobalt.jpg`  ·  **Taken:** 16 November 2026, 5:00 pm
+
+**Title**
+```
+November Cobalt
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:00 pm on 16 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 144 — Violet Evening ★
+
+**File:** `144-violet-evening.jpg`  ·  **Taken:** 16 November 2026, 5:18 pm
+
+**Title**
+```
+Violet Evening
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:18 pm on 16 November 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 145 — December Ember ★
+
+**File:** `145-december-ember.jpg`  ·  **Taken:** 7 December 2025, 5:11 pm
+
+**Title**
+```
+December Ember
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:11 pm on 7 December 2025. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 146 — February Amber ★
+
+**File:** `146-february-amber.jpg`  ·  **Taken:** 1 February 2026, 5:25 pm
+
+**Title**
+```
+February Amber
+```
+
+**Keywords** (165/500)
+```
+sunset, golden hour, evening, dusk, Santa Cruz, Monterey Bay, California coast, coastal photography, California, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+A soft, overcast sky at sunset in Santa Cruz, on Monterey Bay, California, photographed at 5:25 pm on 1 February 2026. Part of a year-long series photographed mostly within a few miles of home on the Santa Cruz coast.
 ```
 
 ---

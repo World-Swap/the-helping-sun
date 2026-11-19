@@ -87,24 +87,48 @@ PLACES = {
     "20260916_214332": "Lake Camanche, California",   # campfire at the campsite
     "20260918_115202": "Lake Camanche, California",   # creek - exact spot unverified
     "20260918_122400": "Lake Camanche, California",   # creek - exact spot unverified
+    "20250827_200037": "San Francisco, California",   # Mission Bay waterfront
 }
 # Verified product URLs, read from the live storefront - never predicted.
 LINKS = json.load(open("faa-links.json")) if os.path.exists("faa-links.json") else {}
 
+def taken_at(fn):
+    """When a photograph was taken, and the slug to file it under.
+
+    Most files are named 20261104_064349.jpg and the date comes straight off
+    the name. Some are not - a panorama exported by the phone comes out as
+    4x2up0.jpg - and an earlier version of this script silently skipped those,
+    so a photograph Ian asked for simply never appeared. Fall back to the
+    EXIF capture time, which those files do carry.
+    """
+    m = re.match(r"(\d{8}_\d{6})", fn)
+    if m:
+        return datetime.datetime.strptime(m.group(1), "%Y%m%d_%H%M%S"), m.group(1)
+    try:
+        ex = Image.open(os.path.join(SRC, fn)).getexif()
+        raw = ex.get_ifd(0x8769).get(36867) or ex.get(306)
+        if raw:
+            return (datetime.datetime.strptime(str(raw), "%Y:%m:%d %H:%M:%S"),
+                    re.sub(r"[^A-Za-z0-9]+", "-", os.path.splitext(fn)[0]).strip("-").lower())
+    except Exception:
+        pass
+    return None, None
+
+
 man = []
 for fn in sorted(os.listdir(SRC)):
     if not fn.endswith(".jpg") or fn in REJECT: continue
-    m = re.match(r"(\d{8}_\d{6})", fn)
-    if not m: continue
-    dt = datetime.datetime.strptime(m.group(1), "%Y%m%d_%H%M%S")
-    slug = m.group(1)
+    dt, slug = taken_at(fn)
+    if dt is None:
+        print(f"  ! no date for {fn} - skipped. Add one to its EXIF or rename it.")
+        continue
     title, place = TITLES.get(fn, (NAMES.get(slug) or label(dt), PLACES.get(slug, "Santa Cruz County")))
     when = dt.strftime("%-d %B %Y, %-I:%M %p").replace("AM","am").replace("PM","pm")
     im = ImageOps.exif_transpose(Image.open(os.path.join(SRC, fn))).convert("RGB")
     im = ImageEnhance.Color(im).enhance(1.05)
     fit(im, 1600).save(f"{OUT}/{slug}.jpg",   "JPEG", quality=76, optimize=True, progressive=True)
     th = fit(im, 760); th.save(f"{OUT}/{slug}-t.jpg", "JPEG", quality=74, optimize=True, progressive=True)
-    man.append({"slug":slug,"title":title,"when":when,"place":place,
+    man.append({"slug":slug,"title":title,"when":when,"iso":dt.isoformat(),"place":place,
                 "w":th.size[0],"h":th.size[1],
                 "orient":"portrait" if th.size[1]>th.size[0] else "landscape",
                 "faa": LINKS.get(slug, ""),

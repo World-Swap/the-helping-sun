@@ -32,9 +32,15 @@ def safe(t):
 
 n = 0
 for fn in sorted(os.listdir(SRC)):
-    m = re.match(r"(\d{8}_\d{6})", fn or "")
-    if not fn.endswith(".jpg") or not m or m.group(1) not in order: continue
-    slug = m.group(1); title = order[slug][1]; idx = filenum(slug) - 1
+    if not fn.endswith(".jpg"): continue
+    # Same rule as the gallery: timestamped names give the slug directly, and
+    # anything else (a phone-exported panorama) falls back to the sanitised
+    # stem. Matching only the timestamp here left those photographs in the
+    # gallery with no file to upload, so they could be seen but not sold.
+    m = re.match(r"(\d{8}_\d{6})", fn)
+    slug = m.group(1) if m else re.sub(r"[^A-Za-z0-9]+", "-", os.path.splitext(fn)[0]).strip("-").lower()
+    if slug not in order: continue
+    title = order[slug][1]; idx = filenum(slug) - 1
     im = ImageOps.exif_transpose(Image.open(os.path.join(SRC, fn)))   # bake rotation in
     im = im.convert("RGB")                                            # force sRGB, drop ICC
     im = ImageEnhance.Color(im).enhance(1.05)                         # match the site

@@ -8,7 +8,7 @@ not guessed - that is how a rooftop got called "Boardwalk, Reflected".
 
 These are starting points. Rename freely while uploading.
 """
-import json, datetime, re, colorsys
+import json, datetime, re, colorsys, os
 from PIL import Image, ImageOps
 
 def measure(slug):
@@ -19,7 +19,11 @@ def measure(slug):
     session scratchpad; when that was cleared, new photographs silently fell
     back to generic labels and the gallery showed "Sunset" three times.
     """
-    im = ImageOps.exif_transpose(Image.open(f"photos/original/{slug}.jpg")).convert("RGB")
+    import glob
+    hit = glob.glob(f"photos/original/{slug}.jpg") or \
+          [p for p in glob.glob("photos/original/*.jpg")
+           if re.sub(r"[^A-Za-z0-9]+","-",os.path.splitext(os.path.basename(p))[0]).strip("-").lower() == slug]
+    im = ImageOps.exif_transpose(Image.open(hit[0])).convert("RGB")
     w, h = im.size
     sm = im.resize((120, max(1, int(120 * h / w))))
     px = list(sm.getdata())
@@ -99,7 +103,7 @@ def build():
         if m["title"].lower() in used and m["title"] not in ("Sunrise","Sunset","Dawn","Dusk","Night","Midday","Morning","Afternoon"):
             names[slug] = m["title"]; continue
         v  = MEAS.setdefault(slug, measure(slug))
-        dt = datetime.datetime.strptime(slug[:15], "%Y%m%d_%H%M%S")
+        dt = datetime.datetime.fromisoformat(m["iso"])
         fam = family(v["hue"], v["sat"], v["skybright"])
         day = DAY[part_of_day(dt)]
         month = dt.strftime("%B")
