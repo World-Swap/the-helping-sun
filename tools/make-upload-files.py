@@ -11,6 +11,11 @@ from PIL import Image, ImageOps, ImageEnhance
 SRC="photos/original"; OUT="faa-upload"
 CEILING = 2_950_000   # keeps every file transferable in one call
 os.makedirs(OUT, exist_ok=True)
+# Names are derived from each photograph's title, so a retitle writes a new
+# file and would leave the old one behind. Track what this run produces and
+# delete anything else, or the folder drifts out of step with FAA-LISTINGS.md
+# and you upload a file the listing does not describe.
+written = set()
 man = json.load(open("site/gallery/manifest.json"))
 # Permanent file numbers. New photographs append; nothing already uploaded
 # is ever renumbered. Delete this file only if you want to renumber everything.
@@ -42,8 +47,14 @@ for fn in sorted(os.listdir(SRC)):
                 subsampling=0,          # 4:4:4, best for print
                 exif=b"", icc_profile=None)
         if os.path.getsize(out) <= CEILING: break
+    written.add(os.path.basename(out))
     n += 1
 print(f"{n} files written to {OUT}/")
+stale = sorted(set(os.listdir(OUT)) - written)
+for f in stale:
+    os.remove(os.path.join(OUT, f))
+if stale:
+    print(f"removed {len(stale)} stale file(s) left by an earlier run")
 tot = sum(os.path.getsize(os.path.join(OUT,f)) for f in os.listdir(OUT))
 over = [f for f in os.listdir(OUT) if os.path.getsize(os.path.join(OUT,f)) > CEILING]
 if over: print(f"  ! still over {CEILING/1e6:.2f} MB, so not transferable in one call: {sorted(over)}")
