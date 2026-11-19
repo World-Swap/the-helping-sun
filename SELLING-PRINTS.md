@@ -192,21 +192,22 @@ people to ask for anything missing.
 To deep-link an individual photograph once it is listed, add an `faa` field to
 its entry in the manifest — **only using a URL you have actually opened.**
 
-## The 25-image cap
+## Where the shop's full list lives
 
-A free Pixels account **displays only 25 images**, in their own words on
-https://pixels.com/membershipplans.html:
+The profile front page at https://ian-sun.pixels.com/ shows a **selection**,
+25 at the time of writing, and reports `Displaying: 1 - 24 of 25`. That is not
+the catalogue. **https://ian-sun.pixels.com/shop lists everything** — 45 works
+on 19 November 2026, every one returning 200.
 
-> Premium accounts may upload an unlimited number of images. Free accounts are
-> limited to 25 images.
+Reading the front page instead of /shop made 20 live, purchasable works look
+unlisted, and kept them out of the gallery's "In the shop" badges for a while.
+`tools/match-storefront.py` reads /shop for exactly this reason. Do not point
+it back at the profile page.
 
-Uploading more does not queue them for later. On 19 November 2026, 45 images
-had been uploaded and the storefront reported `Displaying: 1 - 24 of 25`.
-Premium is $30/year, stated on https://pixels.com/sell-art-online.html.
-
-So until that is paid, the shop holds 25 and the choice is *which* 25. The
-site reflects this honestly rather than hiding it: the homepage shows the
-photographs that are actually listed, and the archive badges them.
+For the record, since it is easy to mistake one for the other: a **free**
+Pixels account is limited to 25 images (their membership page says so, and
+Premium is $30/year), but that cap is not what the front page is showing. A
+Premium account still gets a selection on its front page.
 
 **Every Buy button goes to the shop front**, and that is a deliberate choice.
 

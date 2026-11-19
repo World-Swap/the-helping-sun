@@ -33,12 +33,15 @@ def slugify(t):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t.lower())).strip("-")
 
 
-status, html = get(STORE)
+# Read /shop, not the profile front page. The front page shows a selection
+# (25 at the time of writing) while /shop lists everything, so reading the
+# front page silently hid 20 live works and made them look unlisted.
+status, html = get(STORE + "shop")
 if status != 200:
-    sys.exit(f"storefront unreachable ({status}) — leaving faa-links.json alone")
+    sys.exit(f"shop unreachable ({status}) — leaving faa-links.json alone")
 
 listings = sorted(set(re.findall(r"/featured/([a-z0-9\-]+)-ian-sun\.html", html)))
-print(f"storefront index lists {len(listings)} works")
+print(f"/shop lists {len(listings)} works")
 
 manifest = json.load(open("site/gallery/manifest.json"))
 numbers  = json.load(open("upload-numbers.json"))
