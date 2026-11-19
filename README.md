@@ -26,6 +26,7 @@ people carrying hard things, by Ian Sun. Santa Cruz, California.
 | `FAA-LISTINGS.md` | **Per-photo title, keywords and description for the shop upload form** |
 | `faa-listings.csv` | The same, as a spreadsheet |
 | `BIOGRAPHY.md` | **Artist biography in four lengths, for the shop profile and press** |
+| `REPLIES.md` | **Email reply templates — purchase enquiries, scam pushback, support** |
 | `SOCIAL-PROFILES.md` | **Bios, About copy, categories and images for Instagram and Facebook** |
 | `SAFETY-AND-LEGAL.md` | **Read this first.** Scope of practice, crisis protocol, insurance, burnout |
 | `tools/prep-photos.py` | Turns new full-res photos into web-ready sizes |

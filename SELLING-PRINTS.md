@@ -206,6 +206,23 @@ is running, either:
 
 ---
 
+## You will get fake buyer emails
+
+Within days of listing, expect messages like: vague praise, no photograph
+named, first name only, "interested in acquiring few of your artworks". The
+script is always the same — they agree without asking the price, insist on
+their own shipper, then send a check for too much and ask you to forward the
+difference. The check bounces weeks later and the bank takes it back out of
+your account.
+
+`REPLIES.md` has a template that answers them warmly and routes everything to
+the shop. It costs nothing if they're genuine and gives them nothing if
+they're not.
+
+**This is the strongest argument for selling through a platform.** The money
+never passes through your hands, so the overpayment fraud has nothing to
+attach to.
+
 ## The honest trade-offs
 
 **It isn't quite free.** $0 gets you 25 images. All 96 needs $30/year. That's
