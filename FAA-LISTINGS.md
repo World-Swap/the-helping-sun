@@ -12,7 +12,7 @@ Three fields are identical every time. Set them once under
 | **Medium** | Photography |
 | **Artwork Category** | Photograph |
 
-**27 names are written** — those photographs were looked at
+**29 names are written** — those photographs were looked at
 individually and the description says what is actually in the frame.
 
 **69 names are generated** and marked ★. They come from
@@ -2038,6 +2038,48 @@ sunrise, dawn, first light, golden hour, morning, Santa Cruz, California, Monter
 **Description**
 ```
 A blue sky at sunrise in Santa Cruz, on Monterey Bay, California, photographed at 6:48 am on 23 December 2025. Part of a year-long series photographed within a few miles of home on the Santa Cruz coast.
+```
+
+---
+
+## 097 — Daybreak
+
+**File:** `097-daybreak.jpg`  ·  **Taken:** 17 November 2026, 6:53 am
+
+**Title**
+```
+Daybreak
+```
+
+**Keywords** (217/500)
+```
+lighthouse, Walton Lighthouse, jetty, sunrise, dawn, first light, golden hour, morning, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+The sun coming up over the ridge across Monterey Bay, with Walton Lighthouse standing on the jetty and mist lifting off the break. A pool of tidewater holds the light in the foreground. Taken at 6:53 on a November morning. Part of a year-long series photographed entirely within a few miles of home in Santa Cruz County, California.
+```
+
+---
+
+## 098 — Across the Bay
+
+**File:** `098-across-the-bay.jpg`  ·  **Taken:** 17 November 2026, 4:55 pm
+
+**Title**
+```
+Across the Bay
+```
+
+**Keywords** (159/500)
+```
+afternoon light, golden hour, Santa Cruz, California, Monterey Bay, California coast, coastal photography, Ian Sun, fine art photography, landscape photography
+```
+
+**Description**
+```
+Late afternoon light over the Santa Cruz wharf, seen across the water from the cliffs, with a few people out on the bluff. Taken just before five on a November afternoon. Part of a year-long series photographed entirely within a few miles of home in Santa Cruz County, California.
 ```
 
 ---

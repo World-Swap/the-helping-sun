@@ -52,6 +52,8 @@ TITLES = {
  "20261101_141550.jpg": ("Afternoon, Jetty", "Santa Cruz Harbour"),
  "20260504_095320.jpg": ("The Redwoods", "Santa Cruz County"),
  "20251226_133752.jpg": ("Fly Agaric", "Santa Cruz County"),
+ "20261117_065329.jpg": ("Daybreak", "Walton Lighthouse, Santa Cruz"),
+ "20261117_165552.jpg": ("Across the Bay", "Santa Cruz"),
  "20251229_172403.jpg": ("December Wharf", "Santa Cruz"),
  "20251228_142219.jpg": ("The Green Bluff", "Santa Cruz"),
  "20251225_114326.jpg": ("Christmas Surf", "Santa Cruz"),

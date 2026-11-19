@@ -1,7 +1,16 @@
+import os
 
 import json, csv, re, datetime
 
 man = json.load(open("site/gallery/manifest.json"))
+# Permanent file numbers. New photographs append; nothing already uploaded
+# is ever renumbered. Delete this file only if you want to renumber everything.
+NUMS = json.load(open("upload-numbers.json")) if os.path.exists("upload-numbers.json") else {}
+def filenum(slug):
+    if slug not in NUMS:
+        NUMS[slug] = (max(NUMS.values()) + 1) if NUMS else 1
+        json.dump(NUMS, open("upload-numbers.json","w"), indent=1)
+    return NUMS[slug]
 NAMES = json.load(open("photo-names.json"))
 MEAS  = json.load(open("/tmp/claude-0/-home-user-the-helping-sun/3b620663-5197-5cc0-92ab-ad10014d510c/scratchpad/measure.json"))
 
@@ -24,6 +33,8 @@ SERIES_SHORT = ("Part of a year-long series photographed within a few miles of h
 
 # Individual descriptions for the named works.
 DESC = {
+"20261117_065329": "The sun coming up over the ridge across Monterey Bay, with Walton Lighthouse standing on the jetty and mist lifting off the break. A pool of tidewater holds the light in the foreground. Taken at 6:53 on a November morning.",
+"20261117_165552": "Late afternoon light over the Santa Cruz wharf, seen across the water from the cliffs, with a few people out on the bluff. Taken just before five on a November afternoon.",
 "20261104_064349": "Sunrise over Monterey Bay, with Walton Lighthouse standing on the jetty and the tide pooled across the sand. Taken at 6:43 on a November morning, the third consecutive dawn of a run of early starts.",
 "20260712_204036": "Crimson cloud breaking over the Santa Cruz Beach Boardwalk, mirrored in the still water of the San Lorenzo rivermouth on a July evening.",
 "20261021_071526": "The whole sky turned pink and orange over a park ten minutes from my front door, a little after seven on an October morning.",
@@ -124,7 +135,7 @@ for i, m in enumerate(man):
              f"{when.split(', ',1)[1]} on {when.split(', ')[0]}.")
     desc = d + " " + (SERIES_FULL if slug in DESC else SERIES_SHORT)
     shop_title = NAMES.get(slug, title)
-    rows.append(dict(n=i+1, shop_title=shop_title, named=(slug in DESC), file=f"{i+1:03d}-" + re.sub(r"[^A-Za-z0-9]+","-",title).strip("-").lower() + ".jpg",
+    rows.append(dict(n=filenum(slug), shop_title=shop_title, named=(slug in DESC), file=f"{filenum(slug):03d}-" + re.sub(r"[^A-Za-z0-9]+","-",title).strip("-").lower() + ".jpg",
                      title=title, medium="Photography", category="Photograph",
                      keywords=s, description=desc, place=place, when=when))
 
@@ -152,7 +163,7 @@ with open("FAA-LISTINGS.md","w") as f:
     f.write("starting points and rename as you upload** — you are looking at the\n")
     f.write("photograph, I am looking at its pixels.\n\n")
     f.write("All 96 names are unique, and keywords are within the 500-character limit.\n\n---\n\n")
-    for r in rows:
+    for r in sorted(rows, key=lambda x: x['n']):
         star = "" if r["named"] else " \u2605"
         f.write(f"## {r['n']:03d} — {r['shop_title']}{star}\n\n")
         f.write(f"**File:** `{r['file']}`  \u00b7  **Taken:** {r['when']}\n\n")
