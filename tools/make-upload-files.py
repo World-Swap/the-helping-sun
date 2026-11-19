@@ -9,6 +9,7 @@ import os, json, re
 from PIL import Image, ImageOps, ImageEnhance
 
 SRC="photos/original"; OUT="faa-upload"
+CEILING = 2_950_000   # keeps every file transferable in one call
 os.makedirs(OUT, exist_ok=True)
 man = json.load(open("site/gallery/manifest.json"))
 order = {m["slug"]: (i, m["title"]) for i, m in enumerate(man)}
@@ -25,10 +26,14 @@ for fn in sorted(os.listdir(SRC)):
     im = im.convert("RGB")                                            # force sRGB, drop ICC
     im = ImageEnhance.Color(im).enhance(1.05)                         # match the site
     out = os.path.join(OUT, f"{idx+1:03d}-{safe(title)}.jpg")
-    im.save(out, "JPEG", quality=92, optimize=True,
-            progressive=False,      # baseline: the most widely accepted
-            subsampling=0,          # 4:4:4, best for print
-            exif=b"", icc_profile=None)
+    # Step quality down only if needed to stay under the transfer ceiling.
+    # Resolution and 4:4:4 are never sacrificed - they are what printing needs.
+    for q in (92, 90, 88, 86, 84, 82):
+        im.save(out, "JPEG", quality=q, optimize=True,
+                progressive=False,      # baseline: the most widely accepted
+                subsampling=0,          # 4:4:4, best for print
+                exif=b"", icc_profile=None)
+        if os.path.getsize(out) <= CEILING: break
     n += 1
 print(f"{n} files written to {OUT}/")
 tot = sum(os.path.getsize(os.path.join(OUT,f)) for f in os.listdir(OUT))
