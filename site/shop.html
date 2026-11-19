@@ -66,6 +66,10 @@ dialog.lb::backdrop{background:#070B12}
   box-shadow:0 10px 40px rgba(0,0,0,.35);overflow:hidden}
 .cart-note{color:var(--muted);font-size:14.5px;margin-top:16px;max-width:66ch}
 .cart-note a{color:var(--sun)}
+.nav--min{display:flex;gap:17px;align-items:center;flex-wrap:wrap}
+.nav--min a{font-size:14.5px;text-decoration:none;opacity:.78;white-space:nowrap}
+.nav--min a:hover,.nav--min a:focus-visible{opacity:1}
+.nav--min a[aria-current]{opacity:1;font-weight:600;color:var(--sun)}
 </style>
 </head>
 <body>
@@ -86,7 +90,12 @@ dialog.lb::backdrop{background:#070B12}
       </svg>
       The Helping Sun
     </a>
-    <a class="back" href="/">← Back to the site</a>
+    <nav class="nav nav--min">
+      <a href="/shop" aria-current="page">Shop</a>
+      <a href="/prints">Archive</a>
+      <a href="/#story">Why</a>
+      <a href="/#areas">Get help</a>
+    </nav>
   </div>
 </header>
 <main>

@@ -56,6 +56,10 @@ dialog.lb::backdrop{background:#070B12}
 .lb-prev{left:12px} .lb-next{right:12px}
 .lb-close:hover,.lb-nav:hover{background:rgba(245,199,116,.3)}
 @media (max-width:700px){ .lb-nav{display:none} }
+.nav--min{display:flex;gap:17px;align-items:center;flex-wrap:wrap}
+.nav--min a{font-size:14.5px;text-decoration:none;opacity:.78;white-space:nowrap}
+.nav--min a:hover,.nav--min a:focus-visible{opacity:1}
+.nav--min a[aria-current]{opacity:1;font-weight:600;color:var(--sun)}
 </style>
 </head>
 <body>
@@ -76,7 +80,12 @@ dialog.lb::backdrop{background:#070B12}
       </svg>
       The Helping Sun
     </a>
-    <a class="back" href="/">← Back to the site</a>
+    <nav class="nav nav--min">
+      <a href="/shop">Shop</a>
+      <a href="/prints" aria-current="page">Archive</a>
+      <a href="/#story">Why</a>
+      <a href="/#areas">Get help</a>
+    </nav>
   </div>
 </header>
 <main id="main"><div class="wrap wide">
@@ -88,7 +97,7 @@ dialog.lb::backdrop{background:#070B12}
 
 <p class="lede-big">It started with sunrises, on the mornings that were hardest to get up for. The photograph was never really the point — getting outside once and pressing a button was.</p>
 
-<p>Then it stopped being only sunrises. Mushrooms after the rain, storm surf on Christmas morning, the redwoods, the dog mid-run. Most of these were taken within a few miles of home on Monterey Bay; a few were not.</p>
+<p>Then it stopped being only sunrises, and it stopped being only mornings. Mushrooms after the rain, storm surf on Christmas morning, sea stars at low water, the redwoods, a rainbow over a canopy turning red, a creek a long way from any ocean. Most of these were taken within a few miles of home on Monterey Bay; a few were not.</p>
 
 <p>Prints of any of these pay for the running costs of The Helping Sun, so the support stays free for people who can't afford to ask. Choose a photograph, a size and a surface in the shop, and it's printed and posted to you directly.</p>
 
