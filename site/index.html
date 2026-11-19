@@ -424,35 +424,29 @@ dialog.lb::backdrop{background:#070B12}
     <h2 style="font-size:clamp(28px,4.4vw,42px);max-width:22ch">Buy a photograph. Keep somebody's call free.</h2>
     <p class="lede" style="margin-top:16px">You're not donating to a charity. You're buying a print, and the margin pays for the running costs of help I give away — so nobody has to weigh up whether they can afford to ask.</p>
 
-    <table class="prices">
-      <tr><th>Size</th><th>Material</th><th></th></tr>
-      <tr><td>8 × 12″</td><td>Archival lustre</td><td>$45</td></tr>
-      <tr><td>12 × 18″</td><td>Archival lustre</td><td>$85</td></tr>
-      <tr><td>16 × 24″</td><td>Archival lustre</td><td>$140</td></tr>
-      <tr><td>16 × 24″</td><td>Metal, ready to hang</td><td>$225</td></tr>
-      <tr><td>24 × 36″</td><td>Metal, ready to hang</td><td>$340</td></tr>
-    </table>
-    <p style="color:var(--deep-muted);font-size:15px">US shipping included. Signed on the back with the date and the place it was taken. No frame, so you choose your own.</p>
-
-    <div class="grid g3" style="margin-top:34px">
+    <div class="grid g3" style="margin-top:36px">
+      <article class="card">
+        <p class="kicker">Choose anything</p>
+        <h3>Any photograph, any size</h3>
+        <p>Archival paper, canvas, metal, acrylic and wood, from small prints to pieces that fill a wall. Framed or unframed, your choice of mount and mat.</p>
+      </article>
+      <article class="card">
+        <p class="kicker">How it works</p>
+        <h3>Picked, printed, posted</h3>
+        <p>Order in the shop and it's printed at whichever of their facilities is nearest you, then sent straight to your door. Nothing passes through me.</p>
+      </article>
       <article class="card">
         <p class="kicker">What it pays for</p>
         <h3>The running costs</h3>
-        <p>Insurance, the phone line, petrol for driving somebody to an appointment, and a small fund for the practical things that actually shift someone's week.</p>
-      </article>
-      <article class="card">
-        <p class="kicker">Where it's printed</p>
-        <h3>Fifteen minutes away</h3>
-        <p>Bay Photo Lab in Scotts Valley, about fifteen minutes from where most of these were taken. Printed in the same county as the sunrise, shipped straight to you.</p>
-      </article>
-      <article class="card">
-        <p class="kicker">How to order</p>
-        <h3>Send me an email</h3>
-        <p>No shopping cart — it's one person. Email the title and the size you want and I'll send a payment link. About two weeks, door to door.</p>
+        <p>Insurance, the phone line, petrol for driving somebody to an appointment, and a small fund for the practical things that shift someone's week.</p>
       </article>
     </div>
 
-    <p style="margin-top:30px"><a class="btn" href="mailto:hello@thehelpingsun.com?subject=Print%20enquiry">hello@thehelpingsun.com</a></p>
+    <p style="margin-top:34px;display:flex;gap:13px;flex-wrap:wrap">
+      <a class="btn" href="https://fineartamerica.com/profiles/ian-sun">Visit the print shop &rarr;</a>
+      <a class="btn btn--ghost" href="/prints">Browse all 98 photographs</a>
+    </p>
+    <p style="color:var(--deep-muted);font-size:15px;margin-top:18px;max-width:62ch">The shop is filling up a few at a time. If there's something in the archive you'd like that isn't listed yet, <a href="#ask" style="color:var(--sun)">tell me</a> and I'll put it up.</p>
   </div>
 </section>
 
@@ -710,7 +704,7 @@ dialog.lb::backdrop{background:#070B12}
   <div class="lb-inner">
     <img id="lb-img" src="" alt="">
     <p class="lb-cap" id="lb-cap"></p>
-    <a class="btn" id="lb-buy" href="#" hidden>Buy this print &rarr;</a>
+    <a class="btn" id="lb-buy" href="#" hidden>Buy a print &rarr;</a>
   </div>
   <button class="lb-close" id="lb-close" aria-label="Close">×</button>
   <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous photograph">‹</button>
@@ -728,8 +722,7 @@ dialog.lb::backdrop{background:#070B12}
   // Ready to switch on: paste the URL below in once images are actually live
   // at fineartamerica.com/profiles/ian-sun. It is empty on purpose until then —
   // a Buy button pointing at an empty shop is worse than no Buy button.
-  //   var FAA_STORE = 'https://fineartamerica.com/profiles/ian-sun';
-  var FAA_STORE = '';
+  var FAA_STORE = 'https://fineartamerica.com/profiles/ian-sun';
 
   var shots = [].slice.call(document.querySelectorAll('.shot'));
   var lb = document.getElementById('lb');

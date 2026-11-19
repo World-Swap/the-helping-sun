@@ -54,7 +54,13 @@ California sales.
 
 Sort this before the first order, not after the tenth.
 
-## Fulfilment — Bay Photo, Scotts Valley
+## Fulfilment — not currently used
+
+> **Superseded.** All sales now go through Fine Art America, which prints and
+> ships. See `SELLING-PRINTS.md`. Keep this only if you ever want to print
+> locally for a direct, in-person sale.
+
+### Bay Photo, Scotts Valley
 
 **920 Disc Drive, Scotts Valley, CA 95066** — Santa Cruz County, roughly
 fifteen minutes from where most of these were taken.
@@ -72,7 +78,10 @@ a product you haven't held.
 
 ## Pricing
 
-The site currently lists:
+> **Superseded.** Prices are set in the shop now, per product, and the site
+> no longer lists a table. Kept for reference if you ever sell direct.
+
+The site previously listed:
 
 | Size | Material | Price |
 | --- | --- | --- |
@@ -92,6 +101,8 @@ Nobody buying a sunrise to hang in their house is price-shopping to the dollar,
 and an underpriced print that funds nothing defeats the entire point.
 
 ## Taking payment
+
+> **Superseded.** The shop takes payment. Below applies only to direct sales.
 
 **Hands-off (recommended):** Fine Art America. Free for 25 images, $30/year
 for all 96. They print, ship, take payment and handle support — see

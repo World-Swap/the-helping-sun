@@ -177,32 +177,31 @@ America appends numbers when titles collide, and 60+ photographs called
 "Sunset" will collide. Verify, don't predict — the same mistake as inventing a
 location for a photograph.
 
-### Switching it on
+### It's switched on
 
-In `site/index.html`, near the top of the script:
+`FAA_STORE` is set to `https://fineartamerica.com/profiles/ian-sun` in both
+`site/index.html` and `site/prints.html`. **Buy a print** appears in every
+lightbox across all 98 photographs, and the prints section links to the shop
+directly. Email ordering and the price table are gone.
 
-```js
-var FAA_STORE = '';   // paste your storefront URL here
-```
+The button says **Buy a print** rather than *Buy this print*, because it goes
+to the storefront rather than that specific photograph. Only 18 of 98 are
+listed so far, so the site says plainly that the shop is filling up and invites
+people to ask for anything missing.
 
-Fill that in and the Buy buttons appear across the site automatically. Leave it
-empty and everything stays as it is now, with ordering by email. Nothing
-half-finished goes live.
+To deep-link an individual photograph once it is listed, add an `faa` field to
+its entry in the manifest — **only using a URL you have actually opened.**
 
 ---
 
-## What to change on the site once it's live
+## The site now points everything at the shop
 
-The price table in the prints section is for **direct** orders. Once the shop
-is running, either:
+Done. The price table, the Bay Photo mention and email ordering have all been
+removed from the site — every route to buying goes through the storefront.
 
-- **Keep both** — the table for direct/local sales, the shop for everything
-  else. More money per direct sale, but you handle those yourself and the
-  seller's permit applies.
-- **Point everything at the shop** — replace the table with "every size and
-  product, from $X". Entirely hands-off, slightly less per sale.
-
-**For a system you don't want to think about: point everything at the shop.**
+That means the sales-tax position is the simple one: the platform is the
+retailer and handles it. **Sell one print directly and that changes**, so if
+you ever do a local sale, read the tax section above again first.
 
 ---
 
