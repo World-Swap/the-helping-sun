@@ -192,6 +192,20 @@ people to ask for anything missing.
 To deep-link an individual photograph once it is listed, add an `faa` field to
 its entry in the manifest — **only using a URL you have actually opened.**
 
+## The site sends people to Pixels, not to an embed
+
+Ian tried the embedded cart widget on thehelpingsun.com/shop and judged the
+real storefront better: it has the full product picker, every size and
+surface, and a working cart. The embed is a lesser version of a thing Pixels
+already does well.
+
+So every Shop and Buy link on the site opens
+**https://ian-sun.pixels.com/shop** in a new tab. No Pixels code runs on this
+site at all, which also restores the privacy policy's plain statement that
+the site sets no cookies and loads nothing third-party except fonts.
+
+`/shop` remains only as a redirect, so any link already shared still works.
+
 ## Where the shop's full list lives
 
 The profile front page at https://ian-sun.pixels.com/ shows a **selection**,
