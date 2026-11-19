@@ -7,3 +7,7 @@ node_modules/
 # Full-resolution upload files: regenerated from photos/original with
 # tools/make-upload-files.py. ~165 MB, originals live in Google Drive.
 faa-upload/
+
+# Candidate originals pulled from Drive during a sweep, pending a keep/drop
+# decision. Same rule as the above: full-resolution files live in Drive.
+candidates/
