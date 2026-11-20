@@ -51,9 +51,10 @@ e-commerce exists.
 
 ## The script
 
-About 150 words. Read at a normal pace it lands at 58–60 seconds. Time
-yourself once; if you run long, cut the last sentence of the middle section,
-not the opening.
+**142 words**, which lands at about 57 seconds read at a measured pace — a
+deliberate three seconds of headroom, because "60 seconds or less" is a limit
+and a rushed 61 is worse than a calm 57. Time yourself once. If you run long,
+cut "in Santa Cruz, California", not anything after it.
 
 > **[0:00]** I'm Ian Sun, in Santa Cruz, California. Eighteen months ago I was
 > depressed, broke, and too embarrassed to tell anyone.
@@ -62,19 +63,18 @@ not the opening.
 > out of bed. I've taken a hundred and forty-seven since. They're all at
 > thehelpingsun.com.
 >
-> **[0:20]** Here's the business. Forty-five are listed for sale as prints. A
-> print partner makes and ships every order, so I hold no stock and pay
-> nothing upfront. The margin funds one thing: free peer support for people
-> carrying what I was carrying — their mental health, their health, their
-> money.
+> **[0:20]** Here's the business. Forty-five are listed as prints. A partner
+> prints and ships every order — no stock, nothing upfront. The margin funds
+> one thing: free peer support for people carrying what I was carrying. Their
+> mental health, their health, their money.
 >
-> **[0:38]** I'm not a therapist. I'm the person who answers. I'll sit with you
-> while you open the mail you've been avoiding.
+> **[0:36]** I'm not a therapist. I'm the person who answers — who'll sit with
+> you while you open the mail you've been avoiding.
 >
 > **[0:47]** It's free because nobody should have to work out whether they can
 > afford to ask.
 >
-> **[0:52]** Five thousand dollars covers a year of running costs and puts the
+> **[0:50]** Five thousand dollars covers a year of running costs and puts the
 > next hundred photographs on sale. A hundred thousand means I answer
 > full-time.
 
