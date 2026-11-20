@@ -11,8 +11,10 @@ not midnight your time. You have five days.
 50 states and District of Columbia". California qualifies. You must be
 physically in the US when you apply.
 
-**The scoring is published, with weights.** Write to these, not to a general
-idea of a good pitch:
+**The scoring is published — and there are two separate scorecards.** They are
+easy to conflate, and writing to the wrong one wastes your only entry.
+
+**Your 60-second video is scored only on this:**
 
 | Weight | Criterion |
 |---|---|
@@ -22,14 +24,28 @@ idea of a good pitch:
 | 15% | Business quality and credible next steps |
 | 5% | Learning and resourcefulness |
 
-Two things worth knowing: **60% of your score is clarity plus evidence** — so
-the pitch must be plainly said and full of things that actually exist. And
-the terms state that course completion, community participation and follower
-count do **not** affect eligibility or scoring. Nobody is counting your
-followers.
+**The $100,000 Grand Prize uses a different one**, applied live at the Grand
+Finale: clarity 35%, evidence 25%, customer problem 20%, **business model and
+potential 10%**, **responsible use of the Grand Prize 10%**.
 
-They also say AI may be used in judging, given the volume. Another reason to
-be concrete: specific, checkable facts survive any reader.
+Those last two exist only at the Finale. Do not try to cram them into 60
+seconds.
+
+**And this is the part worth internalising:** the terms say that at the
+Finale, *"Earlier Video scores, Application material, Course records and
+community activity do not carry forward."* The final is a clean slate,
+decided entirely on the live pitch and the judges' questions.
+
+So the video has exactly one job: **get you into the 180.** It does not need
+to win the hundred thousand, and trying to make it do both is how it ends up
+doing neither.
+
+Two further things in the terms: 60% of the video score is clarity plus
+evidence, so be plainly spoken and full of things that exist. And course
+completion, community participation and follower count do **not** affect
+eligibility or scoring — nobody is counting your followers. They also say AI
+may be used in judging given the volume, which is another reason specific,
+checkable facts beat atmosphere.
 
 ## Which track to enter
 
@@ -137,8 +153,35 @@ more.
 
 ---
 
+## Two things that could cost you the money after you win
+
+**Every claim gets checked.** The terms require "truthful information and
+proportionate evidence of any material claim checked during verification". So
+147 photographs and 45 listed must still be true on the day you submit, and
+you must be able to show it. They are, and you can — the site and the shop
+both prove it in one click. This is also the hard reason not to mention sales
+you have not made.
+
+**The money is paid "to a verified account used for the recipient's
+Business".** Not a personal account. SMG Payments LLC is dormant, and The
+Helping Sun has no banking of its own. **Sort this before you submit**, not
+after you win: decide which entity is "the Business" on the application, and
+make sure it has an account that can receive US dollars in its name. Getting
+this wrong is how people pass judging and then fail verification.
+
+Also worth knowing before you plan around the number: awards are paid
+**gross**. HelpBnk sends exactly $5,000 and tops up nothing — withholding,
+receiving-bank charges and your own taxes come out of it. Payment is
+instructed by 29 January 2027, expected to land by 31 January.
+
+If you would rather not be listed publicly, you can object to publication, or
+ask them to publish less, **when applying or later, without giving a
+reason** — and the terms say it does not affect entry or judging. They
+ordinarily publish surname, country, track, award and business name.
+
 ## Before you submit
 
+- Enter at **pitch.worldsbiggestbusinesscompetition.com**
 - Check the deadline in **your** timezone: **15:59 Pacific, 25 November**
 - One entry per person and per business — you get one attempt, so do not
   burn it on a first take
