@@ -51,8 +51,8 @@ e-commerce exists.
 
 ## The script
 
-**142 words**, which lands at about 57 seconds read at a measured pace — a
-deliberate three seconds of headroom, because "60 seconds or less" is a limit
+**148 words**, which lands at about 59 seconds read at a measured pace — a
+deliberate second of headroom, because "60 seconds or less" is a limit
 and a rushed 61 is worse than a calm 57. Time yourself once. If you run long,
 cut "in Santa Cruz, California", not anything after it.
 
