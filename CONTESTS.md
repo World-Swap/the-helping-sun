@@ -109,9 +109,12 @@ on a technicality rather than on the picture.
 
 ### Sony World Photography Awards — both competitions
 
-**Single Image** — three photographs. Closes 5 January 2027, 16:00 GMT.
+**Single Image** — three photographs, Landscape category. Closes 5 January
+2027, 16:00 GMT. Entry IDs 7466225, 7466229, 7466233 — all three confirmed
+**Submitted**, one image each.
 
-**Series** — ten photographs, one sunset on 5 November 2026, in sequence.
+**Series** — ten photographs, Landscape category, one sunset on 5 November
+2026 in sequence. Entry ID 7466265, confirmed **Submitted**, 10 images.
 Closes 12 January 2027 (a week after Single Image — two separate deadlines,
 so do not assume one date covers both).
 
@@ -127,6 +130,13 @@ payment to confirm and no renewal to miss.
 **What to watch:** Sony notify shortlists by email, and the address they have
 is whichever one you entered with. If that is not the Zoho address you check,
 set a forward now rather than finding out in March.
+
+## On the site
+
+**One evening** — thehelpingsun.com/evening — shows the 5 November sunset in
+sequence, built from the archive by `tools/build-evening.py` so it cannot
+drift. It currently shows all 14 frames from that evening; the `SERIES` list
+in that script narrows it to the ten entered, once Ian says which ten.
 
 ## Your live one
 

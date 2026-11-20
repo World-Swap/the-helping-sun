@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="img/logo-mark.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/logo-mark-180.png">
+<meta name="description" content="One sunset over Santa Cruz photographed from 4:20 to 5:25 pm on 5 November 2026 by Ian Sun &mdash; 14 frames across 64 minutes.">
+<meta property="og:title" content="One evening — The Helping Sun">
+<meta property="og:description" content="One sunset over Santa Cruz photographed from 4:20 to 5:25 pm on 5 November 2026 by Ian Sun &mdash; 14 frames across 64 minutes.">
+<meta property="og:image" content="https://thehelpingsun.com/img/sunrise-lighthouse-1400.jpg">
+<meta property="og:url" content="https://thehelpingsun.com/evening">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="legal.css">
+<title>One evening &mdash; The Helping Sun</title>
+<link rel="canonical" href="https://thehelpingsun.com/evening">
+<style>
+.wide{max-width:1180px}
+.lede-big{font-family:var(--ff-display);font-size:clamp(19px,2.4vw,24px);line-height:1.5;
+  max-width:60ch;margin:0 0 18px}
+.fund{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:18px;margin:34px 0 10px}
+.fund div{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:20px 22px}
+.fund h3{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--sun-deep);margin:0 0 8px;font-weight:500}
+.fund p{font-size:15px;color:var(--muted);margin:0}
+.prices{width:100%;border-collapse:collapse;margin:14px 0 8px;font-size:15.5px}
+.prices th,.prices td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+.prices th{font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.prices td:last-child{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+/* A real grid, not masonry columns. Masonry let the 11 portrait photographs
+   run to full height while the 136 landscape ones sat small, and on a phone
+   it collapsed to one tall column. Uniform 4:3 tiles, two across on a phone,
+   put every photograph on the same footing. */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 9px;margin-top:10px}
+@media (min-width:700px){.grid{grid-template-columns:repeat(3,1fr);gap:15px}}
+@media (min-width:1080px){.grid{grid-template-columns:repeat(4,1fr);gap:16px}}
+.shot{margin:0;display:block;min-width:0}
+.shot-btn{display:block;padding:0;border:0;background:none;cursor:zoom-in;width:100%;border-radius:11px;
+  overflow:hidden;line-height:0}
+.shot-btn img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
+  border-radius:11px;background:var(--surface);
+  transition:transform .35s ease, filter .35s ease}
+.shot-btn:hover img{transform:scale(1.025);filter:brightness(1.05)}
+.shot figcaption{display:block;padding:6px 2px 0;line-height:1.3}
+.shot .t{font-family:var(--ff-mono);font-size:11px;letter-spacing:.03em;display:block;opacity:.95}
+.shot .w{font-family:var(--ff-mono);font-size:9.5px;letter-spacing:.04em;color:var(--muted);
+  text-transform:uppercase;display:block;margin-top:1px;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
+@media (min-width:700px){.shot .t{font-size:12px}.shot .w{font-size:10px}}
+.shot{position:relative}
+@media (max-width:520px){}
+dialog.lb{border:0;padding:0;background:#070B12;max-width:100vw;max-height:100vh;width:100%;height:100%}
+dialog.lb::backdrop{background:#070B12}
+.lb-inner{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:16px;padding:max(18px,env(safe-area-inset-top,0px)) 18px max(18px,env(safe-area-inset-bottom,0px))}
+.lb-inner img{max-width:100%;max-height:70vh;width:auto;height:auto;border-radius:8px;object-fit:contain}
+.lb-cap{color:#EDF1F6;text-align:center;font-family:var(--ff-display);font-size:19px}
+.lb-cap span{display:block;font-family:var(--ff-mono);font-size:11.5px;letter-spacing:.07em;
+  text-transform:uppercase;color:rgba(255,255,255,.6);margin-top:5px}
+.lb-close{position:fixed;top:max(14px,env(safe-area-inset-top,0px));right:16px;background:rgba(255,255,255,.1);
+  color:#fff;border:0;border-radius:999px;width:42px;height:42px;font-size:22px;cursor:pointer;line-height:1}
+.lb-nav{position:fixed;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.1);color:#fff;
+  border:0;border-radius:999px;width:46px;height:46px;font-size:22px;cursor:pointer;line-height:1}
+.lb-prev{left:12px} .lb-next{right:12px}
+.lb-close:hover,.lb-nav:hover{background:rgba(245,199,116,.3)}
+@media (max-width:700px){ .lb-nav{display:none} }
+.nav--min{display:flex;gap:17px;align-items:center;flex-wrap:wrap}
+.nav--min a{font-size:14.5px;text-decoration:none;opacity:.78;white-space:nowrap}
+.nav--min a:hover,.nav--min a:focus-visible{opacity:1}
+.nav--min a[aria-current]{opacity:1;font-weight:600;color:var(--sun)}
+</style>
+<style>
+.ev-lede{max-width:60ch}
+.ev-stat{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px;padding-top:20px;
+  border-top:1px solid var(--line,#dfe4ec)}
+.ev-stat div{min-width:0}
+.ev-stat .n{font-family:var(--ff-display);font-size:clamp(26px,4vw,34px);display:block;line-height:1}
+.ev-stat .l{font-family:var(--ff-mono);font-size:10.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);display:block;margin-top:5px}
+.ev-shot .t{font-family:var(--ff-mono);font-size:13px;letter-spacing:.02em;display:block}
+.ev-shot .w{font-family:var(--ff-mono);font-size:9.5px;letter-spacing:.04em;color:var(--muted);
+  text-transform:uppercase;display:block;margin-top:1px}
+</style></head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="22" r="8.5" fill="#F5C774"/>
+        <path d="M20 4.5v5M31.5 10.5l-3.4 3.4M36 22h-5M4 22h5M8.5 10.5l3.4 3.4" stroke="#F5C774" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+        <path d="M3 32h34" stroke="#F5C774" stroke-width="2.4" stroke-linecap="round" opacity=".5"/>
+      </svg>
+      The Helping Sun
+    </a>
+    <nav class="nav nav--min">
+      <a class="vote-link" href="https://photography.maxim.com/t/NY2NKGFU" target="_blank" rel="noopener">Vote</a>
+      <a href="https://ian-sun.pixels.com/shop" target="_blank" rel="noopener">Shop</a>
+      <a href="/prints">Archive</a>
+      <a href="/#story">Why</a>
+      <a href="/#areas">Get help</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="band">
+  <div class="wrap">
+    <p class="eyebrow">One evening</p>
+    <h1 style="font-size:clamp(30px,5vw,46px);max-width:17ch;margin-top:8px">The whole sunset, in order.</h1>
+    <p class="lede ev-lede" style="margin-top:16px">5 November 2026. I stood in one place from 4:20 to 5:25 pm and kept photographing while the light went. These are the frames in the order they happened &mdash; no rearranging, nothing skipped for being dull.</p>
+    <p class="lede ev-lede" style="margin-top:14px">It is the clearest answer I have to what the photographs are for. Not one perfect picture. Just staying out there while it changed.</p>
+
+    <div class="ev-stat">
+      <div><span class="n">14</span><span class="l">frames</span></div>
+      <div><span class="n">64</span><span class="l">minutes</span></div>
+      <div><span class="n">4:20&ndash;5:25</span><span class="l">pm</span></div>
+    </div>
+
+    <div class="grid" style="margin-top:30px">
+      <figure class="shot ev-shot" data-slug="20261105_162048" data-title="5 November 2026, 4:20 pm" data-when="5 November 2026, 4:20 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 4:20">
+          <img src="gallery/20261105_162048-t.jpg" alt="The sunset at 4:20 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">4:20</span><span class="w">the first frame</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_163040" data-title="5 November 2026, 4:30 pm" data-when="5 November 2026, 4:30 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 4:30">
+          <img src="gallery/20261105_163040-t.jpg" alt="The sunset at 4:30 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">4:30</span><span class="w">10 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_163253" data-title="5 November 2026, 4:32 pm" data-when="5 November 2026, 4:32 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 4:32">
+          <img src="gallery/20261105_163253-t.jpg" alt="The sunset at 4:32 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">4:32</span><span class="w">12 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_164132" data-title="5 November 2026, 4:41 pm" data-when="5 November 2026, 4:41 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 4:41">
+          <img src="gallery/20261105_164132-t.jpg" alt="The sunset at 4:41 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">4:41</span><span class="w">21 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_164456" data-title="5 November 2026, 4:44 pm" data-when="5 November 2026, 4:44 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 4:44">
+          <img src="gallery/20261105_164456-t.jpg" alt="The sunset at 4:44 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">4:44</span><span class="w">24 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_165010" data-title="5 November 2026, 4:50 pm" data-when="5 November 2026, 4:50 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 4:50">
+          <img src="gallery/20261105_165010-t.jpg" alt="The sunset at 4:50 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">4:50</span><span class="w">29 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_165331" data-title="5 November 2026, 4:53 pm" data-when="5 November 2026, 4:53 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 4:53">
+          <img src="gallery/20261105_165331-t.jpg" alt="The sunset at 4:53 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">4:53</span><span class="w">33 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_165350" data-title="5 November 2026, 4:53 pm" data-when="5 November 2026, 4:53 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 4:53">
+          <img src="gallery/20261105_165350-t.jpg" alt="The sunset at 4:53 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">4:53</span><span class="w">33 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_170119" data-title="5 November 2026, 5:01 pm" data-when="5 November 2026, 5:01 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 5:01">
+          <img src="gallery/20261105_170119-t.jpg" alt="The sunset at 5:01 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">5:01</span><span class="w">41 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_170710" data-title="5 November 2026, 5:07 pm" data-when="5 November 2026, 5:07 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 5:07">
+          <img src="gallery/20261105_170710-t.jpg" alt="The sunset at 5:07 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">5:07</span><span class="w">46 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_171726" data-title="5 November 2026, 5:17 pm" data-when="5 November 2026, 5:17 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 5:17">
+          <img src="gallery/20261105_171726-t.jpg" alt="The sunset at 5:17 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">5:17</span><span class="w">57 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_172000" data-title="5 November 2026, 5:20 pm" data-when="5 November 2026, 5:20 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 5:20">
+          <img src="gallery/20261105_172000-t.jpg" alt="The sunset at 5:20 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">5:20</span><span class="w">59 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_172505" data-title="5 November 2026, 5:25 pm" data-when="5 November 2026, 5:25 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 5:25">
+          <img src="gallery/20261105_172505-t.jpg" alt="The sunset at 5:25 on 5 November 2026" loading="lazy" decoding="async" width="428" height="760">
+        </button>
+        <figcaption><span class="t">5:25</span><span class="w">64 min later</span></figcaption>
+      </figure>
+      <figure class="shot ev-shot" data-slug="20261105_172516" data-title="5 November 2026, 5:25 pm" data-when="5 November 2026, 5:25 pm" data-place="Santa Cruz County">
+        <button type="button" class="shot-btn" aria-label="Enlarge the frame taken at 5:25">
+          <img src="gallery/20261105_172516-t.jpg" alt="The sunset at 5:25 on 5 November 2026" loading="lazy" decoding="async" width="760" height="428">
+        </button>
+        <figcaption><span class="t">5:25</span><span class="w">64 min later</span></figcaption>
+      </figure>
+    </div>
+
+    <p style="margin-top:34px;display:flex;gap:13px;flex-wrap:wrap">
+      <a class="btn btn--ghost" href="/prints">The full archive &rarr;</a>
+      <a class="btn btn--ghost" href="https://ian-sun.pixels.com/shop" target="_blank" rel="noopener">Shop prints &rarr;</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="row">
+      <span>© 2026 The Helping Sun · All photographs by Ian Sun, Santa Cruz County</span>
+      <span><a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/">Home</a></span>
+    </div>
+  </div>
+</footer>
+<dialog class="lb" id="lb" aria-label="Enlarged photograph">
+  <div class="lb-inner">
+    <img id="lb-img" src="" alt="">
+    <p class="lb-cap" id="lb-cap"></p>
+    <a class="btn" id="lb-buy" href="#" hidden>Buy a print &rarr;</a>
+  </div>
+  <button class="lb-close" id="lb-close" aria-label="Close">×</button>
+  <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous photograph">‹</button>
+  <button class="lb-nav lb-next" id="lb-next" aria-label="Next photograph">›</button>
+</dialog>
+<script>
+(function(){
+  // Ready to switch on: paste the URL below in once images are actually live
+  // at ian-sun.pixels.com/shop. It is empty on purpose until then —
+  // a Buy button pointing at an empty shop is worse than no Buy button.
+  //   var FAA_STORE = 'https://ian-sun.pixels.com/shop';
+  var FAA_STORE = 'https://ian-sun.pixels.com/shop';
+  var shots = [].slice.call(document.querySelectorAll('.shot'));
+  var lb = document.getElementById('lb');
+  var buy = document.getElementById('lb-buy');
+  var img = document.getElementById('lb-img');
+  var cap = document.getElementById('lb-cap');
+  var i = 0;
+  if (!lb || !lb.showModal) return;          // no dialog support: thumbnails still work
+
+  function show(n){
+    i = (n + shots.length) % shots.length;
+    var s = shots[i];
+    img.src = 'gallery/' + s.dataset.slug + '.jpg';
+    img.alt = s.dataset.title + ' — ' + s.dataset.place;
+    cap.innerHTML = s.dataset.when + '<span>' + s.dataset.place + '</span>';
+    if (buy) {
+      // Every photograph points at the shop front. The shop keeps its own
+      // catalogue and its own names; this site does not mirror either, so
+      // nothing here needs re-matching after an upload.
+      if (FAA_STORE) { buy.href = FAA_STORE; buy.hidden = false; }
+      else { buy.hidden = true; }
+    }
+  }
+  shots.forEach(function(s, n){
+    s.querySelector('.shot-btn').addEventListener('click', function(){
+      show(n); if (!lb.open) lb.showModal();
+    });
+  });
+  document.getElementById('lb-close').addEventListener('click', function(){ lb.close(); });
+  document.getElementById('lb-prev').addEventListener('click', function(){ show(i-1); });
+  document.getElementById('lb-next').addEventListener('click', function(){ show(i+1); });
+  lb.addEventListener('click', function(e){ if (e.target === lb) lb.close(); });
+  lb.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight') { e.preventDefault(); show(i+1); }
+    if (e.key === 'ArrowLeft')  { e.preventDefault(); show(i-1); }
+  });
+})();
+</script>
+</body>
+</html>
