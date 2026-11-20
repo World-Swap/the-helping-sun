@@ -105,6 +105,29 @@ on a technicality rather than on the picture.
 
 ---
 
+## Entered
+
+### Sony World Photography Awards — both competitions
+
+**Single Image** — three photographs. Closes 5 January 2027, 16:00 GMT.
+
+**Series** — ten photographs, one sunset on 5 November 2026, in sequence.
+Closes 12 January 2027 (a week after Single Image — two separate deadlines,
+so do not assume one date covers both).
+
+The archive holds **14 photographs from that evening, 4:20pm to 5:25pm** — 64
+minutes. Entering ten of them as a progression is the right use of a Series
+competition: a series is judged as one work, and judges are looking for a
+reason the pictures belong together. "One evening, start to finish" is that
+reason, and it is self-evident without a word of explanation.
+
+Nothing more to do on either until the results. Both are free, so there is no
+payment to confirm and no renewal to miss.
+
+**What to watch:** Sony notify shortlists by email, and the address they have
+is whichever one you entered with. If that is not the Zoho address you check,
+set a forward now rather than finding out in March.
+
 ## Your live one
 
 **Maxim Photography** — https://photography.maxim.com/t/NY2NKGFU
